@@ -58,7 +58,7 @@ A web application built with AngularJS to manage subscriptions, including adding
    npm start
    ```
 
-5. Access the App Open your browser and go to `http://localhost:3000.`
+5. Access the App Open your browser and go to `http://localhost:3000`.
 
 ## Usage
 
