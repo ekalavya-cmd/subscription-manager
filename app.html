@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="subscriptionApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Manager</title>
+    <script src="https://code.angularjs.org/1.8.2/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      #costChart {
+        max-height: 400px;
+      }
+      body {
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        min-height: 100vh;
+        padding: 20px;
+        font-family: "Arial", sans-serif;
+      }
+      .dashboard-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .dashboard-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+      }
+      .form-input {
+        border: 2px solid #2a5298;
+        border-radius: 8px;
+        transition: border-color 0.3s ease;
+      }
+      .form-input:focus {
+        border-color: #1e3c72;
+        outline: none;
+        box-shadow: 0 0 8px rgba(30, 60, 114, 0.5);
+      }
+      .add-btn,
+      .sms-btn,
+      .edit-btn,
+      .delete-btn {
+        background: linear-gradient(90deg, #1e3c72, #2a5298);
+        border: none;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        color: white;
+        font-weight: bold;
+        width: 100%; /* Match size with delete button */
+        transition: background 0.3s ease, transform 0.2s ease;
+        margin-bottom: 0.5rem; /* Space between buttons */
+      }
+      .add-btn:hover,
+      .sms-btn:hover,
+      .edit-btn:hover,
+      .delete-btn:hover {
+        background: linear-gradient(90deg, #17325e, #22468a);
+        transform: scale(1.05);
+      }
+      .delete-btn {
+        background: #e63946;
+      }
+      .delete-btn:hover {
+        background: #d62828;
+      }
+      .logout-btn {
+        background: #e63946; /* Removed gradient to match your intent */
+        border: none;
+        border-radius: 8px;
+        padding: 0.5rem 1rem; /* Reduced padding for smaller size */
+        color: white;
+        font-weight: bold;
+        transition: background 0.3s ease, transform 0.2s ease;
+      }
+      .logout-btn:hover {
+        background: #d62828; /* Removed gradient hover to match your intent */
+        transform: scale(1.05);
+      }
+      .table-header {
+        background: #2a5298;
+        color: white;
+      }
+      .table-row:hover {
+        background: #f1f1f1;
+      }
+      .message-success,
+      .message-error {
+        animation: fadeIn 0.5s ease-in;
+      }
+      .message-error {
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .message-success {
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .message-error.show,
+      .message-success.show {
+        display: block;
+        opacity: 1;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div ng-controller="SubscriptionController" class="container mx-auto">
+      <div class="dashboard-card">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-4xl font-bold text-gray-800">Subscription Manager</h2>
+          <button ng-click="logout()" class="logout-btn rounded">Logout</button>
+        </div>
+      </div>
+
+      <!-- Subscription Form -->
+      <div id="subscriptionForm" class="dashboard-card">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">
+          Add/Edit Subscription
+        </h2>
+        <div class="grid grid-cols-1 gap-4">
+          <input
+            ng-model="newSubscription.name"
+            placeholder="Name"
+            class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+            required
+            ng-keypress="moveToNextField($event, 0)"
+          />
+          <input
+            ng-model="newSubscription.cost"
+            type="number"
+            placeholder="Cost (in INR)"
+            class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+            required
+            ng-keypress="moveToNextField($event, 1)"
+          />
+          <input
+            ng-model="newSubscription.renewalDate"
+            type="date"
+            class="form-input w-full p-3 text-gray-700"
+            required
+            ng-keypress="moveToNextField($event, 2)"
+          />
+          <input
+            ng-model="newSubscription.provider"
+            placeholder="Provider"
+            class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+            required
+            ng-keypress="moveToNextField($event, 3)"
+          />
+          <textarea
+            ng-model="newSubscription.cancellationSteps"
+            placeholder="Cancellation Steps"
+            class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+            ng-keypress="moveToNextField($event, 4)"
+          ></textarea>
+          <select
+            ng-model="newSubscription.status"
+            class="form-input w-full p-3 text-gray-700"
+            ng-keypress="moveToNextField($event, 5)"
+          >
+            <option value="" disabled selected>Status</option>
+            <option value="active">Active</option>
+            <option value="upcoming">Upcoming</option>
+            <option value="canceled">Canceled</option>
+          </select>
+          <button ng-click="saveSubscription()" class="add-btn w-full">
+            {{newSubscription._id ? "Update" : "Add"}}
+          </button>
+          <button
+            ng-click="clearOrCancel()"
+            class="add-btn w-full"
+            ng-class="{'bg-gray-400': newSubscription._id, 'bg-gray-500': !newSubscription._id}"
+          >
+            {{newSubscription._id ? "Cancel" : "Clear"}}
+          </button>
+          <p
+            ng-show="subscriptionError"
+            class="message-error show text-red-500 mt-2"
+          >
+            {{ subscriptionError }}
+          </p>
+          <p
+            ng-show="subscriptionSuccess"
+            class="message-success show text-green-500 mt-2"
+          >
+            {{ subscriptionSuccess }}
+          </p>
+        </div>
+      </div>
+
+      <!-- SMS Sending Form -->
+      <div class="dashboard-card">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Send SMS Reminder</h2>
+        <div class="grid grid-cols-1 gap-4">
+          <input
+            ng-model="smsData.to"
+            placeholder="Recipient Phone (e.g., +919876543210)"
+            class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+            required
+            ng-keypress="moveToNextField($event, 0, 'sms')"
+          />
+          <textarea
+            ng-model="smsData.body"
+            placeholder="Message (e.g., Your subscription renews tomorrow!)"
+            class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+            required
+            ng-keypress="moveToNextField($event, 1, 'sms')"
+          ></textarea>
+          <button ng-click="sendSMS()" class="sms-btn w-full">Send SMS</button>
+          <p
+            ng-show="smsMessage"
+            class="message-success show text-green-500 mt-2"
+          >
+            {{ smsMessage }}
+          </p>
+          <p ng-show="smsError" class="message-error show text-red-500 mt-2">
+            {{ smsError }}
+          </p>
+        </div>
+      </div>
+
+      <!-- Filter and Search -->
+      <div class="dashboard-card mb-4 flex space-x-4">
+        <input
+          ng-model="searchText"
+          placeholder="Search subscriptions"
+          class="form-input w-full p-3 text-gray-700 placeholder-gray-500"
+        />
+        <select
+          ng-model="statusFilter"
+          ng-change="filterSubscriptions()"
+          class="form-input w-1/4 p-3 text-gray-700"
+        >
+          <option value="">All</option>
+          <option value="active">Active</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="canceled">Canceled</option>
+        </select>
+      </div>
+
+      <!-- Subscription List -->
+      <div class="dashboard-card">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Subscriptions</h2>
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="table-header">
+              <th class="border p-3">Name</th>
+              <th class="border p-3">Cost (INR)</th>
+              <th class="border p-3">Renewal Date</th>
+              <th class="border p-3">Provider</th>
+              <th class="border p-3">Cancellation Steps</th>
+              <th class="border p-3">Status</th>
+              <th class="border p-3">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              ng-repeat="subscription in subscriptions | filter:searchText | filter:statusFilter"
+              class="table-row"
+            >
+              <td class="border p-3" ng-bind="subscription.name"></td>
+              <td
+                class="border p-3"
+                ng-bind="'₹' + (subscription.cost || 'N/A')"
+              ></td>
+              <td
+                class="border p-3"
+                ng-bind="subscription.renewalDate | date:'shortDate'"
+              ></td>
+              <td class="border p-3" ng-bind="subscription.provider"></td>
+              <td
+                class="border p-3"
+                ng-bind="subscription.cancellationSteps"
+              ></td>
+              <td class="border p-3" ng-bind="subscription.status"></td>
+              <td class="border p-3">
+                <button
+                  ng-click="editSubscription(subscription)"
+                  class="edit-btn"
+                >
+                  Edit
+                </button>
+                <button
+                  ng-click="deleteSubscription(subscription._id)"
+                  class="delete-btn"
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Cost Overview Chart -->
+      <div class="dashboard-card mt-6">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">
+          Monthly Cost Overview
+        </h2>
+        <canvas id="costChart"></canvas>
+      </div>
+    </div>
+
+    <script>
+      angular
+        .module("subscriptionApp", [])
+        .controller("SubscriptionController", [
+          "$scope",
+          "$http",
+          "$window",
+          "$timeout",
+          "$location",
+          "$anchorScroll",
+          function (
+            $scope,
+            $http,
+            $window,
+            $timeout,
+            $location,
+            $anchorScroll
+          ) {
+            $scope.subscriptions = [];
+            $scope.newSubscription = {};
+            $scope.searchText = "";
+            $scope.statusFilter = "";
+            $scope.smsData = {};
+            $scope.smsMessage = "";
+            $scope.smsError = "";
+            $scope.subscriptionError = "";
+            $scope.subscriptionSuccess = "";
+
+            let token = localStorage.getItem("token");
+
+            // Check token and load subscriptions if valid
+            if (token) {
+              $http({
+                method: "GET",
+                url: "/api/subscriptions",
+                headers: { Authorization: "Bearer " + token },
+              }).then(
+                function (response) {
+                  $scope.subscriptions = response.data.map((sub) => {
+                    return sub; // No conversion needed, use cost as is
+                  });
+                  updateChart();
+                },
+                function () {
+                  localStorage.removeItem("token");
+                  $window.location.href = "/";
+                }
+              );
+            }
+
+            // Logout function with redirect
+            $scope.logout = function () {
+              localStorage.removeItem("token");
+              $scope.subscriptions = [];
+              $scope.newSubscription = {};
+              $scope.searchText = "";
+              $scope.statusFilter = "";
+              $window.location.href = "/";
+            };
+
+            // Save subscription (Add or Update)
+            $scope.saveSubscription = function () {
+              if (!token) {
+                $window.location.href = "/";
+                return;
+              }
+              const requiredFields = [
+                $scope.newSubscription.name,
+                $scope.newSubscription.cost,
+                $scope.newSubscription.renewalDate,
+                $scope.newSubscription.provider,
+                $scope.newSubscription.status,
+              ];
+              if (requiredFields.some((field) => !field)) {
+                $scope.subscriptionError =
+                  "Please fill all Subscription fields!";
+                $timeout(function () {
+                  $scope.subscriptionError = "";
+                }, 2000);
+                return;
+              }
+              const renewalDate = new Date($scope.newSubscription.renewalDate);
+              if (renewalDate.getFullYear() !== 2025) {
+                $scope.subscriptionError = "Renewal year must be 2025!";
+                $timeout(function () {
+                  $scope.subscriptionError = "";
+                }, 2000);
+                return;
+              }
+              const method = $scope.newSubscription._id ? "PUT" : "POST";
+              const url = $scope.newSubscription._id
+                ? "/api/subscriptions/" + $scope.newSubscription._id
+                : "/api/subscriptions";
+              $http({
+                method: method,
+                url: url,
+                data: $scope.newSubscription,
+                headers: { Authorization: "Bearer " + token },
+              }).then(
+                function (response) {
+                  $scope.newSubscription = {};
+                  loadSubscriptions();
+                  $scope.subscriptionSuccess = $scope.newSubscription._id
+                    ? "Subscription updated successfully!"
+                    : "Subscription added successfully!";
+                  $timeout(function () {
+                    $scope.subscriptionSuccess = "";
+                  }, 2000);
+                  $scope.subscriptionError = "";
+                },
+                function () {
+                  $scope.subscriptionError =
+                    "Failed to " +
+                    ($scope.newSubscription._id ? "update" : "add") +
+                    " subscription!";
+                  $timeout(function () {
+                    $scope.subscriptionError = "";
+                  }, 2000);
+                }
+              );
+            };
+
+            // Edit subscription with smooth scroll
+            $scope.editSubscription = function (subscription) {
+              $scope.newSubscription = angular.copy(subscription);
+              smoothScrollToElement("subscriptionForm");
+            };
+
+            // Delete subscription
+            $scope.deleteSubscription = function (id) {
+              if (!token) {
+                $window.location.href = "/";
+                return;
+              }
+              $http({
+                method: "DELETE",
+                url: "/api/subscriptions/" + id,
+                headers: { Authorization: "Bearer " + token },
+              }).then(function () {
+                loadSubscriptions();
+              });
+            };
+
+            // Clear or Cancel form
+            $scope.clearOrCancel = function () {
+              if ($scope.newSubscription._id) {
+                $scope.newSubscription = {}; // Cancel editing
+              } else {
+                $scope.newSubscription = {}; // Clear form
+              }
+            };
+
+            // Filter subscriptions
+            $scope.filterSubscriptions = function () {
+              return function (subscription) {
+                return (
+                  !$scope.statusFilter ||
+                  subscription.status === $scope.statusFilter
+                );
+              };
+            };
+
+            // Load subscriptions
+            function loadSubscriptions() {
+              if (!token) {
+                $window.location.href = "/";
+                return;
+              }
+              $http({
+                method: "GET",
+                url: "/api/subscriptions",
+                headers: { Authorization: "Bearer " + token },
+              }).then(function (response) {
+                $scope.subscriptions = response.data.map((sub) => {
+                  return sub; // No conversion needed, use cost as is
+                });
+                updateChart();
+              });
+            }
+
+            // Initialize chart
+            let chart;
+            function updateChart() {
+              const monthlyCosts = $scope.subscriptions.reduce((acc, sub) => {
+                if (sub.status === "active") {
+                  const month = new Date(sub.renewalDate).getMonth();
+                  const cost = sub.cost || 0; // Use cost directly in INR
+                  acc[month] = (acc[month] || 0) + cost;
+                }
+                return acc;
+              }, Array(12).fill(0));
+
+              const ctx = document.getElementById("costChart").getContext("2d");
+              if (chart) chart.destroy();
+              chart = new Chart(ctx, {
+                type: "bar",
+                data: {
+                  labels: [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec",
+                  ],
+                  datasets: [
+                    {
+                      label: "Monthly Costs (₹)",
+                      data: monthlyCosts,
+                      backgroundColor: "rgba(54, 162, 235, 0.5)",
+                      borderColor: "rgba(54, 162, 235, 1)",
+                      borderWidth: 1,
+                    },
+                  ],
+                },
+                options: { scales: { y: { beginAtZero: true } } },
+              });
+            }
+
+            // Move to next field on Enter key or submit form
+            $scope.moveToNextField = function (event, currentIndex, formType) {
+              if (event.keyCode === 13) {
+                event.preventDefault();
+                var formFields;
+                if (formType === "sms") {
+                  formFields = Array.from(
+                    document.querySelectorAll(
+                      ".dashboard-card:nth-child(3) .grid input, .dashboard-card:nth-child(3) .grid textarea"
+                    )
+                  );
+                } else {
+                  formFields = Array.from(
+                    document.querySelectorAll(
+                      ".dashboard-card:nth-child(2) .grid input, .dashboard-card:nth-child(2) .grid textarea, .dashboard-card:nth-child(2) .grid select"
+                    )
+                  );
+                }
+                if (currentIndex < formFields.length - 1) {
+                  formFields[currentIndex + 1].focus();
+                } else if (currentIndex === formFields.length - 1) {
+                  if (formType === "sms") {
+                    $scope.sendSMS();
+                  } else {
+                    $scope.saveSubscription();
+                  }
+                }
+              }
+            };
+
+            // Send SMS
+            $scope.sendSMS = function () {
+              if (!token) {
+                $window.location.href = "/";
+                return;
+              }
+              if (!$scope.smsData.to || !$scope.smsData.body) {
+                $scope.smsError = "Please fill all SMS fields!";
+                $timeout(function () {
+                  $scope.smsError = "";
+                }, 2000);
+                return;
+              }
+              $http({
+                method: "POST",
+                url: "/api/send-sms",
+                data: $scope.smsData,
+                headers: { Authorization: "Bearer " + token },
+              }).then(
+                function (response) {
+                  $scope.smsMessage = "SMS sent successfully";
+                  $scope.smsError = "";
+                  $scope.smsData = {};
+                  $timeout(function () {
+                    $scope.smsMessage = "";
+                  }, 2000);
+                },
+                function (error) {
+                  $scope.smsError = error.data?.message || "Failed to send SMS";
+                  $scope.smsMessage = "";
+                  $timeout(function () {
+                    $scope.smsError = "";
+                  }, 2000);
+                }
+              );
+            };
+
+            // Smooth scroll to element
+            function smoothScrollToElement(elementId) {
+              const element = document.getElementById(elementId);
+              if (element) {
+                window.scrollTo({
+                  top: element.offsetTop - 20, // Slight offset for padding
+                  behavior: "smooth",
+                });
+              }
+            }
+          },
+        ]);
+    </script>
+  </body>
+</html>
