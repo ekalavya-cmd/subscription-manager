@@ -31,7 +31,7 @@ A web application built with AngularJS to manage subscriptions, including adding
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/subscription-manager.git
+   git clone https://github.com/ekalavya-cmd/subscription-manager.git
    cd subscription-manager
    ```
 
