@@ -45,21 +45,23 @@
       .add-btn,
       .sms-btn,
       .edit-btn,
-      .delete-btn {
+      .delete-btn,
+      .clear-btn {
         background: linear-gradient(90deg, #1e3c72, #2a5298);
         border: none;
         border-radius: 8px;
         padding: 0.5rem 1rem;
         color: white;
         font-weight: bold;
-        width: 100%; /* Match size with delete button */
+        width: 100%; /* Match size with other buttons */
         transition: background 0.3s ease, transform 0.2s ease;
         margin-bottom: 0.5rem; /* Space between buttons */
       }
       .add-btn:hover,
       .sms-btn:hover,
       .edit-btn:hover,
-      .delete-btn:hover {
+      .delete-btn:hover,
+      .clear-btn:hover {
         background: linear-gradient(90deg, #17325e, #22468a);
         transform: scale(1.05);
       }
@@ -222,6 +224,7 @@
             ng-keypress="moveToNextField($event, 1, 'sms')"
           ></textarea>
           <button ng-click="sendSMS()" class="sms-btn w-full">Send SMS</button>
+          <button ng-click="clearSMS()" class="clear-btn w-full">Clear</button>
           <p
             ng-show="smsMessage"
             class="message-success show text-green-500 mt-2"
@@ -416,15 +419,16 @@
                 headers: { Authorization: "Bearer " + token },
               }).then(
                 function (response) {
-                  $scope.newSubscription = {};
+                  const isUpdate = !!$scope.newSubscription._id; // Capture _id status before reset
                   loadSubscriptions();
-                  $scope.subscriptionSuccess = $scope.newSubscription._id
+                  $scope.subscriptionSuccess = isUpdate
                     ? "Subscription updated successfully!"
                     : "Subscription added successfully!";
                   $timeout(function () {
                     $scope.subscriptionSuccess = "";
                   }, 2000);
                   $scope.subscriptionError = "";
+                  $scope.newSubscription = {}; // Reset after setting message
                 },
                 function () {
                   $scope.subscriptionError =
@@ -441,6 +445,14 @@
             // Edit subscription with smooth scroll
             $scope.editSubscription = function (subscription) {
               $scope.newSubscription = angular.copy(subscription);
+              // Format renewalDate to YYYY-MM-DD for the date input
+              if ($scope.newSubscription.renewalDate) {
+                $scope.newSubscription.renewalDate = new Date(
+                  $scope.newSubscription.renewalDate
+                )
+                  .toISOString()
+                  .split("T")[0];
+              }
               smoothScrollToElement("subscriptionForm");
             };
 
@@ -466,6 +478,11 @@
               } else {
                 $scope.newSubscription = {}; // Clear form
               }
+            };
+
+            // Clear SMS form
+            $scope.clearSMS = function () {
+              $scope.smsData = {}; // Reset SMS form fields
             };
 
             // Filter subscriptions
