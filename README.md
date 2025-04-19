@@ -35,7 +35,7 @@ A web application built with AngularJS to manage subscriptions, including adding
    cd subscription-manager
    ```
 
-2. **Set Up Environment Variables:** Create a `.env` file in the root directory with the following structure (replace with your own values):
+2. **Set Up Environment Variables** Create a `.env` file in the root directory with the following structure (replace with your own values):
 
    ```bash
    PORT=3000
