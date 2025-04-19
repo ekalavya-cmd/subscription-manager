@@ -79,15 +79,13 @@ A web application built with AngularJS to manage subscriptions, including adding
 - **Edit a Subscription:**
 
   1.  Find the subscription in the table and click "Edit".
-  2.  The page will smoothly scroll to the form, pre-filled with the subscription data.
-  3.  Modify any field (e.g., change cost to "1300") and click "Update".
-  4.  A "Subscription updated successfully!" message will confirm the change.
-  5.  Click "Cancel" to discard edits.
+  2.  Modify any field (e.g., change cost to "1300") and click "Update".
+  3.  A "Subscription updated successfully!" message will confirm the change.
+  4.  Click "Cancel" to discard edits.
 
 - **Delete a Subscription:**
 
-  1.  Locate the subscription and click "Delete".
-  2.  The entry will be removed without scrolling the page.
+  1.  Locate the subscription and click "Delete". The entry will be removed from the page.
 
 - **Filter and Search:**
 
