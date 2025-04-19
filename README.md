@@ -64,8 +64,8 @@ A web application built with AngularJS to manage subscriptions, including adding
 
 **Getting Started**
 
-- **Registration:** Visit /register to create a new account. Enter a username, email, and password, then submit. You’ll be redirected to the login page.
-- **Login:** Go to / and enter your credentials to access the subscription manager at /app.
+- **Registration:** Visit `/register` to create a new account. Enter a username, email, and password, then submit. You’ll be redirected to the login page.
+- **Login:** Go to `/` and enter your credentials to access the subscription manager at `/app`.
 
 **Managing Subscriptions**
 
@@ -113,17 +113,17 @@ This project integrates Twilio for sending SMS reminders about subscription rene
 - **Setup:**
 
   - A Twilio account is required. Sign up at Twilio and obtain your Account SID, Auth Token, and a Twilio phone number.
-  - These credentials are stored in the .env file under TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, and TWILIO_PHONE_NUMBER.
+  - These credentials are stored in the `.env` file under `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, and `TWILIO_PHONE_NUMBER`.
 
 - **Functionality:**
 
   - The app includes an SMS form where users can enter a recipient phone number and a custom message.
-  - Upon submission, the backend makes a POST request to Twilio's API (/api/send-sms) using the twilio npm package.
+  - Upon submission, the backend makes a POST request to Twilio's API (`/api/send-sms`) using the `twilio` npm package.
   - The message is sent from the Twilio phone number to the specified recipient.
 
 - **Implementation:**
 
-  - The server.js file contains the Twilio configuration and the /send-sms endpoint.
+  - The `server.js` file contains the Twilio configuration and the `/send-sms` endpoint.
   - The frontend (AngularJS) handles the form submission and displays success/error messages.
   - Example usage: Enter a phone number (e.g., +919876543210) and a message like "Your subscription renews tomorrow!" to send a reminder.
 
@@ -136,9 +136,9 @@ This project integrates Twilio for sending SMS reminders about subscription rene
 ## Contributing
 
 1.  Fork the repository.
-2.  Create a new branch (git checkout -b feature-branch).
-3.  Make your changes and commit them (git commit -m "Description of changes").
-4.  Push to the branch (git push origin feature-branch).
+2.  Create a new branch (`git checkout -b feature-branch`).
+3.  Make your changes and commit them (`git commit -m "Description of changes"`).
+4.  Push to the branch (`git push origin feature-branch`).
 5.  Open a pull request.
 
 ## License
