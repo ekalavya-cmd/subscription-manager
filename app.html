@@ -462,12 +462,29 @@
                 $window.location.href = "/";
                 return;
               }
+              // Store the current scroll position
+              const scrollPosition = window.scrollY;
+
               $http({
                 method: "DELETE",
                 url: "/api/subscriptions/" + id,
                 headers: { Authorization: "Bearer " + token },
               }).then(function () {
+                // Save the current scroll position and disable scrolling temporarily
+                const originalScroll = window.scrollY;
+                const disableScroll = () => {
+                  window.scrollTo(0, originalScroll);
+                };
+                window.addEventListener("scroll", disableScroll, {
+                  once: true,
+                });
+
                 loadSubscriptions();
+                // Restore scroll position after DOM update
+                $timeout(() => {
+                  window.removeEventListener("scroll", disableScroll);
+                  window.scrollTo(0, scrollPosition);
+                }, 100); // Slight delay to ensure DOM stability
               });
             };
 
