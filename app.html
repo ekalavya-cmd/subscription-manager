@@ -53,9 +53,18 @@
         padding: 0.5rem 1rem;
         color: white;
         font-weight: bold;
-        width: 100%; /* Match size with other buttons */
         transition: background 0.3s ease, transform 0.2s ease;
         margin-bottom: 0.5rem; /* Space between buttons */
+      }
+      /* Adjust width for Edit and Delete buttons specifically */
+      .edit-btn,
+      .delete-btn {
+        width: 90px; /* Reduced width for Edit and Delete buttons */
+      }
+      .add-btn,
+      .sms-btn,
+      .clear-btn {
+        width: 100%; /* Maintain full width for other buttons */
       }
       .add-btn:hover,
       .sms-btn:hover,
@@ -87,6 +96,14 @@
       .table-header {
         background: #2a5298;
         color: white;
+        font-size: 1.25rem; /* Increased font size for table headers */
+        text-align: center; /* Center-align table headers */
+      }
+      .table-row {
+        font-size: 1.25rem; /* Increased font size for table rows */
+      }
+      .table-row td {
+        text-align: center; /* Center-align table data cells */
       }
       .table-row:hover {
         background: #f1f1f1;
@@ -266,7 +283,6 @@
               <th class="border p-3">Cost (INR)</th>
               <th class="border p-3">Renewal Date</th>
               <th class="border p-3">Provider</th>
-              <th class="border p-3">Cancellation Steps</th>
               <th class="border p-3">Status</th>
               <th class="border p-3">Actions</th>
             </tr>
@@ -286,10 +302,6 @@
                 ng-bind="subscription.renewalDate | date:'shortDate'"
               ></td>
               <td class="border p-3" ng-bind="subscription.provider"></td>
-              <td
-                class="border p-3"
-                ng-bind="subscription.cancellationSteps"
-              ></td>
               <td class="border p-3" ng-bind="subscription.status"></td>
               <td class="border p-3">
                 <button
