@@ -5,7 +5,7 @@ A web application built with AngularJS to manage subscriptions, including adding
 ## Features
 
 - **User Authentication**: Register and log in to manage subscriptions securely.
-- **Subscription Management**: Add, edit, delete, and view subscription details (name, cost in INR, renewal date, provider, cancellation steps, status).
+- **Subscription Management**: Add, edit, delete, and view subscription details (name, cost in INR, renewal date, provider, status).
 - **Cost Overview**: Visualize monthly costs with a Chart.js bar chart.
 - **SMS Reminders**: Send renewal reminders using Twilio integration.
 - **Smooth UI**: Includes smooth scrolling for editing, dynamic form clearing/canceling, and styled with Tailwind CSS.
@@ -72,7 +72,7 @@ A web application built with AngularJS to manage subscriptions, including adding
 - **Add a Subscription:**
 
   1.  Click the "Add" button in the "Add/Edit Subscription" form.
-  2.  Fill in the fields: Name (e.g., "Netflix"), Cost (e.g., "1200" in INR), Renewal Date (eg., "2025-04-20"), Provider (e.g., "Netflix Inc."), Cancellation Steps (e.g., "Log in and cancel via account settings"), and Status (e.g., "Active").
+  2.  Fill in the fields: Name (e.g., "Netflix"), Cost (e.g., "1200" in INR), Renewal Date (eg., "2025-04-20"), Provider (e.g., "Netflix Inc."), and Status (e.g., "Active").
   3.  Click "Add" to save. A "Subscription added successfully!" message will appear.
   4.  Use "Clear" to reset the form.
 
