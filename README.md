@@ -1,151 +1,315 @@
 # Subscription Manager
 
-A web application built with AngularJS to manage subscriptions, including adding, editing, deleting, and sending SMS reminders. The app features a responsive design, cost tracking with charts, and user authentication.
+A modern web application built with AngularJS and Bootstrap to manage subscriptions, including adding, editing, deleting, and sending SMS reminders. The app features a responsive design, comprehensive logging, cost tracking with charts, and user authentication.
 
-## Features
+## ✨ Features
 
-- **User Authentication**: Register and log in to manage subscriptions securely.
-- **Subscription Management**: Add, edit, delete, and view subscription details (name, cost in INR, renewal date, provider, status).
-- **Cost Overview**: Visualize monthly costs with a Chart.js bar chart.
-- **SMS Reminders**: Send renewal reminders using Twilio integration.
-- **Smooth UI**: Includes smooth scrolling for editing, dynamic form clearing/canceling, and styled with Tailwind CSS.
-- **Validation**: Ensures all fields are filled and restricts renewal dates to 2025.
+- **🔐 User Authentication**: Secure registration and login with JWT tokens
+- **📊 Subscription Management**: Add, edit, delete, and view subscription details
+- **💰 Cost Tracking**: Visualize monthly costs with interactive Chart.js charts
+- **📱 SMS Reminders**: Send renewal reminders using Twilio integration
+- **🎨 Modern UI**: Responsive Bootstrap 5 design with custom styling
+- **🐛 Advanced Debugging**: Comprehensive client and server-side logging
+- **⚡ Real-time Validation**: Form validation with immediate feedback
+- **📈 Dashboard Analytics**: Quick overview of subscription statistics
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- **Frontend**: AngularJS 1.8.2, HTML, Tailwind CSS 2.2.19, Chart.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
+- **Frontend**: AngularJS 1.8.2, Bootstrap 5.3.0, Chart.js
+- **Backend**: Node.js, Express.js, Winston Logger
+- **Database**: MongoDB with Mongoose
 - **Authentication**: JWT (JSON Web Tokens)
-- **SMS Service**: Twilio
-- **Other**: JavaScript, HTTP requests with $http
+- **SMS Service**: Twilio API
+- **Styling**: Bootstrap 5 + Custom CSS with gradients and animations
 
-## Prerequisites
+## 📋 Prerequisites
 
-- Node.js and npm installed
-- MongoDB installed and running
-- Twilio account for SMS functionality (requires API credentials)
+- **Node.js**: Version 14+ ([Download](https://nodejs.org/))
+- **MongoDB**: Community Server ([Download](https://www.mongodb.com/try/download/community))
+- **Twilio Account**: For SMS functionality ([Sign up](https://www.twilio.com/))
+- **VS Code**: Recommended editor ([Download](https://code.visualstudio.com/))
 
-## Installation
+## 🚀 Installation (Windows 11)
 
-1. **Clone the Repository**
+### 1. Clone/Create Project
 
-   ```bash
-   git clone https://github.com/ekalavya-cmd/subscription-manager.git
-   cd subscription-manager
-   ```
+```cmd
+git clone https://github.com/yourusername/bootstrap-subscription-manager.git
+cd bootstrap-subscription-manager
+```
 
-2. **Set Up Environment Variables** Create a `.env` file in the root directory with the following structure (replace with your own values):
+### 2. Install Dependencies
 
-   ```bash
-   PORT=3000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   TWILIO_ACCOUNT_SID=your_twilio_account_sid
-   TWILIO_AUTH_TOKEN=your_twilio_auth_token
-   TWILIO_PHONE_NUMBER=your_twilio_phone_number
-   ```
+```cmd
+npm install
+```
 
-3. **Start MongoDB**
+### 3. Create Directory Structure
 
-   ```bash
-   mongod
-   ```
+```cmd
+mkdir public\css public\js public\logs views
+```
 
-4. **Run the Application**
+### 4. Environment Configuration
 
-   ```bash
-   npm start
-   ```
+Create `.env` file in the root directory:
 
-5. Access the App Open your browser and go to `http://localhost:3000`.
+```env
+# Server Configuration
+PORT=3000
+NODE_ENV=development
 
-## Usage
+# JWT Secret (generate using: node generateKey.js)
+JWT_SECRET=your_generated_jwt_secret_here
 
-**Getting Started**
+# Twilio Configuration
+TWILIO_ACCOUNT_SID=your_twilio_account_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone_number
+USER_PHONE_NUMBER=your_personal_phone_number
 
-- **Registration:** Visit `/register` to create a new account. Enter a username, email, and password, then submit. You’ll be redirected to the login page.
-- **Login:** Go to `/` and enter your credentials to access the subscription manager at `/app`.
+# Feature Flags
+ENABLE_SMS=true
+```
 
-**Managing Subscriptions**
+### 5. Generate JWT Secret
 
-- **Add a Subscription:**
+```cmd
+node generateKey.js
+```
 
-  1.  Click the "Add" button in the "Add/Edit Subscription" form.
-  2.  Fill in the fields: Name (e.g., "Netflix"), Cost (e.g., "1200" in INR), Renewal Date (eg., "2025-04-20"), Provider (e.g., "Netflix Inc."), and Status (e.g., "Active").
-  3.  Click "Add" to save. A "Subscription added successfully!" message will appear.
-  4.  Use "Clear" to reset the form.
+Copy the generated key to your `.env` file.
 
-- **Edit a Subscription:**
+### 6. Start MongoDB
 
-  1.  Find the subscription in the table and click "Edit".
-  2.  Modify any field (e.g., change cost to "1300") and click "Update".
-  3.  A "Subscription updated successfully!" message will confirm the change.
-  4.  Click "Cancel" to discard edits.
+```cmd
+# If MongoDB is installed as a Windows service
+net start MongoDB
 
-- **Delete a Subscription:**
+# Or start manually
+mongod --dbpath "C:\data\db"
+```
 
-  1.  Locate the subscription and click "Delete". The entry will be removed from the page.
+### 7. Run the Application
 
-- **Filter and Search:**
+```cmd
+# Development mode with auto-restart
+npm run dev
 
-  1.  Use the search bar to type a subscription name (e.g., "Net").
-  2.  Select a status (e.g., "Active") from the dropdown to filter the list.
+# Production mode
+npm start
+```
 
-**Sending SMS Reminders**
+### 8. Access the Application
 
-- **Send a Reminder:**
+Open your browser and navigate to `http://localhost:3000`
 
-  1.  Go to the "Send SMS Reminder" section.
-  2.  Enter a recipient phone number (e.g., "+919876543210") and a message (e.g., "Your Netflix subscription renews on 2025-04-20!").
-  3.  Click "Send SMS". A "SMS sent successfully" message will appear if successful, or an error if fields are missing.
+## 📁 Project Structure
 
-- Tips: Ensure the phone number includes the country code and that your Twilio account has credits.
+```
+bootstrap-subscription-manager/
+├── 📁 public/
+│   ├── 📁 css/
+│   │   └── custom.css          # Custom Bootstrap styles
+│   ├── 📁 js/
+│   │   └── logger.js           # Client-side logging
+│   └── 📁 logs/               # Generated log files
+│       ├── app-YYYY-MM-DD.log
+│       ├── error-YYYY-MM-DD.log
+│       └── api-YYYY-MM-DD.log
+├── 📁 views/
+│   ├── index.html             # Login page
+│   ├── register.html          # Registration page
+│   └── app.html              # Main application
+├── server.js                  # Express server with logging
+├── package.json              # Dependencies and scripts
+├── generateKey.js            # JWT secret generator
+├── .env                      # Environment variables
+├── .gitignore               # Git ignore rules
+└── README.md               # This file
+```
 
-**Viewing Costs**
+## 🎯 Usage Guide
 
-- The "Monthly Cost Overview" chart displays the total cost of active subscriptions per month in 2025, labeled in INR.
+### Getting Started
 
-## Twilio Usage
+1. **Registration**: Visit `/register` to create a new account
 
-This project integrates Twilio for sending SMS reminders about subscription renewals. Here's how it's implemented:
+   - Enter a unique username (3-20 characters)
+   - Create a secure password (6+ characters)
+   - Agree to terms and conditions
 
-- **Setup:**
+2. **Login**: Go to `/` and enter your credentials
+   - Automatic redirection to main app after successful login
 
-  - A Twilio account is required. Sign up at Twilio and obtain your Account SID, Auth Token, and a Twilio phone number.
-  - These credentials are stored in the `.env` file under `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, and `TWILIO_PHONE_NUMBER`.
+### Managing Subscriptions
 
-- **Functionality:**
+#### ➕ Adding a Subscription
 
-  - The app includes an SMS form where users can enter a recipient phone number and a custom message.
-  - Upon submission, the backend makes a POST request to Twilio's API (`/api/send-sms`) using the `twilio` npm package.
-  - The message is sent from the Twilio phone number to the specified recipient.
+1. Fill out the "Add New Subscription" form:
 
-- **Implementation:**
+   - **Service Name**: e.g., "Netflix"
+   - **Monthly Cost**: e.g., "199" (in INR)
+   - **Next Renewal Date**: Select from date picker
+   - **Provider**: e.g., "Netflix Inc."
+   - **Status**: Active/Upcoming/Canceled
+   - **Cancellation Steps**: Optional instructions
 
-  - The `server.js` file contains the Twilio configuration and the `/send-sms` endpoint.
-  - The frontend (AngularJS) handles the form submission and displays success/error messages.
-  - Example usage: Enter a phone number (e.g., +919876543210) and a message like "Your subscription renews tomorrow!" to send a reminder.
+2. Click "Add Subscription" or press Enter to save
 
-- **Notes:**
+#### ✏️ Editing a Subscription
 
-  - Ensure your Twilio account has sufficient credits for SMS usage.
-  - The app validates that both the phone number and message are provided before sending.
-  - For production, configure Twilio to handle international numbers and comply with local regulations.
+1. Find the subscription in the table
+2. Click the "Edit" button
+3. Modify any fields as needed
+4. Click "Update Subscription" to save changes
 
-## Contributing
+#### 🗑️ Deleting a Subscription
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature-branch`).
-3.  Make your changes and commit them (`git commit -m "Description of changes"`).
-4.  Push to the branch (`git push origin feature-branch`).
-5.  Open a pull request.
+1. Locate the subscription in the table
+2. Click the "Delete" button
+3. Confirm the deletion when prompted
 
-## License
+### 📱 SMS Reminders
 
-This project is licensed under the MIT License.
+1. Navigate to the "Send SMS Reminder" section
+2. Enter recipient phone number (E.164 format: +919876543210)
+3. Type your reminder message
+4. Click "Send SMS"
 
-## Acknowledgments
+### 🔍 Search and Filter
 
-- Inspired by the need for personal subscription management.
-- Thanks to the open-source communities of AngularJS, Tailwind CSS, and Twilio.
+- **Search**: Type in the search box to find subscriptions by name, provider, or status
+- **Filter**: Use the status dropdown to show only Active, Upcoming, or Canceled subscriptions
+
+### 📊 Dashboard Features
+
+- **Statistics Cards**: View totals for active subscriptions, monthly costs, upcoming renewals, and canceled subscriptions
+- **Cost Chart**: Interactive bar chart showing monthly cost distribution
+- **Renewal Alerts**: Visual indicators for upcoming and overdue renewals
+
+## 🐛 Debugging Features
+
+### Client-Side Logging
+
+- **Keyboard Shortcut**: `Ctrl + Shift + L` to view logs modal
+- **Debug Mode**: `Ctrl + Shift + D` to toggle debug information
+- **Log Export**: Download logs for analysis
+- **Performance Monitoring**: Track page load times and API response times
+
+### Server-Side Logging
+
+- **File-Based Logs**: Automatically saved in `public/logs/`
+- **Request Tracking**: All API calls logged with timestamps and durations
+- **Error Monitoring**: Detailed error logging with stack traces
+- **Database Operations**: MongoDB query logging
+
+### Log Files
+
+- `app-YYYY-MM-DD.log`: General application logs
+- `error-YYYY-MM-DD.log`: Error-specific logs
+- `api-YYYY-MM-DD.log`: API request/response logs
+- `db-YYYY-MM-DD.log`: Database operation logs
+
+## 🎨 Bootstrap Components Used
+
+### UI Framework
+
+- **Bootstrap 5.3.0**: Latest stable version
+- **Bootstrap Icons**: Consistent iconography
+- **Custom CSS**: Enhanced with gradients and animations
+
+### Key Components
+
+- **Cards**: Modern card-based layout for all sections
+- **Forms**: Bootstrap form controls with custom styling
+- **Tables**: Responsive tables with hover effects
+- **Buttons**: Gradient buttons with loading states
+- **Alerts**: Custom styled success/error messages
+- **Progress Bars**: Password strength indicators
+
+## ⚡ Performance Optimizations
+
+- **Lazy Loading**: Chart.js loaded only when needed
+- **Request Caching**: Efficient API request management
+- **Optimized Queries**: MongoDB indexing for fast searches
+- **Client-Side Validation**: Immediate feedback without server round-trips
+
+## 🔧 Development Tips
+
+### VS Code Extensions (Recommended)
+
+- **ES6 String HTML**: Syntax highlighting for HTML in JS
+- **MongoDB for VS Code**: Database management
+- **REST Client**: API testing
+- **Bracket Pair Colorizer**: Better code readability
+
+### Debugging in VS Code
+
+1. Set breakpoints in server.js
+2. Use the integrated terminal for MongoDB queries
+3. Check log files in the `public/logs/` directory
+4. Use browser developer tools for client-side debugging
+
+## 🚀 Deployment
+
+### Development
+
+```cmd
+npm run dev
+```
+
+### Production
+
+1. Set `NODE_ENV=production` in `.env`
+2. Use PM2 for process management:
+
+```cmd
+npm install -g pm2
+pm2 start server.js --name "subscription-manager"
+```
+
+3. Configure reverse proxy (nginx/Apache)
+4. Set up SSL certificates
+5. Configure MongoDB replica set
+
+## 🔒 Security Features
+
+- **JWT Authentication**: Secure token-based authentication
+- **Password Hashing**: bcrypt for secure password storage
+- **Input Validation**: Server and client-side validation
+- **CORS Protection**: Cross-origin request security
+- **Rate Limiting**: Built-in protection against abuse
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Make your changes and commit: `git commit -m "Description"`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Bootstrap Team**: For the excellent CSS framework
+- **AngularJS Community**: For the robust JavaScript framework
+- **Twilio**: For reliable SMS services
+- **Chart.js**: For beautiful data visualizations
+- **MongoDB**: For flexible data storage
+
+## 📞 Support
+
+For issues and questions:
+
+1. Check the logs in `public/logs/` directory
+2. Use the built-in debug mode (`Ctrl + Shift + D`)
+3. Open an issue on GitHub
+4. Contact the development team
+
+---
+
+Made with ❤️ using Bootstrap 5 and modern web technologies

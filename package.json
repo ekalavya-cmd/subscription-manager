@@ -1,10 +1,12 @@
 {
   "name": "subscription-manager",
   "version": "1.0.0",
-  "description": "Subscription and Membership Manager",
+  "description": "Subscription and Membership Manager with Bootstrap UI",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "generate-key": "node generateKey.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -14,6 +16,20 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
     "node-cron": "^3.0.3",
-    "twilio": "^5.5.2"
-  }
+    "twilio": "^5.5.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "subscription",
+    "manager",
+    "bootstrap",
+    "nodejs",
+    "mongodb",
+    "twilio"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
