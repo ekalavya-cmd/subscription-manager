@@ -1,0 +1,9 @@
+[2025-07-02T19:03:51.148Z] MongoDB connected successfully
+[2025-07-02T19:04:44.698Z] Fetching subscriptions for user: ekalavya
+[2025-07-02T19:04:44.702Z] Found 3 subscriptions for user: ekalavya
+[2025-07-02T19:04:44.712Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-07-02T19:04:44.725Z] Subscription updated successfully: test
+[2025-07-02T19:05:56.093Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-07-02T19:05:56.097Z] Subscription updated successfully: test
+[2025-07-02T19:05:56.107Z] Fetching subscriptions for user: ekalavya
+[2025-07-02T19:05:56.116Z] Found 3 subscriptions for user: ekalavya

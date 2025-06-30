@@ -1,0 +1,43 @@
+[2025-07-02T19:03:51.117Z] Twilio client initialized successfully
+[2025-07-02T19:03:51.121Z] SMS reminders enabled
+[2025-07-02T19:03:51.121Z] SMS schedule mode: disabled
+[2025-07-02T19:03:51.122Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-02T19:03:51.126Z] Server running on port 3000
+[2025-07-02T19:03:51.127Z] Environment: development
+[2025-07-02T19:03:51.127Z] MongoDB: Disconnected
+[2025-07-02T19:03:51.128Z] Twilio: Enabled
+[2025-07-02T19:04:44.042Z] Login attempt for username: ekalavya
+[2025-07-02T19:04:44.113Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-07-02T19:04:44.233Z] Received 15 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-02T19:04:44.509Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-02T19:04:44.511Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login controller initialized
+[2025-07-02T19:04:44.512Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login page fully loaded
+[2025-07-02T19:04:44.512Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance metrics - Page load: -1751396628553ms, DOM ready: 205ms, First paint: 0ms
+[2025-07-02T19:04:44.513Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: page-load took 100.90ms
+[2025-07-02T19:04:44.514Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-02T19:04:44.514Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-02T19:04:44.514Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-02T19:04:44.515Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-02T19:04:44.515Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login attempt started
+[2025-07-02T19:04:44.516Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: login-form - valid
+[2025-07-02T19:04:44.516Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: login-request took 94.00ms
+[2025-07-02T19:04:44.516Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (94ms)
+[2025-07-02T19:04:44.517Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
+[2025-07-02T19:04:44.521Z] Serving main application page
+[2025-07-02T19:05:14.672Z] Received 12 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-02T19:05:14.672Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-02T19:05:14.673Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription app controller initialized
+[2025-07-02T19:05:14.674Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-02T19:05:14.675Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-02T19:05:14.675Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Auto-updating subscription test status from upcoming to active
+[2025-07-02T19:05:14.675Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: app-load took 17.40ms
+[2025-07-02T19:05:14.675Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Successfully updated subscription test status to active
+[2025-07-02T19:05:14.676Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: edit-subscription
+[2025-07-02T19:06:02.742Z] Serving login page
+[2025-07-02T19:38:41.347Z] Serving login page
+[2025-07-02T19:39:26.184Z] Serving main application page
+[2025-07-02T19:39:26.378Z] Serving login page
+[2025-07-02T19:39:56.387Z] Serving login page
+[2025-07-02T19:42:10.013Z] Serving main application page
+[2025-07-02T19:42:10.254Z] Serving login page
+[2025-07-02T19:42:16.621Z] Serving login page

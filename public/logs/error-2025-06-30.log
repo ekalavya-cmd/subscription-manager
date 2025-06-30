@@ -104,3 +104,196 @@
 [2025-06-30T16:20:59.621Z] [WARN] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] CSS validation issues detected
 [2025-06-30T16:21:29.690Z] [WARN] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] CSS validation issues detected
 [2025-06-30T16:21:29.692Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T17:50:20.488Z] [WARN] [CLIENT] [ekalavya] [session_1751305820482_0ughujgig] CSS validation issues detected
+[2025-06-30T17:50:50.570Z] [WARN] [CLIENT] [ekalavya] [session_1751305820482_0ughujgig] CSS validation issues detected
+[2025-06-30T17:50:50.571Z] [CLIENT] [ekalavya] [session_1751305820482_0ughujgig] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T17:54:17.162Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T17:54:22.699Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T17:54:24.652Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T17:54:24.659Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login failed
+[2025-06-30T17:54:24.662Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login failed
+[2025-06-30T17:54:39.690Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T17:55:09.744Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T17:55:09.747Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T17:56:09.733Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T17:56:09.733Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-31
+[2025-06-30T18:12:30.409Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:12:30.411Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:13:00.451Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:13:00.453Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:13:00.454Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-29
+[2025-06-30T18:13:00.455Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-29
+[2025-06-30T18:14:05.498Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:14:05.499Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:14:05.501Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-04-30
+[2025-06-30T18:14:05.501Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:14:47.814Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:14:47.814Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:14:47.816Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-31
+[2025-06-30T18:15:26.172Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:15:26.174Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:15:26.175Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-04-30
+[2025-06-30T18:15:26.175Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T18:16:09.919Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:16:09.923Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:17:05.181Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:17:05.182Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:22:34.483Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:22:34.485Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:23:04.551Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:23:04.552Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:23:34.528Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-01
+[2025-06-30T18:23:34.529Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-29
+[2025-06-30T18:24:33.373Z] Subscription not found: 6862d6128194dc0e65c6a8db
+[2025-06-30T18:24:34.539Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Failed to save subscription
+[2025-06-30T18:24:34.939Z] Subscription not found: 6862d6128194dc0e65c6a8db
+[2025-06-30T18:24:41.452Z] Subscription not found: 6862d6128194dc0e65c6a8db
+[2025-06-30T18:25:04.537Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Failed to save subscription
+[2025-06-30T18:25:04.538Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Failed to save subscription
+[2025-06-30T18:25:04.539Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:26:34.547Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:35:44.433Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:35:44.434Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:36:14.500Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:36:14.504Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:42:43.958Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:42:43.960Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:43:13.993Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T18:43:13.995Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T18:45:13.990Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-01
+[2025-06-30T18:45:13.990Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-06-30T18:46:14.177Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-02
+[2025-06-30T18:46:14.177Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-02
+[2025-06-30T18:57:13.998Z] Authentication failed: jwt expired
+[2025-06-30T18:57:42.776Z] Authentication failed: jwt expired
+[2025-06-30T18:57:42.787Z] Authentication failed: jwt expired
+[2025-06-30T18:57:43.991Z] Authentication failed: jwt expired
+[2025-06-30T18:58:14.163Z] Authentication failed: jwt expired
+[2025-06-30T18:58:27.994Z] Authentication failed: jwt expired
+[2025-06-30T18:58:39.451Z] Authentication failed: jwt expired
+[2025-06-30T18:58:39.507Z] Authentication failed: jwt expired
+[2025-06-30T18:59:02.157Z] Authentication failed: jwt expired
+[2025-06-30T18:59:02.169Z] Authentication failed: jwt expired
+[2025-06-30T18:59:08.793Z] Authentication failed: jwt expired
+[2025-06-30T19:00:05.018Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:00:15.958Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:00:15.959Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:00:45.996Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:00:45.997Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:02:05.534Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:02:05.535Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:02:11.739Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:02:11.745Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:07:31.873Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:07:31.875Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-03
+[2025-06-30T19:07:38.670Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:07:38.672Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-03
+[2025-06-30T19:07:47.109Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:08:17.391Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:08:17.393Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-03
+[2025-06-30T19:22:08.386Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:22:08.469Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:22:08.471Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [$rootScope:inprog] http://errors.angularjs.org/1.8.2/$rootScope/inprog?p0=%24digest
+[2025-06-30T19:22:08.471Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [$rootScope:inprog] http://errors.angularjs.org/1.8.2/$rootScope/inprog?p0=%24digest
+[2025-06-30T19:22:08.472Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [$rootScope:inprog] http://errors.angularjs.org/1.8.2/$rootScope/inprog?p0=%24digest Possibly unhandled rejection: {}
+[2025-06-30T19:22:08.473Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-01
+[2025-06-30T19:22:08.473Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-04
+[2025-06-30T19:23:19.168Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:23:19.169Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:24:28.355Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:24:28.356Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:46:34.236Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:46:34.241Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login failed
+[2025-06-30T19:48:19.532Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:48:49.585Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:48:49.586Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:50:59.699Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:50:59.700Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:50:59.701Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-03
+[2025-06-30T19:50:59.702Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-02
+[2025-06-30T19:52:38.985Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:52:38.986Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:52:38.987Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-01
+[2025-06-30T19:52:38.988Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-06-30T19:53:08.986Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-01
+[2025-06-30T19:53:08.986Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-02
+[2025-06-30T19:54:06.863Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:54:06.864Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-06-30T19:54:20.370Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:54:30.082Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:54:30.083Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-06-30T19:54:43.607Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:55:14.666Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:55:14.667Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:56:19.584Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T19:56:19.585Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T19:56:19.587Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-06-30T19:56:19.587Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-01
+[2025-06-30T19:57:49.672Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-01
+[2025-06-30T19:57:49.673Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-01
+[2025-06-30T20:04:26.097Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:04:56.142Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:04:56.143Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:04:56.145Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-01
+[2025-06-30T20:04:56.145Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-01
+[2025-06-30T20:05:44.654Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:05:44.656Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:06:19.938Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:06:50.665Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:06:50.669Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:06:50.676Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-02
+[2025-06-30T20:06:50.677Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-02
+[2025-06-30T20:10:13.759Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:10:13.761Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:10:32.235Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:10:32.237Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:10:32.241Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:10:33.289Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:10:33.291Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T20:12:18.893Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:21:58.338Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:04.806Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:17.793Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:18.818Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:19.864Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:20.027Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:20.169Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:20.344Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:20.573Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:21.200Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:27.778Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:54.318Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:55.371Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:56.127Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:56.253Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:56.426Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:56.556Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:56.703Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:56.900Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:22:57.116Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:41:22.083Z] Login failed: User sads not found
+[2025-06-30T20:41:32.144Z] Login failed: User sads not found
+[2025-06-30T20:41:59.544Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:41:59.560Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login failed
+[2025-06-30T20:41:59.562Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login failed
+[2025-06-30T20:45:01.484Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T20:45:17.507Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:45:17.512Z] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] Login failed
+[2025-06-30T20:45:47.663Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:51:27.249Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:53:15.263Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:54:28.680Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:54:58.724Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:55:40.598Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:58:21.390Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T20:58:51.436Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:02:04.733Z] [WARN] [CLIENT] [Aman] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:02:34.787Z] [WARN] [CLIENT] [Aman] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:04:46.505Z] [WARN] [CLIENT] [Aman] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:09:08.718Z] [WARN] [CLIENT] [Aman] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:09:33.070Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:09:44.884Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:09:47.389Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:09:50.331Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:10:20.386Z] [WARN] [CLIENT] [Ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-06-30T21:11:08.840Z] [WARN] [CLIENT] [Aman] [session_1751306064646_ugo3sx442] CSS validation issues detected

@@ -84,12 +84,18 @@ body {
   border-bottom-right-radius: 0 !important;
   border-right: none !important;
   flex: 1;
-  min-width: 0; /* Prevents flex item from overflowing */
+  min-width: 0;
+  border: 2px solid #6b48ff !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .password-input-field:focus {
   border-color: #00ddeb !important;
   box-shadow: 0 0 10px rgba(0, 221, 235, 0.5) !important;
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-2px);
 }
 
 .password-input-field.is-invalid {
@@ -113,7 +119,7 @@ body {
   align-items: center;
   justify-content: center;
   min-width: 45px;
-  flex-shrink: 0; /* Prevents button from shrinking */
+  flex-shrink: 0;
 }
 
 .password-toggle-btn:hover {
@@ -618,4 +624,364 @@ body {
   .welcome-username {
     font-size: 0.9rem;
   }
+}
+/* Status Badge Styling - Add this to public/css/custom.css */
+
+/* Enhanced Status Badge Styling */
+.status-badge {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.status-active {
+  background: linear-gradient(90deg, #48bb78, #38a169);
+  color: white;
+  border: 1px solid #38a169;
+}
+
+.status-upcoming {
+  background: linear-gradient(90deg, #4299e1, #3182ce);
+  color: white;
+  border: 1px solid #3182ce;
+}
+
+.status-expired {
+  background: linear-gradient(90deg, #e53e3e, #c53030);
+  color: white;
+  border: 1px solid #c53030;
+}
+
+.status-canceled {
+  background: linear-gradient(90deg, #e53e3e, #c53030);
+  color: white;
+  border: 1px solid #c53030;
+}
+
+/* Hover effects for status badges */
+.status-badge:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+/* Page Transition Effects - Add this to public/css/custom.css */
+
+/* Smooth page transitions */
+.page-transition {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out;
+}
+
+.page-transition.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Link transition effects */
+.transition-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #6b48ff;
+  font-weight: 600;
+}
+
+.transition-link:hover {
+  color: #00ddeb;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.transition-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #6b48ff, #00ddeb);
+  transition: width 0.3s ease;
+}
+
+.transition-link:hover::after {
+  width: 100%;
+}
+
+/* Navigation button animations */
+.nav-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #6b48ff, #00ddeb);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(107, 72, 255, 0.3);
+}
+
+.nav-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(107, 72, 255, 0.4);
+}
+
+.nav-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.nav-btn:hover::before {
+  left: 100%;
+}
+
+/* Fade in animation for forms */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Enhanced Password Field Styling with Purple Outline */
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.password-input-field {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-right: none !important;
+  flex: 1;
+  min-width: 0;
+  border: 2px solid #6b48ff !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.password-input-field:focus {
+  border-color: #00ddeb !important;
+  box-shadow: 0 0 10px rgba(0, 221, 235, 0.5) !important;
+  background: rgba(255, 255, 255, 1);
+}
+
+.password-input-field.is-invalid {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.3) !important;
+}
+
+.password-toggle-btn {
+  border: 2px solid #6b48ff !important;
+  border-left: none !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  background: rgba(107, 72, 255, 0.05) !important;
+  color: #6b48ff !important;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.75rem !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 45px;
+  flex-shrink: 0;
+}
+
+.password-toggle-btn:hover {
+  background: rgba(0, 221, 235, 0.1) !important;
+  color: #00ddeb !important;
+  border-color: #00ddeb !important;
+}
+
+.password-toggle-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(107, 72, 255, 0.25) !important;
+  outline: none !important;
+}
+
+.password-input-field:focus + .password-toggle-btn {
+  border-color: #00ddeb !important;
+}
+
+.password-input-field.is-invalid + .password-toggle-btn {
+  border-color: #dc3545 !important;
+  background: rgba(220, 53, 69, 0.05) !important;
+}
+
+/* Smooth transitions for form elements */
+.form-control-custom {
+  transition: all 0.3s ease;
+}
+
+.form-control-custom:focus {
+  transform: translateY(-2px);
+} /* Page Transition Effects - Add this to public/css/custom.css */
+
+/* Smooth page transitions */
+.page-transition {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out;
+}
+
+.page-transition.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Link transition effects */
+.transition-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #6b48ff;
+  font-weight: 600;
+}
+
+.transition-link:hover {
+  color: #00ddeb;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.transition-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #6b48ff, #00ddeb);
+  transition: width 0.3s ease;
+}
+
+.transition-link:hover::after {
+  width: 100%;
+}
+
+/* Loading overlay for transitions */
+.transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #6b48ff 0%, #00ddeb 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.transition-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.transition-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Navigation button animations */
+.nav-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #6b48ff, #00ddeb);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(107, 72, 255, 0.3);
+}
+
+.nav-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(107, 72, 255, 0.4);
+}
+
+.nav-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.nav-btn:hover::before {
+  left: 100%;
+}
+
+/* Fade in animation for forms */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Smooth transitions for form elements */
+.form-control-custom {
+  transition: all 0.3s ease;
+}
+
+.form-control-custom:focus {
+  transform: translateY(-2px);
 }

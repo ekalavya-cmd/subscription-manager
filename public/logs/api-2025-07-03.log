@@ -1,0 +1,22 @@
+[2025-07-03T19:06:43.591Z] GET / - Request received
+[2025-07-03T19:06:43.602Z] GET / - 304 - 11ms
+[2025-07-03T19:06:43.617Z] GET /css/custom.css - Request received
+[2025-07-03T19:06:43.621Z] GET /js/logger.js - Request received
+[2025-07-03T19:06:43.623Z] GET /css/custom.css - 304 - 6ms
+[2025-07-03T19:06:43.624Z] GET /js/login.js - Request received
+[2025-07-03T19:06:43.625Z] GET /js/logger.js - 304 - 4ms
+[2025-07-03T19:06:43.626Z] GET /js/login.js - 304 - 2ms
+[2025-07-03T19:06:48.694Z] POST /api/index - Request received
+[2025-07-03T19:06:48.778Z] POST /api/index - 200 - 85ms
+[2025-07-03T19:06:48.887Z] POST /api/client-logs - Request received
+[2025-07-03T19:06:48.903Z] POST /api/client-logs - 200 - 16ms
+[2025-07-03T19:06:48.904Z] GET /app - Request received
+[2025-07-03T19:06:48.909Z] GET /app - 304 - 5ms
+[2025-07-03T19:06:48.929Z] GET /css/custom.css - Request received
+[2025-07-03T19:06:48.931Z] GET /css/custom.css - 304 - 2ms
+[2025-07-03T19:06:48.938Z] GET /js/logger.js - Request received
+[2025-07-03T19:06:48.941Z] GET /js/logger.js - 304 - 4ms
+[2025-07-03T19:06:49.086Z] GET /api/subscriptions - Request received
+[2025-07-03T19:06:49.103Z] GET /api/subscriptions - 304 - 17ms
+[2025-07-03T19:06:49.112Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - Request received
+[2025-07-03T19:06:49.133Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - 200 - 21ms

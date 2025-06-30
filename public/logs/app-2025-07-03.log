@@ -1,0 +1,54 @@
+[2025-07-03T19:06:29.298Z] Twilio client initialized successfully
+[2025-07-03T19:06:29.304Z] SMS reminders enabled
+[2025-07-03T19:06:29.305Z] SMS schedule mode: disabled
+[2025-07-03T19:06:29.308Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-03T19:06:29.314Z] Server running on port 3000
+[2025-07-03T19:06:29.317Z] Environment: development
+[2025-07-03T19:06:29.319Z] MongoDB: Disconnected
+[2025-07-03T19:06:29.320Z] Twilio: Enabled
+[2025-07-03T19:06:29.366Z] MongoDB connected successfully
+[2025-07-03T19:06:43.591Z] GET / - Request received
+[2025-07-03T19:06:43.596Z] Serving login page
+[2025-07-03T19:06:43.602Z] GET / - 304 - 11ms
+[2025-07-03T19:06:43.617Z] GET /css/custom.css - Request received
+[2025-07-03T19:06:43.621Z] GET /js/logger.js - Request received
+[2025-07-03T19:06:43.623Z] GET /css/custom.css - 304 - 6ms
+[2025-07-03T19:06:43.624Z] GET /js/login.js - Request received
+[2025-07-03T19:06:43.625Z] GET /js/logger.js - 304 - 4ms
+[2025-07-03T19:06:43.626Z] GET /js/login.js - 304 - 2ms
+[2025-07-03T19:06:48.694Z] POST /api/index - Request received
+[2025-07-03T19:06:48.694Z] Login attempt for username: ekalavya
+[2025-07-03T19:06:48.776Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-07-03T19:06:48.778Z] POST /api/index - 200 - 85ms
+[2025-07-03T19:06:48.887Z] POST /api/client-logs - Request received
+[2025-07-03T19:06:48.891Z] Received 14 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-03T19:06:48.894Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-03T19:06:48.894Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-03T19:06:48.895Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login controller initialized
+[2025-07-03T19:06:48.895Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login page fully loaded
+[2025-07-03T19:06:48.896Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance metrics - Page load: -1751569603582ms, DOM ready: 261ms, First paint: 0ms
+[2025-07-03T19:06:48.896Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: page-load took 100.70ms
+[2025-07-03T19:06:48.897Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-03T19:06:48.897Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-03T19:06:48.898Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-03T19:06:48.899Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login attempt started
+[2025-07-03T19:06:48.899Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: login-form - valid
+[2025-07-03T19:06:48.900Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: login-request took 100.90ms
+[2025-07-03T19:06:48.900Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (101ms)
+[2025-07-03T19:06:48.901Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
+[2025-07-03T19:06:48.903Z] POST /api/client-logs - 200 - 16ms
+[2025-07-03T19:06:48.904Z] GET /app - Request received
+[2025-07-03T19:06:48.907Z] Serving main application page
+[2025-07-03T19:06:48.909Z] GET /app - 304 - 5ms
+[2025-07-03T19:06:48.929Z] GET /css/custom.css - Request received
+[2025-07-03T19:06:48.931Z] GET /css/custom.css - 304 - 2ms
+[2025-07-03T19:06:48.938Z] GET /js/logger.js - Request received
+[2025-07-03T19:06:48.941Z] GET /js/logger.js - 304 - 4ms
+[2025-07-03T19:06:49.086Z] GET /api/subscriptions - Request received
+[2025-07-03T19:06:49.090Z] Fetching subscriptions for user: ekalavya
+[2025-07-03T19:06:49.099Z] Found 3 subscriptions for user: ekalavya
+[2025-07-03T19:06:49.103Z] GET /api/subscriptions - 304 - 17ms
+[2025-07-03T19:06:49.112Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - Request received
+[2025-07-03T19:06:49.114Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-07-03T19:06:49.131Z] Subscription updated successfully: test
+[2025-07-03T19:06:49.133Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - 200 - 21ms

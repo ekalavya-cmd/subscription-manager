@@ -22,7 +22,10 @@
     <link href="/css/custom.css" rel="stylesheet" />
   </head>
   <body class="auth-container">
-    <div ng-controller="LoginController" class="auth-card card custom-card p-3">
+    <div
+      ng-controller="LoginController"
+      class="auth-card card custom-card p-3 page-transition"
+    >
       <div class="card-body p-2">
         <!-- Header -->
         <div class="text-center mb-3">
@@ -85,11 +88,11 @@
                 id="password"
                 ng-model="credentials.password"
                 type="{{ showPassword ? 'text' : 'password' }}"
-                class="form-control form-control-custom password-input-field"
+                class="form-control password-input-field"
                 placeholder="Enter your password"
                 required
                 minlength="6"
-                ng-keypress="moveToNextField($event, 'submit')"
+                ng-keypress="handleKeyPress($event)"
                 ng-class="{'is-invalid': passwordError}"
                 autocomplete="current-password"
                 name="password"
@@ -98,15 +101,13 @@
               />
               <button
                 type="button"
-                class="password-toggle-btn"
+                class="btn password-toggle-btn"
                 ng-click="togglePasswordVisibility()"
                 tabindex="-1"
-                title="Toggle password visibility"
               >
                 <i
                   class="bi"
                   ng-class="showPassword ? 'bi-eye-slash' : 'bi-eye'"
-                  style="font-size: 0.9rem"
                 ></i>
               </button>
             </div>
@@ -119,79 +120,49 @@
             </div>
           </div>
 
-          <div class="d-grid mb-2">
-            <button
-              type="submit"
-              class="btn btn-gradient-primary"
-              ng-disabled="isLoading"
-              style="padding: 0.6rem"
-            >
-              <span
-                ng-if="isLoading"
-                class="spinner-border spinner-border-sm me-2"
-                role="status"
-              ></span>
-              <i class="bi bi-box-arrow-in-right me-2" ng-if="!isLoading"></i>
-              {{ isLoading ? 'Signing In...' : 'Sign In' }}
-            </button>
-          </div>
-
-          <!-- Success/Error Message -->
-          <div
-            ng-if="success"
-            class="alert mt-2 mb-2 fade-in py-2"
-            ng-class="success.includes('Invalid') || success.includes('failed') || success.includes('error') || success.includes('attempts') ? 'alert-custom-danger' : 'alert-custom-success'"
-            role="alert"
-            style="font-size: 0.9rem"
+          <button
+            type="submit"
+            class="btn btn-gradient-primary w-100 mb-3"
+            ng-disabled="loginForm.$invalid || isLoading"
+            style="padding: 0.75rem; font-size: 1rem"
           >
-            <i
-              class="bi me-2"
-              ng-class="success.includes('Invalid') || success.includes('failed') || success.includes('error') || success.includes('attempts') ? 'bi-exclamation-triangle' : 'bi-check-circle'"
-            ></i>
-            {{ success }}
-          </div>
+            <span
+              ng-if="isLoading"
+              class="spinner-border spinner-border-sm me-2"
+            ></span>
+            <i class="bi bi-box-arrow-in-right me-2" ng-if="!isLoading"></i>
+            {{ isLoading ? 'Signing In...' : 'Sign In' }}
+          </button>
         </form>
 
-        <!-- Register Link with Faster Transition -->
-        <div class="text-center mb-2">
-          <p class="mb-0 text-muted" style="font-size: 0.9rem">
+        <!-- Success/Error Messages -->
+        <div ng-if="success" class="alert alert-custom-success fade-in">
+          <i class="bi bi-check-circle me-2"></i>{{ success }}
+        </div>
+        <div ng-if="error" class="alert alert-custom-danger fade-in">
+          <i class="bi bi-exclamation-triangle me-2"></i>{{ error }}
+        </div>
+
+        <!-- Register Link with Transition -->
+        <div class="text-center">
+          <p class="text-muted mb-0" style="font-size: 0.9rem">
             Don't have an account?
             <a
-              href="/register"
-              class="text-decoration-none fw-semibold auth-link"
+              href="#"
               ng-click="navigateToRegister($event)"
+              class="transition-link"
             >
               Create one here
             </a>
           </p>
         </div>
 
-        <!-- Debug Panel -->
-        <div ng-if="showDebug" class="mt-2 pt-2 border-top">
-          <div class="d-flex justify-content-between align-items-center">
-            <small class="text-muted" style="font-size: 0.75rem"
-              >Debug Mode</small
-            >
-            <button
-              type="button"
-              class="btn btn-sm btn-outline-secondary py-1 px-2"
-              onclick="logger.showLogsModal()"
-              style="font-size: 0.75rem"
-            >
-              <i class="bi bi-bug"></i> Logs
-            </button>
-          </div>
-          <div class="mt-1">
-            <small class="text-muted d-block" style="font-size: 0.7rem"
-              >Valid: {{ !usernameError && !passwordError }}</small
-            >
-            <small class="text-muted d-block" style="font-size: 0.7rem"
-              >Username: {{ !!credentials.username }}</small
-            >
-            <small class="text-muted d-block" style="font-size: 0.7rem"
-              >Password: {{ !!credentials.password }}</small
-            >
-          </div>
+        <!-- Debug Info -->
+        <div ng-if="showDebug" class="mt-3">
+          <small class="text-muted">
+            <strong>Debug Mode:</strong> Ctrl+Shift+L for logs, Ctrl+Shift+D to
+            toggle
+          </small>
         </div>
       </div>
     </div>
@@ -202,7 +173,200 @@
     <!-- Logger -->
     <script src="/js/logger.js"></script>
 
-    <!-- Login Controller -->
-    <script src="/js/login.js"></script>
+    <!-- Enhanced AngularJS Application with Transitions -->
+    <script>
+      angular.module("loginApp", []).controller("LoginController", [
+        "$scope",
+        "$http",
+        "$window",
+        "$timeout",
+        function ($scope, $http, $window, $timeout) {
+          // Initialize scope variables
+          $scope.credentials = {};
+          $scope.usernameError = "";
+          $scope.passwordError = "";
+          $scope.error = "";
+          $scope.success = "";
+          $scope.isLoading = false;
+          $scope.showDebug = localStorage.getItem("debugMode") === "true";
+          $scope.showPassword = false;
+
+          // Log controller initialization
+          logger.info("Login controller initialized");
+          logger.markStart("page-load");
+
+          // Initialize with smooth transition
+          $timeout(function () {
+            document.querySelector(".page-transition").classList.add("loaded");
+            logger.markEnd("page-load");
+          }, 100);
+
+          // Navigate to register with smooth transition
+          $scope.navigateToRegister = function (event) {
+            event.preventDefault();
+            logger.info("Navigating to register page with transition");
+            $window.location.href = "/register";
+          };
+
+          // Enhanced login function
+          $scope.login = function () {
+            logger.logUserAction("login-attempt");
+            $scope.isLoading = true;
+            $scope.error = "";
+            $scope.success = "";
+
+            // Validate form
+            if (!$scope.isValidUsername($scope.credentials.username)) {
+              $scope.usernameError = "Invalid username format";
+              $scope.isLoading = false;
+              logger.logFormValidation("login-form", false, [
+                "invalid-username",
+              ]);
+              return;
+            }
+
+            if (!$scope.isValidPassword($scope.credentials.password)) {
+              $scope.passwordError = "Password must be at least 6 characters";
+              $scope.isLoading = false;
+              logger.logFormValidation("login-form", false, [
+                "invalid-password",
+              ]);
+              return;
+            }
+
+            logger.logFormValidation("login-form", true);
+
+            const startTime = Date.now();
+            $http({
+              method: "POST",
+              url: "/api/index",
+              data: $scope.credentials,
+            }).then(
+              function (response) {
+                const duration = Date.now() - startTime;
+                logger.logRequest("POST", "/api/index", 200, duration);
+                logger.info("Login successful");
+
+                $scope.success = "Login successful! Redirecting...";
+                $scope.isLoading = false;
+
+                // Store user data
+                localStorage.setItem("token", response.data.token);
+                localStorage.setItem(
+                  "currentUser",
+                  $scope.credentials.username
+                );
+                localStorage.setItem(
+                  "displayName",
+                  $scope.credentials.username.charAt(0).toUpperCase() +
+                    $scope.credentials.username.slice(1).toLowerCase()
+                );
+
+                // Direct redirect to main app
+                $timeout(function () {
+                  $window.location.href = "/app";
+                }, 500);
+              },
+              function (error) {
+                const duration = Date.now() - startTime;
+                logger.logRequest("POST", "/api/index", error.status, duration);
+                logger.error("Login failed", { error: error.data });
+
+                $scope.error =
+                  error.data?.message || "Login failed. Please try again.";
+                $scope.isLoading = false;
+              }
+            );
+          };
+
+          // Form validation functions
+          $scope.isValidUsername = function (username) {
+            return (
+              username &&
+              username.length >= 3 &&
+              username.length <= 20 &&
+              /^[a-zA-Z0-9_]+$/.test(username)
+            );
+          };
+
+          $scope.isValidPassword = function (password) {
+            return password && password.length >= 6;
+          };
+
+          $scope.validateUsername = function () {
+            if ($scope.credentials.username) {
+              $scope.usernameError = $scope.isValidUsername(
+                $scope.credentials.username
+              )
+                ? ""
+                : "Username must be 3-20 characters, letters, numbers, and underscores only";
+            }
+          };
+
+          $scope.validatePassword = function () {
+            if ($scope.credentials.password) {
+              $scope.passwordError = $scope.isValidPassword(
+                $scope.credentials.password
+              )
+                ? ""
+                : "Password must be at least 6 characters";
+            }
+          };
+
+          $scope.togglePasswordVisibility = function () {
+            $scope.showPassword = !$scope.showPassword;
+            logger.logUserAction("password-visibility-toggle", null, {
+              visible: $scope.showPassword,
+            });
+          };
+
+          $scope.moveToNextField = function (event, nextField) {
+            if (event.keyCode === 13) {
+              event.preventDefault();
+              const nextElement = document.getElementById(nextField);
+              if (nextElement) {
+                nextElement.focus();
+              }
+              logger.logUserAction("enter-key-pressed", event.target);
+            }
+          };
+
+          $scope.handleKeyPress = function (event) {
+            if (event.keyCode === 13) {
+              event.preventDefault();
+              $scope.login();
+              logger.logUserAction("enter-key-pressed", event.target);
+            }
+          };
+
+          // Focus first input when page loads
+          $timeout(function () {
+            const usernameField = document.getElementById("username");
+            if (usernameField) {
+              usernameField.focus();
+            }
+          }, 200);
+
+          // Debug mode toggle
+          document.addEventListener("keydown", function (event) {
+            if (event.ctrlKey && event.shiftKey && event.key === "D") {
+              event.preventDefault();
+              $scope.$apply(function () {
+                $scope.showDebug = !$scope.showDebug;
+                localStorage.setItem("debugMode", $scope.showDebug.toString());
+                logger.info("Debug mode toggled", {
+                  enabled: $scope.showDebug,
+                });
+              });
+            }
+          });
+
+          // Log when user leaves the page
+          $window.addEventListener("beforeunload", function () {
+            logger.info("User leaving login page");
+          });
+        },
+      ]);
+    </script>
   </body>
 </html>

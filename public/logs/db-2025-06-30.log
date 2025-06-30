@@ -143,3 +143,353 @@
 [2025-06-30T16:22:27.213Z] Subscription deleted successfully: asdsad
 [2025-06-30T16:22:27.220Z] Fetching subscriptions for user: ekalavya
 [2025-06-30T16:22:27.222Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T17:50:03.176Z] MongoDB connected successfully
+[2025-06-30T17:50:20.640Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:50:20.643Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T17:51:02.040Z] Creating subscription for user: ekalavya
+[2025-06-30T17:51:02.052Z] Subscription created successfully: asdad
+[2025-06-30T17:51:02.062Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:51:02.067Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T17:52:01.612Z] Deleting subscription 6862ce8634909965508916e1 for user: ekalavya
+[2025-06-30T17:52:01.617Z] Subscription deleted successfully: asdad
+[2025-06-30T17:52:01.626Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:52:01.632Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T17:53:54.899Z] MongoDB connected successfully
+[2025-06-30T17:54:24.785Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:54:24.788Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T17:54:39.750Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:54:39.752Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T17:55:24.582Z] Creating subscription for user: ekalavya
+[2025-06-30T17:55:24.597Z] Subscription created successfully: asdsadasd
+[2025-06-30T17:55:24.605Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:55:24.609Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T17:55:51.253Z] Creating subscription for user: ekalavya
+[2025-06-30T17:55:51.256Z] Subscription created successfully: qeqwewqe
+[2025-06-30T17:55:51.261Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:55:51.264Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T17:56:47.902Z] Updating subscription 6862cfa76cc00aa0afdc51f9 for user: ekalavya
+[2025-06-30T17:56:47.914Z] Subscription updated successfully: qeqwewqe
+[2025-06-30T17:56:47.923Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T17:56:47.926Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:12:14.475Z] MongoDB connected successfully
+[2025-06-30T18:12:17.376Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:12:17.389Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:12:30.471Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:12:30.478Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:13:27.595Z] Updating subscription 6862cf8c6cc00aa0afdc51f6 for user: ekalavya
+[2025-06-30T18:13:27.604Z] Subscription updated successfully: asdsadasd
+[2025-06-30T18:13:27.614Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:13:27.619Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:13:35.507Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:13:35.511Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:14:14.636Z] Updating subscription 6862cfa76cc00aa0afdc51f9 for user: ekalavya
+[2025-06-30T18:14:14.639Z] Subscription updated successfully: qeqwewqe
+[2025-06-30T18:14:14.648Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:14:14.651Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:14:17.825Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:14:17.828Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:14:51.724Z] Updating subscription 6862cf8c6cc00aa0afdc51f6 for user: ekalavya
+[2025-06-30T18:14:51.727Z] Subscription updated successfully: asdsadasd
+[2025-06-30T18:14:51.731Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:14:51.734Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:14:56.167Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:14:56.171Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:15:35.214Z] Updating subscription 6862cf8c6cc00aa0afdc51f6 for user: ekalavya
+[2025-06-30T18:15:35.217Z] Subscription updated successfully: asdsadasd
+[2025-06-30T18:15:35.222Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:15:35.224Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:15:39.919Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:15:39.922Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:15:53.990Z] Deleting subscription 6862cf8c6cc00aa0afdc51f6 for user: ekalavya
+[2025-06-30T18:15:53.995Z] Subscription deleted successfully: asdsadasd
+[2025-06-30T18:15:54.006Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:15:54.010Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T18:15:56.348Z] Deleting subscription 6862cfa76cc00aa0afdc51f9 for user: ekalavya
+[2025-06-30T18:15:56.350Z] Subscription deleted successfully: qeqwewqe
+[2025-06-30T18:15:56.356Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:15:56.358Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:16:34.918Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:16:34.920Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:22:27.658Z] MongoDB connected successfully
+[2025-06-30T18:22:30.510Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:22:30.520Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:22:34.545Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:22:34.549Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:23:14.220Z] Creating subscription for user: ekalavya
+[2025-06-30T18:23:14.239Z] Subscription created successfully: adasdsa
+[2025-06-30T18:23:14.251Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:23:14.260Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T18:23:48.826Z] Deleting subscription 6862d6128194dc0e65c6a8db for user: ekalavya
+[2025-06-30T18:23:48.832Z] Subscription deleted successfully: adasdsa
+[2025-06-30T18:23:48.841Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:23:48.846Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:24:33.365Z] Updating subscription 6862d6128194dc0e65c6a8db for user: ekalavya
+[2025-06-30T18:24:34.937Z] Updating subscription 6862d6128194dc0e65c6a8db for user: ekalavya
+[2025-06-30T18:24:41.448Z] Updating subscription 6862d6128194dc0e65c6a8db for user: ekalavya
+[2025-06-30T18:25:35.838Z] Creating subscription for user: ekalavya
+[2025-06-30T18:25:35.842Z] Subscription created successfully: upcomingtoactive
+[2025-06-30T18:25:35.850Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:25:35.855Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T18:35:28.423Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:35:28.427Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T18:35:44.497Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:35:44.499Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T18:36:07.613Z] Deleting subscription 6862d69f8194dc0e65c6a8e3 for user: ekalavya
+[2025-06-30T18:36:07.616Z] Subscription deleted successfully: upcomingtoactive
+[2025-06-30T18:36:07.625Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:36:07.629Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:42:42.955Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:42:42.958Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:42:44.003Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:42:44.005Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T18:43:15.527Z] Creating subscription for user: ekalavya
+[2025-06-30T18:43:15.530Z] Subscription created successfully: asdasdsa
+[2025-06-30T18:43:15.535Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:43:15.537Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T18:43:54.064Z] Creating subscription for user: ekalavya
+[2025-06-30T18:43:54.067Z] Subscription created successfully: asdasd
+[2025-06-30T18:43:54.073Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:43:54.078Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T18:44:30.934Z] Creating subscription for user: ekalavya
+[2025-06-30T18:44:30.937Z] Subscription created successfully: adasdad
+[2025-06-30T18:44:30.942Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:44:30.945Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T18:45:23.192Z] Updating subscription 6862dac38194dc0e65c6a8ec for user: ekalavya
+[2025-06-30T18:45:23.195Z] Subscription updated successfully: asdasdsa
+[2025-06-30T18:45:23.206Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T18:45:23.211Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T18:59:54.848Z] MongoDB connected successfully
+[2025-06-30T19:00:05.098Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:00:05.102Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:00:16.003Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:00:16.006Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:00:25.875Z] Deleting subscription 6862db0e8194dc0e65c6a8f2 for user: ekalavya
+[2025-06-30T19:00:25.881Z] Subscription deleted successfully: adasdad
+[2025-06-30T19:00:25.890Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:00:25.894Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T19:00:45.188Z] Creating subscription for user: ekalavya
+[2025-06-30T19:00:45.203Z] Subscription created successfully: test
+[2025-06-30T19:00:45.213Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:00:45.217Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:01:50.883Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:01:50.887Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:02:05.613Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:02:05.620Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:02:11.836Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:02:11.842Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:07:30.010Z] MongoDB connected successfully
+[2025-06-30T19:07:32.855Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:07:32.872Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:07:38.886Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:07:38.892Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:07:47.246Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:07:47.251Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:21:37.755Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:21:37.771Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:21:37.784Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-06-30T19:21:37.796Z] Subscription updated successfully: test
+[2025-06-30T19:21:59.302Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-06-30T19:21:59.306Z] Subscription updated successfully: test
+[2025-06-30T19:21:59.316Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:21:59.318Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:22:49.178Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:22:49.183Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:22:58.952Z] Deleting subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-06-30T19:22:58.956Z] Subscription deleted successfully: test
+[2025-06-30T19:22:58.966Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:22:58.970Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T19:23:38.863Z] Creating subscription for user: ekalavya
+[2025-06-30T19:23:38.876Z] Subscription created successfully: test
+[2025-06-30T19:23:38.885Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:23:38.889Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:24:07.036Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:24:07.042Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:24:28.420Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:24:28.423Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:45:40.278Z] MongoDB connected successfully
+[2025-06-30T19:46:31.583Z] MongoDB connected successfully
+[2025-06-30T19:46:34.372Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:46:34.377Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:48:19.603Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:48:19.607Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:50:29.695Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:50:29.699Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:51:03.867Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-06-30T19:51:03.876Z] Subscription updated successfully: test
+[2025-06-30T19:51:03.885Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:51:03.889Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:52:08.992Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:52:08.995Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:52:32.089Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-06-30T19:52:32.094Z] Subscription updated successfully: test
+[2025-06-30T19:52:32.101Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:52:32.105Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:52:55.758Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-06-30T19:52:55.762Z] Subscription updated successfully: test
+[2025-06-30T19:52:55.770Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:52:55.776Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:53:21.734Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:53:21.742Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:54:03.447Z] MongoDB connected successfully
+[2025-06-30T19:54:07.161Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:54:07.177Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:54:20.544Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:54:20.549Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:54:30.222Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:54:30.226Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:54:37.163Z] MongoDB connected successfully
+[2025-06-30T19:54:43.669Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:54:43.673Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:54:43.683Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-06-30T19:54:43.695Z] Subscription updated successfully: test
+[2025-06-30T19:55:49.596Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:55:49.601Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T19:56:16.808Z] Updating subscription 6862daea8194dc0e65c6a8ef for user: ekalavya
+[2025-06-30T19:56:16.814Z] Subscription updated successfully: asdasd
+[2025-06-30T19:56:16.824Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T19:56:16.829Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:03:59.817Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:03:59.821Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:04:15.188Z] MongoDB connected successfully
+[2025-06-30T20:04:26.153Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:04:26.158Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:05:12.015Z] MongoDB connected successfully
+[2025-06-30T20:05:14.504Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:05:14.517Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:05:56.531Z] MongoDB connected successfully
+[2025-06-30T20:06:10.880Z] MongoDB connected successfully
+[2025-06-30T20:06:19.993Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:06:19.997Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:10:11.506Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:10:11.509Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:10:13.820Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:10:13.823Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:10:32.291Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:10:32.294Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:10:33.334Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:10:33.336Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:12:18.973Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:12:18.976Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:21:18.406Z] MongoDB connected successfully
+[2025-06-30T20:21:58.409Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:21:58.414Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:04.866Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:04.871Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:14.730Z] MongoDB connected successfully
+[2025-06-30T20:22:17.847Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:17.862Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:18.865Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:18.868Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:19.908Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:19.911Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:20.076Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:20.080Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:20.213Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:20.216Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:20.400Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:20.404Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:20.632Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:20.635Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:21.245Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:21.247Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:27.825Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:27.828Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:50.837Z] MongoDB connected successfully
+[2025-06-30T20:22:54.376Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:54.388Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:55.417Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:55.421Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:56.172Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:56.175Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:56.298Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:56.302Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:56.476Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:56.479Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:56.607Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:56.609Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:56.747Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:56.749Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:56.945Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:56.947Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:22:57.161Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:22:57.164Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:41:59.651Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T20:41:59.653Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T20:43:17.909Z] MongoDB connected successfully
+[2025-06-30T20:44:02.981Z] MongoDB connected successfully
+[2025-06-30T20:45:17.581Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:45:17.584Z] Found 0 subscriptions for user: Ekalavya
+[2025-06-30T20:47:03.402Z] Creating subscription for user: Ekalavya
+[2025-06-30T20:47:03.405Z] Subscription created successfully: Netflix Premium
+[2025-06-30T20:47:03.411Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:47:03.416Z] Found 1 subscriptions for user: Ekalavya
+[2025-06-30T20:49:09.426Z] Creating subscription for user: Ekalavya
+[2025-06-30T20:49:09.429Z] Subscription created successfully: Spotify Premium Family
+[2025-06-30T20:49:09.440Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:49:09.444Z] Found 2 subscriptions for user: Ekalavya
+[2025-06-30T20:50:09.331Z] Creating subscription for user: Ekalavya
+[2025-06-30T20:50:09.333Z] Subscription created successfully: Adobe Creative Cloud Photography
+[2025-06-30T20:50:09.341Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:50:09.344Z] Found 3 subscriptions for user: Ekalavya
+[2025-06-30T20:50:57.273Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:50:57.275Z] Found 3 subscriptions for user: Ekalavya
+[2025-06-30T20:52:45.275Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:52:45.279Z] Found 3 subscriptions for user: Ekalavya
+[2025-06-30T20:53:25.013Z] Creating subscription for user: Ekalavya
+[2025-06-30T20:53:25.015Z] Subscription created successfully: YouTube Premium
+[2025-06-30T20:53:25.022Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:53:25.027Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T20:54:03.019Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:54:03.021Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T20:54:28.728Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:54:28.732Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T20:55:10.614Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:55:10.616Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T20:58:21.452Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:58:21.454Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T20:59:23.586Z] Creating subscription for user: Ekalavya
+[2025-06-30T20:59:23.588Z] Subscription created successfully: test
+[2025-06-30T20:59:23.592Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T20:59:23.595Z] Found 5 subscriptions for user: Ekalavya
+[2025-06-30T21:00:24.313Z] Updating subscription 6862faab1801969c777cb21a for user: Ekalavya
+[2025-06-30T21:00:24.323Z] Subscription updated successfully: test
+[2025-06-30T21:00:24.331Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:00:24.334Z] Found 5 subscriptions for user: Ekalavya
+[2025-06-30T21:01:28.202Z] Updating subscription 6862faab1801969c777cb21a for user: Ekalavya
+[2025-06-30T21:01:28.204Z] Subscription updated successfully: test
+[2025-06-30T21:01:28.208Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:01:28.211Z] Found 5 subscriptions for user: Ekalavya
+[2025-06-30T21:02:04.797Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:02:04.800Z] Found 0 subscriptions for user: Aman
+[2025-06-30T21:03:47.686Z] Creating subscription for user: Aman
+[2025-06-30T21:03:47.688Z] Subscription created successfully: sample
+[2025-06-30T21:03:47.693Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:03:47.695Z] Found 1 subscriptions for user: Aman
+[2025-06-30T21:04:13.892Z] MongoDB connected successfully
+[2025-06-30T21:04:16.493Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:04:16.507Z] Found 1 subscriptions for user: Aman
+[2025-06-30T21:05:26.810Z] MongoDB connected successfully
+[2025-06-30T21:06:38.729Z] MongoDB connected successfully
+[2025-06-30T21:08:32.276Z] MongoDB connected successfully
+[2025-06-30T21:08:38.808Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:08:38.819Z] Found 1 subscriptions for user: Aman
+[2025-06-30T21:08:43.912Z] Deleting subscription 6862fbb31801969c777cb22a for user: Aman
+[2025-06-30T21:08:43.917Z] Subscription deleted successfully: sample
+[2025-06-30T21:08:43.926Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:08:43.930Z] Found 0 subscriptions for user: Aman
+[2025-06-30T21:09:22.729Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:09:22.732Z] Found 0 subscriptions for user: Aman
+[2025-06-30T21:09:33.123Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:09:33.126Z] Found 5 subscriptions for user: Ekalavya
+[2025-06-30T21:09:42.359Z] Deleting subscription 6862faab1801969c777cb21a for user: Ekalavya
+[2025-06-30T21:09:42.363Z] Subscription deleted successfully: test
+[2025-06-30T21:09:42.372Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:09:42.376Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T21:09:44.942Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:09:44.945Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T21:09:47.439Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:09:47.443Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T21:09:50.378Z] Fetching subscriptions for user: Ekalavya
+[2025-06-30T21:09:50.380Z] Found 4 subscriptions for user: Ekalavya
+[2025-06-30T21:11:08.921Z] Fetching subscriptions for user: Aman
+[2025-06-30T21:11:08.922Z] Found 0 subscriptions for user: Aman

@@ -1,57 +1,4 @@
-// Confirm delete subscription $scope.confirmDelete = function (subscription) {
-$scope.deleteConfirmation = { subscription: subscription, show: true }; }; //
-Cancel delete $scope.cancelDelete = function () { $scope.deleteConfirmation =
-null; }; // Delete subscription $scope.deleteSubscription = function (id) {
-logger.logUserAction("delete-subscription", null, { subscriptionId: id, });
-const startTime = Date.now(); $http({ method: "DELETE", url:
-"/api/subscriptions/" + id, headers: { Authorization: "Bearer " + token },
-}).then( function () { const duration = Date.now() - startTime;
-logger.logRequest( "DELETE", `/api/subscriptions/${id}`, 200, duration );
-logger.info("Subscription deleted successfully"); $scope.loadSubscriptions();
-$scope.deleteConfirmation = null; // Close confirmation }, function (error) {
-const duration = Date.now() - startTime; logger.logRequest( "DELETE",
-`/api/subscriptions/${id}`, error.status, duration ); logger.error("Failed to
-delete subscription", { error: error.data, }); $scope.deleteConfirmation = null;
-// Close confirmation } ); }; // Show cancellation steps
-$scope.showCancellationSteps = function (subscription) { const modal = `
-<div class="modal fade" id="cancellationModal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">
-          <i class="bi bi-list me-2"></i>
-          Cancellation Steps - ${subscription.name}
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <div class="alert alert-info">
-          <i class="bi bi-info-circle me-2"></i>
-          How to cancel your ${subscription.name} subscription:
-        </div>
-        <div class="cancellation-steps">
-          ${subscription.cancellationSteps.replace(/\n/g, '<br />')}
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`; // Remove existing modal const existingModal =
-document.getElementById("cancellationModal"); if (existingModal) {
-existingModal.remove(); } // Add new modal
-document.body.insertAdjacentHTML("beforeend", modal); // Show modal const
-modalElement = new
-bootstrap.Modal(document.getElementById("cancellationModal"));
-modalElement.show(); };<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" ng-app="subscriptionApp">
   <head>
     <meta charset="UTF-8" />
@@ -136,7 +83,7 @@ modalElement.show(); };<!DOCTYPE html>
                 class="bi bi-currency-rupee text-primary"
                 style="font-size: 2rem"
               ></i>
-              <h5 class="card-title mt-2 mb-1">Monthly Cost</h5>
+              <h5 class="card-title mt-2 mb-1">Total Cost</h5>
               <h3 class="text-primary mb-0">
                 ₹{{ getTotalMonthlyCost() | number:0 }}
               </h3>
@@ -149,7 +96,7 @@ modalElement.show(); };<!DOCTYPE html>
               <i class="bi bi-clock text-warning" style="font-size: 2rem"></i>
               <h5 class="card-title mt-2 mb-1">Upcoming</h5>
               <h3 class="text-warning mb-0">
-                {{ getUpcomingRenewals().length }}
+                {{ getUpcomingSubscriptions().length }}
               </h3>
             </div>
           </div>
@@ -158,9 +105,9 @@ modalElement.show(); };<!DOCTYPE html>
           <div class="card custom-card h-100">
             <div class="card-body text-center">
               <i class="bi bi-x-circle text-danger" style="font-size: 2rem"></i>
-              <h5 class="card-title mt-2 mb-1">Canceled</h5>
+              <h5 class="card-title mt-2 mb-1">Expired</h5>
               <h3 class="text-danger mb-0">
-                {{ getCanceledSubscriptions().length }}
+                {{ getExpiredSubscriptions().length }}
               </h3>
             </div>
           </div>
@@ -235,7 +182,7 @@ modalElement.show(); };<!DOCTYPE html>
                   required
                   ng-keypress="moveToNextField($event, 2)"
                   name="startDate"
-                  ng-change="validateDateRange(); updateStatusOptions()"
+                  ng-change="validateDateRange(); updateStatusOptions(); handleExpiredStatus()"
                 />
               </div>
 
@@ -251,7 +198,7 @@ modalElement.show(); };<!DOCTYPE html>
                   required
                   ng-keypress="moveToNextField($event, 3)"
                   name="endDate"
-                  ng-change="validateDateRange(); updateStatusOptions()"
+                  ng-change="validateDateRange(); updateStatusOptions(); handleExpiredStatus()"
                 />
                 <div
                   ng-if="dateRangeError"
@@ -295,6 +242,7 @@ modalElement.show(); };<!DOCTYPE html>
                   required
                   ng-keypress="moveToNextField($event, 5)"
                   name="status"
+                  ng-change="handleStatusChange()"
                 >
                   <option value="">Select Status</option>
                   <option value="active" ng-if="isActiveStatusAvailable()">
@@ -303,7 +251,9 @@ modalElement.show(); };<!DOCTYPE html>
                   <option value="upcoming" ng-if="isUpcomingStatusAvailable()">
                     Upcoming
                   </option>
-                  <option value="canceled">Canceled</option>
+                  <option value="expired" ng-if="isExpiredStatusAvailable()">
+                    Expired
+                  </option>
                 </select>
                 <div class="form-text" ng-if="getStatusHelpText()">
                   <i class="bi bi-info-circle me-1"></i>
@@ -521,7 +471,7 @@ modalElement.show(); };<!DOCTYPE html>
                 <option value="">All Subscriptions</option>
                 <option value="active">Active Only</option>
                 <option value="upcoming">Upcoming Only</option>
-                <option value="canceled">Canceled Only</option>
+                <option value="expired">Expired Only</option>
               </select>
             </div>
           </div>
@@ -662,17 +612,7 @@ modalElement.show(); };<!DOCTYPE html>
         </div>
       </div>
 
-      <!-- Loading Overlay -->
-      <div
-        ng-if="isLoading"
-        class="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
-        style="background: rgba(0, 0, 0, 0.5); z-index: 9999"
-      >
-        <div class="text-center text-white">
-          <div class="spinner-custom mb-3"></div>
-          <div>Loading...</div>
-        </div>
-      </div>
+      <!-- Loading Overlay - Removed -->
 
       <!-- Delete Confirmation Modal -->
       <div
@@ -827,6 +767,63 @@ modalElement.show(); };<!DOCTYPE html>
               return today.toISOString().split("T")[0];
             };
 
+            // Utility function to format date for HTML input
+            $scope.formatDateForInput = function (dateValue, fieldName) {
+              if (!dateValue) {
+                logger.warn(`${fieldName} is null or undefined`);
+                return "";
+              }
+
+              try {
+                let date;
+
+                // Handle different date formats
+                if (typeof dateValue === "string") {
+                  // For string dates, parse them properly
+                  date = new Date(dateValue + "T00:00:00.000Z"); // Add time to ensure UTC parsing
+                } else if (dateValue instanceof Date) {
+                  // Already a Date object
+                  date = new Date(dateValue);
+                } else {
+                  // Try to convert other formats
+                  date = new Date(dateValue);
+                }
+
+                // Validate the parsed date
+                if (isNaN(date.getTime())) {
+                  logger.error(`Invalid ${fieldName}:`, dateValue);
+                  return fieldName === "startDate"
+                    ? $scope.getTodaysDate()
+                    : "";
+                }
+
+                // Create a new Date object adjusted for local timezone to avoid UTC issues
+                const localDate = new Date(
+                  date.getFullYear(),
+                  date.getMonth(),
+                  date.getDate()
+                );
+
+                // Format as YYYY-MM-DD for HTML input
+                const year = localDate.getFullYear();
+                const month = String(localDate.getMonth() + 1).padStart(2, "0");
+                const day = String(localDate.getDate()).padStart(2, "0");
+                const formattedDate = `${year}-${month}-${day}`;
+
+                logger.info(`${fieldName} formatted:`, {
+                  original: dateValue,
+                  parsed: date.toISOString(),
+                  localDate: localDate.toISOString(),
+                  formatted: formattedDate,
+                });
+
+                return formattedDate;
+              } catch (error) {
+                logger.error(`Error formatting ${fieldName}:`, error);
+                return fieldName === "startDate" ? $scope.getTodaysDate() : "";
+              }
+            };
+
             // Validate date range
             $scope.validateDateRange = function () {
               $scope.dateRangeError = "";
@@ -869,41 +866,111 @@ modalElement.show(); };<!DOCTYPE html>
 
             // Update status options based on start date
             $scope.updateStatusOptions = function () {
-              // This will trigger the ng-if conditions in the template
+              // Auto-set appropriate status based on dates
+              $scope.autoSetStatusBasedOnDates();
+            };
+
+            // Automatically set the correct status based on dates
+            $scope.autoSetStatusBasedOnDates = function () {
+              if (
+                !$scope.newSubscription.startDate ||
+                !$scope.newSubscription.endDate
+              ) {
+                return;
+              }
+
+              if ($scope.isExpiredStatusAvailable()) {
+                $scope.newSubscription.status = "expired";
+              } else if ($scope.isUpcomingStatusAvailable()) {
+                $scope.newSubscription.status = "upcoming";
+              } else if ($scope.isActiveStatusAvailable()) {
+                $scope.newSubscription.status = "active";
+              }
+            };
+
+            // Handle status change events
+            $scope.handleStatusChange = function () {
+              // Ensure the selected status is valid for the current dates
+              $scope.autoSetStatusBasedOnDates();
+            };
+
+            // Handle expired status when dates change
+            $scope.handleExpiredStatus = function () {
+              $scope.autoSetStatusBasedOnDates();
             };
 
             // Check if active status is available
             $scope.isActiveStatusAvailable = function () {
-              if (!$scope.newSubscription.startDate) return true;
+              if (
+                !$scope.newSubscription.startDate ||
+                !$scope.newSubscription.endDate
+              )
+                return false;
+
               const today = new Date();
               const startDate = new Date($scope.newSubscription.startDate);
+              const endDate = new Date($scope.newSubscription.endDate);
               today.setHours(0, 0, 0, 0);
               startDate.setHours(0, 0, 0, 0);
-              return startDate <= today;
+              endDate.setHours(0, 0, 0, 0);
+
+              // Active only if: start date <= today AND end date > today
+              return startDate <= today && endDate > today;
             };
 
             // Check if upcoming status is available
             $scope.isUpcomingStatusAvailable = function () {
-              if (!$scope.newSubscription.startDate) return true;
+              if (!$scope.newSubscription.startDate) return false;
+
               const today = new Date();
               const startDate = new Date($scope.newSubscription.startDate);
               today.setHours(0, 0, 0, 0);
               startDate.setHours(0, 0, 0, 0);
+
+              // Upcoming only if: start date > today
               return startDate > today;
+            };
+
+            // Check if expired status is available
+            $scope.isExpiredStatusAvailable = function () {
+              if (!$scope.newSubscription.endDate) return false;
+
+              const today = new Date();
+              const endDate = new Date($scope.newSubscription.endDate);
+              today.setHours(0, 0, 0, 0);
+              endDate.setHours(0, 0, 0, 0);
+
+              // Expired only if: end date <= today
+              return endDate <= today;
+            };
+
+            // Check if expired status should be forced or available (keeping for backward compatibility)
+            $scope.isExpiredStatusForced = function () {
+              return $scope.isExpiredStatusAvailable();
             };
 
             // Get status help text
             $scope.getStatusHelpText = function () {
-              if (!$scope.newSubscription.startDate) return "";
+              if (
+                !$scope.newSubscription.startDate ||
+                !$scope.newSubscription.endDate
+              ) {
+                return "Please select both start and end dates to see available status options";
+              }
+
               const today = new Date();
               const startDate = new Date($scope.newSubscription.startDate);
+              const endDate = new Date($scope.newSubscription.endDate);
               today.setHours(0, 0, 0, 0);
               startDate.setHours(0, 0, 0, 0);
+              endDate.setHours(0, 0, 0, 0);
 
-              if (startDate > today) {
-                return "Only 'Upcoming' and 'Canceled' are available for future start dates";
+              if (endDate <= today) {
+                return "This subscription has expired (end date has passed) - only 'Expired' status is available";
+              } else if (startDate > today) {
+                return "Start date is in the future - only 'Upcoming' status is available";
               } else {
-                return "Only 'Active' and 'Canceled' are available for current/past start dates";
+                return "Subscription is currently active - only 'Active' status is available";
               }
             };
 
@@ -911,7 +978,7 @@ modalElement.show(); };<!DOCTYPE html>
             $scope.clearOrCancel = function () {
               logger.logUserAction("clear-or-cancel-form");
               $scope.newSubscription = {
-                startDate: $scope.getTodaysDate(), // Set today's date as default
+                startDate: new Date(), // Always set today's date as default using Date object
               };
               $scope.dateRangeError = "";
               $scope.subscriptionError = "";
@@ -932,7 +999,11 @@ modalElement.show(); };<!DOCTYPE html>
                   $scope.subscriptions = response.data;
                   $scope.isLoading = false;
                   logger.info(`Loaded ${response.data.length} subscriptions`);
-                  $timeout(() => $scope.updateChart(), 100);
+
+                  // Auto-update statuses before displaying
+                  $scope.autoUpdateSubscriptionStatuses();
+
+                  $timeout(() => $scope.updateChart(), 200); // Increased timeout to allow status updates
                   logger.markEnd("app-load");
                 },
                 function (error) {
@@ -940,9 +1011,16 @@ modalElement.show(); };<!DOCTYPE html>
                     error: error.data,
                   });
                   $scope.isLoading = false;
-                  if (error.status === 401) {
-                    localStorage.removeItem("token");
-                    $window.location.href = "/";
+
+                  // Handle authentication errors and server unavailability
+                  if (error.status === 401 || error.status === 403) {
+                    logger.error(
+                      "Authentication failed - token may be invalid"
+                    );
+                    $scope.handleServerUnavailable();
+                  } else if (error.status === 0 || error.status === -1) {
+                    logger.error("Server unavailable - network error");
+                    $scope.handleServerUnavailable();
                   }
                 }
               );
@@ -1077,37 +1155,110 @@ modalElement.show(); };<!DOCTYPE html>
               );
             };
 
-            // Edit subscription - preserve original dates
+            // Edit subscription - preserve original dates exactly as they were
             $scope.editSubscription = function (subscription) {
               logger.logUserAction("edit-subscription", null, {
                 subscriptionId: subscription._id,
               });
+
+              // Log the subscription data we're editing
+              logger.info("Editing subscription:", {
+                id: subscription._id,
+                name: subscription.name,
+                originalStartDate: subscription.startDate,
+                originalEndDate: subscription.endDate,
+                startDateType: typeof subscription.startDate,
+                endDateType: typeof subscription.endDate,
+              });
+
+              // Make a deep copy of the subscription
               $scope.newSubscription = angular.copy(subscription);
 
-              // Format dates for input - preserve original dates
-              if ($scope.newSubscription.startDate) {
-                $scope.newSubscription.startDate = new Date(
-                  $scope.newSubscription.startDate
-                )
-                  .toISOString()
-                  .split("T")[0];
+              // Handle date conversion for AngularJS compatibility
+              try {
+                // For start date
+                if (subscription.startDate) {
+                  const startDate = new Date(subscription.startDate);
+                  if (!isNaN(startDate.getTime())) {
+                    // Create a clean Date object for the local date (no time component)
+                    $scope.newSubscription.startDate = new Date(
+                      startDate.getFullYear(),
+                      startDate.getMonth(),
+                      startDate.getDate()
+                    );
+                    logger.info(
+                      "Start date set as Date object:",
+                      $scope.newSubscription.startDate
+                    );
+                  } else {
+                    $scope.newSubscription.startDate = new Date();
+                    logger.error(
+                      "Invalid start date, using today:",
+                      subscription.startDate
+                    );
+                  }
+                }
+
+                // For end date
+                if (subscription.endDate) {
+                  const endDate = new Date(subscription.endDate);
+                  if (!isNaN(endDate.getTime())) {
+                    // Create a clean Date object for the local date (no time component)
+                    $scope.newSubscription.endDate = new Date(
+                      endDate.getFullYear(),
+                      endDate.getMonth(),
+                      endDate.getDate()
+                    );
+                    logger.info(
+                      "End date set as Date object:",
+                      $scope.newSubscription.endDate
+                    );
+                  } else {
+                    $scope.newSubscription.endDate = null;
+                    logger.error("Invalid end date:", subscription.endDate);
+                  }
+                }
+
+                // Log the final formatted values
+                logger.info("Edit form populated with dates:", {
+                  startDate: $scope.newSubscription.startDate,
+                  endDate: $scope.newSubscription.endDate,
+                  startDateType: typeof $scope.newSubscription.startDate,
+                  endDateType: typeof $scope.newSubscription.endDate,
+                });
+              } catch (error) {
+                logger.error("Error processing dates for edit:", error);
+                $scope.newSubscription.startDate = new Date();
+                $scope.newSubscription.endDate = null;
               }
-              if ($scope.newSubscription.endDate) {
-                $scope.newSubscription.endDate = new Date(
-                  $scope.newSubscription.endDate
-                )
-                  .toISOString()
-                  .split("T")[0];
-              }
+
+              // Use $timeout to ensure AngularJS properly handles the date assignment
+              $timeout(function () {
+                // Update status options based on dates and auto-set appropriate status
+                $scope.updateStatusOptions();
+                $scope.autoSetStatusBasedOnDates();
+              }, 0);
 
               // Clear any existing errors
               $scope.dateRangeError = "";
-
-              // Update status options based on start date
-              $scope.updateStatusOptions();
+              $scope.subscriptionError = "";
+              $scope.subscriptionSuccess = "";
 
               // Scroll to form
               $scope.scrollToElement("subName");
+            };
+
+            // Confirm delete subscription
+            $scope.confirmDelete = function (subscription) {
+              $scope.deleteConfirmation = {
+                subscription: subscription,
+                show: true,
+              };
+            };
+
+            // Cancel delete
+            $scope.cancelDelete = function () {
+              $scope.deleteConfirmation = null;
             };
 
             // Delete subscription
@@ -1132,6 +1283,7 @@ modalElement.show(); };<!DOCTYPE html>
                   );
                   logger.info("Subscription deleted successfully");
                   $scope.loadSubscriptions();
+                  $scope.deleteConfirmation = null; // Close confirmation
                 },
                 function (error) {
                   const duration = Date.now() - startTime;
@@ -1144,19 +1296,59 @@ modalElement.show(); };<!DOCTYPE html>
                   logger.error("Failed to delete subscription", {
                     error: error.data,
                   });
+                  $scope.deleteConfirmation = null; // Close confirmation
                 }
               );
             };
 
-            // Clear or cancel form - set today's date as default
-            $scope.clearOrCancel = function () {
-              logger.logUserAction("clear-or-cancel-form");
-              $scope.newSubscription = {
-                startDate: $scope.getTodaysDate(), // Set today's date as default
-              };
-              $scope.dateRangeError = "";
-              $scope.subscriptionError = "";
-              $scope.subscriptionSuccess = "";
+            // Show cancellation steps
+            $scope.showCancellationSteps = function (subscription) {
+              const modal = `
+                <div class="modal fade" id="cancellationModal" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">
+                          <i class="bi bi-list me-2"></i>
+                          Cancellation Steps - ${subscription.name}
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-info">
+                          <i class="bi bi-info-circle me-2"></i>
+                          How to cancel your ${subscription.name} subscription:
+                        </div>
+                        <div class="cancellation-steps">
+                          ${subscription.cancellationSteps.replace(
+                            /\n/g,
+                            "<br>"
+                          )}
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `;
+
+              // Remove existing modal
+              const existingModal =
+                document.getElementById("cancellationModal");
+              if (existingModal) {
+                existingModal.remove();
+              }
+
+              // Add new modal
+              document.body.insertAdjacentHTML("beforeend", modal);
+
+              // Show modal
+              const modalElement = new bootstrap.Modal(
+                document.getElementById("cancellationModal")
+              );
+              modalElement.show();
             };
 
             // Clear SMS form
@@ -1319,17 +1511,59 @@ modalElement.show(); };<!DOCTYPE html>
               }
             };
 
-            // Utility functions
+            // Utility functions with smart status detection
             $scope.getActiveSubscriptions = function () {
-              return $scope.subscriptions.filter(
-                (sub) => sub.status === "active"
-              );
+              const today = new Date();
+              today.setHours(0, 0, 0, 0);
+
+              return $scope.subscriptions.filter((sub) => {
+                const startDate = new Date(sub.startDate);
+                const endDate = new Date(sub.endDate);
+                startDate.setHours(0, 0, 0, 0);
+                endDate.setHours(0, 0, 0, 0);
+
+                // Active if: status is 'active' OR should be active based on dates
+                return (
+                  (sub.status === "active" && endDate > today) ||
+                  (startDate <= today &&
+                    endDate > today &&
+                    sub.status !== "expired")
+                );
+              });
             };
 
+            $scope.getUpcomingSubscriptions = function () {
+              const today = new Date();
+              today.setHours(0, 0, 0, 0);
+
+              return $scope.subscriptions.filter((sub) => {
+                const startDate = new Date(sub.startDate);
+                startDate.setHours(0, 0, 0, 0);
+
+                // Upcoming if: status is 'upcoming' OR should be upcoming based on dates
+                return (
+                  (sub.status === "upcoming" && startDate > today) ||
+                  (startDate > today && sub.status !== "expired")
+                );
+              });
+            };
+
+            $scope.getExpiredSubscriptions = function () {
+              const today = new Date();
+              today.setHours(0, 0, 0, 0);
+
+              return $scope.subscriptions.filter((sub) => {
+                const endDate = new Date(sub.endDate);
+                endDate.setHours(0, 0, 0, 0);
+
+                // Expired if: status is 'expired' OR should be expired based on dates
+                return sub.status === "expired" || endDate <= today;
+              });
+            };
+
+            // Keep the old function for backward compatibility
             $scope.getCanceledSubscriptions = function () {
-              return $scope.subscriptions.filter(
-                (sub) => sub.status === "canceled"
-              );
+              return $scope.getExpiredSubscriptions();
             };
 
             $scope.getUpcomingRenewals = function () {
@@ -1337,13 +1571,9 @@ modalElement.show(); };<!DOCTYPE html>
               const nextWeek = new Date();
               nextWeek.setDate(today.getDate() + 7);
 
-              return $scope.subscriptions.filter((sub) => {
+              return $scope.getActiveSubscriptions().filter((sub) => {
                 const endDate = new Date(sub.endDate);
-                return (
-                  sub.status === "active" &&
-                  endDate >= today &&
-                  endDate <= nextWeek
-                );
+                return endDate >= today && endDate <= nextWeek;
               });
             };
 
@@ -1381,8 +1611,10 @@ modalElement.show(); };<!DOCTYPE html>
                   return "status-active";
                 case "upcoming":
                   return "status-upcoming";
-                case "canceled":
-                  return "status-canceled";
+                case "expired":
+                  return "status-expired";
+                case "canceled": // Keep for backward compatibility
+                  return "status-expired";
                 default:
                   return "";
               }
@@ -1417,108 +1649,7 @@ modalElement.show(); };<!DOCTYPE html>
               return `${Math.ceil(daysDiff / 7)} weeks`;
             };
 
-            // Confirm delete subscription
-            $scope.confirmDelete = function (subscription) {
-              $scope.deleteConfirmation = {
-                subscription: subscription,
-                show: true,
-              };
-            };
-
-            // Cancel delete
-            $scope.cancelDelete = function () {
-              $scope.deleteConfirmation = null;
-            };
-
-            // Delete subscription
-            $scope.deleteSubscription = function (id) {
-              logger.logUserAction("delete-subscription", null, {
-                subscriptionId: id,
-              });
-
-              const startTime = Date.now();
-              $http({
-                method: "DELETE",
-                url: "/api/subscriptions/" + id,
-                headers: { Authorization: "Bearer " + token },
-              }).then(
-                function () {
-                  const duration = Date.now() - startTime;
-                  logger.logRequest(
-                    "DELETE",
-                    `/api/subscriptions/${id}`,
-                    200,
-                    duration
-                  );
-                  logger.info("Subscription deleted successfully");
-                  $scope.loadSubscriptions();
-                  $scope.deleteConfirmation = null; // Close confirmation
-                },
-                function (error) {
-                  const duration = Date.now() - startTime;
-                  logger.logRequest(
-                    "DELETE",
-                    `/api/subscriptions/${id}`,
-                    error.status,
-                    duration
-                  );
-                  logger.error("Failed to delete subscription", {
-                    error: error.data,
-                  });
-                  $scope.deleteConfirmation = null; // Close confirmation
-                }
-              );
-            };
-
-            // Show cancellation steps
-            $scope.showCancellationSteps = function (subscription) {
-              const modal = `
-                <div class="modal fade" id="cancellationModal" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title">
-                          <i class="bi bi-list me-2"></i>
-                          Cancellation Steps - ${subscription.name}
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="alert alert-info">
-                          <i class="bi bi-info-circle me-2"></i>
-                          How to cancel your ${subscription.name} subscription:
-                        </div>
-                        <div class="cancellation-steps">
-                          ${subscription.cancellationSteps.replace(
-                            /\n/g,
-                            "<br>"
-                          )}
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              `;
-
-              // Remove existing modal
-              const existingModal =
-                document.getElementById("cancellationModal");
-              if (existingModal) {
-                existingModal.remove();
-              }
-
-              // Add new modal
-              document.body.insertAdjacentHTML("beforeend", modal);
-
-              // Show modal
-              const modalElement = new bootstrap.Modal(
-                document.getElementById("cancellationModal")
-              );
-              modalElement.show();
-            };
+            // Chart update function
             $scope.updateChart = function () {
               const monthlyCosts = new Array(12).fill(0);
 
@@ -1622,14 +1753,111 @@ modalElement.show(); };<!DOCTYPE html>
                   });
                 });
               }
+
+              // Add Ctrl+Shift+I to inspect subscription data
+              if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+                $scope.$apply(function () {
+                  logger.info("=== SUBSCRIPTION DATA INSPECTION ===");
+                  $scope.subscriptions.forEach((sub, index) => {
+                    logger.info(`Subscription ${index + 1}:`, {
+                      name: sub.name,
+                      startDate: sub.startDate,
+                      endDate: sub.endDate,
+                      startDateType: typeof sub.startDate,
+                      endDateType: typeof sub.endDate,
+                      status: sub.status,
+                    });
+                  });
+                  logger.info("=== END INSPECTION ===");
+                  alert(
+                    "Subscription data logged to console. Open browser dev tools to view."
+                  );
+                });
+              }
             });
 
             // Initialize app
             $scope.loadSubscriptions();
 
-            // Set today's date as default for new subscriptions
+            // Set today's date as default for new subscriptions - always initialize with current date
             $scope.newSubscription = {
-              startDate: $scope.getTodaysDate(),
+              startDate: new Date(), // Use Date object instead of string for AngularJS compatibility
+            };
+
+            // Auto-logout when server is unavailable or token is invalid
+            $scope.handleServerUnavailable = function () {
+              logger.error(
+                "Server unavailable or token invalid - logging out user"
+              );
+              localStorage.removeItem("token");
+              localStorage.removeItem("currentUser");
+              localStorage.removeItem("displayName");
+
+              // Direct redirect to login page
+              $window.location.href = "/";
+            };
+
+            // Auto-update subscription statuses based on dates on load
+            $scope.autoUpdateSubscriptionStatuses = function () {
+              const today = new Date();
+              today.setHours(0, 0, 0, 0);
+
+              let updatesNeeded = false;
+
+              $scope.subscriptions.forEach((sub) => {
+                const startDate = new Date(sub.startDate);
+                const endDate = new Date(sub.endDate);
+                startDate.setHours(0, 0, 0, 0);
+                endDate.setHours(0, 0, 0, 0);
+
+                let newStatus = sub.status;
+
+                // Determine what the status should be based on dates
+                if (endDate <= today) {
+                  newStatus = "expired";
+                } else if (startDate > today) {
+                  newStatus = "upcoming";
+                } else if (startDate <= today && endDate > today) {
+                  newStatus = "active";
+                }
+
+                // If status needs to change, update it
+                if (newStatus !== sub.status) {
+                  logger.info(
+                    `Auto-updating subscription ${sub.name} status from ${sub.status} to ${newStatus}`
+                  );
+                  sub.status = newStatus;
+                  updatesNeeded = true;
+
+                  // Update on server
+                  $http({
+                    method: "PUT",
+                    url: "/api/subscriptions/" + sub._id,
+                    data: sub,
+                    headers: { Authorization: "Bearer " + token },
+                  }).then(
+                    function (response) {
+                      logger.info(
+                        `Successfully updated subscription ${sub.name} status to ${newStatus}`
+                      );
+                    },
+                    function (error) {
+                      logger.error(
+                        `Failed to update subscription ${sub.name} status`,
+                        { error: error.data }
+                      );
+                      // Revert the status change if server update failed
+                      sub.status = sub.status; // This will be the old status
+                    }
+                  );
+                }
+              });
+
+              if (updatesNeeded) {
+                // Refresh the chart and UI after status updates
+                $timeout(() => $scope.updateChart(), 100);
+              }
             };
 
             // Log when user leaves the page

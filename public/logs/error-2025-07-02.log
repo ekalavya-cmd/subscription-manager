@@ -1,0 +1,10 @@
+[2025-07-02T19:04:44.510Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-02T19:05:14.673Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-02T19:05:14.674Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-02
+[2025-07-02T19:05:14.676Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-03
+[2025-07-02T19:05:14.677Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-03
+[2025-07-02T19:38:32.539Z] Authentication failed: jwt expired
+[2025-07-02T19:38:41.343Z] Authentication failed: jwt expired
+[2025-07-02T19:39:26.367Z] Authentication failed: jwt expired
+[2025-07-02T19:39:56.385Z] Authentication failed: jwt expired
+[2025-07-02T19:42:10.239Z] Authentication failed: jwt expired

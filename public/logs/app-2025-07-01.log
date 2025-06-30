@@ -1,0 +1,700 @@
+[2025-07-01T19:02:10.829Z] Twilio client initialized successfully
+[2025-07-01T19:02:10.834Z] SMS reminders enabled
+[2025-07-01T19:02:10.834Z] SMS schedule mode: disabled
+[2025-07-01T19:02:10.835Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T19:02:10.839Z] Server running on port 3000
+[2025-07-01T19:02:10.840Z] Environment: development
+[2025-07-01T19:02:10.840Z] MongoDB: Disconnected
+[2025-07-01T19:02:10.841Z] Twilio: Enabled
+[2025-07-01T19:02:10.861Z] MongoDB connected successfully
+[2025-07-01T19:02:14.010Z] GET /app - Request received
+[2025-07-01T19:02:14.066Z] POST /api/client-logs - Request received
+[2025-07-01T19:02:14.079Z] Authentication failed: jwt expired
+[2025-07-01T19:02:14.091Z] POST /api/client-logs - 302 - 25ms
+[2025-07-01T19:02:14.106Z] Serving main application page
+[2025-07-01T19:02:14.114Z] GET / - Request received
+[2025-07-01T19:02:14.118Z] GET /app - 304 - 108ms
+[2025-07-01T19:02:14.122Z] Serving login page
+[2025-07-01T19:02:14.136Z] GET /css/custom.css - Request received
+[2025-07-01T19:02:14.138Z] GET / - 304 - 24ms
+[2025-07-01T19:02:14.172Z] GET /js/logger.js - Request received
+[2025-07-01T19:02:14.180Z] GET /css/custom.css - 304 - 44ms
+[2025-07-01T19:02:14.199Z] GET /js/logger.js - 304 - 27ms
+[2025-07-01T19:02:14.264Z] GET /api/subscriptions - Request received
+[2025-07-01T19:02:14.268Z] Authentication failed: jwt expired
+[2025-07-01T19:02:14.272Z] GET /api/subscriptions - 302 - 8ms
+[2025-07-01T19:02:14.284Z] GET / - Request received
+[2025-07-01T19:02:14.288Z] Serving login page
+[2025-07-01T19:02:14.298Z] GET / - 304 - 14ms
+[2025-07-01T19:02:21.462Z] GET / - Request received
+[2025-07-01T19:02:21.464Z] Serving login page
+[2025-07-01T19:02:21.466Z] GET / - 304 - 4ms
+[2025-07-01T19:02:21.495Z] GET /css/custom.css - Request received
+[2025-07-01T19:02:21.497Z] GET /js/logger.js - Request received
+[2025-07-01T19:02:21.499Z] GET /css/custom.css - 304 - 4ms
+[2025-07-01T19:02:21.501Z] GET /js/logger.js - 304 - 4ms
+[2025-07-01T19:02:21.504Z] GET /js/login.js - Request received
+[2025-07-01T19:02:21.506Z] GET /js/login.js - 304 - 2ms
+[2025-07-01T19:02:27.573Z] POST /api/index - Request received
+[2025-07-01T19:02:27.574Z] Login attempt for username: ekalavya
+[2025-07-01T19:02:27.658Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-07-01T19:02:27.661Z] POST /api/index - 200 - 88ms
+[2025-07-01T19:02:27.767Z] POST /api/client-logs - Request received
+[2025-07-01T19:02:27.769Z] Received 14 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:02:27.770Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:02:27.771Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:02:27.771Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login controller initialized
+[2025-07-01T19:02:27.772Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login page fully loaded
+[2025-07-01T19:02:27.772Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance metrics - Page load: -1751396541439ms, DOM ready: 116ms, First paint: 0ms
+[2025-07-01T19:02:27.773Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: page-load took 101.70ms
+[2025-07-01T19:02:27.773Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:02:27.774Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-01T19:02:27.774Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:02:27.775Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login attempt started
+[2025-07-01T19:02:27.775Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: login-form - valid
+[2025-07-01T19:02:27.776Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: login-request took 93.20ms
+[2025-07-01T19:02:27.776Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (93ms)
+[2025-07-01T19:02:27.777Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
+[2025-07-01T19:02:27.779Z] POST /api/client-logs - 200 - 12ms
+[2025-07-01T19:02:27.781Z] GET /app - Request received
+[2025-07-01T19:02:27.782Z] Serving main application page
+[2025-07-01T19:02:27.784Z] GET /app - 304 - 3ms
+[2025-07-01T19:02:27.804Z] GET /css/custom.css - Request received
+[2025-07-01T19:02:27.806Z] GET /js/logger.js - Request received
+[2025-07-01T19:02:27.807Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T19:02:27.809Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T19:02:27.875Z] GET /api/subscriptions - Request received
+[2025-07-01T19:02:27.878Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:02:27.884Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:02:27.888Z] GET /api/subscriptions - 200 - 13ms
+[2025-07-01T19:02:27.902Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - Request received
+[2025-07-01T19:02:27.906Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-07-01T19:02:27.925Z] Subscription updated successfully: test
+[2025-07-01T19:02:27.927Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - 200 - 25ms
+[2025-07-01T19:02:33.659Z] POST /api/client-logs - Request received
+[2025-07-01T19:02:33.661Z] Received 9 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:02:33.662Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:02:33.662Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:02:33.663Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription app controller initialized
+[2025-07-01T19:02:33.663Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-01T19:02:33.664Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:02:33.664Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-01T19:02:33.664Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Auto-updating subscription test status from upcoming to active
+[2025-07-01T19:02:33.665Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: app-load took 31.50ms
+[2025-07-01T19:02:33.666Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Successfully updated subscription test status to active
+[2025-07-01T19:02:33.667Z] POST /api/client-logs - 200 - 8ms
+[2025-07-01T19:02:33.669Z] GET /app - Request received
+[2025-07-01T19:02:33.672Z] Serving main application page
+[2025-07-01T19:02:33.674Z] GET /app - 304 - 5ms
+[2025-07-01T19:02:33.694Z] GET /css/custom.css - Request received
+[2025-07-01T19:02:33.695Z] GET /js/logger.js - Request received
+[2025-07-01T19:02:33.697Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T19:02:33.698Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T19:02:33.749Z] GET /api/subscriptions - Request received
+[2025-07-01T19:02:33.761Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:02:33.769Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:02:33.771Z] GET /api/subscriptions - 200 - 22ms
+[2025-07-01T19:02:34.850Z] POST /api/client-logs - Request received
+[2025-07-01T19:02:34.853Z] Received 7 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:02:34.853Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:02:34.854Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:02:34.855Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription app controller initialized
+[2025-07-01T19:02:34.856Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-01T19:02:34.857Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:02:34.858Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-01T19:02:34.859Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: app-load took 41.40ms
+[2025-07-01T19:02:34.860Z] POST /api/client-logs - 200 - 10ms
+[2025-07-01T19:02:34.861Z] GET /app - Request received
+[2025-07-01T19:02:34.863Z] Serving main application page
+[2025-07-01T19:02:34.865Z] GET /app - 304 - 4ms
+[2025-07-01T19:02:34.881Z] GET /css/custom.css - Request received
+[2025-07-01T19:02:34.883Z] GET /js/logger.js - Request received
+[2025-07-01T19:02:34.885Z] GET /css/custom.css - 304 - 4ms
+[2025-07-01T19:02:34.886Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T19:02:34.937Z] GET /api/subscriptions - Request received
+[2025-07-01T19:02:34.941Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:02:34.946Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:02:34.948Z] GET /api/subscriptions - 304 - 11ms
+[2025-07-01T19:03:04.927Z] POST /api/client-logs - Request received
+[2025-07-01T19:03:04.928Z] Received 10 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:03:04.929Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:03:04.929Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:03:04.929Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription app controller initialized
+[2025-07-01T19:03:04.930Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-01T19:03:04.930Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:03:04.930Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-01T19:03:04.931Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: app-load took 28.00ms
+[2025-07-01T19:03:04.931Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: edit-subscription
+[2025-07-01T19:03:04.931Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-02
+[2025-07-01T19:03:04.931Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-02
+[2025-07-01T19:03:04.932Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T19:03:10.268Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - Request received
+[2025-07-01T19:03:10.270Z] Updating subscription 6862dedd0871d0901de67553 for user: ekalavya
+[2025-07-01T19:03:10.275Z] Subscription updated successfully: test
+[2025-07-01T19:03:10.277Z] PUT /api/subscriptions/6862dedd0871d0901de67553 - 200 - 9ms
+[2025-07-01T19:03:10.281Z] GET /api/subscriptions - Request received
+[2025-07-01T19:03:10.284Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:03:10.288Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:03:10.290Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T19:03:28.120Z] POST /api/client-logs - Request received
+[2025-07-01T19:03:28.122Z] Received 7 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:03:28.122Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Saving subscription
+[2025-07-01T19:03:28.123Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: subscription-form - valid
+[2025-07-01T19:03:28.123Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] PUT /api/subscriptions/6862dedd0871d0901de67553 - 200 (13ms)
+[2025-07-01T19:03:28.123Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription updated successfully
+[2025-07-01T19:03:28.124Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-01T19:03:28.124Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-01T19:03:28.124Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: app-load took 28.00ms
+[2025-07-01T19:03:28.126Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T19:03:28.128Z] GET /app - Request received
+[2025-07-01T19:03:28.130Z] Serving main application page
+[2025-07-01T19:03:28.132Z] GET /app - 304 - 4ms
+[2025-07-01T19:03:28.146Z] GET /css/custom.css - Request received
+[2025-07-01T19:03:28.147Z] GET /js/logger.js - Request received
+[2025-07-01T19:03:28.149Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T19:03:28.150Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T19:03:28.470Z] GET /api/subscriptions - Request received
+[2025-07-01T19:03:28.473Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:03:28.476Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:03:28.479Z] GET /api/subscriptions - 304 - 9ms
+[2025-07-01T19:03:33.906Z] GET / - Request received
+[2025-07-01T19:03:33.911Z] Serving login page
+[2025-07-01T19:03:33.913Z] GET / - 304 - 7ms
+[2025-07-01T19:03:33.943Z] GET /css/custom.css - Request received
+[2025-07-01T19:03:33.947Z] GET /js/logger.js - Request received
+[2025-07-01T19:03:33.949Z] GET /css/custom.css - 304 - 6ms
+[2025-07-01T19:03:33.952Z] GET /js/logger.js - 304 - 5ms
+[2025-07-01T19:03:33.954Z] GET /js/login.js - Request received
+[2025-07-01T19:03:33.956Z] GET /js/login.js - 304 - 2ms
+[2025-07-01T19:03:41.044Z] POST /api/index - Request received
+[2025-07-01T19:03:41.045Z] Login attempt for username: ekalavya
+[2025-07-01T19:03:41.114Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-07-01T19:03:41.115Z] POST /api/index - 200 - 71ms
+[2025-07-01T19:03:41.223Z] POST /api/client-logs - Request received
+[2025-07-01T19:03:41.225Z] Received 14 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:03:41.226Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:03:41.226Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:03:41.227Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login controller initialized
+[2025-07-01T19:03:41.227Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login page fully loaded
+[2025-07-01T19:03:41.228Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance metrics - Page load: -1751396613890ms, DOM ready: 374ms, First paint: 0ms
+[2025-07-01T19:03:41.228Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: page-load took 101.40ms
+[2025-07-01T19:03:41.228Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:03:41.229Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-01T19:03:41.229Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:03:41.230Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login attempt started
+[2025-07-01T19:03:41.230Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: login-form - valid
+[2025-07-01T19:03:41.230Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: login-request took 77.50ms
+[2025-07-01T19:03:41.231Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (77ms)
+[2025-07-01T19:03:41.231Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
+[2025-07-01T19:03:41.232Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T19:03:41.234Z] GET /app - Request received
+[2025-07-01T19:03:41.235Z] Serving main application page
+[2025-07-01T19:03:41.236Z] GET /app - 304 - 2ms
+[2025-07-01T19:03:41.255Z] GET /css/custom.css - Request received
+[2025-07-01T19:03:41.256Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:03:41.261Z] GET /js/logger.js - Request received
+[2025-07-01T19:03:41.262Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T19:03:41.434Z] GET /api/subscriptions - Request received
+[2025-07-01T19:03:41.437Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:03:41.441Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:03:41.443Z] GET /api/subscriptions - 304 - 9ms
+[2025-07-01T19:03:44.050Z] POST /api/client-logs - Request received
+[2025-07-01T19:03:44.051Z] Received 7 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:03:44.052Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:03:44.052Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:03:44.053Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription app controller initialized
+[2025-07-01T19:03:44.053Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-01T19:03:44.054Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:03:44.054Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-01T19:03:44.054Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: app-load took 29.90ms
+[2025-07-01T19:03:44.056Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T19:03:44.056Z] GET /app - Request received
+[2025-07-01T19:03:44.058Z] Serving main application page
+[2025-07-01T19:03:44.060Z] GET /app - 304 - 4ms
+[2025-07-01T19:03:44.077Z] GET /css/custom.css - Request received
+[2025-07-01T19:03:44.078Z] GET /js/logger.js - Request received
+[2025-07-01T19:03:44.079Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T19:03:44.080Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:03:44.205Z] GET /api/subscriptions - Request received
+[2025-07-01T19:03:44.208Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:03:44.211Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:03:44.212Z] GET /api/subscriptions - 304 - 7ms
+[2025-07-01T19:03:48.562Z] GET / - Request received
+[2025-07-01T19:03:48.564Z] Serving login page
+[2025-07-01T19:03:48.565Z] GET / - 304 - 3ms
+[2025-07-01T19:03:48.583Z] GET /css/custom.css - Request received
+[2025-07-01T19:03:48.585Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T19:03:48.591Z] GET /js/logger.js - Request received
+[2025-07-01T19:03:48.592Z] GET /js/login.js - Request received
+[2025-07-01T19:03:48.593Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:03:48.594Z] GET /js/login.js - 304 - 2ms
+[2025-07-01T19:24:53.725Z] POST /api/client-logs - Request received
+[2025-07-01T19:24:53.819Z] Authentication failed: jwt expired
+[2025-07-01T19:24:53.834Z] POST /api/client-logs - 302 - 109ms
+[2025-07-01T19:24:53.837Z] GET / - Request received
+[2025-07-01T19:24:53.838Z] Serving login page
+[2025-07-01T19:24:53.840Z] GET / - 304 - 3ms
+[2025-07-01T19:26:12.758Z] Twilio client initialized successfully
+[2025-07-01T19:26:12.760Z] SMS reminders enabled
+[2025-07-01T19:26:12.760Z] SMS schedule mode: disabled
+[2025-07-01T19:26:12.761Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T19:26:12.764Z] Server running on port 3000
+[2025-07-01T19:26:12.764Z] Environment: development
+[2025-07-01T19:26:12.765Z] MongoDB: Disconnected
+[2025-07-01T19:26:12.765Z] Twilio: Enabled
+[2025-07-01T19:26:12.778Z] MongoDB connected successfully
+[2025-07-01T19:26:15.708Z] GET /app - Request received
+[2025-07-01T19:26:15.712Z] Serving main application page
+[2025-07-01T19:26:15.717Z] GET /app - 304 - 9ms
+[2025-07-01T19:26:15.731Z] GET /css/custom.css - Request received
+[2025-07-01T19:26:15.732Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:26:15.734Z] GET /js/logger.js - Request received
+[2025-07-01T19:26:15.735Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T19:26:16.075Z] GET /api/subscriptions - Request received
+[2025-07-01T19:26:16.080Z] Authentication failed: jwt expired
+[2025-07-01T19:26:16.083Z] GET /api/subscriptions - 302 - 8ms
+[2025-07-01T19:26:16.089Z] GET / - Request received
+[2025-07-01T19:26:16.091Z] Serving login page
+[2025-07-01T19:26:16.094Z] GET / - 304 - 5ms
+[2025-07-01T19:26:46.835Z] POST /api/client-logs - Request received
+[2025-07-01T19:26:46.837Z] Authentication failed: jwt expired
+[2025-07-01T19:26:46.838Z] POST /api/client-logs - 302 - 3ms
+[2025-07-01T19:26:46.840Z] GET / - Request received
+[2025-07-01T19:26:46.841Z] Serving login page
+[2025-07-01T19:26:46.842Z] GET / - 304 - 2ms
+[2025-07-01T19:27:02.973Z] GET / - Request received
+[2025-07-01T19:27:02.974Z] Serving login page
+[2025-07-01T19:27:02.977Z] GET / - 304 - 4ms
+[2025-07-01T19:27:02.999Z] GET /css/custom.css - Request received
+[2025-07-01T19:27:03.001Z] GET /js/logger.js - Request received
+[2025-07-01T19:27:03.003Z] GET /css/custom.css - 304 - 4ms
+[2025-07-01T19:27:03.005Z] GET /js/logger.js - 304 - 4ms
+[2025-07-01T19:27:03.007Z] GET /js/login.js - Request received
+[2025-07-01T19:27:03.009Z] GET /js/login.js - 304 - 2ms
+[2025-07-01T19:27:10.466Z] POST /api/index - Request received
+[2025-07-01T19:27:10.467Z] Login attempt for username: ekalavya
+[2025-07-01T19:27:10.546Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-07-01T19:27:10.548Z] POST /api/index - 200 - 82ms
+[2025-07-01T19:27:10.655Z] POST /api/client-logs - Request received
+[2025-07-01T19:27:10.657Z] Received 14 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:27:10.657Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:27:10.658Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:27:10.658Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login controller initialized
+[2025-07-01T19:27:10.659Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login page fully loaded
+[2025-07-01T19:27:10.659Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance metrics - Page load: -1751398022961ms, DOM ready: 151ms, First paint: 0ms
+[2025-07-01T19:27:10.659Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: page-load took 102.00ms
+[2025-07-01T19:27:10.659Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:27:10.660Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-01T19:27:10.660Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:27:10.660Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login attempt started
+[2025-07-01T19:27:10.661Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: login-form - valid
+[2025-07-01T19:27:10.661Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: login-request took 86.30ms
+[2025-07-01T19:27:10.662Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (86ms)
+[2025-07-01T19:27:10.662Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
+[2025-07-01T19:27:10.663Z] POST /api/client-logs - 200 - 8ms
+[2025-07-01T19:27:10.664Z] GET /app - Request received
+[2025-07-01T19:27:10.665Z] Serving main application page
+[2025-07-01T19:27:10.666Z] GET /app - 304 - 2ms
+[2025-07-01T19:27:10.687Z] GET /css/custom.css - Request received
+[2025-07-01T19:27:10.688Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:27:10.690Z] GET /js/logger.js - Request received
+[2025-07-01T19:27:10.692Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:27:10.847Z] GET /api/subscriptions - Request received
+[2025-07-01T19:27:10.849Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:27:10.856Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:27:10.860Z] GET /api/subscriptions - 200 - 13ms
+[2025-07-01T19:27:10.870Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - Request received
+[2025-07-01T19:27:10.873Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-07-01T19:27:10.888Z] Subscription updated successfully: test
+[2025-07-01T19:27:10.889Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - 200 - 19ms
+[2025-07-01T19:27:41.726Z] POST /api/client-logs - Request received
+[2025-07-01T19:27:41.729Z] Received 13 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:27:41.729Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:27:41.730Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:27:41.730Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Subscription app controller initialized
+[2025-07-01T19:27:41.731Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loading subscriptions
+[2025-07-01T19:27:41.731Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:27:41.731Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Loaded 3 subscriptions
+[2025-07-01T19:27:41.732Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Running auto-update for subscription statuses...
+[2025-07-01T19:27:41.732Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Auto-updating subscription test status from upcoming to active
+[2025-07-01T19:27:41.732Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] 📊 Auto-updated 1 subscription(s) based on current date
+[2025-07-01T19:27:41.733Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [$rootScope:inprog] http://errors.angularjs.org/1.8.2/$rootScope/inprog?p0=%24digest
+[2025-07-01T19:27:41.733Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [$rootScope:inprog] http://errors.angularjs.org/1.8.2/$rootScope/inprog?p0=%24digest
+[2025-07-01T19:27:41.734Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Error: [$rootScope:inprog] http://errors.angularjs.org/1.8.2/$rootScope/inprog?p0=%24digest Possibly unhandled rejection: {}
+[2025-07-01T19:27:41.734Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] ✓ Successfully updated subscription test status to active on server
+[2025-07-01T19:27:41.735Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T19:35:54.475Z] Twilio client initialized successfully
+[2025-07-01T19:35:54.477Z] SMS reminders enabled
+[2025-07-01T19:35:54.477Z] SMS schedule mode: disabled
+[2025-07-01T19:35:54.478Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T19:35:54.480Z] Server running on port 3000
+[2025-07-01T19:35:54.481Z] Environment: development
+[2025-07-01T19:35:54.481Z] MongoDB: Disconnected
+[2025-07-01T19:35:54.482Z] Twilio: Enabled
+[2025-07-01T19:35:54.494Z] MongoDB connected successfully
+[2025-07-01T19:35:57.861Z] GET /app - Request received
+[2025-07-01T19:35:57.864Z] Serving main application page
+[2025-07-01T19:35:57.871Z] GET /app - 200 - 10ms
+[2025-07-01T19:35:57.883Z] GET /css/custom.css - Request received
+[2025-07-01T19:35:57.884Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:35:57.887Z] GET /js/logger.js - Request received
+[2025-07-01T19:35:57.888Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T19:35:58.066Z] GET /api/subscriptions - Request received
+[2025-07-01T19:35:58.072Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:35:58.089Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:35:58.094Z] GET /api/subscriptions - 200 - 28ms
+[2025-07-01T19:36:21.166Z] Twilio client initialized successfully
+[2025-07-01T19:36:21.169Z] SMS reminders enabled
+[2025-07-01T19:36:21.169Z] SMS schedule mode: disabled
+[2025-07-01T19:36:21.169Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T19:36:21.172Z] Server running on port 3000
+[2025-07-01T19:36:21.172Z] Environment: development
+[2025-07-01T19:36:21.172Z] MongoDB: Disconnected
+[2025-07-01T19:36:21.173Z] Twilio: Enabled
+[2025-07-01T19:36:21.185Z] MongoDB connected successfully
+[2025-07-01T19:36:26.468Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:26.472Z] Received 12 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:26.472Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:26.473Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:26.473Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:26.474Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:26.474Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:26.475Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:26.475Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:26.476Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:26.476Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 46.70ms
+[2025-07-01T19:36:26.477Z] [CLIENT] [ekalavya] [undefined] Manual refresh of subscription statuses triggered
+[2025-07-01T19:36:26.478Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:26.478Z] [CLIENT] [ekalavya] [undefined] Manual refresh completed
+[2025-07-01T19:36:26.484Z] POST /api/client-logs - 200 - 16ms
+[2025-07-01T19:36:26.486Z] GET /app - Request received
+[2025-07-01T19:36:26.487Z] Serving main application page
+[2025-07-01T19:36:26.491Z] GET /app - 304 - 5ms
+[2025-07-01T19:36:26.502Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:26.504Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:26.505Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T19:36:26.506Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:36:26.667Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:26.671Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:26.684Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:26.688Z] GET /api/subscriptions - 304 - 21ms
+[2025-07-01T19:36:28.315Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:28.317Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:28.317Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:28.317Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:28.318Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:28.318Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:28.319Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:28.319Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:28.320Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:28.320Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:28.320Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 30.10ms
+[2025-07-01T19:36:28.321Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T19:36:28.323Z] GET /app - Request received
+[2025-07-01T19:36:28.325Z] Serving main application page
+[2025-07-01T19:36:28.327Z] GET /app - 304 - 4ms
+[2025-07-01T19:36:28.338Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:28.340Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:28.342Z] GET /css/custom.css - 304 - 4ms
+[2025-07-01T19:36:28.344Z] GET /js/logger.js - 304 - 4ms
+[2025-07-01T19:36:28.466Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:28.468Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:28.472Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:28.473Z] GET /api/subscriptions - 304 - 7ms
+[2025-07-01T19:36:29.280Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:29.281Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:29.282Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:29.282Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:29.282Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:29.283Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:29.283Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:29.283Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:29.283Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:29.284Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:29.284Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 19.40ms
+[2025-07-01T19:36:29.285Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T19:36:29.286Z] GET /app - Request received
+[2025-07-01T19:36:29.286Z] Serving main application page
+[2025-07-01T19:36:29.288Z] GET /app - 304 - 2ms
+[2025-07-01T19:36:29.298Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:29.299Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:36:29.303Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:29.305Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:36:29.419Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:29.422Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:29.427Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:29.428Z] GET /api/subscriptions - 304 - 9ms
+[2025-07-01T19:36:30.163Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:30.165Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:30.165Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:30.166Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:30.166Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:30.166Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:30.167Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:30.167Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:30.167Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:30.168Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:30.168Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 18.40ms
+[2025-07-01T19:36:30.169Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T19:36:30.170Z] GET /app - Request received
+[2025-07-01T19:36:30.171Z] Serving main application page
+[2025-07-01T19:36:30.172Z] GET /app - 304 - 2ms
+[2025-07-01T19:36:30.182Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:30.184Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:30.185Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T19:36:30.186Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:36:30.299Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:30.301Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:30.305Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:30.306Z] GET /api/subscriptions - 304 - 7ms
+[2025-07-01T19:36:30.829Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:30.831Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:30.832Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:30.832Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:30.833Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:30.833Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:30.833Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:30.836Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:30.837Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:30.837Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:30.838Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 19.00ms
+[2025-07-01T19:36:30.839Z] POST /api/client-logs - 200 - 10ms
+[2025-07-01T19:36:30.840Z] GET /app - Request received
+[2025-07-01T19:36:30.840Z] Serving main application page
+[2025-07-01T19:36:30.841Z] GET /app - 304 - 1ms
+[2025-07-01T19:36:30.851Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:30.851Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:30.852Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:36:30.853Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:36:30.953Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:30.956Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:30.958Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:30.960Z] GET /api/subscriptions - 304 - 7ms
+[2025-07-01T19:36:30.991Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:30.993Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:30.994Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:30.995Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:30.995Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:30.996Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:30.996Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:30.997Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:30.997Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:30.998Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:30.998Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 16.10ms
+[2025-07-01T19:36:31.000Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T19:36:31.001Z] GET /app - Request received
+[2025-07-01T19:36:31.003Z] Serving main application page
+[2025-07-01T19:36:31.005Z] GET /app - 304 - 4ms
+[2025-07-01T19:36:31.019Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:31.020Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:31.020Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:36:31.021Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T19:36:31.131Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:31.133Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:31.136Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:31.137Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T19:36:31.324Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:31.325Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:31.326Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:31.326Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:31.326Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:31.326Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:31.327Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:31.327Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:31.327Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:31.328Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:31.328Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 23.10ms
+[2025-07-01T19:36:31.329Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T19:36:31.330Z] GET /app - Request received
+[2025-07-01T19:36:31.330Z] Serving main application page
+[2025-07-01T19:36:31.331Z] GET /app - 304 - 1ms
+[2025-07-01T19:36:31.341Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:31.341Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:31.343Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T19:36:31.344Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T19:36:31.456Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:31.458Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:31.460Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:31.462Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T19:36:31.628Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:31.630Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:31.630Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:31.631Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:31.631Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:31.631Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:31.632Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:31.632Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:31.633Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:31.633Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:31.633Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 15.70ms
+[2025-07-01T19:36:31.634Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T19:36:31.635Z] GET /app - Request received
+[2025-07-01T19:36:31.636Z] Serving main application page
+[2025-07-01T19:36:31.637Z] GET /app - 304 - 2ms
+[2025-07-01T19:36:31.647Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:31.648Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:36:31.651Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:31.652Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T19:36:31.761Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:31.763Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:31.765Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:31.766Z] GET /api/subscriptions - 304 - 5ms
+[2025-07-01T19:36:31.999Z] POST /api/client-logs - Request received
+[2025-07-01T19:36:32.000Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:36:32.000Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:36:32.001Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:36:32.001Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:36:32.002Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:36:32.003Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:36:32.003Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:36:32.004Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:36:32.004Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:36:32.005Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 16.60ms
+[2025-07-01T19:36:32.006Z] POST /api/client-logs - 200 - 7ms
+[2025-07-01T19:36:32.007Z] GET /app - Request received
+[2025-07-01T19:36:32.008Z] Serving main application page
+[2025-07-01T19:36:32.009Z] GET /app - 304 - 2ms
+[2025-07-01T19:36:32.020Z] GET /css/custom.css - Request received
+[2025-07-01T19:36:32.020Z] GET /js/logger.js - Request received
+[2025-07-01T19:36:32.021Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T19:36:32.022Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:36:32.138Z] GET /api/subscriptions - Request received
+[2025-07-01T19:36:32.139Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:36:32.143Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:36:32.144Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T19:37:02.111Z] POST /api/client-logs - Request received
+[2025-07-01T19:37:02.113Z] Received 15 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:37:02.113Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:37:02.113Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:37:02.114Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:37:02.114Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:37:02.114Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:37:02.114Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:37:02.115Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:37:02.115Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:37:02.115Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 14.70ms
+[2025-07-01T19:37:02.115Z] [CLIENT] [ekalavya] [undefined] Manual refresh of subscription statuses triggered
+[2025-07-01T19:37:02.116Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:37:02.116Z] [CLIENT] [ekalavya] [undefined] Manual refresh completed
+[2025-07-01T19:37:02.116Z] [CLIENT] [ekalavya] [undefined] User action: edit-subscription
+[2025-07-01T19:37:02.116Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-02
+[2025-07-01T19:37:02.117Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-02
+[2025-07-01T19:37:02.118Z] POST /api/client-logs - 200 - 7ms
+[2025-07-01T19:37:08.327Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - Request received
+[2025-07-01T19:37:08.330Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-07-01T19:37:08.340Z] Subscription updated successfully: test
+[2025-07-01T19:37:08.341Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - 200 - 14ms
+[2025-07-01T19:37:08.346Z] GET /api/subscriptions - Request received
+[2025-07-01T19:37:08.348Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:37:08.352Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:37:08.354Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T19:37:32.127Z] POST /api/client-logs - Request received
+[2025-07-01T19:37:32.130Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:37:32.131Z] [CLIENT] [ekalavya] [undefined] Saving subscription
+[2025-07-01T19:37:32.132Z] [CLIENT] [ekalavya] [undefined] Form validation: subscription-form - valid
+[2025-07-01T19:37:32.132Z] [CLIENT] [ekalavya] [undefined] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - 200 (19ms)
+[2025-07-01T19:37:32.133Z] [CLIENT] [ekalavya] [undefined] Subscription updated successfully
+[2025-07-01T19:37:32.133Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:37:32.134Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:37:32.134Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:37:32.135Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:37:32.135Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 14.70ms
+[2025-07-01T19:37:32.136Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T19:37:42.968Z] GET /app - Request received
+[2025-07-01T19:37:42.969Z] Serving main application page
+[2025-07-01T19:37:42.971Z] GET /app - 304 - 3ms
+[2025-07-01T19:37:42.995Z] GET /css/custom.css - Request received
+[2025-07-01T19:37:42.998Z] GET /js/logger.js - Request received
+[2025-07-01T19:37:43.000Z] GET /css/custom.css - 304 - 5ms
+[2025-07-01T19:37:43.004Z] GET /js/logger.js - 304 - 6ms
+[2025-07-01T19:37:43.221Z] GET /api/subscriptions - Request received
+[2025-07-01T19:37:43.225Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:37:43.228Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:37:43.231Z] GET /api/subscriptions - 304 - 10ms
+[2025-07-01T19:37:45.470Z] POST /api/client-logs - Request received
+[2025-07-01T19:37:45.475Z] Received 9 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:37:45.477Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:37:45.478Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:37:45.480Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:37:45.482Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:37:45.483Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:37:45.484Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:37:45.485Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:37:45.485Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:37:45.487Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 50.90ms
+[2025-07-01T19:37:45.489Z] POST /api/client-logs - 200 - 19ms
+[2025-07-01T19:37:45.492Z] GET /app - Request received
+[2025-07-01T19:37:45.493Z] Serving main application page
+[2025-07-01T19:37:45.495Z] GET /app - 304 - 3ms
+[2025-07-01T19:37:45.515Z] GET /css/custom.css - Request received
+[2025-07-01T19:37:45.517Z] GET /js/logger.js - Request received
+[2025-07-01T19:37:45.524Z] GET /css/custom.css - 304 - 9ms
+[2025-07-01T19:37:45.525Z] GET /js/logger.js - 304 - 8ms
+[2025-07-01T19:37:45.684Z] GET /api/subscriptions - Request received
+[2025-07-01T19:37:45.690Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:37:45.700Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:37:45.707Z] GET /api/subscriptions - 304 - 23ms
+[2025-07-01T19:38:15.728Z] POST /api/client-logs - Request received
+[2025-07-01T19:38:15.729Z] Received 15 client logs from user: ekalavya, session: unknown
+[2025-07-01T19:38:15.730Z] [CLIENT] [ekalavya] [undefined] Starting CSS validation check
+[2025-07-01T19:38:15.730Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
+[2025-07-01T19:38:15.730Z] [CLIENT] [ekalavya] [undefined] Subscription app controller initialized
+[2025-07-01T19:38:15.730Z] [CLIENT] [ekalavya] [undefined] Loading subscriptions
+[2025-07-01T19:38:15.731Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
+[2025-07-01T19:38:15.731Z] [CLIENT] [ekalavya] [undefined] Loaded 3 subscriptions
+[2025-07-01T19:38:15.731Z] [CLIENT] [ekalavya] [undefined] Running server-side auto-update for subscription statuses...
+[2025-07-01T19:38:15.732Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:38:15.732Z] [CLIENT] [ekalavya] [undefined] Performance: app-load took 48.60ms
+[2025-07-01T19:38:15.732Z] [CLIENT] [ekalavya] [undefined] Manual refresh of subscription statuses triggered
+[2025-07-01T19:38:15.732Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:38:15.732Z] [CLIENT] [ekalavya] [undefined] Manual refresh completed
+[2025-07-01T19:38:15.733Z] [CLIENT] [ekalavya] [undefined] Manual refresh of subscription statuses triggered
+[2025-07-01T19:38:15.733Z] [CLIENT] [ekalavya] [undefined] ✅ All subscription statuses are up to date
+[2025-07-01T19:38:15.733Z] [CLIENT] [ekalavya] [undefined] Manual refresh completed
+[2025-07-01T19:38:15.734Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T19:53:26.738Z] Twilio client initialized successfully
+[2025-07-01T19:53:26.740Z] SMS reminders enabled
+[2025-07-01T19:53:26.741Z] SMS schedule mode: disabled
+[2025-07-01T19:53:26.741Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T19:53:26.744Z] Server running on port 3000
+[2025-07-01T19:53:26.744Z] Environment: development
+[2025-07-01T19:53:26.745Z] MongoDB: Disconnected
+[2025-07-01T19:53:26.745Z] Twilio: Enabled
+[2025-07-01T19:53:26.762Z] MongoDB connected successfully
+[2025-07-01T19:53:35.258Z] POST /api/index - Request received
+[2025-07-01T19:53:35.260Z] Login attempt for username: ekalavya
+[2025-07-01T19:53:35.329Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-07-01T19:53:35.332Z] POST /api/index - 200 - 74ms
+[2025-07-01T19:53:35.440Z] POST /api/client-logs - Request received
+[2025-07-01T19:53:35.444Z] Received 15 client logs from user: ekalavya, session: session_1751306064646_ugo3sx442
+[2025-07-01T19:53:35.444Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Starting CSS validation check
+[2025-07-01T19:53:35.445Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T19:53:35.445Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login controller initialized
+[2025-07-01T19:53:35.446Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login page fully loaded
+[2025-07-01T19:53:35.446Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance metrics - Page load: -1751313205234ms, DOM ready: 73ms, First paint: 0ms
+[2025-07-01T19:53:35.447Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: page-load took 103.00ms
+[2025-07-01T19:53:35.447Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-01T19:53:35.447Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:53:35.448Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: username-input-blur
+[2025-07-01T19:53:35.448Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] User action: enter-key-pressed
+[2025-07-01T19:53:35.448Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login attempt started
+[2025-07-01T19:53:35.449Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Form validation: login-form - valid
+[2025-07-01T19:53:35.449Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Performance: login-request took 90.80ms
+[2025-07-01T19:53:35.450Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (90ms)
+[2025-07-01T19:53:35.450Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
+[2025-07-01T19:53:35.452Z] POST /api/client-logs - 200 - 12ms
+[2025-07-01T19:53:35.453Z] GET /app - Request received
+[2025-07-01T19:53:35.455Z] Serving main application page
+[2025-07-01T19:53:35.457Z] GET /app - 304 - 4ms
+[2025-07-01T19:53:35.474Z] GET /css/custom.css - Request received
+[2025-07-01T19:53:35.476Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T19:53:35.478Z] GET /js/logger.js - Request received
+[2025-07-01T19:53:35.480Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T19:53:35.535Z] GET /api/subscriptions - Request received
+[2025-07-01T19:53:35.537Z] Fetching subscriptions for user: ekalavya
+[2025-07-01T19:53:35.542Z] Found 3 subscriptions for user: ekalavya
+[2025-07-01T19:53:35.545Z] GET /api/subscriptions - 304 - 10ms
+[2025-07-01T19:53:35.550Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - Request received
+[2025-07-01T19:53:35.552Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
+[2025-07-01T19:53:35.566Z] Subscription updated successfully: test
+[2025-07-01T19:53:35.568Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - 200 - 18ms
