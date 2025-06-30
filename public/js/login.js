@@ -312,14 +312,15 @@
       logger.logRequest("POST", "/api/index", 200, duration);
       logger.info("Login successful", {
         username: $scope.credentials.username,
+        originalUsername: response.data.username,
+        displayName: response.data.displayName,
         duration: duration,
       });
 
-      // Store authentication token
+      // Store authentication token and user info
       localStorage.setItem("token", response.data.token);
-
-      // Store user info for welcome message
-      localStorage.setItem("currentUser", $scope.credentials.username);
+      localStorage.setItem("currentUser", response.data.username);
+      localStorage.setItem("displayName", response.data.displayName);
 
       // Show success feedback briefly before redirect
       $scope.isLoading = false;

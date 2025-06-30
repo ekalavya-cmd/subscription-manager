@@ -29,18 +29,20 @@
       <!-- Header Navigation -->
       <nav class="navbar navbar-expand-lg navbar-custom mb-4">
         <div class="container-fluid">
-          <div class="navbar-brand d-flex align-items-center">
-            <i
-              class="bi bi-calendar-check text-primary me-2"
-              style="font-size: 1.5rem"
-            ></i>
-            <span class="fw-bold text-dark">Subscription Manager</span>
+          <div class="navbar-brand">
+            <div class="brand-container">
+              <i class="bi bi-calendar-check brand-icon"></i>
+              <span class="brand-text">Subscription Manager</span>
+            </div>
           </div>
 
           <div class="d-flex align-items-center">
-            <div class="me-3">
-              <small class="text-muted">Welcome back!</small>
-              <div class="fw-semibold">{{ getCurrentUser() }}</div>
+            <!-- Simplified Welcome Message -->
+            <div class="welcome-container">
+              <div class="welcome-text">
+                <p class="welcome-greeting">Welcome back!</p>
+                <p class="welcome-username">{{ getDisplayName() }}</p>
+              </div>
             </div>
 
             <!-- Debug Button -->
@@ -150,7 +152,7 @@
 
               <div class="col-md-6 mb-3">
                 <label for="subCost" class="form-label fw-semibold">
-                  <i class="bi bi-currency-rupee me-1"></i>Monthly Cost (₹)
+                  <i class="bi bi-currency-rupee me-1"></i>Subscription Cost (₹)
                 </label>
                 <input
                   id="subCost"
@@ -164,25 +166,59 @@
                   ng-keypress="moveToNextField($event, 1)"
                   name="cost"
                 />
+                <div class="form-text">
+                  <i class="bi bi-info-circle me-1"></i>
+                  Total cost for the subscription period
+                </div>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="subRenewal" class="form-label fw-semibold">
-                  <i class="bi bi-calendar me-1"></i>Next Renewal Date
+                <label for="subStartDate" class="form-label fw-semibold">
+                  <i class="bi bi-calendar-plus me-1"></i>Start Date
                 </label>
                 <input
-                  id="subRenewal"
-                  ng-model="newSubscription.renewalDate"
+                  id="subStartDate"
+                  ng-model="newSubscription.startDate"
                   type="date"
                   class="form-control form-control-custom"
                   required
                   ng-keypress="moveToNextField($event, 2)"
-                  name="renewalDate"
+                  name="startDate"
+                  ng-change="validateDateRange()"
                 />
               </div>
 
+              <div class="col-md-6 mb-3">
+                <label for="subEndDate" class="form-label fw-semibold">
+                  <i class="bi bi-calendar-x me-1"></i>End Date
+                </label>
+                <input
+                  id="subEndDate"
+                  ng-model="newSubscription.endDate"
+                  type="date"
+                  class="form-control form-control-custom"
+                  required
+                  ng-keypress="moveToNextField($event, 3)"
+                  name="endDate"
+                  ng-change="validateDateRange()"
+                />
+                <div
+                  ng-if="dateRangeError"
+                  class="text-danger mt-1"
+                  style="font-size: 0.8rem"
+                >
+                  {{ dateRangeError }}
+                </div>
+                <div class="form-text">
+                  <i class="bi bi-info-circle me-1"></i>
+                  This will be your renewal date
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="subProvider" class="form-label fw-semibold">
                   <i class="bi bi-building me-1"></i>Provider
@@ -194,13 +230,11 @@
                   class="form-control form-control-custom"
                   placeholder="e.g., Netflix Inc."
                   required
-                  ng-keypress="moveToNextField($event, 3)"
+                  ng-keypress="moveToNextField($event, 4)"
                   name="provider"
                 />
               </div>
-            </div>
 
-            <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="subStatus" class="form-label fw-semibold">
                   <i class="bi bi-info-circle me-1"></i>Status
@@ -210,7 +244,7 @@
                   ng-model="newSubscription.status"
                   class="form-select form-control-custom"
                   required
-                  ng-keypress="moveToNextField($event, 4)"
+                  ng-keypress="moveToNextField($event, 5)"
                   name="status"
                 >
                   <option value="">Select Status</option>
@@ -219,8 +253,10 @@
                   <option value="canceled">Canceled</option>
                 </select>
               </div>
+            </div>
 
-              <div class="col-md-6 mb-3">
+            <div class="row">
+              <div class="col-md-12 mb-3">
                 <label for="subCancel" class="form-label fw-semibold">
                   <i class="bi bi-list me-1"></i>Cancellation Steps (Optional)
                 </label>
@@ -230,10 +266,23 @@
                   class="form-control form-control-custom"
                   placeholder="How to cancel this subscription..."
                   rows="3"
-                  ng-keypress="moveToNextField($event, 5)"
+                  ng-keypress="moveToNextField($event, 6)"
                   name="cancellationSteps"
                 ></textarea>
               </div>
+            </div>
+
+            <!-- Subscription Duration Info -->
+            <div
+              ng-if="newSubscription.startDate && newSubscription.endDate && !dateRangeError"
+              class="alert alert-info mb-3"
+            >
+              <i class="bi bi-info-circle me-2"></i>
+              <strong>Duration:</strong> {{ getSubscriptionDuration() }} months
+              <span class="ms-3">
+                <strong>Monthly Cost:</strong> ₹{{ (newSubscription.cost /
+                getSubscriptionDuration()) | number:2 }}
+              </span>
             </div>
 
             <div class="row">
@@ -241,7 +290,7 @@
                 <button
                   type="submit"
                   class="btn btn-gradient-primary btn-lg w-100 mb-2"
-                  ng-disabled="subscriptionForm.$invalid || isSubmitting"
+                  ng-disabled="subscriptionForm.$invalid || isSubmitting || dateRangeError"
                 >
                   <span
                     ng-if="isSubmitting"
@@ -289,6 +338,77 @@
             <i class="bi bi-chat-dots me-2"></i>
             Send SMS Reminder
           </h4>
+          <!-- SMS Status Indicator -->
+          <div class="mt-2">
+            <button
+              type="button"
+              ng-click="checkSMSStatus()"
+              class="btn btn-sm btn-outline-info"
+              ng-disabled="isCheckingStatus"
+            >
+              <span
+                ng-if="isCheckingStatus"
+                class="spinner-border spinner-border-sm me-1"
+              ></span>
+              <i class="bi bi-info-circle me-1" ng-if="!isCheckingStatus"></i>
+              {{ isCheckingStatus ? 'Checking...' : 'Check SMS Status' }}
+            </button>
+
+            <!-- SMS Status Display -->
+            <div
+              ng-if="smsStatus"
+              class="mt-2 p-2 rounded"
+              ng-class="smsStatus.enabled && smsStatus.twilioConfigured ? 'bg-light-success' : 'bg-light-warning'"
+            >
+              <small class="fw-semibold">SMS Configuration:</small>
+              <div class="row mt-1" style="font-size: 0.8rem">
+                <div class="col-md-3">
+                  <i
+                    class="bi"
+                    ng-class="smsStatus.enabled ? 'bi-check-circle text-success' : 'bi-x-circle text-danger'"
+                  ></i>
+                  Enabled: {{ smsStatus.enabled ? 'Yes' : 'No' }}
+                </div>
+                <div class="col-md-3">
+                  <i
+                    class="bi"
+                    ng-class="smsStatus.twilioConfigured ? 'bi-check-circle text-success' : 'bi-x-circle text-danger'"
+                  ></i>
+                  Twilio: {{ smsStatus.twilioConfigured ? 'OK' : 'Not Set' }}
+                </div>
+                <div class="col-md-3">
+                  <i
+                    class="bi"
+                    ng-class="smsStatus.phoneNumberSet ? 'bi-check-circle text-success' : 'bi-x-circle text-danger'"
+                  ></i>
+                  Phone: {{ smsStatus.phoneNumberSet ? 'Set' : 'Missing' }}
+                </div>
+                <div class="col-md-3">
+                  <span class="badge" ng-class="getSMSScheduleBadgeClass()">
+                    {{ smsStatus.schedule | uppercase }}
+                  </span>
+                </div>
+              </div>
+              <div
+                ng-if="smsStatus.currentReminders"
+                class="mt-1"
+                style="font-size: 0.8rem"
+              >
+                <strong>Current Reminders:</strong>
+                {{ smsStatus.currentReminders.expired }} expired, {{
+                smsStatus.currentReminders.upcoming }} upcoming ({{
+                smsStatus.currentReminders.total }} total)
+              </div>
+              <div
+                ng-if="smsStatus.nextScheduledRun && smsStatus.nextScheduledRun !== 'Disabled'"
+                class="mt-1"
+                style="font-size: 0.8rem"
+              >
+                <strong>Next Run:</strong> {{ smsStatus.nextScheduledRun |
+                date:'medium' }}
+              </div>
+            </div>
+          </div>
         </div>
         <div class="card-body">
           <form ng-submit="sendSMS()" novalidate name="smsForm">
@@ -331,7 +451,7 @@
             </div>
 
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <button
                   type="submit"
                   class="btn btn-gradient-primary btn-lg w-100 mb-2"
@@ -345,7 +465,7 @@
                   {{ isSendingSMS ? 'Sending...' : 'Send SMS' }}
                 </button>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <button
                   type="button"
                   ng-click="clearSMS()"
@@ -353,6 +473,21 @@
                 >
                   <i class="bi bi-x-circle me-2"></i>
                   Clear SMS Form
+                </button>
+              </div>
+              <div class="col-md-4">
+                <button
+                  type="button"
+                  ng-click="testSMSReminders()"
+                  class="btn btn-outline-info btn-lg w-100 mb-2"
+                  ng-disabled="isTestingSMS"
+                >
+                  <span
+                    ng-if="isTestingSMS"
+                    class="spinner-border spinner-border-sm me-2"
+                  ></span>
+                  <i class="bi bi-bell me-2" ng-if="!isTestingSMS"></i>
+                  {{ isTestingSMS ? 'Testing...' : 'Test Reminders' }}
                 </button>
               </div>
             </div>
@@ -425,7 +560,8 @@
                 <tr>
                   <th><i class="bi bi-tag me-1"></i>Name</th>
                   <th><i class="bi bi-currency-rupee me-1"></i>Cost</th>
-                  <th><i class="bi bi-calendar me-1"></i>Renewal Date</th>
+                  <th><i class="bi bi-calendar-plus me-1"></i>Start Date</th>
+                  <th><i class="bi bi-calendar-x me-1"></i>End Date</th>
                   <th><i class="bi bi-building me-1"></i>Provider</th>
                   <th><i class="bi bi-info-circle me-1"></i>Status</th>
                   <th><i class="bi bi-gear me-1"></i>Actions</th>
@@ -439,10 +575,15 @@
                   <td class="fw-semibold">{{ subscription.name }}</td>
                   <td class="currency">₹{{ subscription.cost | number:2 }}</td>
                   <td>
+                    <small class="text-muted">
+                      {{ subscription.startDate | date:'dd/MM/yyyy' }}
+                    </small>
+                  </td>
+                  <td>
                     <span
                       ng-class="{'text-warning': isRenewalSoon(subscription), 'text-danger': isRenewalOverdue(subscription)}"
                     >
-                      {{ subscription.renewalDate | date:'mediumDate' }}
+                      {{ subscription.endDate | date:'dd/MM/yyyy' }}
                     </span>
                     <br />
                     <small class="text-muted"
@@ -481,7 +622,7 @@
                   </td>
                 </tr>
                 <tr ng-if="getFilteredSubscriptions().length === 0">
-                  <td colspan="6" class="text-center py-5 text-muted">
+                  <td colspan="7" class="text-center py-5 text-muted">
                     <i class="bi bi-inbox" style="font-size: 3rem"></i>
                     <div class="mt-2">
                       <strong>No subscriptions found</strong>
@@ -504,7 +645,7 @@
         <div class="card-header bg-transparent">
           <h4 class="mb-0">
             <i class="bi bi-bar-chart me-2"></i>
-            Monthly Cost Overview
+            Subscription Costs by End Date
           </h4>
         </div>
         <div class="card-body">
@@ -514,7 +655,7 @@
           <div class="mt-3 text-center">
             <small class="text-muted">
               <i class="bi bi-info-circle me-1"></i>
-              Shows total monthly costs for active subscriptions throughout 2025
+              Shows total subscription costs grouped by their end/renewal month
             </small>
           </div>
         </div>
@@ -568,9 +709,13 @@
             $scope.smsError = "";
             $scope.subscriptionError = "";
             $scope.subscriptionSuccess = "";
+            $scope.dateRangeError = "";
             $scope.isLoading = false;
             $scope.isSubmitting = false;
             $scope.isSendingSMS = false;
+            $scope.isTestingSMS = false;
+            $scope.isCheckingStatus = false;
+            $scope.smsStatus = null;
             $scope.showDebug = localStorage.getItem("debugMode") === "true";
 
             let token = localStorage.getItem("token");
@@ -587,6 +732,26 @@
               return;
             }
 
+            // Get display name from localStorage or decode from token
+            $scope.getDisplayName = function () {
+              const displayName = localStorage.getItem("displayName");
+              if (displayName) {
+                return displayName;
+              }
+
+              // Fallback: get from token and capitalize
+              try {
+                const payload = JSON.parse(atob(token.split(".")[1]));
+                const username = payload.user || "User";
+                return (
+                  username.charAt(0).toUpperCase() +
+                  username.slice(1).toLowerCase()
+                );
+              } catch (e) {
+                return "User";
+              }
+            };
+
             // Get current user from token
             $scope.getCurrentUser = function () {
               try {
@@ -595,6 +760,46 @@
               } catch (e) {
                 return "User";
               }
+            };
+
+            // Validate date range
+            $scope.validateDateRange = function () {
+              $scope.dateRangeError = "";
+
+              if (
+                $scope.newSubscription.startDate &&
+                $scope.newSubscription.endDate
+              ) {
+                const startDate = new Date($scope.newSubscription.startDate);
+                const endDate = new Date($scope.newSubscription.endDate);
+
+                if (startDate >= endDate) {
+                  $scope.dateRangeError = "End date must be after start date";
+                } else if (
+                  startDate.getFullYear() !== 2025 ||
+                  endDate.getFullYear() !== 2025
+                ) {
+                  $scope.dateRangeError = "Both dates must be in year 2025";
+                }
+              }
+            };
+
+            // Get subscription duration in months
+            $scope.getSubscriptionDuration = function () {
+              if (
+                $scope.newSubscription.startDate &&
+                $scope.newSubscription.endDate
+              ) {
+                const startDate = new Date($scope.newSubscription.startDate);
+                const endDate = new Date($scope.newSubscription.endDate);
+
+                const months =
+                  (endDate.getFullYear() - startDate.getFullYear()) * 12 +
+                  (endDate.getMonth() - startDate.getMonth()) +
+                  1;
+                return Math.max(1, months);
+              }
+              return 1;
             };
 
             // Load subscriptions on init
@@ -631,6 +836,8 @@
             $scope.logout = function () {
               logger.info("User logout initiated");
               localStorage.removeItem("token");
+              localStorage.removeItem("currentUser");
+              localStorage.removeItem("displayName");
               $scope.subscriptions = [];
               $scope.newSubscription = {};
               $scope.searchText = "";
@@ -653,7 +860,8 @@
               const requiredFields = [
                 $scope.newSubscription.name,
                 $scope.newSubscription.cost,
-                $scope.newSubscription.renewalDate,
+                $scope.newSubscription.startDate,
+                $scope.newSubscription.endDate,
                 $scope.newSubscription.provider,
                 $scope.newSubscription.status,
               ];
@@ -667,16 +875,36 @@
                 return;
               }
 
-              // Validate renewal year
-              const renewalDate = new Date($scope.newSubscription.renewalDate);
-              if (renewalDate.getFullYear() !== 2025) {
-                $scope.subscriptionError = "Renewal year must be 2025!";
+              // Validate date range
+              $scope.validateDateRange();
+              if ($scope.dateRangeError) {
+                $scope.subscriptionError = $scope.dateRangeError;
+                $scope.isSubmitting = false;
+                logger.logFormValidation("subscription-form", false, [
+                  "invalid-date-range",
+                ]);
+                return;
+              }
+
+              // Validate all dates are in 2025
+              const startDate = new Date($scope.newSubscription.startDate);
+              const endDate = new Date($scope.newSubscription.endDate);
+
+              if (
+                startDate.getFullYear() !== 2025 ||
+                endDate.getFullYear() !== 2025
+              ) {
+                $scope.subscriptionError = "All dates must be in year 2025!";
                 $scope.isSubmitting = false;
                 logger.logFormValidation("subscription-form", false, [
                   "invalid-year",
                 ]);
                 return;
               }
+
+              // Set renewal date to end date (since end date is the renewal date)
+              $scope.newSubscription.renewalDate =
+                $scope.newSubscription.endDate;
 
               logger.logFormValidation("subscription-form", true);
 
@@ -709,6 +937,7 @@
                     : "Subscription added successfully!";
 
                   $scope.newSubscription = {};
+                  $scope.dateRangeError = "";
                   $scope.isSubmitting = false;
 
                   // Clear success message after 3 seconds
@@ -739,14 +968,24 @@
               });
               $scope.newSubscription = angular.copy(subscription);
 
-              // Format date for input
-              if ($scope.newSubscription.renewalDate) {
-                $scope.newSubscription.renewalDate = new Date(
-                  $scope.newSubscription.renewalDate
+              // Format dates for input
+              if ($scope.newSubscription.startDate) {
+                $scope.newSubscription.startDate = new Date(
+                  $scope.newSubscription.startDate
                 )
                   .toISOString()
                   .split("T")[0];
               }
+              if ($scope.newSubscription.endDate) {
+                $scope.newSubscription.endDate = new Date(
+                  $scope.newSubscription.endDate
+                )
+                  .toISOString()
+                  .split("T")[0];
+              }
+
+              // Clear any existing errors
+              $scope.dateRangeError = "";
 
               // Scroll to form
               $scope.scrollToElement("subName");
@@ -794,6 +1033,7 @@
             $scope.clearOrCancel = function () {
               logger.logUserAction("clear-or-cancel-form");
               $scope.newSubscription = {};
+              $scope.dateRangeError = "";
               $scope.subscriptionError = "";
               $scope.subscriptionSuccess = "";
             };
@@ -804,6 +1044,74 @@
               $scope.smsData = {};
               $scope.smsError = "";
               $scope.smsMessage = "";
+            };
+
+            // Test SMS reminders
+            $scope.testSMSReminders = function () {
+              logger.info("Testing SMS reminders");
+
+              $scope.isTestingSMS = true;
+              $scope.smsError = "";
+              $scope.smsMessage = "";
+
+              const startTime = Date.now();
+              $http({
+                method: "POST",
+                url: "/api/test-sms-reminders",
+                headers: { Authorization: "Bearer " + token },
+              }).then(
+                function (response) {
+                  const duration = Date.now() - startTime;
+                  logger.logRequest(
+                    "POST",
+                    "/api/test-sms-reminders",
+                    200,
+                    duration
+                  );
+                  logger.info("SMS reminders test completed", response.data);
+
+                  const results = response.data.results;
+                  const summary = response.data.summary;
+
+                  let message = `SMS Test Complete! `;
+                  message += `Sent ${summary.expiredReminders} expired reminders, `;
+                  message += `${summary.upcomingReminders} upcoming reminders. `;
+
+                  if (summary.errors > 0) {
+                    message += `${summary.errors} errors occurred.`;
+                    $scope.smsError = message;
+                  } else {
+                    $scope.smsMessage = message;
+                  }
+
+                  $scope.isTestingSMS = false;
+
+                  $timeout(() => {
+                    $scope.smsMessage = "";
+                    $scope.smsError = "";
+                  }, 10000); // Show results for 10 seconds
+                },
+                function (error) {
+                  const duration = Date.now() - startTime;
+                  logger.logRequest(
+                    "POST",
+                    "/api/test-sms-reminders",
+                    error.status,
+                    duration
+                  );
+                  logger.error("SMS reminders test failed", {
+                    error: error.data,
+                  });
+
+                  $scope.smsError =
+                    error.data?.message || "SMS reminders test failed";
+                  $scope.isTestingSMS = false;
+
+                  $timeout(() => {
+                    $scope.smsError = "";
+                  }, 5000);
+                }
+              );
             };
 
             // Send SMS
@@ -868,7 +1176,8 @@
                   formFields = [
                     "subName",
                     "subCost",
-                    "subRenewal",
+                    "subStartDate",
+                    "subEndDate",
                     "subProvider",
                     "subStatus",
                     "subCancel",
@@ -908,11 +1217,11 @@
               nextWeek.setDate(today.getDate() + 7);
 
               return $scope.subscriptions.filter((sub) => {
-                const renewalDate = new Date(sub.renewalDate);
+                const endDate = new Date(sub.endDate);
                 return (
                   sub.status === "active" &&
-                  renewalDate >= today &&
-                  renewalDate <= nextWeek
+                  endDate >= today &&
+                  endDate <= nextWeek
                 );
               });
             };
@@ -960,24 +1269,24 @@
 
             $scope.isRenewalSoon = function (subscription) {
               const today = new Date();
-              const renewalDate = new Date(subscription.renewalDate);
+              const endDate = new Date(subscription.endDate);
               const daysDiff = Math.ceil(
-                (renewalDate - today) / (1000 * 60 * 60 * 24)
+                (endDate - today) / (1000 * 60 * 60 * 24)
               );
               return daysDiff <= 7 && daysDiff > 0;
             };
 
             $scope.isRenewalOverdue = function (subscription) {
               const today = new Date();
-              const renewalDate = new Date(subscription.renewalDate);
-              return renewalDate < today && subscription.status === "active";
+              const endDate = new Date(subscription.endDate);
+              return endDate < today && subscription.status === "active";
             };
 
             $scope.getRenewalStatus = function (subscription) {
               const today = new Date();
-              const renewalDate = new Date(subscription.renewalDate);
+              const endDate = new Date(subscription.endDate);
               const daysDiff = Math.ceil(
-                (renewalDate - today) / (1000 * 60 * 60 * 24)
+                (endDate - today) / (1000 * 60 * 60 * 24)
               );
 
               if (daysDiff < 0) return "Overdue";
@@ -987,13 +1296,18 @@
               return `${Math.ceil(daysDiff / 7)} weeks`;
             };
 
-            // Chart functions
+            // Enhanced Chart functions - show subscription cost in end month
             $scope.updateChart = function () {
               const monthlyCosts = new Array(12).fill(0);
 
               $scope.getActiveSubscriptions().forEach((sub) => {
-                const month = new Date(sub.renewalDate).getMonth();
-                monthlyCosts[month] += sub.cost || 0;
+                const endDate = new Date(sub.endDate);
+                const cost = sub.cost || 0;
+
+                // Add the full subscription cost to the end month only
+                if (endDate.getFullYear() === 2025) {
+                  monthlyCosts[endDate.getMonth()] += cost;
+                }
               });
 
               const ctx = document.getElementById("costChart").getContext("2d");
@@ -1018,7 +1332,7 @@
                   ],
                   datasets: [
                     {
-                      label: "Monthly Costs (₹)",
+                      label: "Subscription Costs (₹)",
                       data: monthlyCosts,
                       backgroundColor: "rgba(102, 126, 234, 0.8)",
                       borderColor: "rgba(102, 126, 234, 1)",
@@ -1034,6 +1348,13 @@
                   plugins: {
                     legend: {
                       display: false,
+                    },
+                    tooltip: {
+                      callbacks: {
+                        label: function (context) {
+                          return `Total Cost: ₹${context.parsed.y.toLocaleString()}`;
+                        },
+                      },
                     },
                   },
                   scales: {
@@ -1083,6 +1404,11 @@
 
             // Initialize app
             $scope.loadSubscriptions();
+
+            // Auto-check SMS status on load
+            $timeout(() => {
+              $scope.checkSMSStatus();
+            }, 1000);
 
             // Log when user leaves the page
             window.addEventListener("beforeunload", function () {

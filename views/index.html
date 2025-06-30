@@ -87,12 +87,12 @@
             <label for="password" class="form-label fw-semibold">
               <i class="bi bi-lock me-2"></i>Password
             </label>
-            <div class="position-relative">
+            <div class="password-input-container">
               <input
                 id="password"
                 ng-model="credentials.password"
                 type="{{ showPassword ? 'text' : 'password' }}"
-                class="form-control form-control-custom pe-5"
+                class="form-control form-control-custom password-input-field"
                 placeholder="Enter your password"
                 required
                 minlength="6"
@@ -102,7 +102,7 @@
               />
               <button
                 type="button"
-                class="btn password-toggle-btn position-absolute end-0 top-50 translate-middle-y"
+                class="password-toggle-btn"
                 ng-click="togglePasswordVisibility()"
                 tabindex="-1"
                 title="Toggle password visibility"
