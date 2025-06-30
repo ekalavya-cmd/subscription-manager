@@ -99,9 +99,13 @@ async function migrateUsers() {
 
     const User = mongoose.model("User", userSchema);
 
-    // Find all users without normalized username
+    // Find all users without normalized username OR where it's null/undefined
     const usersToUpdate = await User.find({
-      usernameNormalized: { $exists: false },
+      $or: [
+        { usernameNormalized: { $exists: false } },
+        { usernameNormalized: null },
+        { usernameNormalized: "" },
+      ],
     });
 
     console.log(`Found ${usersToUpdate.length} users to update`);
@@ -109,17 +113,23 @@ async function migrateUsers() {
     let userUpdatedCount = 0;
 
     for (const user of usersToUpdate) {
-      await User.updateOne(
-        { _id: user._id },
-        {
-          $set: {
-            usernameNormalized: user.username.toLowerCase(),
-          },
-        }
-      );
+      try {
+        await User.updateOne(
+          { _id: user._id },
+          {
+            $set: {
+              usernameNormalized: user.username.toLowerCase(),
+            },
+          }
+        );
 
-      userUpdatedCount++;
-      console.log(`Updated user: ${user.username} (${user._id})`);
+        userUpdatedCount++;
+        console.log(`Updated user: ${user.username} (${user._id})`);
+      } catch (updateError) {
+        console.error(
+          `Failed to update user ${user.username}: ${updateError.message}`
+        );
+      }
     }
 
     console.log(`User migration completed! Updated ${userUpdatedCount} users.`);

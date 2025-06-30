@@ -46,3 +46,58 @@
 [2025-06-30T12:14:46.857Z] Authentication failed: jwt expired
 [2025-06-30T12:15:17.162Z] Authentication failed: jwt expired
 [2025-06-30T12:16:47.171Z] Authentication failed: jwt expired
+[2025-06-30T13:00:10.628Z] Login failed: User asdasda not found
+[2025-06-30T13:14:21.494Z] Login failed: User asdad not found
+[2025-06-30T13:14:28.099Z] Login failed: User adasd not found
+[2025-06-30T13:14:33.561Z] Login failed: User adasda not found
+[2025-06-30T13:14:36.944Z] Login failed: User adasda not found
+[2025-06-30T13:14:39.909Z] Login failed: User asdsadasda not found
+[2025-06-30T13:14:43.093Z] Login failed: User asdasdasda not found
+[2025-06-30T13:14:46.940Z] Login failed: User asdasdaadsd not found
+[2025-06-30T13:14:55.405Z] Login failed: User asdasdaadsd not found
+[2025-06-30T13:14:57.984Z] Login failed: User asdasdadsdd not found
+[2025-06-30T13:15:00.171Z] Login failed: User asdsadasd not found
+[2025-06-30T13:15:02.674Z] Login failed: User adassadas not found
+[2025-06-30T13:16:23.416Z] Login failed: User ssdsadasdsd not found
+[2025-06-30T13:23:34.209Z] Login failed: User aSasaAs not found
+[2025-06-30T13:23:40.702Z] Login failed: User aSasaAs not found
+[2025-06-30T13:27:06.566Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T13:27:37.183Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T13:27:37.189Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] TypeError: $scope.checkSMSStatus is not a function
+[2025-06-30T13:27:37.191Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] TypeError: $scope.checkSMSStatus is not a function Possibly unhandled rejection: {}
+[2025-06-30T13:41:36.841Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-29
+[2025-06-30T13:41:36.843Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-29
+[2025-06-30T14:55:06.145Z] Authentication failed: jwt expired
+[2025-06-30T14:55:36.304Z] Authentication failed: jwt expired
+[2025-06-30T14:55:53.893Z] Authentication failed: jwt expired
+[2025-06-30T14:56:45.766Z] Registration error: User validation failed: usernameNormalized: Path `usernameNormalized` is required.
+[2025-06-30T14:56:51.337Z] Registration error: User validation failed: usernameNormalized: Path `usernameNormalized` is required.
+[2025-06-30T15:10:29.765Z] Registration error: User validation failed: usernameNormalized: Path `usernameNormalized` is required.
+[2025-06-30T15:15:01.698Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T15:16:39.482Z] Login failed: User sada not found
+[2025-06-30T15:16:41.632Z] Login failed: User sada not found
+[2025-06-30T15:16:46.649Z] Login failed: User sada not found
+[2025-06-30T15:17:01.791Z] Login failed: User sada not found
+[2025-06-30T15:19:43.623Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:19:43.631Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.634Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.639Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.642Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:20:14.170Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:20:14.171Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:20:49.171Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:20:49.172Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:34:51.426Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:34:54.470Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:34:54.471Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:35:25.181Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:35:25.184Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:38:48.313Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T15:39:05.610Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T15:39:06.953Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:39:06.957Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:39:06.963Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:39:37.013Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:39:37.014Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:48:09.550Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:48:34.273Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected

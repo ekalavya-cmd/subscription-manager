@@ -22,33 +22,29 @@
     <link href="/css/custom.css" rel="stylesheet" />
   </head>
   <body class="auth-container">
-    <div ng-controller="LoginController" class="auth-card card custom-card p-4">
-      <div class="card-body">
-        <!-- Error Message (Top) -->
-        <div
-          ng-if="error"
-          class="alert alert-custom-danger mb-4 fade-in"
-          role="alert"
-        >
-          <i class="bi bi-exclamation-triangle me-2"></i>
-          {{ error }}
-        </div>
-
+    <div ng-controller="LoginController" class="auth-card card custom-card p-3">
+      <div class="card-body p-2">
         <!-- Header -->
-        <div class="text-center mb-4">
+        <div class="text-center mb-3">
           <i
             class="bi bi-person-circle text-primary"
-            style="font-size: 3rem"
+            style="font-size: 2.5rem"
           ></i>
-          <h2 class="mt-2 fw-bold text-dark">Welcome Back</h2>
-          <p class="text-muted">Sign in to your account</p>
+          <h3 class="mt-2 fw-bold text-dark mb-1">Welcome Back</h3>
+          <p class="text-muted mb-0" style="font-size: 0.9rem">
+            Sign in to your account
+          </p>
         </div>
 
         <!-- Login Form -->
-        <form ng-submit="login()" novalidate>
-          <div class="mb-3">
-            <label for="username" class="form-label fw-semibold">
-              <i class="bi bi-person me-2"></i>Username
+        <form ng-submit="login()" novalidate name="loginForm">
+          <div class="mb-2">
+            <label
+              for="username"
+              class="form-label fw-semibold"
+              style="font-size: 0.9rem"
+            >
+              <i class="bi bi-person me-1"></i>Username
             </label>
             <input
               id="username"
@@ -61,31 +57,28 @@
               maxlength="20"
               pattern="^[a-zA-Z0-9_]+$"
               ng-keypress="moveToNextField($event, 'password')"
-              ng-class="{'is-invalid': showValidation && (!credentials.username || credentials.username.length < 3 || !isValidUsername(credentials.username))}"
+              ng-class="{'is-invalid': usernameError}"
               autocomplete="username"
+              name="username"
+              ng-blur="validateUsername()"
+              style="padding: 0.5rem"
             />
             <div
-              ng-if="showValidation && credentials.username"
-              class="invalid-feedback"
+              ng-if="usernameError"
+              class="text-danger mt-1"
+              style="font-size: 0.8rem"
             >
-              <span ng-if="credentials.username.length < 3"
-                >Username must be at least 3 characters long</span
-              >
-              <span
-                ng-if="credentials.username.length >= 3 && !isValidUsername(credentials.username)"
-                >Username can only contain letters, numbers, and
-                underscores</span
-              >
-            </div>
-            <div class="form-text">
-              <i class="bi bi-info-circle me-1"></i>
-              Use only letters, numbers, and underscores (3-20 characters)
+              {{ usernameError }}
             </div>
           </div>
 
-          <div class="mb-4">
-            <label for="password" class="form-label fw-semibold">
-              <i class="bi bi-lock me-2"></i>Password
+          <div class="mb-3">
+            <label
+              for="password"
+              class="form-label fw-semibold"
+              style="font-size: 0.9rem"
+            >
+              <i class="bi bi-lock me-1"></i>Password
             </label>
             <div class="password-input-container">
               <input
@@ -97,8 +90,11 @@
                 required
                 minlength="6"
                 ng-keypress="moveToNextField($event, 'submit')"
-                ng-class="{'is-invalid': showValidation && (!credentials.password || credentials.password.length < 6)}"
+                ng-class="{'is-invalid': passwordError}"
                 autocomplete="current-password"
+                name="password"
+                ng-blur="validatePassword()"
+                style="padding: 0.5rem"
               />
               <button
                 type="button"
@@ -110,24 +106,25 @@
                 <i
                   class="bi"
                   ng-class="showPassword ? 'bi-eye-slash' : 'bi-eye'"
+                  style="font-size: 0.9rem"
                 ></i>
               </button>
             </div>
             <div
-              ng-if="showValidation && credentials.password"
-              class="invalid-feedback d-block"
+              ng-if="passwordError"
+              class="text-danger mt-1"
+              style="font-size: 0.8rem"
             >
-              <span ng-if="credentials.password.length < 6"
-                >Password must be at least 6 characters long</span
-              >
+              {{ passwordError }}
             </div>
           </div>
 
-          <div class="d-grid mb-3">
+          <div class="d-grid mb-2">
             <button
               type="submit"
-              class="btn btn-gradient-primary btn-lg"
-              ng-disabled="!credentials.username || !credentials.password || isLoading"
+              class="btn btn-gradient-primary"
+              ng-disabled="isLoading"
+              style="padding: 0.6rem"
             >
               <span
                 ng-if="isLoading"
@@ -138,13 +135,32 @@
               {{ isLoading ? 'Signing In...' : 'Sign In' }}
             </button>
           </div>
+
+          <!-- Success/Error Message -->
+          <div
+            ng-if="success"
+            class="alert mt-2 mb-2 fade-in py-2"
+            ng-class="success.includes('Invalid') || success.includes('failed') || success.includes('error') || success.includes('attempts') ? 'alert-custom-danger' : 'alert-custom-success'"
+            role="alert"
+            style="font-size: 0.9rem"
+          >
+            <i
+              class="bi me-2"
+              ng-class="success.includes('Invalid') || success.includes('failed') || success.includes('error') || success.includes('attempts') ? 'bi-exclamation-triangle' : 'bi-check-circle'"
+            ></i>
+            {{ success }}
+          </div>
         </form>
 
-        <!-- Register Link -->
-        <div class="text-center">
-          <p class="mb-0 text-muted">
+        <!-- Register Link with Faster Transition -->
+        <div class="text-center mb-2">
+          <p class="mb-0 text-muted" style="font-size: 0.9rem">
             Don't have an account?
-            <a href="/register" class="text-decoration-none fw-semibold">
+            <a
+              href="/register"
+              class="text-decoration-none fw-semibold auth-link"
+              ng-click="navigateToRegister($event)"
+            >
               Create one here
             </a>
           </p>

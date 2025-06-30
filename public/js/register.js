@@ -1,10 +1,10 @@
 // Registration functionality for Subscription Manager
-// Separated from register.html for better code organization
+// Enhanced with smooth navigation transitions
 
 (function () {
   "use strict";
 
-  // Create the registration application module
+  // Create the register application module
   angular
     .module("registerApp", [])
     .controller("RegisterController", [
@@ -18,12 +18,11 @@
   function RegisterController($scope, $http, $window, $timeout) {
     // Initialize scope variables
     $scope.credentials = {};
-    $scope.error = "";
-    $scope.success = "";
     $scope.usernameError = "";
     $scope.passwordError = "";
     $scope.confirmPasswordError = "";
     $scope.termsError = "";
+    $scope.success = "";
     $scope.isLoading = false;
     $scope.showDebug = localStorage.getItem("debugMode") === "true";
     $scope.showPassword = false;
@@ -37,7 +36,7 @@
     init();
 
     /**
-     * Initialize the registration controller
+     * Initialize the register controller
      */
     function init() {
       // Focus first input when page loads
@@ -68,33 +67,52 @@
      */
     function setupEventListeners() {
       $timeout(function () {
-        const inputs = ["username", "password", "confirmPassword"];
-        inputs.forEach(function (inputId) {
-          const input = document.getElementById(inputId);
-          if (input) {
-            input.addEventListener("blur", function () {
-              logger.logUserAction(`${inputId}-input-blur`, this, {
-                hasValue: !!this.value,
-                isValid: this.checkValidity(),
-              });
-            });
+        const usernameInput = document.getElementById("username");
+        const passwordInput = document.getElementById("password");
+        const confirmPasswordInput = document.getElementById("confirmPassword");
 
-            input.addEventListener("input", function () {
-              if (inputId === "password") {
-                logger.debug("Password strength calculated", {
-                  strength: $scope.getPasswordStrength(),
-                });
-              }
+        if (usernameInput) {
+          usernameInput.addEventListener("blur", function () {
+            logger.logUserAction("username-input-blur", this, {
+              hasValue: !!this.value,
+              isValid: $scope.isValidUsername(this.value),
             });
-          }
-        });
+          });
 
-        // Log terms checkbox interaction
-        const termsCheckbox = document.getElementById("agreeTerms");
-        if (termsCheckbox) {
-          termsCheckbox.addEventListener("change", function () {
-            logger.logUserAction("terms-checkbox-changed", this, {
-              checked: this.checked,
+          usernameInput.addEventListener("input", function () {
+            $scope.$apply(function () {
+              $scope.validateUsername();
+            });
+          });
+        }
+
+        if (passwordInput) {
+          passwordInput.addEventListener("blur", function () {
+            logger.logUserAction("password-input-blur", this, {
+              hasValue: !!this.value,
+              length: this.value ? this.value.length : 0,
+            });
+          });
+
+          passwordInput.addEventListener("input", function () {
+            $scope.$apply(function () {
+              $scope.validatePassword();
+              $scope.validateConfirmPassword(); // Re-validate confirm password when password changes
+            });
+          });
+        }
+
+        if (confirmPasswordInput) {
+          confirmPasswordInput.addEventListener("blur", function () {
+            logger.logUserAction("confirm-password-input-blur", this, {
+              hasValue: !!this.value,
+              matches: this.value === $scope.credentials.password,
+            });
+          });
+
+          confirmPasswordInput.addEventListener("input", function () {
+            $scope.$apply(function () {
+              $scope.validateConfirmPassword();
             });
           });
         }
@@ -108,13 +126,6 @@
             $scope.showDebug = !$scope.showDebug;
             localStorage.setItem("debugMode", $scope.showDebug.toString());
             logger.info("Debug mode toggled", { enabled: $scope.showDebug });
-          });
-        }
-
-        // Handle form reset on Escape key
-        if (event.key === "Escape" && !$scope.isLoading) {
-          $scope.$apply(function () {
-            $scope.clearForm();
           });
         }
       });
@@ -131,11 +142,168 @@
         const pageLoadTime = timing.loadEventEnd - timing.navigationStart;
         const domContentLoadedTime =
           timing.domContentLoadedEventEnd - timing.navigationStart;
+        const firstPaintTime =
+          performance
+            .getEntriesByType("paint")
+            .find((entry) => entry.name === "first-contentful-paint")
+            ?.startTime || 0;
 
         logger.info(
-          `Performance metrics - Page load: ${pageLoadTime}ms, DOM ready: ${domContentLoadedTime}ms`
+          `Performance metrics - Page load: ${pageLoadTime}ms, DOM ready: ${domContentLoadedTime}ms, First paint: ${Math.round(
+            firstPaintTime
+          )}ms`
         );
       }
+    }
+
+    /**
+     * Validate username format and requirements
+     * @param {string} username - The username to validate
+     * @returns {boolean} - True if username is valid
+     */
+    $scope.isValidUsername = function (username) {
+      if (!username) return false;
+      // Only allow letters, numbers, and underscores
+      const usernameRegex = /^[a-zA-Z0-9_]+$/;
+      return (
+        usernameRegex.test(username) &&
+        username.length >= 3 &&
+        username.length <= 20
+      );
+    };
+
+    /**
+     * Validate username field
+     */
+    $scope.validateUsername = function () {
+      $scope.usernameError = "";
+
+      if (!$scope.credentials.username) {
+        return; // Don't show error for empty field during typing
+      }
+
+      if ($scope.credentials.username.length < 3) {
+        $scope.usernameError = "Username must be at least 3 characters";
+      } else if ($scope.credentials.username.length > 20) {
+        $scope.usernameError = "Username cannot exceed 20 characters";
+      } else if (!$scope.isValidUsername($scope.credentials.username)) {
+        $scope.usernameError =
+          "Username can only contain letters, numbers, and underscores";
+      }
+    };
+
+    /**
+     * Validate password field
+     */
+    $scope.validatePassword = function () {
+      $scope.passwordError = "";
+
+      if (!$scope.credentials.password) {
+        return; // Don't show error for empty field during typing
+      }
+
+      if ($scope.credentials.password.length < 6) {
+        $scope.passwordError = "Password must be at least 6 characters";
+      } else if ($scope.credentials.password.length > 128) {
+        $scope.passwordError = "Password is too long";
+      } else if (!/(?=.*[a-zA-Z])/.test($scope.credentials.password)) {
+        $scope.passwordError = "Password must contain at least one letter";
+      }
+    };
+
+    /**
+     * Validate confirm password field
+     */
+    $scope.validateConfirmPassword = function () {
+      $scope.confirmPasswordError = "";
+
+      if (!$scope.credentials.confirmPassword) {
+        return; // Don't show error for empty field during typing
+      }
+
+      if ($scope.credentials.confirmPassword !== $scope.credentials.password) {
+        $scope.confirmPasswordError = "Passwords do not match";
+      }
+    };
+
+    /**
+     * Validate terms and conditions
+     */
+    $scope.validateTerms = function () {
+      $scope.termsError = "";
+
+      if (!$scope.credentials.agreeTerms) {
+        $scope.termsError = "You must agree to the terms and conditions";
+      }
+    };
+
+    /**
+     * Get password strength class for progress bar
+     */
+    $scope.getPasswordStrengthClass = function () {
+      const strength = calculatePasswordStrength($scope.credentials.password);
+      switch (strength) {
+        case 1:
+          return "bg-danger";
+        case 2:
+          return "bg-warning";
+        case 3:
+          return "bg-info";
+        case 4:
+          return "bg-success";
+        default:
+          return "bg-secondary";
+      }
+    };
+
+    /**
+     * Get password strength width for progress bar
+     */
+    $scope.getPasswordStrengthWidth = function () {
+      const strength = calculatePasswordStrength($scope.credentials.password);
+      return strength * 25 + "%";
+    };
+
+    /**
+     * Get password strength text
+     */
+    $scope.getPasswordStrengthText = function () {
+      const strength = calculatePasswordStrength($scope.credentials.password);
+      switch (strength) {
+        case 1:
+          return "Weak";
+        case 2:
+          return "Fair";
+        case 3:
+          return "Good";
+        case 4:
+          return "Strong";
+        default:
+          return "";
+      }
+    };
+
+    /**
+     * Calculate password strength (1-4)
+     */
+    function calculatePasswordStrength(password) {
+      if (!password) return 0;
+
+      let strength = 0;
+
+      // Length check
+      if (password.length >= 8) strength++;
+
+      // Contains lowercase
+      if (/[a-z]/.test(password)) strength++;
+
+      // Contains uppercase
+      if (/[A-Z]/.test(password)) strength++;
+
+      // Contains numbers or special characters
+      if (/[\d\W]/.test(password)) strength++;
+
+      return strength;
     }
 
     /**
@@ -182,120 +350,28 @@
           nextField: nextField,
         });
 
-        switch (nextField) {
-          case "password":
-            document.getElementById("password")?.focus();
-            break;
-          case "confirmPassword":
-            document.getElementById("confirmPassword")?.focus();
-            break;
-          case "submit":
-            if ($scope.isFormValid()) {
-              $scope.register();
-            } else {
-              // Focus on first invalid field
-              const firstInvalidField = document.querySelector(
-                ".form-control.is-invalid, .form-control:invalid"
-              );
-              if (firstInvalidField) {
-                firstInvalidField.focus();
-              }
-            }
-            break;
+        if (nextField === "password") {
+          const passwordField = document.getElementById("password");
+          if (passwordField) {
+            passwordField.focus();
+          }
+        } else if (nextField === "confirmPassword") {
+          const confirmPasswordField =
+            document.getElementById("confirmPassword");
+          if (confirmPasswordField) {
+            confirmPasswordField.focus();
+          }
+        } else if (nextField === "submit") {
+          $scope.register();
         }
       }
     };
 
     /**
-     * Check if the form is valid
-     * @returns {boolean} - True if form is valid
+     * Validate all fields for form submission
      */
-    $scope.isFormValid = function () {
-      return (
-        $scope.credentials.username &&
-        $scope.credentials.password &&
-        $scope.credentials.confirmPassword &&
-        $scope.credentials.agreeTerms &&
-        $scope.isValidUsername($scope.credentials.username) &&
-        $scope.credentials.password.length >= 6 &&
-        $scope.credentials.password === $scope.credentials.confirmPassword
-      );
-    };
-
-    /**
-     * Validate username format and requirements
-     * @param {string} username - The username to validate
-     * @returns {boolean} - True if username is valid
-     */
-    $scope.isValidUsername = function (username) {
-      if (!username) return false;
-      const usernameRegex = /^[a-zA-Z0-9_]+$/;
-      return (
-        usernameRegex.test(username) &&
-        username.length >= 3 &&
-        username.length <= 20
-      );
-    };
-
-    /**
-     * Calculate password strength
-     * @returns {number} - Password strength percentage (0-100)
-     */
-    $scope.getPasswordStrength = function () {
-      const password = $scope.credentials.password || "";
-      let strength = 0;
-
-      // Length checks
-      if (password.length >= 6) strength += 20;
-      if (password.length >= 10) strength += 20;
-
-      // Character type checks
-      if (/[a-z]/.test(password)) strength += 20;
-      if (/[A-Z]/.test(password)) strength += 20;
-      if (/[0-9]/.test(password)) strength += 10;
-      if (/[^A-Za-z0-9]/.test(password)) strength += 10;
-
-      return Math.min(strength, 100);
-    };
-
-    /**
-     * Get password strength width for progress bar
-     * @returns {string} - Width percentage
-     */
-    $scope.getPasswordStrengthWidth = function () {
-      return $scope.getPasswordStrength() + "%";
-    };
-
-    /**
-     * Get password strength CSS class
-     * @returns {string} - Bootstrap CSS class
-     */
-    $scope.getPasswordStrengthClass = function () {
-      const strength = $scope.getPasswordStrength();
-      if (strength < 30) return "bg-danger";
-      if (strength < 60) return "bg-warning";
-      if (strength < 80) return "bg-info";
-      return "bg-success";
-    };
-
-    /**
-     * Get password strength text description
-     * @returns {string} - Strength description
-     */
-    $scope.getPasswordStrengthText = function () {
-      const strength = $scope.getPasswordStrength();
-      if (!$scope.credentials.password) return "";
-      if (strength < 30) return "Weak password";
-      if (strength < 60) return "Fair password";
-      if (strength < 80) return "Good password";
-      return "Strong password";
-    };
-
-    /**
-     * Validate individual fields and set field-specific errors
-     */
-    function validateFields() {
-      // Clear all previous errors
+    function validateAllFields() {
+      // Clear previous errors
       $scope.usernameError = "";
       $scope.passwordError = "";
       $scope.confirmPasswordError = "";
@@ -313,12 +389,13 @@
       } else if ($scope.credentials.username.length > 20) {
         $scope.usernameError = "Username cannot exceed 20 characters";
         isValid = false;
-      } else if (!/^[a-zA-Z0-9_]+$/.test($scope.credentials.username)) {
-        $scope.usernameError = "Only letters, numbers, and underscores allowed";
+      } else if (!$scope.isValidUsername($scope.credentials.username)) {
+        $scope.usernameError =
+          "Username can only contain letters, numbers, and underscores";
         isValid = false;
       }
 
-      // Enhanced password validation
+      // Password validation
       if (!$scope.credentials.password) {
         $scope.passwordError = "Password is required";
         isValid = false;
@@ -326,28 +403,10 @@
         $scope.passwordError = "Password must be at least 6 characters";
         isValid = false;
       } else if ($scope.credentials.password.length > 128) {
-        $scope.passwordError = "Password is too long (max 128 characters)";
+        $scope.passwordError = "Password is too long";
         isValid = false;
       } else if (!/(?=.*[a-zA-Z])/.test($scope.credentials.password)) {
         $scope.passwordError = "Password must contain at least one letter";
-        isValid = false;
-      } else if (
-        !/(?=.*\d)/.test($scope.credentials.password) &&
-        !/(?=.*[!@#$%^&*])/.test($scope.credentials.password)
-      ) {
-        $scope.passwordError =
-          "Password must contain a number or special character";
-        isValid = false;
-      } else if (/(.)\1{2,}/.test($scope.credentials.password)) {
-        $scope.passwordError = "Password cannot have repeated characters";
-        isValid = false;
-      } else if (
-        $scope.credentials.username &&
-        $scope.credentials.password
-          .toLowerCase()
-          .includes($scope.credentials.username.toLowerCase())
-      ) {
-        $scope.passwordError = "Password cannot contain username";
         isValid = false;
       }
 
@@ -356,7 +415,7 @@
         $scope.confirmPasswordError = "Please confirm your password";
         isValid = false;
       } else if (
-        $scope.credentials.password !== $scope.credentials.confirmPassword
+        $scope.credentials.confirmPassword !== $scope.credentials.password
       ) {
         $scope.confirmPasswordError = "Passwords do not match";
         isValid = false;
@@ -381,32 +440,32 @@
       });
       logger.markStart("register-request");
 
-      // Clear previous messages
-      $scope.error = "";
-      $scope.success = "";
       $scope.isLoading = true;
+      $scope.success = "";
 
-      // Validate form inputs
-      const isValid = validateFields();
+      // Validate all fields
+      const isValid = validateAllFields();
 
       if (!isValid) {
         $scope.isLoading = false;
-        const errorFields = [
-          $scope.usernameError,
-          $scope.passwordError,
-          $scope.confirmPasswordError,
-          $scope.termsError,
-        ].filter(Boolean);
+        logger.logFormValidation(
+          "register-form",
+          false,
+          [
+            $scope.usernameError,
+            $scope.passwordError,
+            $scope.confirmPasswordError,
+            $scope.termsError,
+          ].filter(Boolean)
+        );
 
-        logger.logFormValidation("register-form", false, errorFields);
-
-        // Auto-hide field errors after 7 seconds
+        // Auto-hide field errors after 5 seconds
         $timeout(function () {
           $scope.usernameError = "";
           $scope.passwordError = "";
           $scope.confirmPasswordError = "";
           $scope.termsError = "";
-        }, 7000);
+        }, 5000);
         return;
       }
 
@@ -415,13 +474,13 @@
 
       // Make registration request
       const startTime = Date.now();
-      const registerData = {
+      const registrationData = {
         username: $scope.credentials.username.trim(),
         password: $scope.credentials.password,
       };
 
       $http
-        .post("/api/register", registerData)
+        .post("/api/register", registrationData)
         .then(function (response) {
           handleRegistrationSuccess(response, Date.now() - startTime);
         })
@@ -443,14 +502,13 @@
         duration: duration,
       });
 
-      $scope.success =
-        "Account created successfully! Redirecting to login page...";
+      $scope.success = "Account created successfully! You can now sign in.";
       $scope.isLoading = false;
 
-      // Clear form data for security
-      $scope.credentials = { agreeTerms: false };
+      // Clear form
+      $scope.credentials = {};
 
-      // Auto-hide success message and redirect after 3 seconds
+      // Clear success message after 5 seconds and redirect
       $timeout(function () {
         $scope.success = "";
         $window.location.href = "/";
@@ -475,54 +533,38 @@
       });
 
       // Set appropriate field errors based on response
-      if (
-        status === 400 &&
-        error.data?.message?.toLowerCase().includes("already exists")
-      ) {
-        $scope.usernameError = "Username already taken";
-      } else if (
-        status === 400 &&
-        error.data?.message?.toLowerCase().includes("username")
-      ) {
-        $scope.usernameError = "Invalid username format";
-      } else if (
-        status === 400 &&
-        error.data?.message?.toLowerCase().includes("password")
-      ) {
-        $scope.passwordError = "Password does not meet requirements";
+      if (status === 400) {
+        if (error.data?.message?.toLowerCase().includes("username")) {
+          $scope.usernameError = "Username already exists";
+        } else if (error.data?.message?.toLowerCase().includes("password")) {
+          $scope.passwordError = "Invalid password format";
+        } else {
+          $scope.usernameError = "Registration failed - please try again";
+        }
       } else if (status === 429) {
         $scope.usernameError = "Too many attempts. Try again later";
       } else if (status === 0) {
-        $scope.passwordError = "Connection error. Check internet";
+        $scope.usernameError = "Connection error. Check internet";
       } else {
-        $scope.passwordError = "Registration failed. Please try again";
+        $scope.usernameError = "Registration failed. Please try again";
       }
 
       $scope.isLoading = false;
 
-      // Auto-hide field errors after 7 seconds
+      // Auto-hide field errors after 5 seconds
       $timeout(function () {
         $scope.usernameError = "";
         $scope.passwordError = "";
         $scope.confirmPasswordError = "";
         $scope.termsError = "";
-      }, 7000);
-
-      // Clear sensitive fields on error for security
-      $scope.credentials.password = "";
-      $scope.credentials.confirmPassword = "";
+      }, 5000);
 
       // Focus username field for retry
       $timeout(function () {
         const usernameField = document.getElementById("username");
         if (usernameField) {
           usernameField.focus();
-          if (
-            status === 400 &&
-            error.data?.message?.includes("already exists")
-          ) {
-            usernameField.select(); // Select username for easy replacement
-          }
+          usernameField.select();
         }
       }, 100);
     }
@@ -532,93 +574,51 @@
      */
     $scope.clearForm = function () {
       $scope.credentials = {};
-      $scope.error = "";
+      $scope.usernameError = "";
+      $scope.passwordError = "";
+      $scope.confirmPasswordError = "";
+      $scope.termsError = "";
       $scope.success = "";
       $scope.showPassword = false;
       $scope.showConfirmPassword = false;
 
-      logger.logUserAction("clear-registration-form");
+      logger.logUserAction("clear-register-form");
 
       $timeout(function () {
         document.getElementById("username")?.focus();
       }, 0);
     };
 
-    /**
-     * Check password match in real-time
-     * @returns {boolean} - True if passwords match
-     */
-    $scope.passwordsMatch = function () {
-      if (!$scope.credentials.password || !$scope.credentials.confirmPassword) {
-        return null; // No validation yet
-      }
-      return $scope.credentials.password === $scope.credentials.confirmPassword;
-    };
-
-    /**
-     * Get real-time validation class for confirm password field
-     * @returns {string} - CSS class for validation state
-     */
-    $scope.getConfirmPasswordClass = function () {
-      const passwordsMatch = $scope.passwordsMatch();
-      if (passwordsMatch === null) return "";
-      return passwordsMatch ? "is-valid" : "is-invalid";
-    };
-
-    /**
-     * Generate password suggestions
-     * @returns {Array} - Array of password suggestions
-     */
-    $scope.generatePasswordSuggestions = function () {
-      const suggestions = [
-        "Use a mix of uppercase and lowercase letters",
-        "Include numbers for better security",
-        "Add special characters like !@#$%",
-        "Make it at least 8 characters long",
-        "Avoid common words or patterns",
-      ];
-
-      const password = $scope.credentials.password || "";
-      const applicableSuggestions = [];
-
-      if (!/[A-Z]/.test(password)) applicableSuggestions.push(suggestions[0]);
-      if (!/[0-9]/.test(password)) applicableSuggestions.push(suggestions[1]);
-      if (!/[^A-Za-z0-9]/.test(password))
-        applicableSuggestions.push(suggestions[2]);
-      if (password.length < 8) applicableSuggestions.push(suggestions[3]);
-
-      return applicableSuggestions;
-    };
-
-    /**
-     * Check if username is available (debounced)
-     */
-    let usernameCheckTimeout;
-    $scope.checkUsernameAvailability = function () {
-      if (usernameCheckTimeout) {
-        $timeout.cancel(usernameCheckTimeout);
-      }
-
-      if (
-        !$scope.credentials.username ||
-        !$scope.isValidUsername($scope.credentials.username)
-      ) {
-        return;
-      }
-
-      usernameCheckTimeout = $timeout(function () {
-        // This could be implemented as an API call to check username availability
-        logger.debug("Username availability check", {
-          username: $scope.credentials.username,
+    // Handle form reset on Escape key
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && !$scope.isLoading) {
+        $scope.$apply(function () {
+          $scope.clearForm();
         });
-      }, 500); // 500ms debounce
-    };
-
-    // Watch for username changes to trigger availability check
-    $scope.$watch("credentials.username", function (newValue) {
-      if (newValue) {
-        $scope.checkUsernameAvailability();
       }
     });
+
+    /**
+     * Navigate to login page with faster transition
+     */
+    $scope.navigateToLogin = function (event) {
+      event.preventDefault();
+
+      logger.logUserAction("navigate-to-login");
+
+      // Add faster fade out effect
+      const authCard = document.querySelector(".auth-card");
+      if (authCard) {
+        authCard.style.transition = "opacity 0.1s ease, transform 0.1s ease";
+        authCard.style.opacity = "0";
+        authCard.style.transform = "translateY(-5px)";
+
+        $timeout(function () {
+          $window.location.href = "/";
+        }, 100);
+      } else {
+        $window.location.href = "/";
+      }
+    };
   }
 })();

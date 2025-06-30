@@ -104,17 +104,15 @@ mongoose
 // User Schema with case-insensitive username index
 const userSchema = new mongoose.Schema({
   username: { type: String, required: true, unique: true },
-  usernameNormalized: { type: String, required: true, unique: true }, // For case-insensitive lookup
+  usernameNormalized: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
 });
 
-// Create compound index for case-insensitive username lookup
-userSchema.index({ usernameNormalized: 1 });
-
 // Pre-save middleware to normalize username
 userSchema.pre("save", function (next) {
-  if (this.isModified("username")) {
+  // Always set usernameNormalized when username is present
+  if (this.username) {
     this.usernameNormalized = this.username.toLowerCase();
   }
   next();
@@ -201,6 +199,14 @@ app.post(
     logger.info(`Registration attempt for username: ${username}`);
 
     try {
+      // Validate input
+      if (!username || !password) {
+        logger.error("Registration failed: Missing username or password");
+        return res
+          .status(400)
+          .json({ message: "Username and password are required" });
+      }
+
       // Check if user exists (case-insensitive)
       const existingUser = await User.findOne({
         usernameNormalized: username.toLowerCase(),
@@ -214,19 +220,39 @@ app.post(
       }
 
       const hashedPassword = await bcrypt.hash(password, 10);
+
+      // Create user with both username and usernameNormalized explicitly set
       const user = new User({
-        username,
+        username: username,
+        usernameNormalized: username.toLowerCase(),
         password: hashedPassword,
       });
+
       await user.save();
 
       logger.info(`User registered successfully: ${username}`);
       res.status(201).json({ message: "User registered successfully" });
     } catch (error) {
       logger.error(`Registration error: ${error.message}`);
-      res
-        .status(500)
-        .json({ message: "Error registering user", error: error.message });
+
+      // Handle duplicate key errors
+      if (error.code === 11000) {
+        if (error.keyPattern?.username) {
+          return res.status(400).json({ message: "Username already exists" });
+        } else if (error.keyPattern?.usernameNormalized) {
+          return res
+            .status(400)
+            .json({ message: "Username already exists (case-insensitive)" });
+        }
+      }
+
+      res.status(500).json({
+        message: "Error registering user",
+        error:
+          process.env.NODE_ENV === "development"
+            ? error.message
+            : "Registration failed",
+      });
     }
   })
 );

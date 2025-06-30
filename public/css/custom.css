@@ -324,12 +324,29 @@ body {
   color: white;
 }
 
-/* Navbar Styling */
+/* Navbar Styling - Removed container */
 .navbar-custom {
   background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 0 0 15px 15px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive navbar */
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .brand-container {
+    margin-bottom: 0;
+  }
 }
 
 /* Form Section Styling */
@@ -533,6 +550,50 @@ body {
   font-weight: 600;
   color: #2d3748;
   margin: 0;
+}
+
+/* Auth Link Transitions - Faster */
+.auth-link {
+  position: relative;
+  transition: all 0.1s ease;
+  display: inline-block;
+}
+
+.auth-link:hover {
+  color: #6b48ff !important;
+  transform: translateY(-1px);
+}
+
+.auth-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background: linear-gradient(90deg, #6b48ff, #00ddeb);
+  transition: all 0.1s ease;
+  transform: translateX(-50%);
+}
+
+.auth-link:hover::after {
+  width: 100%;
+}
+
+/* Auth Card Fade In Animation - Faster */
+.auth-card {
+  animation: authCardFadeIn 0.2s ease-out;
+}
+
+@keyframes authCardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Responsive header */

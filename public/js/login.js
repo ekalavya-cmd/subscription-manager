@@ -18,13 +18,12 @@
   function LoginController($scope, $http, $window, $timeout) {
     // Initialize scope variables
     $scope.credentials = {};
-    $scope.error = "";
     $scope.usernameError = "";
     $scope.passwordError = "";
+    $scope.success = "";
     $scope.isLoading = false;
     $scope.showDebug = localStorage.getItem("debugMode") === "true";
     $scope.showPassword = false;
-    $scope.showValidation = false;
 
     // Log controller initialization
     logger.info("Login controller initialized");
@@ -183,48 +182,22 @@
             passwordField.focus();
           }
         } else if (nextField === "submit") {
-          if ($scope.isFormValid()) {
-            $scope.login();
-          } else {
-            $scope.showValidation = true;
-            // Focus on first invalid field
-            const firstInvalidField = document.querySelector(
-              ".form-control.is-invalid, .form-control:invalid"
-            );
-            if (firstInvalidField) {
-              firstInvalidField.focus();
-            }
-          }
+          $scope.login();
         }
       }
     };
 
     /**
-     * Check if the form is valid
-     * @returns {boolean} - True if form is valid
+     * Validate username field
      */
-    $scope.isFormValid = function () {
-      return (
-        $scope.credentials.username &&
-        $scope.credentials.password &&
-        $scope.isValidUsername($scope.credentials.username) &&
-        $scope.credentials.password.length >= 6 &&
-        !$scope.usernameError &&
-        !$scope.passwordError
-      );
-    };
-
-    /**
-     * Validate individual fields and set field-specific errors
-     */
-    function validateFields() {
+    $scope.validateUsername = function () {
       $scope.usernameError = "";
-      $scope.passwordError = "";
 
-      // Username validation
       if (!$scope.credentials.username) {
-        $scope.usernameError = "Username is required";
-      } else if ($scope.credentials.username.length < 3) {
+        return; // Don't show error for empty field on blur
+      }
+
+      if ($scope.credentials.username.length < 3) {
         $scope.usernameError = "Username must be at least 3 characters";
       } else if ($scope.credentials.username.length > 20) {
         $scope.usernameError = "Username cannot exceed 20 characters";
@@ -232,19 +205,86 @@
         $scope.usernameError =
           "Username can only contain letters, numbers, and underscores";
       }
+    };
+
+    /**
+     * Validate password field
+     */
+    $scope.validatePassword = function () {
+      $scope.passwordError = "";
+
+      if (!$scope.credentials.password) {
+        return; // Don't show error for empty field on blur
+      }
+
+      if ($scope.credentials.password.length < 6) {
+        $scope.passwordError = "Password must be at least 6 characters";
+      } else if ($scope.credentials.password.length > 128) {
+        $scope.passwordError = "Password is too long";
+      }
+    };
+
+    /**
+     * Navigate to register page with faster transition
+     */
+    $scope.navigateToRegister = function (event) {
+      event.preventDefault();
+
+      logger.logUserAction("navigate-to-register");
+
+      // Add faster fade out effect
+      const authCard = document.querySelector(".auth-card");
+      if (authCard) {
+        authCard.style.transition = "opacity 0.1s ease, transform 0.1s ease";
+        authCard.style.opacity = "0";
+        authCard.style.transform = "translateY(-5px)";
+
+        $timeout(function () {
+          $window.location.href = "/register";
+        }, 100);
+      } else {
+        $window.location.href = "/register";
+      }
+    };
+
+    /**
+     * Validate individual fields for form submission
+     */
+    function validateFieldsForSubmission() {
+      $scope.usernameError = "";
+      $scope.passwordError = "";
+
+      let isValid = true;
+
+      // Username validation
+      if (!$scope.credentials.username) {
+        $scope.usernameError = "Username is required";
+        isValid = false;
+      } else if ($scope.credentials.username.length < 3) {
+        $scope.usernameError = "Username must be at least 3 characters";
+        isValid = false;
+      } else if ($scope.credentials.username.length > 20) {
+        $scope.usernameError = "Username cannot exceed 20 characters";
+        isValid = false;
+      } else if (!$scope.isValidUsername($scope.credentials.username)) {
+        $scope.usernameError =
+          "Username can only contain letters, numbers, and underscores";
+        isValid = false;
+      }
 
       // Password validation
       if (!$scope.credentials.password) {
         $scope.passwordError = "Password is required";
+        isValid = false;
       } else if ($scope.credentials.password.length < 6) {
         $scope.passwordError = "Password must be at least 6 characters";
+        isValid = false;
       } else if ($scope.credentials.password.length > 128) {
         $scope.passwordError = "Password is too long";
-      } else if (!/(?=.*[a-zA-Z])/.test($scope.credentials.password)) {
-        $scope.passwordError = "Password must contain at least one letter";
+        isValid = false;
       }
 
-      return !$scope.usernameError && !$scope.passwordError;
+      return isValid;
     }
 
     /**
@@ -257,14 +297,13 @@
       });
       logger.markStart("login-request");
 
-      // Clear previous errors and show validation
-      $scope.error = "";
+      // Clear previous errors
       $scope.usernameError = "";
       $scope.passwordError = "";
       $scope.isLoading = true;
 
       // Validate form inputs
-      const isValid = validateFields();
+      const isValid = validateFieldsForSubmission();
 
       if (!isValid) {
         $scope.isLoading = false;
@@ -348,44 +387,29 @@
         duration: duration,
       });
 
-      // Set appropriate field errors based on response
+      // Set error message for display at top of form (like success message)
       if (status === 400 || status === 401) {
-        if (error.data?.message?.toLowerCase().includes("username")) {
-          $scope.usernameError = "Invalid username";
-        } else if (error.data?.message?.toLowerCase().includes("password")) {
-          $scope.passwordError = "Invalid password";
-        } else {
-          // Generic invalid credentials
-          $scope.usernameError = "Invalid credentials";
-          $scope.passwordError = "Invalid credentials";
-        }
+        $scope.success = ""; // Clear any success message
+        $scope.success =
+          "Invalid credentials. Please check your username and password.";
       } else if (status === 429) {
-        $scope.passwordError = "Too many attempts. Try again later";
+        $scope.success = "Too many login attempts. Please try again later.";
       } else if (status === 0) {
-        $scope.passwordError = "Connection error. Check internet";
+        $scope.success =
+          "Connection error. Please check your internet connection.";
       } else {
-        $scope.passwordError = "Login failed. Please try again";
+        $scope.success = "Login failed. Please try again.";
       }
 
       $scope.isLoading = false;
 
-      // Auto-hide field errors after 5 seconds
+      // Auto-hide error message after 5 seconds
       $timeout(function () {
-        $scope.usernameError = "";
-        $scope.passwordError = "";
+        $scope.success = "";
       }, 5000);
 
-      // Clear password field on error for security
-      $scope.credentials.password = "";
-
-      // Focus username field for retry
-      $timeout(function () {
-        const usernameField = document.getElementById("username");
-        if (usernameField) {
-          usernameField.focus();
-          usernameField.select();
-        }
-      }, 100);
+      // Don't clear password or focus username on error - keep user's input
+      logger.info("Login failed - keeping user input for retry");
     }
 
     /**
@@ -393,8 +417,9 @@
      */
     $scope.clearForm = function () {
       $scope.credentials = {};
-      $scope.error = "";
-      $scope.showValidation = false;
+      $scope.usernameError = "";
+      $scope.passwordError = "";
+      $scope.success = "";
       $scope.showPassword = false;
 
       logger.logUserAction("clear-login-form");

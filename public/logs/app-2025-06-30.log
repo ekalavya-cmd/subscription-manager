@@ -902,3 +902,1425 @@
 [2025-06-30T12:16:47.173Z] GET / - Request received
 [2025-06-30T12:16:47.174Z] Serving login page
 [2025-06-30T12:16:47.175Z] GET / - 304 - 2ms
+[2025-06-30T12:59:45.362Z] Twilio client initialized successfully
+[2025-06-30T12:59:45.365Z] SMS reminders enabled
+[2025-06-30T12:59:45.365Z] SMS schedule mode: disabled
+[2025-06-30T12:59:45.365Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T12:59:45.368Z] Server running on port 3000
+[2025-06-30T12:59:45.369Z] Environment: development
+[2025-06-30T12:59:45.369Z] MongoDB: Disconnected
+[2025-06-30T12:59:45.370Z] Twilio: Enabled
+[2025-06-30T12:59:45.382Z] MongoDB connected successfully
+[2025-06-30T12:59:58.415Z] GET / - Request received
+[2025-06-30T12:59:58.418Z] Serving login page
+[2025-06-30T12:59:58.423Z] GET / - 200 - 8ms
+[2025-06-30T12:59:58.438Z] GET /css/custom.css - Request received
+[2025-06-30T12:59:58.440Z] GET /css/custom.css - 200 - 2ms
+[2025-06-30T12:59:58.466Z] GET /js/logger.js - Request received
+[2025-06-30T12:59:58.468Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T12:59:58.472Z] GET /js/login.js - Request received
+[2025-06-30T12:59:58.473Z] GET /js/login.js - 200 - 1ms
+[2025-06-30T12:59:59.317Z] GET /favicon.ico - Request received
+[2025-06-30T12:59:59.320Z] GET /favicon.ico - 404 - 3ms
+[2025-06-30T13:00:01.343Z] GET /register - Request received
+[2025-06-30T13:00:01.344Z] Serving registration page
+[2025-06-30T13:00:01.346Z] GET /register - 200 - 3ms
+[2025-06-30T13:00:01.364Z] GET /css/custom.css - Request received
+[2025-06-30T13:00:01.366Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:00:01.371Z] GET /js/logger.js - Request received
+[2025-06-30T13:00:01.372Z] GET /js/register.js - Request received
+[2025-06-30T13:00:01.373Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:00:01.376Z] GET /js/register.js - 200 - 4ms
+[2025-06-30T13:00:05.905Z] GET / - Request received
+[2025-06-30T13:00:05.906Z] Serving login page
+[2025-06-30T13:00:05.907Z] GET / - 304 - 2ms
+[2025-06-30T13:00:05.925Z] GET /css/custom.css - Request received
+[2025-06-30T13:00:05.927Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:00:05.928Z] GET /js/login.js - Request received
+[2025-06-30T13:00:05.929Z] GET /js/logger.js - Request received
+[2025-06-30T13:00:05.930Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T13:00:05.931Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:00:10.620Z] POST /api/index - Request received
+[2025-06-30T13:00:10.620Z] Login attempt for username: asdasda
+[2025-06-30T13:00:10.628Z] Login failed: User asdasda not found
+[2025-06-30T13:00:10.630Z] POST /api/index - 400 - 10ms
+[2025-06-30T13:02:37.511Z] Twilio client initialized successfully
+[2025-06-30T13:02:37.514Z] SMS reminders enabled
+[2025-06-30T13:02:37.515Z] SMS schedule mode: disabled
+[2025-06-30T13:02:37.515Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T13:02:37.519Z] Server running on port 3000
+[2025-06-30T13:02:37.519Z] Environment: development
+[2025-06-30T13:02:37.520Z] MongoDB: Disconnected
+[2025-06-30T13:02:37.520Z] Twilio: Enabled
+[2025-06-30T13:02:37.535Z] MongoDB connected successfully
+[2025-06-30T13:02:45.466Z] GET / - Request received
+[2025-06-30T13:02:45.469Z] Serving login page
+[2025-06-30T13:02:45.475Z] GET / - 304 - 9ms
+[2025-06-30T13:02:45.488Z] GET /css/custom.css - Request received
+[2025-06-30T13:02:45.490Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:02:45.493Z] GET /js/logger.js - Request received
+[2025-06-30T13:02:45.495Z] GET /js/login.js - Request received
+[2025-06-30T13:02:45.496Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:02:45.498Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:02:46.410Z] GET / - Request received
+[2025-06-30T13:02:46.414Z] Serving login page
+[2025-06-30T13:02:46.420Z] GET / - 304 - 10ms
+[2025-06-30T13:02:46.459Z] GET /css/custom.css - Request received
+[2025-06-30T13:02:46.462Z] GET /js/logger.js - Request received
+[2025-06-30T13:02:46.467Z] GET /js/login.js - Request received
+[2025-06-30T13:02:46.473Z] GET /css/custom.css - 304 - 14ms
+[2025-06-30T13:02:46.478Z] GET /js/logger.js - 304 - 16ms
+[2025-06-30T13:02:46.482Z] GET /js/login.js - 304 - 15ms
+[2025-06-30T13:02:48.122Z] GET /register - Request received
+[2025-06-30T13:02:48.127Z] Serving registration page
+[2025-06-30T13:02:48.134Z] GET /register - 304 - 11ms
+[2025-06-30T13:02:48.186Z] GET /css/custom.css - Request received
+[2025-06-30T13:02:48.190Z] GET /css/custom.css - 304 - 4ms
+[2025-06-30T13:02:48.198Z] GET /js/logger.js - Request received
+[2025-06-30T13:02:48.201Z] GET /js/register.js - Request received
+[2025-06-30T13:02:48.205Z] GET /js/logger.js - 304 - 7ms
+[2025-06-30T13:02:48.209Z] GET /js/register.js - 304 - 8ms
+[2025-06-30T13:02:49.547Z] GET / - Request received
+[2025-06-30T13:02:49.551Z] Serving login page
+[2025-06-30T13:02:49.557Z] GET / - 304 - 10ms
+[2025-06-30T13:02:49.632Z] GET /css/custom.css - Request received
+[2025-06-30T13:02:49.639Z] GET /css/custom.css - 304 - 7ms
+[2025-06-30T13:02:49.643Z] GET /js/logger.js - Request received
+[2025-06-30T13:02:49.646Z] GET /js/login.js - Request received
+[2025-06-30T13:02:49.650Z] GET /js/logger.js - 304 - 7ms
+[2025-06-30T13:02:49.654Z] GET /js/login.js - 304 - 8ms
+[2025-06-30T13:02:52.459Z] GET /register - Request received
+[2025-06-30T13:02:52.460Z] Serving registration page
+[2025-06-30T13:02:52.462Z] GET /register - 304 - 3ms
+[2025-06-30T13:02:52.483Z] GET /css/custom.css - Request received
+[2025-06-30T13:02:52.485Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:02:52.489Z] GET /js/logger.js - Request received
+[2025-06-30T13:02:52.491Z] GET /js/register.js - Request received
+[2025-06-30T13:02:52.493Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T13:02:52.495Z] GET /js/register.js - 304 - 4ms
+[2025-06-30T13:03:01.965Z] GET /register - Request received
+[2025-06-30T13:03:01.968Z] Serving registration page
+[2025-06-30T13:03:01.972Z] GET /register - 304 - 7ms
+[2025-06-30T13:03:02.020Z] GET /css/custom.css - Request received
+[2025-06-30T13:03:02.024Z] GET /js/logger.js - Request received
+[2025-06-30T13:03:02.029Z] GET /css/custom.css - 304 - 9ms
+[2025-06-30T13:03:02.031Z] GET /js/register.js - Request received
+[2025-06-30T13:03:02.035Z] GET /js/logger.js - 304 - 11ms
+[2025-06-30T13:03:02.039Z] GET /js/register.js - 304 - 8ms
+[2025-06-30T13:03:07.254Z] GET / - Request received
+[2025-06-30T13:03:07.257Z] Serving login page
+[2025-06-30T13:03:07.261Z] GET / - 304 - 7ms
+[2025-06-30T13:03:07.324Z] GET /css/custom.css - Request received
+[2025-06-30T13:03:07.328Z] GET /css/custom.css - 304 - 4ms
+[2025-06-30T13:03:07.340Z] GET /js/logger.js - Request received
+[2025-06-30T13:03:07.344Z] GET /js/login.js - Request received
+[2025-06-30T13:03:07.349Z] GET /js/logger.js - 304 - 9ms
+[2025-06-30T13:03:07.354Z] GET /js/login.js - 304 - 10ms
+[2025-06-30T13:03:10.878Z] GET /register - Request received
+[2025-06-30T13:03:10.879Z] Serving registration page
+[2025-06-30T13:03:10.881Z] GET /register - 304 - 3ms
+[2025-06-30T13:03:10.902Z] GET /css/custom.css - Request received
+[2025-06-30T13:03:10.903Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:03:10.909Z] GET /js/logger.js - Request received
+[2025-06-30T13:03:10.911Z] GET /js/register.js - Request received
+[2025-06-30T13:03:10.913Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T13:03:10.915Z] GET /js/register.js - 304 - 4ms
+[2025-06-30T13:03:13.336Z] GET / - Request received
+[2025-06-30T13:03:13.337Z] Serving login page
+[2025-06-30T13:03:13.339Z] GET / - 304 - 3ms
+[2025-06-30T13:03:13.367Z] GET /css/custom.css - Request received
+[2025-06-30T13:03:13.369Z] GET /js/logger.js - Request received
+[2025-06-30T13:03:13.370Z] GET /js/login.js - Request received
+[2025-06-30T13:03:13.371Z] GET /css/custom.css - 304 - 4ms
+[2025-06-30T13:03:13.373Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T13:03:13.374Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:03:20.920Z] GET /register - Request received
+[2025-06-30T13:03:20.922Z] Serving registration page
+[2025-06-30T13:03:20.923Z] GET /register - 304 - 3ms
+[2025-06-30T13:03:20.943Z] GET /css/custom.css - Request received
+[2025-06-30T13:03:20.945Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:03:20.947Z] GET /js/logger.js - Request received
+[2025-06-30T13:03:20.948Z] GET /js/register.js - Request received
+[2025-06-30T13:03:20.950Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:03:20.951Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:04:20.726Z] GET / - Request received
+[2025-06-30T13:04:20.728Z] Serving login page
+[2025-06-30T13:04:20.731Z] GET / - 304 - 5ms
+[2025-06-30T13:04:20.782Z] GET /css/custom.css - Request received
+[2025-06-30T13:04:20.786Z] GET /css/custom.css - 304 - 4ms
+[2025-06-30T13:04:20.797Z] GET /js/logger.js - Request received
+[2025-06-30T13:04:20.800Z] GET /js/login.js - Request received
+[2025-06-30T13:04:20.804Z] GET /js/logger.js - 304 - 7ms
+[2025-06-30T13:04:20.807Z] GET /js/login.js - 304 - 7ms
+[2025-06-30T13:06:23.436Z] GET /register - Request received
+[2025-06-30T13:06:23.436Z] Serving registration page
+[2025-06-30T13:06:23.438Z] GET /register - 304 - 2ms
+[2025-06-30T13:06:23.457Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:23.458Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:06:23.460Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:23.461Z] GET /js/register.js - Request received
+[2025-06-30T13:06:23.462Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:06:23.463Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T13:06:27.891Z] GET / - Request received
+[2025-06-30T13:06:27.894Z] Serving login page
+[2025-06-30T13:06:27.898Z] GET / - 304 - 7ms
+[2025-06-30T13:06:27.952Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:27.956Z] GET /css/custom.css - 304 - 4ms
+[2025-06-30T13:06:27.970Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:27.973Z] GET /js/login.js - Request received
+[2025-06-30T13:06:27.976Z] GET /js/logger.js - 304 - 6ms
+[2025-06-30T13:06:27.980Z] GET /js/login.js - 304 - 8ms
+[2025-06-30T13:06:29.148Z] GET /register - Request received
+[2025-06-30T13:06:29.151Z] Serving registration page
+[2025-06-30T13:06:29.155Z] GET /register - 304 - 7ms
+[2025-06-30T13:06:29.214Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:29.219Z] GET /css/custom.css - 304 - 5ms
+[2025-06-30T13:06:29.223Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:29.226Z] GET /js/register.js - Request received
+[2025-06-30T13:06:29.230Z] GET /js/logger.js - 304 - 6ms
+[2025-06-30T13:06:29.233Z] GET /js/register.js - 304 - 7ms
+[2025-06-30T13:06:30.301Z] GET / - Request received
+[2025-06-30T13:06:30.302Z] Serving login page
+[2025-06-30T13:06:30.303Z] GET / - 304 - 2ms
+[2025-06-30T13:06:30.324Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:30.326Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:06:30.330Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:30.331Z] GET /js/login.js - Request received
+[2025-06-30T13:06:30.333Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:06:30.334Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:06:31.589Z] GET /register - Request received
+[2025-06-30T13:06:31.592Z] Serving registration page
+[2025-06-30T13:06:31.596Z] GET /register - 304 - 7ms
+[2025-06-30T13:06:31.671Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:31.674Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:31.677Z] GET /js/register.js - Request received
+[2025-06-30T13:06:31.682Z] GET /css/custom.css - 304 - 11ms
+[2025-06-30T13:06:31.685Z] GET /js/logger.js - 304 - 11ms
+[2025-06-30T13:06:31.689Z] GET /js/register.js - 304 - 12ms
+[2025-06-30T13:06:43.215Z] GET / - Request received
+[2025-06-30T13:06:43.218Z] Serving login page
+[2025-06-30T13:06:43.223Z] GET / - 304 - 8ms
+[2025-06-30T13:06:43.287Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:43.292Z] GET /css/custom.css - 304 - 5ms
+[2025-06-30T13:06:43.295Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:43.299Z] GET /js/login.js - Request received
+[2025-06-30T13:06:43.303Z] GET /js/logger.js - 304 - 8ms
+[2025-06-30T13:06:43.307Z] GET /js/login.js - 304 - 8ms
+[2025-06-30T13:06:45.963Z] GET /register - Request received
+[2025-06-30T13:06:45.966Z] Serving registration page
+[2025-06-30T13:06:45.969Z] GET /register - 304 - 6ms
+[2025-06-30T13:06:46.029Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:46.032Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T13:06:46.045Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:46.048Z] GET /js/register.js - Request received
+[2025-06-30T13:06:46.052Z] GET /js/logger.js - 304 - 7ms
+[2025-06-30T13:06:46.056Z] GET /js/register.js - 304 - 8ms
+[2025-06-30T13:06:47.690Z] GET / - Request received
+[2025-06-30T13:06:47.691Z] Serving login page
+[2025-06-30T13:06:47.692Z] GET / - 304 - 2ms
+[2025-06-30T13:06:47.714Z] GET /css/custom.css - Request received
+[2025-06-30T13:06:47.715Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:06:47.720Z] GET /js/logger.js - Request received
+[2025-06-30T13:06:47.721Z] GET /js/login.js - Request received
+[2025-06-30T13:06:47.723Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:06:47.725Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:14:02.673Z] GET / - Request received
+[2025-06-30T13:14:02.674Z] Serving login page
+[2025-06-30T13:14:02.678Z] GET / - 200 - 5ms
+[2025-06-30T13:14:02.696Z] GET /css/custom.css - Request received
+[2025-06-30T13:14:02.698Z] GET /js/logger.js - Request received
+[2025-06-30T13:14:02.699Z] GET /js/login.js - Request received
+[2025-06-30T13:14:02.700Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:14:02.702Z] GET /css/custom.css - 200 - 6ms
+[2025-06-30T13:14:02.703Z] GET /js/login.js - 200 - 4ms
+[2025-06-30T13:14:06.621Z] GET /register - Request received
+[2025-06-30T13:14:06.622Z] Serving registration page
+[2025-06-30T13:14:06.625Z] GET /register - 200 - 4ms
+[2025-06-30T13:14:06.645Z] GET /css/custom.css - Request received
+[2025-06-30T13:14:06.647Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:14:06.653Z] GET /js/logger.js - Request received
+[2025-06-30T13:14:06.655Z] GET /js/register.js - Request received
+[2025-06-30T13:14:06.657Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T13:14:06.660Z] GET /js/register.js - 200 - 5ms
+[2025-06-30T13:14:10.876Z] GET / - Request received
+[2025-06-30T13:14:10.877Z] Serving login page
+[2025-06-30T13:14:10.879Z] GET / - 304 - 3ms
+[2025-06-30T13:14:10.904Z] GET /css/custom.css - Request received
+[2025-06-30T13:14:10.906Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:14:10.943Z] GET /js/logger.js - Request received
+[2025-06-30T13:14:10.949Z] GET /js/login.js - Request received
+[2025-06-30T13:14:10.955Z] GET /js/logger.js - 304 - 12ms
+[2025-06-30T13:14:10.972Z] GET /js/login.js - 304 - 23ms
+[2025-06-30T13:14:18.327Z] GET / - Request received
+[2025-06-30T13:14:18.329Z] Serving login page
+[2025-06-30T13:14:18.333Z] GET / - 304 - 6ms
+[2025-06-30T13:14:18.379Z] GET /css/custom.css - Request received
+[2025-06-30T13:14:18.383Z] GET /js/logger.js - Request received
+[2025-06-30T13:14:18.387Z] GET /css/custom.css - 304 - 8ms
+[2025-06-30T13:14:18.390Z] GET /js/logger.js - 304 - 7ms
+[2025-06-30T13:14:18.392Z] GET /js/login.js - Request received
+[2025-06-30T13:14:18.396Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:14:21.482Z] POST /api/index - Request received
+[2025-06-30T13:14:21.483Z] Login attempt for username: asdad
+[2025-06-30T13:14:21.494Z] Login failed: User asdad not found
+[2025-06-30T13:14:21.497Z] POST /api/index - 400 - 15ms
+[2025-06-30T13:14:24.025Z] GET / - Request received
+[2025-06-30T13:14:24.028Z] Serving login page
+[2025-06-30T13:14:24.032Z] GET / - 304 - 7ms
+[2025-06-30T13:14:24.070Z] GET /css/custom.css - Request received
+[2025-06-30T13:14:24.072Z] GET /js/logger.js - Request received
+[2025-06-30T13:14:24.076Z] GET /js/login.js - Request received
+[2025-06-30T13:14:24.079Z] GET /css/custom.css - 304 - 9ms
+[2025-06-30T13:14:24.083Z] GET /js/logger.js - 304 - 11ms
+[2025-06-30T13:14:24.087Z] GET /js/login.js - 304 - 11ms
+[2025-06-30T13:14:28.094Z] POST /api/index - Request received
+[2025-06-30T13:14:28.095Z] Login attempt for username: adasd
+[2025-06-30T13:14:28.099Z] Login failed: User adasd not found
+[2025-06-30T13:14:28.101Z] POST /api/index - 400 - 7ms
+[2025-06-30T13:14:33.557Z] POST /api/index - Request received
+[2025-06-30T13:14:33.557Z] Login attempt for username: adasda
+[2025-06-30T13:14:33.561Z] Login failed: User adasda not found
+[2025-06-30T13:14:33.562Z] POST /api/index - 400 - 5ms
+[2025-06-30T13:14:36.940Z] POST /api/index - Request received
+[2025-06-30T13:14:36.941Z] Login attempt for username: adasda
+[2025-06-30T13:14:36.944Z] Login failed: User adasda not found
+[2025-06-30T13:14:36.945Z] POST /api/index - 400 - 5ms
+[2025-06-30T13:14:39.904Z] POST /api/index - Request received
+[2025-06-30T13:14:39.905Z] Login attempt for username: asdsadasda
+[2025-06-30T13:14:39.909Z] Login failed: User asdsadasda not found
+[2025-06-30T13:14:39.910Z] POST /api/index - 400 - 6ms
+[2025-06-30T13:14:43.089Z] POST /api/index - Request received
+[2025-06-30T13:14:43.090Z] Login attempt for username: asdasdasda
+[2025-06-30T13:14:43.093Z] Login failed: User asdasdasda not found
+[2025-06-30T13:14:43.094Z] POST /api/index - 400 - 5ms
+[2025-06-30T13:14:46.937Z] POST /api/index - Request received
+[2025-06-30T13:14:46.938Z] Login attempt for username: asdasdaadsd
+[2025-06-30T13:14:46.940Z] Login failed: User asdasdaadsd not found
+[2025-06-30T13:14:46.941Z] POST /api/index - 400 - 4ms
+[2025-06-30T13:14:55.402Z] POST /api/index - Request received
+[2025-06-30T13:14:55.403Z] Login attempt for username: asdasdaadsd
+[2025-06-30T13:14:55.405Z] Login failed: User asdasdaadsd not found
+[2025-06-30T13:14:55.407Z] POST /api/index - 400 - 5ms
+[2025-06-30T13:14:57.978Z] POST /api/index - Request received
+[2025-06-30T13:14:57.979Z] Login attempt for username: asdasdadsdd
+[2025-06-30T13:14:57.984Z] Login failed: User asdasdadsdd not found
+[2025-06-30T13:14:57.986Z] POST /api/index - 400 - 8ms
+[2025-06-30T13:15:00.168Z] POST /api/index - Request received
+[2025-06-30T13:15:00.169Z] Login attempt for username: asdsadasd
+[2025-06-30T13:15:00.171Z] Login failed: User asdsadasd not found
+[2025-06-30T13:15:00.172Z] POST /api/index - 400 - 4ms
+[2025-06-30T13:15:02.671Z] POST /api/index - Request received
+[2025-06-30T13:15:02.671Z] Login attempt for username: adassadas
+[2025-06-30T13:15:02.674Z] Login failed: User adassadas not found
+[2025-06-30T13:15:02.675Z] POST /api/index - 400 - 4ms
+[2025-06-30T13:15:12.767Z] GET /register - Request received
+[2025-06-30T13:15:12.769Z] Serving registration page
+[2025-06-30T13:15:12.770Z] GET /register - 304 - 3ms
+[2025-06-30T13:15:12.789Z] GET /css/custom.css - Request received
+[2025-06-30T13:15:12.790Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:15:12.797Z] GET /js/logger.js - Request received
+[2025-06-30T13:15:12.798Z] GET /js/register.js - Request received
+[2025-06-30T13:15:12.800Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:15:12.801Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:15:15.133Z] GET / - Request received
+[2025-06-30T13:15:15.134Z] Serving login page
+[2025-06-30T13:15:15.136Z] GET / - 304 - 3ms
+[2025-06-30T13:15:15.158Z] GET /css/custom.css - Request received
+[2025-06-30T13:15:15.160Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:15:15.166Z] GET /js/logger.js - Request received
+[2025-06-30T13:15:15.167Z] GET /js/login.js - Request received
+[2025-06-30T13:15:15.169Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:15:15.171Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:15:21.644Z] GET /register - Request received
+[2025-06-30T13:15:21.645Z] Serving registration page
+[2025-06-30T13:15:21.646Z] GET /register - 304 - 2ms
+[2025-06-30T13:15:21.669Z] GET /css/custom.css - Request received
+[2025-06-30T13:15:21.672Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T13:15:21.673Z] GET /js/logger.js - Request received
+[2025-06-30T13:15:21.674Z] GET /js/register.js - Request received
+[2025-06-30T13:15:21.675Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:15:21.677Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:15:24.883Z] GET / - Request received
+[2025-06-30T13:15:24.884Z] Serving login page
+[2025-06-30T13:15:24.885Z] GET / - 304 - 2ms
+[2025-06-30T13:15:24.906Z] GET /css/custom.css - Request received
+[2025-06-30T13:15:24.907Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:15:24.913Z] GET /js/logger.js - Request received
+[2025-06-30T13:15:24.914Z] GET /js/login.js - Request received
+[2025-06-30T13:15:24.916Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:15:24.918Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:15:41.702Z] GET /register - Request received
+[2025-06-30T13:15:41.703Z] Serving registration page
+[2025-06-30T13:15:41.705Z] GET /register - 304 - 3ms
+[2025-06-30T13:15:41.725Z] GET /css/custom.css - Request received
+[2025-06-30T13:15:41.727Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:15:41.732Z] GET /js/logger.js - Request received
+[2025-06-30T13:15:41.733Z] GET /js/register.js - Request received
+[2025-06-30T13:15:41.734Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:15:41.736Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:16:18.129Z] GET / - Request received
+[2025-06-30T13:16:18.131Z] Serving login page
+[2025-06-30T13:16:18.132Z] GET / - 304 - 3ms
+[2025-06-30T13:16:18.150Z] GET /css/custom.css - Request received
+[2025-06-30T13:16:18.152Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:16:18.157Z] GET /js/logger.js - Request received
+[2025-06-30T13:16:18.158Z] GET /js/login.js - Request received
+[2025-06-30T13:16:18.160Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:16:18.161Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:16:23.414Z] POST /api/index - Request received
+[2025-06-30T13:16:23.414Z] Login attempt for username: ssdsadasdsd
+[2025-06-30T13:16:23.416Z] Login failed: User ssdsadasdsd not found
+[2025-06-30T13:16:23.417Z] POST /api/index - 400 - 3ms
+[2025-06-30T13:16:57.659Z] GET /register - Request received
+[2025-06-30T13:16:57.660Z] Serving registration page
+[2025-06-30T13:16:57.661Z] GET /register - 304 - 2ms
+[2025-06-30T13:16:57.681Z] GET /css/custom.css - Request received
+[2025-06-30T13:16:57.682Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:16:57.687Z] GET /js/logger.js - Request received
+[2025-06-30T13:16:57.688Z] GET /js/register.js - Request received
+[2025-06-30T13:16:57.689Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:16:57.691Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:17:02.902Z] GET / - Request received
+[2025-06-30T13:17:02.903Z] Serving login page
+[2025-06-30T13:17:02.905Z] GET / - 304 - 2ms
+[2025-06-30T13:17:02.927Z] GET /css/custom.css - Request received
+[2025-06-30T13:17:02.929Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:17:02.934Z] GET /js/logger.js - Request received
+[2025-06-30T13:17:02.935Z] GET /js/login.js - Request received
+[2025-06-30T13:17:02.936Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:17:02.938Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:23:14.950Z] GET / - Request received
+[2025-06-30T13:23:14.952Z] Serving login page
+[2025-06-30T13:23:14.958Z] GET / - 200 - 8ms
+[2025-06-30T13:23:15.008Z] GET /css/custom.css - Request received
+[2025-06-30T13:23:15.011Z] GET /js/logger.js - Request received
+[2025-06-30T13:23:15.016Z] GET /js/logger.js - 304 - 5ms
+[2025-06-30T13:23:15.018Z] GET /js/login.js - Request received
+[2025-06-30T13:23:15.022Z] GET /css/custom.css - 200 - 14ms
+[2025-06-30T13:23:15.025Z] GET /js/login.js - 200 - 7ms
+[2025-06-30T13:23:20.099Z] GET /register - Request received
+[2025-06-30T13:23:20.100Z] Serving registration page
+[2025-06-30T13:23:20.101Z] GET /register - 304 - 2ms
+[2025-06-30T13:23:20.123Z] GET /css/custom.css - Request received
+[2025-06-30T13:23:20.125Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:23:20.127Z] GET /js/logger.js - Request received
+[2025-06-30T13:23:20.128Z] GET /js/register.js - Request received
+[2025-06-30T13:23:20.129Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:23:20.132Z] GET /js/register.js - 200 - 4ms
+[2025-06-30T13:23:22.386Z] GET / - Request received
+[2025-06-30T13:23:22.387Z] Serving login page
+[2025-06-30T13:23:22.388Z] GET / - 304 - 2ms
+[2025-06-30T13:23:22.407Z] GET /css/custom.css - Request received
+[2025-06-30T13:23:22.408Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:23:22.413Z] GET /js/logger.js - Request received
+[2025-06-30T13:23:22.414Z] GET /js/login.js - Request received
+[2025-06-30T13:23:22.416Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:23:22.418Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:23:34.206Z] POST /api/index - Request received
+[2025-06-30T13:23:34.207Z] Login attempt for username: aSasaAs
+[2025-06-30T13:23:34.209Z] Login failed: User aSasaAs not found
+[2025-06-30T13:23:34.210Z] POST /api/index - 400 - 4ms
+[2025-06-30T13:23:40.699Z] POST /api/index - Request received
+[2025-06-30T13:23:40.700Z] Login attempt for username: aSasaAs
+[2025-06-30T13:23:40.702Z] Login failed: User aSasaAs not found
+[2025-06-30T13:23:40.703Z] POST /api/index - 400 - 4ms
+[2025-06-30T13:23:47.730Z] GET / - Request received
+[2025-06-30T13:23:47.733Z] Serving login page
+[2025-06-30T13:23:47.737Z] GET / - 304 - 7ms
+[2025-06-30T13:23:47.782Z] GET /css/custom.css - Request received
+[2025-06-30T13:23:47.787Z] GET /css/custom.css - 304 - 5ms
+[2025-06-30T13:23:47.790Z] GET /js/logger.js - Request received
+[2025-06-30T13:23:47.792Z] GET /js/login.js - Request received
+[2025-06-30T13:23:47.795Z] GET /js/logger.js - 304 - 5ms
+[2025-06-30T13:23:47.798Z] GET /js/login.js - 304 - 6ms
+[2025-06-30T13:23:54.732Z] GET /register - Request received
+[2025-06-30T13:23:54.733Z] Serving registration page
+[2025-06-30T13:23:54.735Z] GET /register - 304 - 3ms
+[2025-06-30T13:23:54.755Z] GET /css/custom.css - Request received
+[2025-06-30T13:23:54.757Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:23:54.758Z] GET /js/logger.js - Request received
+[2025-06-30T13:23:54.759Z] GET /js/register.js - Request received
+[2025-06-30T13:23:54.760Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T13:23:54.762Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:23:57.009Z] GET / - Request received
+[2025-06-30T13:23:57.010Z] Serving login page
+[2025-06-30T13:23:57.012Z] GET / - 304 - 3ms
+[2025-06-30T13:23:57.033Z] GET /css/custom.css - Request received
+[2025-06-30T13:23:57.034Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:23:57.038Z] GET /js/logger.js - Request received
+[2025-06-30T13:23:57.039Z] GET /js/login.js - Request received
+[2025-06-30T13:23:57.041Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:23:57.043Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:26:08.900Z] GET / - Request received
+[2025-06-30T13:26:08.903Z] Serving login page
+[2025-06-30T13:26:08.909Z] GET / - 200 - 9ms
+[2025-06-30T13:26:08.953Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:08.957Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:08.960Z] GET /js/login.js - Request received
+[2025-06-30T13:26:08.963Z] GET /css/custom.css - 304 - 10ms
+[2025-06-30T13:26:08.967Z] GET /js/logger.js - 304 - 10ms
+[2025-06-30T13:26:08.971Z] GET /js/login.js - 304 - 11ms
+[2025-06-30T13:26:20.722Z] GET /register - Request received
+[2025-06-30T13:26:20.723Z] Serving registration page
+[2025-06-30T13:26:20.724Z] GET /register - 304 - 2ms
+[2025-06-30T13:26:20.743Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:20.745Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:26:20.753Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:20.755Z] GET /js/register.js - Request received
+[2025-06-30T13:26:20.757Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T13:26:20.758Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:26:23.164Z] GET / - Request received
+[2025-06-30T13:26:23.165Z] Serving login page
+[2025-06-30T13:26:23.166Z] GET / - 304 - 2ms
+[2025-06-30T13:26:23.185Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:23.186Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:26:23.190Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:23.191Z] GET /js/login.js - Request received
+[2025-06-30T13:26:23.193Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:26:23.194Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:26:25.412Z] GET /register - Request received
+[2025-06-30T13:26:25.413Z] Serving registration page
+[2025-06-30T13:26:25.415Z] GET /register - 304 - 3ms
+[2025-06-30T13:26:25.433Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:25.434Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:26:25.438Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:25.439Z] GET /js/register.js - Request received
+[2025-06-30T13:26:25.441Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:26:25.442Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:26:29.923Z] GET / - Request received
+[2025-06-30T13:26:29.924Z] Serving login page
+[2025-06-30T13:26:29.925Z] GET / - 304 - 2ms
+[2025-06-30T13:26:29.943Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:29.945Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T13:26:29.949Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:29.950Z] GET /js/login.js - Request received
+[2025-06-30T13:26:29.952Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:26:29.953Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:26:33.379Z] GET /register - Request received
+[2025-06-30T13:26:33.380Z] Serving registration page
+[2025-06-30T13:26:33.381Z] GET /register - 304 - 2ms
+[2025-06-30T13:26:33.398Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:33.399Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:26:33.404Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:33.406Z] GET /js/register.js - Request received
+[2025-06-30T13:26:33.407Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:26:33.408Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T13:26:38.756Z] GET / - Request received
+[2025-06-30T13:26:38.757Z] Serving login page
+[2025-06-30T13:26:38.758Z] GET / - 304 - 2ms
+[2025-06-30T13:26:38.778Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:38.779Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:26:38.785Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:38.786Z] GET /js/login.js - Request received
+[2025-06-30T13:26:38.788Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T13:26:38.790Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T13:26:40.890Z] GET /register - Request received
+[2025-06-30T13:26:40.891Z] Serving registration page
+[2025-06-30T13:26:40.893Z] GET /register - 304 - 3ms
+[2025-06-30T13:26:40.914Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:40.915Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:26:40.916Z] GET /js/register.js - Request received
+[2025-06-30T13:26:40.917Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:40.919Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T13:26:40.920Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:26:42.837Z] GET / - Request received
+[2025-06-30T13:26:42.838Z] Serving login page
+[2025-06-30T13:26:42.839Z] GET / - 304 - 2ms
+[2025-06-30T13:26:42.858Z] GET /css/custom.css - Request received
+[2025-06-30T13:26:42.859Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T13:26:42.864Z] GET /js/logger.js - Request received
+[2025-06-30T13:26:42.865Z] GET /js/login.js - Request received
+[2025-06-30T13:26:42.867Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:26:42.868Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T13:27:06.321Z] POST /api/index - Request received
+[2025-06-30T13:27:06.321Z] Login attempt for username: ekalavya
+[2025-06-30T13:27:06.436Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T13:27:06.437Z] POST /api/index - 200 - 116ms
+[2025-06-30T13:27:06.550Z] POST /api/client-logs - Request received
+[2025-06-30T13:27:06.562Z] Received 19 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T13:27:06.565Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T13:27:06.566Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T13:27:06.568Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login controller initialized
+[2025-06-30T13:27:06.571Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login page fully loaded
+[2025-06-30T13:27:06.573Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance metrics - Page load: -1751290002827ms, DOM ready: 64ms, First paint: 0ms
+[2025-06-30T13:27:06.575Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: page-load took 101.70ms
+[2025-06-30T13:27:06.577Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T13:27:06.580Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T13:27:06.582Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - invalid
+[2025-06-30T13:27:06.587Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T13:27:06.589Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - invalid
+[2025-06-30T13:27:06.591Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T13:27:06.593Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T13:27:06.596Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T13:27:06.598Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T13:27:06.601Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T13:27:06.603Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 122.80ms
+[2025-06-30T13:27:06.605Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 200 (123ms)
+[2025-06-30T13:27:06.606Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
+[2025-06-30T13:27:06.610Z] POST /api/client-logs - 200 - 60ms
+[2025-06-30T13:27:06.613Z] GET /app - Request received
+[2025-06-30T13:27:06.617Z] Serving main application page
+[2025-06-30T13:27:06.620Z] GET /app - 304 - 7ms
+[2025-06-30T13:27:06.676Z] GET /css/custom.css - Request received
+[2025-06-30T13:27:06.680Z] GET /css/custom.css - 304 - 4ms
+[2025-06-30T13:27:06.696Z] GET /js/logger.js - Request received
+[2025-06-30T13:27:06.699Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T13:27:06.910Z] GET /api/subscriptions - Request received
+[2025-06-30T13:27:06.916Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T13:27:06.929Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T13:27:06.936Z] GET /api/subscriptions - 304 - 26ms
+[2025-06-30T13:27:37.174Z] POST /api/client-logs - Request received
+[2025-06-30T13:27:37.180Z] Received 8 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T13:27:37.181Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T13:27:37.183Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T13:27:37.184Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription app controller initialized
+[2025-06-30T13:27:37.185Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T13:27:37.187Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 2 subscriptions
+[2025-06-30T13:27:37.188Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 76.40ms
+[2025-06-30T13:27:37.189Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] TypeError: $scope.checkSMSStatus is not a function
+[2025-06-30T13:27:37.191Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] TypeError: $scope.checkSMSStatus is not a function Possibly unhandled rejection: {}
+[2025-06-30T13:27:37.193Z] POST /api/client-logs - 200 - 19ms
+[2025-06-30T13:28:37.511Z] POST /api/subscriptions - Request received
+[2025-06-30T13:28:37.513Z] Creating subscription for user: ekalavya
+[2025-06-30T13:28:37.533Z] Subscription created successfully: asASAs
+[2025-06-30T13:28:37.536Z] POST /api/subscriptions - 201 - 25ms
+[2025-06-30T13:28:37.541Z] GET /api/subscriptions - Request received
+[2025-06-30T13:28:37.545Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T13:28:37.552Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T13:28:37.554Z] GET /api/subscriptions - 200 - 13ms
+[2025-06-30T13:29:06.843Z] POST /api/client-logs - Request received
+[2025-06-30T13:29:06.849Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T13:29:06.851Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Saving subscription
+[2025-06-30T13:29:06.852Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: subscription-form - valid
+[2025-06-30T13:29:06.854Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/subscriptions - 200 (30ms)
+[2025-06-30T13:29:06.855Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription added successfully
+[2025-06-30T13:29:06.857Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T13:29:06.858Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 3 subscriptions
+[2025-06-30T13:29:06.860Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 76.40ms
+[2025-06-30T13:29:06.862Z] POST /api/client-logs - 200 - 19ms
+[2025-06-30T13:41:36.833Z] POST /api/client-logs - Request received
+[2025-06-30T13:41:36.838Z] Received 3 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T13:41:36.840Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: edit-subscription
+[2025-06-30T13:41:36.841Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-29
+[2025-06-30T13:41:36.843Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-29
+[2025-06-30T13:41:36.845Z] POST /api/client-logs - 200 - 12ms
+[2025-06-30T13:41:36.966Z] PUT /api/subscriptions/68629105f3a2091f3e26fa1a - Request received
+[2025-06-30T13:41:36.969Z] Updating subscription 68629105f3a2091f3e26fa1a for user: ekalavya
+[2025-06-30T13:41:36.994Z] Subscription updated successfully: asASAs
+[2025-06-30T13:41:36.996Z] PUT /api/subscriptions/68629105f3a2091f3e26fa1a - 200 - 30ms
+[2025-06-30T13:41:37.001Z] GET /api/subscriptions - Request received
+[2025-06-30T13:41:37.006Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T13:41:37.012Z] Found 3 subscriptions for user: ekalavya
+[2025-06-30T13:41:37.016Z] GET /api/subscriptions - 200 - 15ms
+[2025-06-30T13:41:51.173Z] DELETE /api/subscriptions/68629105f3a2091f3e26fa1a - Request received
+[2025-06-30T13:41:51.180Z] Deleting subscription 68629105f3a2091f3e26fa1a for user: ekalavya
+[2025-06-30T13:41:51.195Z] Subscription deleted successfully: asASAs
+[2025-06-30T13:41:51.199Z] DELETE /api/subscriptions/68629105f3a2091f3e26fa1a - 200 - 26ms
+[2025-06-30T13:41:51.207Z] GET /api/subscriptions - Request received
+[2025-06-30T13:41:51.216Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T13:41:51.224Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T13:41:51.228Z] GET /api/subscriptions - 200 - 21ms
+[2025-06-30T13:42:07.173Z] POST /api/client-logs - Request received
+[2025-06-30T13:42:07.178Z] Received 13 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T13:42:07.179Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Saving subscription
+[2025-06-30T13:42:07.181Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: subscription-form - valid
+[2025-06-30T13:42:07.182Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] PUT /api/subscriptions/68629105f3a2091f3e26fa1a - 200 (35ms)
+[2025-06-30T13:42:07.184Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription updated successfully
+[2025-06-30T13:42:07.185Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T13:42:07.186Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 3 subscriptions
+[2025-06-30T13:42:07.187Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 76.40ms
+[2025-06-30T13:42:07.189Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: delete-subscription
+[2025-06-30T13:42:07.190Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] DELETE /api/subscriptions/68629105f3a2091f3e26fa1a - 200 (37ms)
+[2025-06-30T13:42:07.192Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription deleted successfully
+[2025-06-30T13:42:07.193Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T13:42:07.194Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 2 subscriptions
+[2025-06-30T13:42:07.196Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 76.40ms
+[2025-06-30T13:42:07.198Z] POST /api/client-logs - 200 - 25ms
+[2025-06-30T14:55:01.506Z] Twilio client initialized successfully
+[2025-06-30T14:55:01.508Z] SMS reminders enabled
+[2025-06-30T14:55:01.508Z] SMS schedule mode: disabled
+[2025-06-30T14:55:01.508Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T14:55:01.511Z] Server running on port 3000
+[2025-06-30T14:55:01.511Z] Environment: development
+[2025-06-30T14:55:01.511Z] MongoDB: Disconnected
+[2025-06-30T14:55:01.512Z] Twilio: Enabled
+[2025-06-30T14:55:01.523Z] MongoDB connected successfully
+[2025-06-30T14:55:04.450Z] GET /app - Request received
+[2025-06-30T14:55:04.453Z] Serving main application page
+[2025-06-30T14:55:04.460Z] GET /app - 200 - 10ms
+[2025-06-30T14:55:04.473Z] GET /css/custom.css - Request received
+[2025-06-30T14:55:04.474Z] GET /js/logger.js - Request received
+[2025-06-30T14:55:04.476Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T14:55:04.478Z] GET /css/custom.css - 200 - 5ms
+[2025-06-30T14:55:06.141Z] GET /api/subscriptions - Request received
+[2025-06-30T14:55:06.145Z] Authentication failed: jwt expired
+[2025-06-30T14:55:06.148Z] GET /api/subscriptions - 302 - 7ms
+[2025-06-30T14:55:06.159Z] GET / - Request received
+[2025-06-30T14:55:06.162Z] Serving login page
+[2025-06-30T14:55:06.164Z] GET / - 304 - 5ms
+[2025-06-30T14:55:36.303Z] POST /api/client-logs - Request received
+[2025-06-30T14:55:36.304Z] Authentication failed: jwt expired
+[2025-06-30T14:55:36.305Z] POST /api/client-logs - 302 - 2ms
+[2025-06-30T14:55:36.307Z] GET / - Request received
+[2025-06-30T14:55:36.309Z] Serving login page
+[2025-06-30T14:55:36.309Z] GET / - 304 - 2ms
+[2025-06-30T14:55:53.792Z] GET /app - Request received
+[2025-06-30T14:55:53.793Z] Serving main application page
+[2025-06-30T14:55:53.795Z] GET /app - 200 - 3ms
+[2025-06-30T14:55:53.812Z] GET /css/custom.css - Request received
+[2025-06-30T14:55:53.813Z] GET /js/logger.js - Request received
+[2025-06-30T14:55:53.815Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T14:55:53.817Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T14:55:53.891Z] GET /api/subscriptions - Request received
+[2025-06-30T14:55:53.893Z] Authentication failed: jwt expired
+[2025-06-30T14:55:53.895Z] GET /api/subscriptions - 302 - 4ms
+[2025-06-30T14:55:53.906Z] GET / - Request received
+[2025-06-30T14:55:53.907Z] Serving login page
+[2025-06-30T14:55:53.910Z] GET / - 304 - 4ms
+[2025-06-30T14:56:15.478Z] GET / - Request received
+[2025-06-30T14:56:15.480Z] Serving login page
+[2025-06-30T14:56:15.481Z] GET / - 304 - 3ms
+[2025-06-30T14:56:15.500Z] GET /css/custom.css - Request received
+[2025-06-30T14:56:15.501Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T14:56:15.504Z] GET /js/logger.js - Request received
+[2025-06-30T14:56:15.505Z] GET /js/login.js - Request received
+[2025-06-30T14:56:15.506Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T14:56:15.508Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T14:56:18.002Z] GET /register - Request received
+[2025-06-30T14:56:18.003Z] Serving registration page
+[2025-06-30T14:56:18.004Z] GET /register - 304 - 2ms
+[2025-06-30T14:56:18.022Z] GET /css/custom.css - Request received
+[2025-06-30T14:56:18.023Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T14:56:18.025Z] GET /js/logger.js - Request received
+[2025-06-30T14:56:18.026Z] GET /js/register.js - Request received
+[2025-06-30T14:56:18.027Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T14:56:18.028Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T14:56:20.081Z] GET / - Request received
+[2025-06-30T14:56:20.082Z] Serving login page
+[2025-06-30T14:56:20.082Z] GET / - 304 - 1ms
+[2025-06-30T14:56:20.095Z] GET /css/custom.css - Request received
+[2025-06-30T14:56:20.096Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T14:56:20.099Z] GET /js/logger.js - Request received
+[2025-06-30T14:56:20.100Z] GET /js/login.js - Request received
+[2025-06-30T14:56:20.101Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T14:56:20.102Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T14:56:24.602Z] GET /register - Request received
+[2025-06-30T14:56:24.603Z] Serving registration page
+[2025-06-30T14:56:24.604Z] GET /register - 304 - 2ms
+[2025-06-30T14:56:24.618Z] GET /css/custom.css - Request received
+[2025-06-30T14:56:24.619Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T14:56:24.622Z] GET /js/logger.js - Request received
+[2025-06-30T14:56:24.623Z] GET /js/register.js - Request received
+[2025-06-30T14:56:24.624Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T14:56:24.627Z] GET /js/register.js - 304 - 4ms
+[2025-06-30T14:56:45.606Z] POST /api/register - Request received
+[2025-06-30T14:56:45.606Z] Registration attempt for username: sushant
+[2025-06-30T14:56:45.766Z] Registration error: User validation failed: usernameNormalized: Path `usernameNormalized` is required.
+[2025-06-30T14:56:45.769Z] POST /api/register - 500 - 163ms
+[2025-06-30T14:56:51.273Z] POST /api/register - Request received
+[2025-06-30T14:56:51.274Z] Registration attempt for username: sushant
+[2025-06-30T14:56:51.337Z] Registration error: User validation failed: usernameNormalized: Path `usernameNormalized` is required.
+[2025-06-30T14:56:51.406Z] POST /api/register - 500 - 133ms
+[2025-06-30T15:10:13.481Z] GET /register - Request received
+[2025-06-30T15:10:13.482Z] Serving registration page
+[2025-06-30T15:10:13.484Z] GET /register - 304 - 3ms
+[2025-06-30T15:10:13.497Z] GET /css/custom.css - Request received
+[2025-06-30T15:10:13.498Z] GET /js/logger.js - Request received
+[2025-06-30T15:10:13.499Z] GET /js/register.js - Request received
+[2025-06-30T15:10:13.500Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T15:10:13.501Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:10:13.502Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T15:10:29.701Z] POST /api/register - Request received
+[2025-06-30T15:10:29.701Z] Registration attempt for username: sushant
+[2025-06-30T15:10:29.765Z] Registration error: User validation failed: usernameNormalized: Path `usernameNormalized` is required.
+[2025-06-30T15:10:29.766Z] POST /api/register - 500 - 65ms
+[2025-06-30T15:14:28.541Z] Twilio client initialized successfully
+[2025-06-30T15:14:28.543Z] SMS reminders enabled
+[2025-06-30T15:14:28.543Z] SMS schedule mode: disabled
+[2025-06-30T15:14:28.544Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T15:14:28.547Z] Server running on port 3000
+[2025-06-30T15:14:28.547Z] Environment: development
+[2025-06-30T15:14:28.547Z] MongoDB: Disconnected
+[2025-06-30T15:14:28.548Z] Twilio: Enabled
+[2025-06-30T15:14:28.561Z] MongoDB connected successfully
+[2025-06-30T15:14:31.894Z] GET /register - Request received
+[2025-06-30T15:14:31.897Z] Serving registration page
+[2025-06-30T15:14:31.901Z] GET /register - 304 - 7ms
+[2025-06-30T15:14:31.913Z] GET /css/custom.css - Request received
+[2025-06-30T15:14:31.914Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:14:31.916Z] GET /js/logger.js - Request received
+[2025-06-30T15:14:31.916Z] GET /js/register.js - Request received
+[2025-06-30T15:14:31.918Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:14:31.919Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T15:14:48.178Z] POST /api/register - Request received
+[2025-06-30T15:14:48.179Z] Registration attempt for username: ekalavya
+[2025-06-30T15:14:48.263Z] User registered successfully: ekalavya
+[2025-06-30T15:14:48.266Z] POST /api/register - 201 - 88ms
+[2025-06-30T15:14:51.278Z] GET / - Request received
+[2025-06-30T15:14:51.279Z] Serving login page
+[2025-06-30T15:14:51.281Z] GET / - 304 - 3ms
+[2025-06-30T15:14:51.294Z] GET /css/custom.css - Request received
+[2025-06-30T15:14:51.296Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:14:51.299Z] GET /js/logger.js - Request received
+[2025-06-30T15:14:51.302Z] GET /js/login.js - Request received
+[2025-06-30T15:14:51.303Z] GET /js/logger.js - 304 - 4ms
+[2025-06-30T15:14:51.305Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:15:01.635Z] POST /api/index - Request received
+[2025-06-30T15:15:01.636Z] Login attempt for username: ekalavya
+[2025-06-30T15:15:01.698Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T15:15:01.700Z] POST /api/index - 400 - 65ms
+[2025-06-30T15:15:57.362Z] GET /register - Request received
+[2025-06-30T15:15:57.362Z] Serving registration page
+[2025-06-30T15:15:57.363Z] GET /register - 304 - 1ms
+[2025-06-30T15:15:57.375Z] GET /css/custom.css - Request received
+[2025-06-30T15:15:57.377Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:15:57.379Z] GET /js/logger.js - Request received
+[2025-06-30T15:15:57.380Z] GET /js/register.js - Request received
+[2025-06-30T15:15:57.381Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:15:57.383Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T15:16:13.399Z] POST /api/register - Request received
+[2025-06-30T15:16:13.400Z] Registration attempt for username: aman
+[2025-06-30T15:16:13.467Z] User registered successfully: aman
+[2025-06-30T15:16:13.469Z] POST /api/register - 201 - 70ms
+[2025-06-30T15:16:16.484Z] GET / - Request received
+[2025-06-30T15:16:16.485Z] Serving login page
+[2025-06-30T15:16:16.486Z] GET / - 304 - 2ms
+[2025-06-30T15:16:16.501Z] GET /css/custom.css - Request received
+[2025-06-30T15:16:16.502Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:16:16.505Z] GET /js/logger.js - Request received
+[2025-06-30T15:16:16.506Z] GET /js/login.js - Request received
+[2025-06-30T15:16:16.508Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:16:16.509Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:16:39.480Z] POST /api/index - Request received
+[2025-06-30T15:16:39.480Z] Login attempt for username: sada
+[2025-06-30T15:16:39.482Z] Login failed: User sada not found
+[2025-06-30T15:16:39.484Z] POST /api/index - 400 - 4ms
+[2025-06-30T15:16:41.629Z] POST /api/index - Request received
+[2025-06-30T15:16:41.629Z] Login attempt for username: sada
+[2025-06-30T15:16:41.632Z] Login failed: User sada not found
+[2025-06-30T15:16:41.633Z] POST /api/index - 400 - 4ms
+[2025-06-30T15:16:46.646Z] POST /api/index - Request received
+[2025-06-30T15:16:46.647Z] Login attempt for username: sada
+[2025-06-30T15:16:46.649Z] Login failed: User sada not found
+[2025-06-30T15:16:46.650Z] POST /api/index - 400 - 4ms
+[2025-06-30T15:17:01.788Z] POST /api/index - Request received
+[2025-06-30T15:17:01.788Z] Login attempt for username: sada
+[2025-06-30T15:17:01.791Z] Login failed: User sada not found
+[2025-06-30T15:17:01.792Z] POST /api/index - 400 - 4ms
+[2025-06-30T15:19:43.440Z] POST /api/index - Request received
+[2025-06-30T15:19:43.441Z] Login attempt for username: ekalavya
+[2025-06-30T15:19:43.509Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T15:19:43.510Z] POST /api/index - 200 - 70ms
+[2025-06-30T15:19:43.616Z] POST /api/client-logs - Request received
+[2025-06-30T15:19:43.621Z] Received 53 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:19:43.622Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:19:43.623Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:19:43.623Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login controller initialized
+[2025-06-30T15:19:43.624Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login page fully loaded
+[2025-06-30T15:19:43.624Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance metrics - Page load: -1751296576477ms, DOM ready: 48ms, First paint: 0ms
+[2025-06-30T15:19:43.625Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: page-load took 102.90ms
+[2025-06-30T15:19:43.625Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:19:43.626Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:19:43.627Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:19:43.627Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:19:43.627Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - invalid
+[2025-06-30T15:19:43.628Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.628Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:19:43.629Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.629Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:19:43.629Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:19:43.630Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 7.90ms
+[2025-06-30T15:19:43.630Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 400 (7ms)
+[2025-06-30T15:19:43.631Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.631Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed - keeping user input for retry
+[2025-06-30T15:19:43.632Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.632Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:19:43.633Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:19:43.634Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 7.90ms
+[2025-06-30T15:19:43.634Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 400 (7ms)
+[2025-06-30T15:19:43.634Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.635Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed - keeping user input for retry
+[2025-06-30T15:19:43.635Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: password-input-blur
+[2025-06-30T15:19:43.636Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.636Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:19:43.637Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.637Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:19:43.638Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:19:43.638Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 7.90ms
+[2025-06-30T15:19:43.638Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 400 (7ms)
+[2025-06-30T15:19:43.639Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.639Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed - keeping user input for retry
+[2025-06-30T15:19:43.640Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: password-input-blur
+[2025-06-30T15:19:43.640Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: password-input-blur
+[2025-06-30T15:19:43.641Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:19:43.641Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:19:43.641Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 7.90ms
+[2025-06-30T15:19:43.642Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 400 (9ms)
+[2025-06-30T15:19:43.642Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:19:43.643Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed - keeping user input for retry
+[2025-06-30T15:19:43.643Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.643Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:19:43.644Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:19:43.644Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:19:43.645Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:19:43.645Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 7.90ms
+[2025-06-30T15:19:43.645Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 200 (73ms)
+[2025-06-30T15:19:43.646Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
+[2025-06-30T15:19:43.647Z] POST /api/client-logs - 200 - 31ms
+[2025-06-30T15:19:43.649Z] GET /app - Request received
+[2025-06-30T15:19:43.650Z] Serving main application page
+[2025-06-30T15:19:43.653Z] GET /app - 200 - 4ms
+[2025-06-30T15:19:43.673Z] GET /css/custom.css - Request received
+[2025-06-30T15:19:43.674Z] GET /js/logger.js - Request received
+[2025-06-30T15:19:43.676Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T15:19:43.677Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:19:43.756Z] GET /api/subscriptions - Request received
+[2025-06-30T15:19:43.757Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:19:43.761Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T15:19:43.762Z] GET /api/subscriptions - 200 - 6ms
+[2025-06-30T15:20:14.166Z] POST /api/client-logs - Request received
+[2025-06-30T15:20:14.169Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:20:14.169Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:20:14.170Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:20:14.170Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription app controller initialized
+[2025-06-30T15:20:14.170Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T15:20:14.171Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:20:14.171Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 0 subscriptions
+[2025-06-30T15:20:14.171Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 25.50ms
+[2025-06-30T15:20:14.172Z] POST /api/client-logs - 200 - 6ms
+[2025-06-30T15:20:18.363Z] GET /app - Request received
+[2025-06-30T15:20:18.363Z] Serving main application page
+[2025-06-30T15:20:18.365Z] GET /app - 200 - 2ms
+[2025-06-30T15:20:18.376Z] GET /css/custom.css - Request received
+[2025-06-30T15:20:18.377Z] GET /js/logger.js - Request received
+[2025-06-30T15:20:18.378Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:20:18.379Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:20:18.627Z] GET /api/subscriptions - Request received
+[2025-06-30T15:20:18.629Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:20:18.631Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T15:20:18.632Z] GET /api/subscriptions - 304 - 5ms
+[2025-06-30T15:20:49.169Z] POST /api/client-logs - Request received
+[2025-06-30T15:20:49.170Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:20:49.171Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:20:49.171Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:20:49.172Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription app controller initialized
+[2025-06-30T15:20:49.172Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T15:20:49.172Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:20:49.172Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 0 subscriptions
+[2025-06-30T15:20:49.173Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 16.30ms
+[2025-06-30T15:20:49.173Z] POST /api/client-logs - 200 - 4ms
+[2025-06-30T15:21:34.680Z] GET / - Request received
+[2025-06-30T15:21:34.681Z] Serving login page
+[2025-06-30T15:21:34.683Z] GET / - 304 - 3ms
+[2025-06-30T15:21:34.704Z] GET /css/custom.css - Request received
+[2025-06-30T15:21:34.706Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:21:34.711Z] GET /js/logger.js - Request received
+[2025-06-30T15:21:34.711Z] GET /js/login.js - Request received
+[2025-06-30T15:21:34.713Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:21:34.714Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:21:37.159Z] GET /register - Request received
+[2025-06-30T15:21:37.160Z] Serving registration page
+[2025-06-30T15:21:37.161Z] GET /register - 304 - 2ms
+[2025-06-30T15:21:37.178Z] GET /css/custom.css - Request received
+[2025-06-30T15:21:37.180Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:21:37.183Z] GET /js/logger.js - Request received
+[2025-06-30T15:21:37.185Z] GET /js/register.js - Request received
+[2025-06-30T15:21:37.186Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:21:37.187Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T15:22:33.081Z] GET / - Request received
+[2025-06-30T15:22:33.082Z] Serving login page
+[2025-06-30T15:22:33.083Z] GET / - 304 - 2ms
+[2025-06-30T15:22:33.097Z] GET /css/custom.css - Request received
+[2025-06-30T15:22:33.098Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:22:33.102Z] GET /js/logger.js - Request received
+[2025-06-30T15:22:33.103Z] GET /js/login.js - Request received
+[2025-06-30T15:22:33.105Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:22:33.106Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:33:51.859Z] Twilio client initialized successfully
+[2025-06-30T15:33:51.861Z] SMS reminders enabled
+[2025-06-30T15:33:51.862Z] SMS schedule mode: disabled
+[2025-06-30T15:33:51.862Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T15:33:51.865Z] Server running on port 3000
+[2025-06-30T15:33:51.866Z] Environment: development
+[2025-06-30T15:33:51.866Z] MongoDB: Disconnected
+[2025-06-30T15:33:51.867Z] Twilio: Enabled
+[2025-06-30T15:33:51.879Z] MongoDB connected successfully
+[2025-06-30T15:33:54.473Z] GET / - Request received
+[2025-06-30T15:33:54.476Z] Serving login page
+[2025-06-30T15:33:54.481Z] GET / - 200 - 8ms
+[2025-06-30T15:33:54.496Z] GET /css/custom.css - Request received
+[2025-06-30T15:33:54.498Z] GET /js/logger.js - Request received
+[2025-06-30T15:33:54.499Z] GET /js/login.js - Request received
+[2025-06-30T15:33:54.500Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:33:54.501Z] GET /css/custom.css - 200 - 5ms
+[2025-06-30T15:33:54.502Z] GET /js/login.js - 200 - 3ms
+[2025-06-30T15:33:57.213Z] GET /register - Request received
+[2025-06-30T15:33:57.214Z] Serving registration page
+[2025-06-30T15:33:57.215Z] GET /register - 304 - 2ms
+[2025-06-30T15:33:57.229Z] GET /css/custom.css - Request received
+[2025-06-30T15:33:57.230Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:33:57.232Z] GET /js/logger.js - Request received
+[2025-06-30T15:33:57.234Z] GET /js/register.js - Request received
+[2025-06-30T15:33:57.235Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:33:57.237Z] GET /js/register.js - 200 - 3ms
+[2025-06-30T15:33:59.182Z] GET / - Request received
+[2025-06-30T15:33:59.183Z] Serving login page
+[2025-06-30T15:33:59.185Z] GET / - 304 - 3ms
+[2025-06-30T15:33:59.196Z] GET /css/custom.css - Request received
+[2025-06-30T15:33:59.197Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:33:59.200Z] GET /js/logger.js - Request received
+[2025-06-30T15:33:59.201Z] GET /js/login.js - Request received
+[2025-06-30T15:33:59.202Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:33:59.203Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:34:01.290Z] GET /register - Request received
+[2025-06-30T15:34:01.291Z] Serving registration page
+[2025-06-30T15:34:01.292Z] GET /register - 304 - 2ms
+[2025-06-30T15:34:01.305Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:01.306Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:01.309Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:01.310Z] GET /js/register.js - Request received
+[2025-06-30T15:34:01.312Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:34:01.313Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T15:34:03.158Z] GET / - Request received
+[2025-06-30T15:34:03.158Z] Serving login page
+[2025-06-30T15:34:03.159Z] GET / - 304 - 1ms
+[2025-06-30T15:34:03.172Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:03.173Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:03.176Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:03.177Z] GET /js/login.js - Request received
+[2025-06-30T15:34:03.179Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:34:03.180Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:34:05.257Z] GET /register - Request received
+[2025-06-30T15:34:05.258Z] Serving registration page
+[2025-06-30T15:34:05.259Z] GET /register - 304 - 2ms
+[2025-06-30T15:34:05.274Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:05.276Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:34:05.279Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:05.280Z] GET /js/register.js - Request received
+[2025-06-30T15:34:05.281Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:05.282Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T15:34:07.304Z] GET / - Request received
+[2025-06-30T15:34:07.305Z] Serving login page
+[2025-06-30T15:34:07.306Z] GET / - 304 - 2ms
+[2025-06-30T15:34:07.323Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:07.324Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:07.325Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:07.326Z] GET /js/login.js - Request received
+[2025-06-30T15:34:07.327Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:07.328Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:34:09.691Z] GET /register - Request received
+[2025-06-30T15:34:09.692Z] Serving registration page
+[2025-06-30T15:34:09.692Z] GET /register - 304 - 1ms
+[2025-06-30T15:34:09.705Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:09.706Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:09.707Z] GET /js/register.js - Request received
+[2025-06-30T15:34:09.708Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T15:34:09.708Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:09.709Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T15:34:11.721Z] GET / - Request received
+[2025-06-30T15:34:11.722Z] Serving login page
+[2025-06-30T15:34:11.722Z] GET / - 304 - 1ms
+[2025-06-30T15:34:11.734Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:11.735Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:11.739Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:11.740Z] GET /js/login.js - Request received
+[2025-06-30T15:34:11.741Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:11.742Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:34:14.070Z] GET /register - Request received
+[2025-06-30T15:34:14.071Z] Serving registration page
+[2025-06-30T15:34:14.071Z] GET /register - 304 - 1ms
+[2025-06-30T15:34:14.084Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:14.085Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:14.089Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:14.089Z] GET /js/register.js - Request received
+[2025-06-30T15:34:14.090Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:34:14.091Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T15:34:16.560Z] GET / - Request received
+[2025-06-30T15:34:16.560Z] Serving login page
+[2025-06-30T15:34:16.561Z] GET / - 304 - 1ms
+[2025-06-30T15:34:16.575Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:16.576Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:16.579Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:16.580Z] GET /js/login.js - Request received
+[2025-06-30T15:34:16.581Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:16.582Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:34:19.152Z] GET /register - Request received
+[2025-06-30T15:34:19.153Z] Serving registration page
+[2025-06-30T15:34:19.153Z] GET /register - 304 - 1ms
+[2025-06-30T15:34:19.166Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:19.167Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:19.172Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:19.173Z] GET /js/register.js - Request received
+[2025-06-30T15:34:19.175Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:34:19.176Z] GET /js/register.js - 304 - 3ms
+[2025-06-30T15:34:35.196Z] POST /api/register - Request received
+[2025-06-30T15:34:35.197Z] Registration attempt for username: sushant
+[2025-06-30T15:34:35.279Z] User registered successfully: sushant
+[2025-06-30T15:34:35.281Z] POST /api/register - 201 - 85ms
+[2025-06-30T15:34:38.300Z] GET / - Request received
+[2025-06-30T15:34:38.301Z] Serving login page
+[2025-06-30T15:34:38.302Z] GET / - 304 - 2ms
+[2025-06-30T15:34:38.319Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:38.320Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:38.323Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:38.324Z] GET /js/login.js - Request received
+[2025-06-30T15:34:38.325Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:38.326Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:34:51.253Z] POST /api/index - Request received
+[2025-06-30T15:34:51.253Z] Login attempt for username: ekalavya
+[2025-06-30T15:34:51.317Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T15:34:51.318Z] POST /api/index - 200 - 65ms
+[2025-06-30T15:34:51.422Z] POST /api/client-logs - Request received
+[2025-06-30T15:34:51.425Z] Received 15 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:34:51.426Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:34:51.426Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:34:51.427Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login controller initialized
+[2025-06-30T15:34:51.427Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login page fully loaded
+[2025-06-30T15:34:51.427Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance metrics - Page load: -1751297678294ms, DOM ready: 50ms, First paint: 0ms
+[2025-06-30T15:34:51.428Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: page-load took 101.20ms
+[2025-06-30T15:34:51.428Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:34:51.428Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:34:51.429Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:34:51.429Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:34:51.429Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:34:51.430Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:34:51.430Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 70.20ms
+[2025-06-30T15:34:51.430Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 200 (70ms)
+[2025-06-30T15:34:51.431Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
+[2025-06-30T15:34:51.431Z] POST /api/client-logs - 200 - 9ms
+[2025-06-30T15:34:51.433Z] GET /app - Request received
+[2025-06-30T15:34:51.434Z] Serving main application page
+[2025-06-30T15:34:51.435Z] GET /app - 200 - 2ms
+[2025-06-30T15:34:51.450Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:51.451Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:34:51.456Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:51.457Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:34:51.507Z] GET /api/subscriptions - Request received
+[2025-06-30T15:34:51.509Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:34:51.512Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T15:34:51.514Z] GET /api/subscriptions - 304 - 7ms
+[2025-06-30T15:34:54.467Z] POST /api/client-logs - Request received
+[2025-06-30T15:34:54.469Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:34:54.469Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:34:54.470Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:34:54.470Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription app controller initialized
+[2025-06-30T15:34:54.470Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T15:34:54.471Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:34:54.471Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 0 subscriptions
+[2025-06-30T15:34:54.472Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 23.00ms
+[2025-06-30T15:34:54.473Z] POST /api/client-logs - 200 - 6ms
+[2025-06-30T15:34:54.473Z] GET /app - Request received
+[2025-06-30T15:34:54.474Z] Serving main application page
+[2025-06-30T15:34:54.475Z] GET /app - 304 - 2ms
+[2025-06-30T15:34:54.485Z] GET /css/custom.css - Request received
+[2025-06-30T15:34:54.486Z] GET /js/logger.js - Request received
+[2025-06-30T15:34:54.487Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:34:54.488Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:34:54.516Z] GET /api/subscriptions - Request received
+[2025-06-30T15:34:54.518Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:34:54.519Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T15:34:54.520Z] GET /api/subscriptions - 304 - 4ms
+[2025-06-30T15:35:25.175Z] POST /api/client-logs - Request received
+[2025-06-30T15:35:25.179Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:35:25.180Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:35:25.181Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:35:25.182Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription app controller initialized
+[2025-06-30T15:35:25.183Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T15:35:25.184Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:35:25.185Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 0 subscriptions
+[2025-06-30T15:35:25.185Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 17.20ms
+[2025-06-30T15:35:25.186Z] POST /api/client-logs - 200 - 11ms
+[2025-06-30T15:36:13.248Z] GET /app - Request received
+[2025-06-30T15:36:13.248Z] Serving main application page
+[2025-06-30T15:36:13.250Z] GET /app - 200 - 2ms
+[2025-06-30T15:36:13.262Z] GET /css/custom.css - Request received
+[2025-06-30T15:36:13.263Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:36:13.266Z] GET /js/logger.js - Request received
+[2025-06-30T15:36:13.267Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:36:13.295Z] GET /api/subscriptions - Request received
+[2025-06-30T15:36:13.297Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:36:13.301Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T15:36:13.302Z] GET /api/subscriptions - 304 - 7ms
+[2025-06-30T15:36:31.769Z] GET / - Request received
+[2025-06-30T15:36:31.770Z] Serving login page
+[2025-06-30T15:36:31.771Z] GET / - 304 - 2ms
+[2025-06-30T15:36:31.791Z] GET /css/custom.css - Request received
+[2025-06-30T15:36:31.793Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:36:31.796Z] GET /js/logger.js - Request received
+[2025-06-30T15:36:31.797Z] GET /js/login.js - Request received
+[2025-06-30T15:36:31.799Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:36:31.801Z] GET /js/login.js - 304 - 4ms
+[2025-06-30T15:36:33.800Z] GET /register - Request received
+[2025-06-30T15:36:33.800Z] Serving registration page
+[2025-06-30T15:36:33.801Z] GET /register - 304 - 1ms
+[2025-06-30T15:36:33.822Z] GET /css/custom.css - Request received
+[2025-06-30T15:36:33.823Z] GET /js/logger.js - Request received
+[2025-06-30T15:36:33.825Z] GET /js/register.js - Request received
+[2025-06-30T15:36:33.827Z] GET /css/custom.css - 304 - 5ms
+[2025-06-30T15:36:33.828Z] GET /js/logger.js - 304 - 5ms
+[2025-06-30T15:36:33.829Z] GET /js/register.js - 304 - 4ms
+[2025-06-30T15:36:35.915Z] GET / - Request received
+[2025-06-30T15:36:35.916Z] Serving login page
+[2025-06-30T15:36:35.916Z] GET / - 304 - 1ms
+[2025-06-30T15:36:35.928Z] GET /css/custom.css - Request received
+[2025-06-30T15:36:35.929Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:36:35.933Z] GET /js/logger.js - Request received
+[2025-06-30T15:36:35.934Z] GET /js/login.js - Request received
+[2025-06-30T15:36:35.934Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:36:35.936Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:36:38.230Z] GET /register - Request received
+[2025-06-30T15:36:38.231Z] Serving registration page
+[2025-06-30T15:36:38.231Z] GET /register - 304 - 1ms
+[2025-06-30T15:36:38.247Z] GET /css/custom.css - Request received
+[2025-06-30T15:36:38.248Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:36:38.252Z] GET /js/logger.js - Request received
+[2025-06-30T15:36:38.253Z] GET /js/register.js - Request received
+[2025-06-30T15:36:38.254Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:36:38.254Z] GET /js/register.js - 304 - 1ms
+[2025-06-30T15:36:40.543Z] GET / - Request received
+[2025-06-30T15:36:40.544Z] Serving login page
+[2025-06-30T15:36:40.545Z] GET / - 304 - 2ms
+[2025-06-30T15:36:40.560Z] GET /css/custom.css - Request received
+[2025-06-30T15:36:40.562Z] GET /css/custom.css - 304 - 2ms
+[2025-06-30T15:36:40.562Z] GET /js/logger.js - Request received
+[2025-06-30T15:36:40.563Z] GET /js/login.js - Request received
+[2025-06-30T15:36:40.564Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:36:40.565Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:38:29.300Z] Twilio client initialized successfully
+[2025-06-30T15:38:29.303Z] SMS reminders enabled
+[2025-06-30T15:38:29.303Z] SMS schedule mode: disabled
+[2025-06-30T15:38:29.304Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T15:38:29.306Z] Server running on port 3000
+[2025-06-30T15:38:29.307Z] Environment: development
+[2025-06-30T15:38:29.307Z] MongoDB: Disconnected
+[2025-06-30T15:38:29.308Z] Twilio: Enabled
+[2025-06-30T15:38:29.319Z] MongoDB connected successfully
+[2025-06-30T15:38:33.204Z] GET / - Request received
+[2025-06-30T15:38:33.207Z] Serving login page
+[2025-06-30T15:38:33.210Z] GET / - 304 - 6ms
+[2025-06-30T15:38:33.223Z] GET /css/custom.css - Request received
+[2025-06-30T15:38:33.224Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:38:33.226Z] GET /js/logger.js - Request received
+[2025-06-30T15:38:33.227Z] GET /js/login.js - Request received
+[2025-06-30T15:38:33.228Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:38:33.229Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:38:35.047Z] GET /register - Request received
+[2025-06-30T15:38:35.048Z] Serving registration page
+[2025-06-30T15:38:35.049Z] GET /register - 304 - 2ms
+[2025-06-30T15:38:35.064Z] GET /css/custom.css - Request received
+[2025-06-30T15:38:35.065Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:38:35.068Z] GET /js/logger.js - Request received
+[2025-06-30T15:38:35.069Z] GET /js/register.js - Request received
+[2025-06-30T15:38:35.070Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:38:35.071Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T15:38:36.942Z] GET / - Request received
+[2025-06-30T15:38:36.943Z] Serving login page
+[2025-06-30T15:38:36.944Z] GET / - 304 - 2ms
+[2025-06-30T15:38:36.958Z] GET /css/custom.css - Request received
+[2025-06-30T15:38:36.959Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:38:36.963Z] GET /js/logger.js - Request received
+[2025-06-30T15:38:36.963Z] GET /js/login.js - Request received
+[2025-06-30T15:38:36.965Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:38:36.966Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:38:48.242Z] POST /api/index - Request received
+[2025-06-30T15:38:48.243Z] Login attempt for username: ekalavya
+[2025-06-30T15:38:48.313Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T15:38:48.316Z] POST /api/index - 400 - 74ms
+[2025-06-30T15:39:05.550Z] POST /api/index - Request received
+[2025-06-30T15:39:05.550Z] Login attempt for username: ekalavya
+[2025-06-30T15:39:05.610Z] Login failed: Invalid password for user ekalavya
+[2025-06-30T15:39:05.611Z] POST /api/index - 400 - 61ms
+[2025-06-30T15:39:06.776Z] POST /api/index - Request received
+[2025-06-30T15:39:06.777Z] Login attempt for username: ekalavya
+[2025-06-30T15:39:06.840Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T15:39:06.842Z] POST /api/index - 200 - 66ms
+[2025-06-30T15:39:06.949Z] POST /api/client-logs - Request received
+[2025-06-30T15:39:06.952Z] Received 38 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:39:06.953Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:39:06.953Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:39:06.953Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login controller initialized
+[2025-06-30T15:39:06.954Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login page fully loaded
+[2025-06-30T15:39:06.954Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance metrics - Page load: -1751297916935ms, DOM ready: 46ms, First paint: 0ms
+[2025-06-30T15:39:06.954Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: page-load took 101.40ms
+[2025-06-30T15:39:06.955Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:39:06.955Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.955Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:39:06.956Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.956Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:39:06.956Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:39:06.956Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 88.20ms
+[2025-06-30T15:39:06.957Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 400 (88ms)
+[2025-06-30T15:39:06.957Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:39:06.958Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed - keeping user input for retry
+[2025-06-30T15:39:06.958Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: password-input-blur
+[2025-06-30T15:39:06.958Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.959Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:39:06.959Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.959Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:39:06.960Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - invalid
+[2025-06-30T15:39:06.960Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: password-input-blur
+[2025-06-30T15:39:06.960Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.961Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:39:06.961Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.961Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:39:06.962Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:39:06.962Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 88.20ms
+[2025-06-30T15:39:06.963Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 400 (64ms)
+[2025-06-30T15:39:06.963Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed
+[2025-06-30T15:39:06.963Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login failed - keeping user input for retry
+[2025-06-30T15:39:06.964Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:39:06.964Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:39:06.964Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:39:06.965Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 88.20ms
+[2025-06-30T15:39:06.965Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 200 (68ms)
+[2025-06-30T15:39:06.966Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
+[2025-06-30T15:39:06.967Z] POST /api/client-logs - 200 - 18ms
+[2025-06-30T15:39:06.969Z] GET /app - Request received
+[2025-06-30T15:39:06.970Z] Serving main application page
+[2025-06-30T15:39:06.971Z] GET /app - 304 - 2ms
+[2025-06-30T15:39:06.986Z] GET /css/custom.css - Request received
+[2025-06-30T15:39:06.987Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:39:06.988Z] GET /js/logger.js - Request received
+[2025-06-30T15:39:06.989Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:39:07.034Z] GET /api/subscriptions - Request received
+[2025-06-30T15:39:07.036Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:39:07.039Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T15:39:07.040Z] GET /api/subscriptions - 304 - 6ms
+[2025-06-30T15:39:37.010Z] POST /api/client-logs - Request received
+[2025-06-30T15:39:37.012Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:39:37.012Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:39:37.013Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:39:37.013Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription app controller initialized
+[2025-06-30T15:39:37.013Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T15:39:37.014Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-06-30
+[2025-06-30T15:39:37.014Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 0 subscriptions
+[2025-06-30T15:39:37.014Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 19.10ms
+[2025-06-30T15:39:37.015Z] POST /api/client-logs - 200 - 5ms
+[2025-06-30T15:41:28.326Z] POST /api/subscriptions - Request received
+[2025-06-30T15:41:28.327Z] Creating subscription for user: ekalavya
+[2025-06-30T15:41:28.341Z] Subscription created successfully: asasS
+[2025-06-30T15:41:28.343Z] POST /api/subscriptions - 201 - 17ms
+[2025-06-30T15:41:28.350Z] GET /api/subscriptions - Request received
+[2025-06-30T15:41:28.352Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:41:28.356Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T15:41:28.359Z] GET /api/subscriptions - 200 - 9ms
+[2025-06-30T15:41:37.007Z] POST /api/client-logs - Request received
+[2025-06-30T15:41:37.009Z] Received 7 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:41:37.009Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Saving subscription
+[2025-06-30T15:41:37.010Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: subscription-form - valid
+[2025-06-30T15:41:37.010Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/subscriptions - 200 (23ms)
+[2025-06-30T15:41:37.010Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Subscription added successfully
+[2025-06-30T15:41:37.011Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loading subscriptions
+[2025-06-30T15:41:37.011Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Loaded 1 subscriptions
+[2025-06-30T15:41:37.011Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: app-load took 19.10ms
+[2025-06-30T15:41:37.012Z] POST /api/client-logs - 200 - 5ms
+[2025-06-30T15:47:47.253Z] GET / - Request received
+[2025-06-30T15:47:47.254Z] Serving login page
+[2025-06-30T15:47:47.255Z] GET / - 304 - 2ms
+[2025-06-30T15:47:47.278Z] GET /css/custom.css - Request received
+[2025-06-30T15:47:47.279Z] GET /js/logger.js - Request received
+[2025-06-30T15:47:47.280Z] GET /js/login.js - Request received
+[2025-06-30T15:47:47.281Z] GET /css/custom.css - 304 - 3ms
+[2025-06-30T15:47:47.282Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:47:47.283Z] GET /js/login.js - 304 - 3ms
+[2025-06-30T15:48:09.370Z] POST /api/index - Request received
+[2025-06-30T15:48:09.370Z] Login attempt for username: ekalavya
+[2025-06-30T15:48:09.433Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T15:48:09.434Z] POST /api/index - 200 - 64ms
+[2025-06-30T15:48:09.548Z] POST /api/client-logs - Request received
+[2025-06-30T15:48:09.549Z] Received 15 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:48:09.550Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:48:09.550Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:48:09.550Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login controller initialized
+[2025-06-30T15:48:09.551Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login page fully loaded
+[2025-06-30T15:48:09.551Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance metrics - Page load: -1751298467243ms, DOM ready: 4600ms, First paint: 0ms
+[2025-06-30T15:48:09.551Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: page-load took 320.80ms
+[2025-06-30T15:48:09.551Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:48:09.552Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:48:09.552Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:48:09.552Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:48:09.553Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:48:09.553Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:48:09.553Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 68.60ms
+[2025-06-30T15:48:09.554Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 200 (68ms)
+[2025-06-30T15:48:09.554Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
+[2025-06-30T15:48:09.555Z] POST /api/client-logs - 200 - 7ms
+[2025-06-30T15:48:09.556Z] GET /app - Request received
+[2025-06-30T15:48:09.557Z] Serving main application page
+[2025-06-30T15:48:09.558Z] GET /app - 304 - 2ms
+[2025-06-30T15:48:09.573Z] GET /css/custom.css - Request received
+[2025-06-30T15:48:09.574Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:48:09.578Z] GET /js/logger.js - Request received
+[2025-06-30T15:48:09.579Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:48:09.614Z] GET /api/subscriptions - Request received
+[2025-06-30T15:48:09.616Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:48:09.619Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T15:48:09.620Z] GET /api/subscriptions - 304 - 6ms
+[2025-06-30T15:48:11.335Z] GET / - Request received
+[2025-06-30T15:48:11.336Z] Serving login page
+[2025-06-30T15:48:11.337Z] GET / - 304 - 2ms
+[2025-06-30T15:48:11.349Z] GET /css/custom.css - Request received
+[2025-06-30T15:48:11.350Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:48:11.351Z] GET /js/logger.js - Request received
+[2025-06-30T15:48:11.353Z] GET /js/login.js - Request received
+[2025-06-30T15:48:11.354Z] GET /js/logger.js - 304 - 3ms
+[2025-06-30T15:48:11.355Z] GET /js/login.js - 304 - 2ms
+[2025-06-30T15:48:26.132Z] GET /register - Request received
+[2025-06-30T15:48:26.132Z] Serving registration page
+[2025-06-30T15:48:26.133Z] GET /register - 304 - 1ms
+[2025-06-30T15:48:26.147Z] GET /css/custom.css - Request received
+[2025-06-30T15:48:26.148Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:48:26.152Z] GET /js/logger.js - Request received
+[2025-06-30T15:48:26.153Z] GET /js/register.js - Request received
+[2025-06-30T15:48:26.154Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:48:26.155Z] GET /js/register.js - 304 - 2ms
+[2025-06-30T15:48:28.797Z] GET / - Request received
+[2025-06-30T15:48:28.798Z] Serving login page
+[2025-06-30T15:48:28.799Z] GET / - 304 - 2ms
+[2025-06-30T15:48:28.813Z] GET /css/custom.css - Request received
+[2025-06-30T15:48:28.814Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:48:28.818Z] GET /js/logger.js - Request received
+[2025-06-30T15:48:28.819Z] GET /js/login.js - Request received
+[2025-06-30T15:48:28.820Z] GET /js/logger.js - 304 - 2ms
+[2025-06-30T15:48:28.820Z] GET /js/login.js - 304 - 1ms
+[2025-06-30T15:48:34.099Z] POST /api/index - Request received
+[2025-06-30T15:48:34.099Z] Login attempt for username: ekalavya
+[2025-06-30T15:48:34.160Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T15:48:34.161Z] POST /api/index - 200 - 62ms
+[2025-06-30T15:48:34.270Z] POST /api/client-logs - Request received
+[2025-06-30T15:48:34.272Z] Received 14 client logs from user: ekalavya, session: session_1751290026545_po9qvfj6m
+[2025-06-30T15:48:34.272Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Starting CSS validation check
+[2025-06-30T15:48:34.273Z] [WARN] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] CSS validation issues detected
+[2025-06-30T15:48:34.273Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login controller initialized
+[2025-06-30T15:48:34.273Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login page fully loaded
+[2025-06-30T15:48:34.274Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance metrics - Page load: -1751298508791ms, DOM ready: 46ms, First paint: 0ms
+[2025-06-30T15:48:34.274Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: page-load took 101.90ms
+[2025-06-30T15:48:34.274Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:48:34.275Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: username-input-blur
+[2025-06-30T15:48:34.275Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] User action: enter-key-pressed
+[2025-06-30T15:48:34.276Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login attempt started
+[2025-06-30T15:48:34.276Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Form validation: login-form - valid
+[2025-06-30T15:48:34.276Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Performance: login-request took 65.70ms
+[2025-06-30T15:48:34.277Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] POST /api/index - 200 (66ms)
+[2025-06-30T15:48:34.277Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
+[2025-06-30T15:48:34.278Z] POST /api/client-logs - 200 - 8ms
+[2025-06-30T15:48:34.280Z] GET /app - Request received
+[2025-06-30T15:48:34.280Z] Serving main application page
+[2025-06-30T15:48:34.281Z] GET /app - 304 - 1ms
+[2025-06-30T15:48:34.297Z] GET /css/custom.css - Request received
+[2025-06-30T15:48:34.298Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:48:34.302Z] GET /js/logger.js - Request received
+[2025-06-30T15:48:34.303Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:48:34.345Z] GET /api/subscriptions - Request received
+[2025-06-30T15:48:34.347Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T15:48:34.351Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T15:48:34.352Z] GET /api/subscriptions - 304 - 7ms
+[2025-06-30T15:48:35.852Z] GET / - Request received
+[2025-06-30T15:48:35.852Z] Serving login page
+[2025-06-30T15:48:35.853Z] GET / - 304 - 1ms
+[2025-06-30T15:48:35.868Z] GET /css/custom.css - Request received
+[2025-06-30T15:48:35.869Z] GET /css/custom.css - 304 - 1ms
+[2025-06-30T15:48:35.870Z] GET /js/logger.js - Request received
+[2025-06-30T15:48:35.870Z] GET /js/login.js - Request received
+[2025-06-30T15:48:35.871Z] GET /js/logger.js - 304 - 1ms
+[2025-06-30T15:48:35.872Z] GET /js/login.js - 304 - 2ms
