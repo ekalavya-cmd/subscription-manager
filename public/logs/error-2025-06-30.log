@@ -1,0 +1,48 @@
+[2025-06-30T03:11:59.018Z] Login failed: User eweqwe not found
+[2025-06-30T03:12:14.896Z] [WARN] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:12:14.911Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Login failed
+[2025-06-30T03:12:28.699Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:12:58.810Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:18:07.345Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:21:07.371Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:21:07.375Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-04
+[2025-06-30T03:21:37.343Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:21:37.344Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-06
+[2025-06-30T03:22:07.350Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:22:07.352Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-09
+[2025-06-30T03:22:07.364Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:22:07.366Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-08
+[2025-06-30T03:22:07.379Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:22:07.381Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-07
+[2025-06-30T03:22:37.355Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:22:37.356Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-06
+[2025-06-30T03:24:01.944Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:26:01.896Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-05-31
+[2025-06-30T03:26:01.897Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-06
+[2025-06-30T03:26:49.781Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:35:19.726Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2024-12-31
+[2025-06-30T03:35:19.727Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-08-29
+[2025-06-30T03:39:00.710Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:39:30.783Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:05.217Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:38.339Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:39.321Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:39.473Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:39.624Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:39.783Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:43:40.025Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T03:44:10.179Z] [WARN] [CLIENT] [aman] [session_1751253134887_089oawqzg] CSS validation issues detected
+[2025-06-30T12:14:30.898Z] Authentication failed: jwt expired
+[2025-06-30T12:14:32.748Z] Authentication failed: jwt expired
+[2025-06-30T12:14:34.026Z] Authentication failed: jwt expired
+[2025-06-30T12:14:35.039Z] Authentication failed: jwt expired
+[2025-06-30T12:14:36.186Z] Authentication failed: jwt expired
+[2025-06-30T12:14:37.413Z] Authentication failed: jwt expired
+[2025-06-30T12:14:39.415Z] Authentication failed: jwt expired
+[2025-06-30T12:14:40.633Z] Authentication failed: jwt expired
+[2025-06-30T12:14:42.297Z] Authentication failed: jwt expired
+[2025-06-30T12:14:43.281Z] Authentication failed: jwt expired
+[2025-06-30T12:14:45.731Z] Authentication failed: jwt expired
+[2025-06-30T12:14:46.857Z] Authentication failed: jwt expired
+[2025-06-30T12:15:17.162Z] Authentication failed: jwt expired
+[2025-06-30T12:16:47.171Z] Authentication failed: jwt expired

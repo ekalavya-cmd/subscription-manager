@@ -1,0 +1,90 @@
+[2025-06-30T03:11:45.856Z] MongoDB connected successfully
+[2025-06-30T03:12:15.040Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T03:12:15.054Z] Found 0 subscriptions for user: ekalavya
+[2025-06-30T03:12:28.864Z] Fetching subscriptions for user: aman
+[2025-06-30T03:12:28.871Z] Found 2 subscriptions for user: aman
+[2025-06-30T03:17:37.399Z] Fetching subscriptions for user: aman
+[2025-06-30T03:17:37.403Z] Found 2 subscriptions for user: aman
+[2025-06-30T03:17:59.990Z] Deleting subscription 6861a3149d13d7c655403cd6 for user: aman
+[2025-06-30T03:18:00.013Z] Subscription deleted successfully: ssad
+[2025-06-30T03:18:00.028Z] Fetching subscriptions for user: aman
+[2025-06-30T03:18:00.035Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:19:23.902Z] Creating subscription for user: aman
+[2025-06-30T03:19:23.936Z] Subscription created successfully: dasdsad
+[2025-06-30T03:19:23.949Z] Fetching subscriptions for user: aman
+[2025-06-30T03:19:23.955Z] Found 2 subscriptions for user: aman
+[2025-06-30T03:20:48.859Z] Creating subscription for user: aman
+[2025-06-30T03:20:48.866Z] Subscription created successfully: asdasd
+[2025-06-30T03:20:48.881Z] Fetching subscriptions for user: aman
+[2025-06-30T03:20:48.892Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:21:10.021Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:21:10.047Z] Subscription updated successfully: asdasd
+[2025-06-30T03:21:10.054Z] Fetching subscriptions for user: aman
+[2025-06-30T03:21:10.059Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:21:34.378Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:21:34.383Z] Subscription updated successfully: asdasd
+[2025-06-30T03:21:34.396Z] Fetching subscriptions for user: aman
+[2025-06-30T03:21:34.402Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:21:46.181Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:21:46.184Z] Subscription updated successfully: asdasd
+[2025-06-30T03:21:46.190Z] Fetching subscriptions for user: aman
+[2025-06-30T03:21:46.193Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:21:57.357Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:21:57.360Z] Subscription updated successfully: asdasd
+[2025-06-30T03:21:57.367Z] Fetching subscriptions for user: aman
+[2025-06-30T03:21:57.370Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:22:13.614Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:22:13.617Z] Subscription updated successfully: asdasd
+[2025-06-30T03:22:13.624Z] Fetching subscriptions for user: aman
+[2025-06-30T03:22:13.626Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:22:59.726Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:22:59.732Z] Subscription updated successfully: asdasd
+[2025-06-30T03:22:59.745Z] Fetching subscriptions for user: aman
+[2025-06-30T03:22:59.752Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:23:28.777Z] MongoDB connected successfully
+[2025-06-30T03:23:32.007Z] Fetching subscriptions for user: aman
+[2025-06-30T03:23:32.062Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:25:56.449Z] Updating subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:25:56.470Z] Subscription updated successfully: asdasd
+[2025-06-30T03:25:56.478Z] Fetching subscriptions for user: aman
+[2025-06-30T03:25:56.482Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:26:16.315Z] MongoDB connected successfully
+[2025-06-30T03:26:19.749Z] Fetching subscriptions for user: aman
+[2025-06-30T03:26:19.772Z] Found 3 subscriptions for user: aman
+[2025-06-30T03:35:01.120Z] Deleting subscription 6862023bf5b9c5c377c8e61c for user: aman
+[2025-06-30T03:35:01.136Z] Subscription deleted successfully: dasdsad
+[2025-06-30T03:35:01.150Z] Fetching subscriptions for user: aman
+[2025-06-30T03:35:01.162Z] Found 2 subscriptions for user: aman
+[2025-06-30T03:35:04.300Z] Deleting subscription 68620290f5b9c5c377c8e61f for user: aman
+[2025-06-30T03:35:04.307Z] Subscription deleted successfully: asdasd
+[2025-06-30T03:35:04.320Z] Fetching subscriptions for user: aman
+[2025-06-30T03:35:04.363Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:35:40.000Z] Updating subscription 68619e06841b7a4e0555549a for user: aman
+[2025-06-30T03:35:40.015Z] Subscription updated successfully: Netflix
+[2025-06-30T03:35:40.029Z] Fetching subscriptions for user: aman
+[2025-06-30T03:35:40.041Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:38:18.291Z] MongoDB connected successfully
+[2025-06-30T03:38:38.391Z] Fetching subscriptions for user: aman
+[2025-06-30T03:38:38.411Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:39:00.815Z] Fetching subscriptions for user: aman
+[2025-06-30T03:39:00.822Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:42:29.458Z] MongoDB connected successfully
+[2025-06-30T03:42:34.854Z] Fetching subscriptions for user: aman
+[2025-06-30T03:42:34.871Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:36.598Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:36.616Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:38.418Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:38.424Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:39.413Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:39.418Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:39.558Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:39.563Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:39.715Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:39.720Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:39.866Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:39.870Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:43:40.250Z] Fetching subscriptions for user: aman
+[2025-06-30T03:43:40.259Z] Found 1 subscriptions for user: aman
+[2025-06-30T03:57:41.287Z] MongoDB connected successfully
+[2025-06-30T04:03:55.338Z] MongoDB connected successfully
+[2025-06-30T12:13:29.536Z] MongoDB connected successfully

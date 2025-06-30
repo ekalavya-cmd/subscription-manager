@@ -1,0 +1,331 @@
+[2025-06-29T13:29:28.564Z] Twilio client initialized successfully
+[2025-06-29T13:29:28.567Z] SMS reminders disabled
+[2025-06-29T13:29:28.599Z] Server running on port 3000
+[2025-06-29T13:29:28.599Z] Environment: development
+[2025-06-29T13:29:28.600Z] MongoDB: Disconnected
+[2025-06-29T13:29:28.600Z] Twilio: Enabled
+[2025-06-29T13:29:48.411Z] Serving main application page
+[2025-06-29T13:29:52.543Z] Serving login page
+[2025-06-29T13:30:24.379Z] Serving login page
+[2025-06-29T13:30:27.334Z] Serving registration page
+[2025-06-29T13:30:31.399Z] Serving login page
+[2025-06-29T13:30:32.992Z] Serving registration page
+[2025-06-29T13:32:27.274Z] Twilio client initialized successfully
+[2025-06-29T13:32:27.277Z] SMS reminders disabled
+[2025-06-29T13:32:27.309Z] Server running on port 3000
+[2025-06-29T13:32:27.309Z] Environment: development
+[2025-06-29T13:32:27.310Z] MongoDB: Disconnected
+[2025-06-29T13:32:27.310Z] Twilio: Enabled
+[2025-06-29T13:32:33.235Z] Serving login page
+[2025-06-29T13:32:41.540Z] Login attempt for username: sadad
+[2025-06-29T13:32:51.898Z] Serving registration page
+[2025-06-29T13:33:46.138Z] Registration attempt for username: ekalavya
+[2025-06-29T13:33:46.545Z] User registered successfully: ekalavya
+[2025-06-29T13:33:48.565Z] Serving login page
+[2025-06-29T13:34:01.322Z] Login attempt for username: ekalavya
+[2025-06-29T13:34:01.421Z] User logged in successfully: ekalavya
+[2025-06-29T13:34:01.439Z] Serving main application page
+[2025-06-29T13:45:33.408Z] Twilio client initialized successfully
+[2025-06-29T13:45:33.411Z] SMS reminders enabled
+[2025-06-29T13:45:33.442Z] Server running on port 3000
+[2025-06-29T13:45:33.443Z] Environment: development
+[2025-06-29T13:45:33.444Z] MongoDB: Disconnected
+[2025-06-29T13:45:33.444Z] Twilio: Enabled
+[2025-06-29T13:45:35.973Z] Serving main application page
+[2025-06-29T13:45:47.467Z] SMS send request from user: ekalavya to: +919137467266
+[2025-06-29T13:45:48.694Z] SMS sent successfully. SID: SM0a2ca48c33f356b112b4766ee0720378
+[2025-06-29T17:52:12.339Z] Twilio client initialized successfully
+[2025-06-29T17:52:12.371Z] SMS reminders disabled
+[2025-06-29T17:52:12.474Z] Server running on port 3000
+[2025-06-29T17:52:12.475Z] Environment: development
+[2025-06-29T17:52:12.475Z] MongoDB: Disconnected
+[2025-06-29T17:52:12.476Z] Twilio: Enabled
+[2025-06-29T17:52:13.712Z] Serving login page
+[2025-06-29T17:52:31.575Z] Login attempt for username: ekalavya
+[2025-06-29T17:52:46.007Z] Serving registration page
+[2025-06-29T17:53:34.805Z] Registration attempt for username: ekalavya
+[2025-06-29T17:55:15.717Z] Serving login page
+[2025-06-29T17:55:19.999Z] Serving registration page
+[2025-06-29T17:59:08.020Z] Serving login page
+[2025-06-29T17:59:21.017Z] Serving registration page
+[2025-06-29T18:16:22.289Z] Twilio client initialized successfully
+[2025-06-29T18:16:22.291Z] SMS reminders disabled
+[2025-06-29T18:16:22.314Z] Server running on port 3000
+[2025-06-29T18:16:22.314Z] Environment: development
+[2025-06-29T18:16:22.315Z] MongoDB: Disconnected
+[2025-06-29T18:16:22.315Z] Twilio: Enabled
+[2025-06-29T18:16:30.947Z] Serving login page
+[2025-06-29T18:16:40.983Z] Serving registration page
+[2025-06-29T18:16:56.786Z] Serving login page
+[2025-06-29T18:16:59.884Z] Serving registration page
+[2025-06-29T18:18:37.527Z] Serving registration page
+[2025-06-29T18:19:22.134Z] Serving login page
+[2025-06-29T18:19:25.057Z] Serving registration page
+[2025-06-29T18:23:06.414Z] Serving registration page
+[2025-06-29T18:23:15.359Z] Serving login page
+[2025-06-29T18:23:17.295Z] Serving registration page
+[2025-06-29T18:23:46.017Z] Serving registration page
+[2025-06-29T18:23:46.787Z] Serving registration page
+[2025-06-29T18:23:47.349Z] Serving registration page
+[2025-06-29T18:23:48.024Z] Serving registration page
+[2025-06-29T18:23:48.703Z] Serving registration page
+[2025-06-29T18:23:49.521Z] Serving registration page
+[2025-06-29T18:23:56.302Z] Serving login page
+[2025-06-29T18:24:08.805Z] Login attempt for username: ekalavya
+[2025-06-29T18:24:20.256Z] Login attempt for username: ekalavya
+[2025-06-29T18:24:35.155Z] Login attempt for username: ekalavya
+[2025-06-29T18:33:25.621Z] Serving login page
+[2025-06-29T18:33:47.441Z] Login attempt for username: aaas
+[2025-06-29T18:33:51.018Z] Login attempt for username: aaas
+[2025-06-29T18:33:55.594Z] Serving registration page
+[2025-06-29T18:33:57.992Z] Serving registration page
+[2025-06-29T18:34:22.914Z] Serving login page
+[2025-06-29T18:38:18.380Z] Serving registration page
+[2025-06-29T18:44:51.816Z] Serving registration page
+[2025-06-29T18:45:01.230Z] Serving login page
+[2025-06-29T18:45:09.884Z] Login attempt for username: saada
+[2025-06-29T18:45:16.245Z] Twilio client initialized successfully
+[2025-06-29T18:45:16.247Z] SMS reminders disabled
+[2025-06-29T18:45:16.270Z] Server running on port 3000
+[2025-06-29T18:45:16.271Z] Environment: development
+[2025-06-29T18:45:16.272Z] MongoDB: Disconnected
+[2025-06-29T18:45:16.272Z] Twilio: Enabled
+[2025-06-29T18:45:19.609Z] Serving login page
+[2025-06-29T18:45:25.383Z] Login attempt for username: asda
+[2025-06-29T18:47:15.113Z] Serving login page
+[2025-06-29T18:47:15.931Z] Serving login page
+[2025-06-29T18:47:23.171Z] Serving registration page
+[2025-06-29T18:48:13.072Z] Registration attempt for username: ekalavya
+[2025-06-29T18:48:45.372Z] Registration attempt for username: ekalavya
+[2025-06-29T18:48:51.629Z] Serving login page
+[2025-06-29T18:48:57.430Z] Login attempt for username: ekalavy
+[2025-06-29T18:49:02.667Z] Login attempt for username: ekalavy
+[2025-06-29T18:49:31.445Z] Login attempt for username: adasd
+[2025-06-29T18:49:36.158Z] Serving registration page
+[2025-06-29T18:50:19.550Z] Serving login page
+[2025-06-29T18:59:35.005Z] Twilio client initialized successfully
+[2025-06-29T18:59:35.007Z] SMS reminders disabled
+[2025-06-29T19:00:01.075Z] Twilio client initialized successfully
+[2025-06-29T19:00:01.077Z] SMS reminders disabled
+[2025-06-29T19:00:01.101Z] Server running on port 3000
+[2025-06-29T19:00:01.102Z] Environment: development
+[2025-06-29T19:00:01.102Z] MongoDB: Disconnected
+[2025-06-29T19:00:01.103Z] Twilio: Enabled
+[2025-06-29T19:00:04.577Z] Serving login page
+[2025-06-29T19:00:04.584Z] Serving login page
+[2025-06-29T19:00:05.978Z] Serving login page
+[2025-06-29T19:00:05.982Z] Serving login page
+[2025-06-29T19:00:06.681Z] Serving login page
+[2025-06-29T19:00:06.683Z] Serving login page
+[2025-06-29T19:00:06.827Z] Serving login page
+[2025-06-29T19:00:06.829Z] Serving login page
+[2025-06-29T19:00:06.994Z] Serving login page
+[2025-06-29T19:00:07.000Z] Serving login page
+[2025-06-29T19:00:07.144Z] Serving login page
+[2025-06-29T19:00:07.147Z] Serving login page
+[2025-06-29T19:00:07.360Z] Serving login page
+[2025-06-29T19:00:07.363Z] Serving login page
+[2025-06-29T19:00:08.788Z] Serving registration page
+[2025-06-29T19:00:08.792Z] Serving login page
+[2025-06-29T19:00:32.553Z] Serving login page
+[2025-06-29T19:00:32.558Z] Serving login page
+[2025-06-29T19:00:42.430Z] Serving registration page
+[2025-06-29T19:00:42.437Z] Serving login page
+[2025-06-29T19:01:12.477Z] Serving login page
+[2025-06-29T19:01:13.079Z] Serving login page
+[2025-06-29T19:01:19.813Z] Serving registration page
+[2025-06-29T19:01:19.820Z] Serving login page
+[2025-06-29T19:01:21.841Z] Serving login page
+[2025-06-29T19:01:21.844Z] Serving login page
+[2025-06-29T19:01:24.539Z] Serving registration page
+[2025-06-29T19:01:24.541Z] Serving login page
+[2025-06-29T19:01:26.470Z] Serving login page
+[2025-06-29T19:01:26.472Z] Serving login page
+[2025-06-29T19:01:27.674Z] Serving registration page
+[2025-06-29T19:01:27.680Z] Serving login page
+[2025-06-29T19:01:28.653Z] Serving login page
+[2025-06-29T19:01:28.655Z] Serving login page
+[2025-06-29T19:13:08.707Z] Twilio client initialized successfully
+[2025-06-29T19:13:08.710Z] SMS reminders disabled
+[2025-06-29T19:13:08.734Z] Server running on port 3000
+[2025-06-29T19:13:08.735Z] Environment: development
+[2025-06-29T19:13:08.736Z] MongoDB: Disconnected
+[2025-06-29T19:13:08.736Z] Twilio: Enabled
+[2025-06-29T19:13:11.707Z] Serving login page
+[2025-06-29T19:13:15.576Z] Serving registration page
+[2025-06-29T19:13:15.576Z] Serving login page
+[2025-06-29T19:13:17.036Z] Serving login page
+[2025-06-29T19:13:17.042Z] Serving login page
+[2025-06-29T19:13:23.867Z] Login attempt for username: adadad
+[2025-06-29T19:13:29.250Z] Login attempt for username: asdasasdsa
+[2025-06-29T19:13:47.174Z] Serving login page
+[2025-06-29T19:14:57.528Z] Serving registration page
+[2025-06-29T19:14:59.262Z] Serving login page
+[2025-06-29T19:14:59.268Z] Serving login page
+[2025-06-29T19:15:30.162Z] Serving login page
+[2025-06-29T19:18:09.223Z] Serving login page
+[2025-06-29T19:18:10.231Z] Serving login page
+[2025-06-29T19:18:10.235Z] Serving login page
+[2025-06-29T19:18:11.155Z] Serving login page
+[2025-06-29T19:18:11.158Z] Serving login page
+[2025-06-29T19:18:11.857Z] Serving login page
+[2025-06-29T19:18:11.861Z] Serving login page
+[2025-06-29T19:18:13.749Z] Serving registration page
+[2025-06-29T19:18:13.751Z] Serving login page
+[2025-06-29T19:18:14.897Z] Serving login page
+[2025-06-29T19:18:14.903Z] Serving login page
+[2025-06-29T19:18:17.187Z] Serving registration page
+[2025-06-29T19:18:17.190Z] Serving login page
+[2025-06-29T19:18:18.544Z] Serving login page
+[2025-06-29T19:18:18.546Z] Serving login page
+[2025-06-29T19:18:20.090Z] Serving registration page
+[2025-06-29T19:18:20.096Z] Serving login page
+[2025-06-29T19:18:22.376Z] Serving login page
+[2025-06-29T19:18:22.378Z] Serving login page
+[2025-06-29T19:18:53.174Z] Serving login page
+[2025-06-29T19:18:58.375Z] Serving login page
+[2025-06-29T19:19:29.160Z] Serving login page
+[2025-06-29T19:20:29.638Z] Serving login page
+[2025-06-29T19:20:31.643Z] Serving login page
+[2025-06-29T19:20:31.649Z] Serving login page
+[2025-06-29T19:20:32.469Z] Serving login page
+[2025-06-29T19:20:32.471Z] Serving login page
+[2025-06-29T19:20:33.181Z] Serving login page
+[2025-06-29T19:20:33.183Z] Serving login page
+[2025-06-29T19:20:39.025Z] Serving registration page
+[2025-06-29T19:20:39.031Z] Serving login page
+[2025-06-29T19:20:40.787Z] Serving login page
+[2025-06-29T19:20:40.794Z] Serving login page
+[2025-06-29T19:20:42.516Z] Serving registration page
+[2025-06-29T19:20:42.519Z] Serving login page
+[2025-06-29T19:20:43.898Z] Serving login page
+[2025-06-29T19:20:43.903Z] Serving login page
+[2025-06-29T19:20:47.131Z] Login attempt for username: sadasd
+[2025-06-29T19:20:50.007Z] Serving registration page
+[2025-06-29T19:20:50.010Z] Serving login page
+[2025-06-29T19:21:07.258Z] Serving login page
+[2025-06-29T19:21:07.265Z] Serving login page
+[2025-06-29T19:21:37.310Z] Serving login page
+[2025-06-29T19:28:18.060Z] Serving login page
+[2025-06-29T19:28:19.583Z] Serving login page
+[2025-06-29T19:28:19.586Z] Serving login page
+[2025-06-29T19:28:50.165Z] Serving login page
+[2025-06-29T19:31:55.823Z] Serving login page
+[2025-06-29T19:31:56.979Z] Serving login page
+[2025-06-29T19:31:56.982Z] Serving login page
+[2025-06-29T19:31:57.797Z] Serving login page
+[2025-06-29T19:31:57.800Z] Serving login page
+[2025-06-29T19:32:28.169Z] Serving login page
+[2025-06-29T19:37:28.172Z] Serving login page
+[2025-06-29T19:39:58.166Z] Serving login page
+[2025-06-29T19:49:15.889Z] Serving login page
+[2025-06-29T19:49:24.463Z] Login attempt for username: asadad
+[2025-06-29T19:49:29.692Z] Login attempt for username: asdsadadad
+[2025-06-29T19:49:36.543Z] Login attempt for username: asdsadadad
+[2025-06-29T19:49:41.913Z] Login attempt for username: asdsadadad
+[2025-06-29T19:49:46.308Z] Serving login page
+[2025-06-29T19:49:48.232Z] Login attempt for username: adadasd
+[2025-06-29T19:49:55.997Z] Serving registration page
+[2025-06-29T19:49:55.998Z] Serving login page
+[2025-06-29T19:50:05.553Z] Serving login page
+[2025-06-29T19:50:05.559Z] Serving login page
+[2025-06-29T19:50:36.174Z] Serving login page
+[2025-06-29T19:52:06.604Z] Serving login page
+[2025-06-29T19:52:07.849Z] Serving login page
+[2025-06-29T19:52:07.860Z] Serving login page
+[2025-06-29T19:52:35.172Z] Serving registration page
+[2025-06-29T19:52:35.175Z] Serving login page
+[2025-06-29T19:52:50.722Z] Registration attempt for username: ekalavya
+[2025-06-29T19:52:50.889Z] User registered successfully: ekalavya
+[2025-06-29T19:52:53.907Z] Serving login page
+[2025-06-29T19:52:53.910Z] Serving login page
+[2025-06-29T19:53:08.334Z] Login attempt for username: Ekalavya
+[2025-06-29T19:53:14.734Z] Login attempt for username: Ekalavya
+[2025-06-29T19:53:23.962Z] Serving login page
+[2025-06-29T19:53:24.458Z] Login attempt for username: ekalavya
+[2025-06-29T19:53:24.522Z] User logged in successfully: ekalavya
+[2025-06-29T19:53:24.632Z] Received 6 client logs from user: ekalavya, session: session_1751223080171_3bsgdzsue
+[2025-06-29T19:53:24.632Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] User action: enter-key-pressed
+[2025-06-29T19:53:24.632Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Login attempt started
+[2025-06-29T19:53:24.633Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Form validation: login-form - valid
+[2025-06-29T19:53:24.633Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Performance: login-request took 7.60ms
+[2025-06-29T19:53:24.633Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] POST /api/index - 200 (68ms)
+[2025-06-29T19:53:24.633Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Login successful
+[2025-06-29T19:53:24.640Z] Serving main application page
+[2025-06-29T19:53:55.173Z] Received 6 client logs from user: ekalavya, session: session_1751223080171_3bsgdzsue
+[2025-06-29T19:53:55.174Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Starting CSS validation check
+[2025-06-29T19:53:55.175Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Subscription app controller initialized
+[2025-06-29T19:53:55.175Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Loading subscriptions
+[2025-06-29T19:53:55.176Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Loaded 0 subscriptions
+[2025-06-29T19:53:55.176Z] [CLIENT] [ekalavya] [session_1751223080171_3bsgdzsue] Performance: app-load took 21.40ms
+[2025-06-29T19:58:54.676Z] Serving login page
+[2025-06-29T19:58:56.669Z] Serving registration page
+[2025-06-29T19:59:12.562Z] Registration attempt for username: aman
+[2025-06-29T19:59:12.624Z] User registered successfully: aman
+[2025-06-29T19:59:15.636Z] Serving login page
+[2025-06-29T19:59:25.114Z] Serving registration page
+[2025-06-29T19:59:26.046Z] Serving login page
+[2025-06-29T19:59:35.824Z] Login attempt for username: aman
+[2025-06-29T19:59:35.884Z] User logged in successfully: aman
+[2025-06-29T19:59:35.990Z] Received 15 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T19:59:35.990Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Starting CSS validation check
+[2025-06-29T19:59:35.991Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Login controller initialized
+[2025-06-29T19:59:35.991Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Login page fully loaded
+[2025-06-29T19:59:35.992Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance metrics - Page load: -1751227166039ms, DOM ready: 42ms, First paint: 0ms
+[2025-06-29T19:59:35.992Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: page-load took 104.20ms
+[2025-06-29T19:59:35.992Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] User action: username-input-blur
+[2025-06-29T19:59:35.992Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] User action: enter-key-pressed
+[2025-06-29T19:59:35.993Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] User action: username-input-blur
+[2025-06-29T19:59:35.993Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] User action: enter-key-pressed
+[2025-06-29T19:59:35.993Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Login attempt started
+[2025-06-29T19:59:35.993Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Form validation: login-form - valid
+[2025-06-29T19:59:35.994Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: login-request took 64.40ms
+[2025-06-29T19:59:35.994Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] POST /api/index - 200 (65ms)
+[2025-06-29T19:59:35.994Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Login successful
+[2025-06-29T19:59:35.997Z] Serving main application page
+[2025-06-29T20:00:06.160Z] Received 6 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T20:00:06.160Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Starting CSS validation check
+[2025-06-29T20:00:06.161Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Subscription app controller initialized
+[2025-06-29T20:00:06.162Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loading subscriptions
+[2025-06-29T20:00:06.162Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loaded 0 subscriptions
+[2025-06-29T20:00:06.162Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: app-load took 16.50ms
+[2025-06-29T20:09:27.702Z] Serving main application page
+[2025-06-29T20:09:58.230Z] Received 6 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T20:09:58.231Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Starting CSS validation check
+[2025-06-29T20:09:58.232Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Subscription app controller initialized
+[2025-06-29T20:09:58.232Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loading subscriptions
+[2025-06-29T20:09:58.232Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loaded 0 subscriptions
+[2025-06-29T20:09:58.233Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: app-load took 102.70ms
+[2025-06-29T20:11:28.214Z] Received 2 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T20:11:28.215Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Saving subscription
+[2025-06-29T20:11:28.215Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Form validation: subscription-form - invalid
+[2025-06-29T20:11:58.214Z] Received 7 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T20:11:58.214Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Saving subscription
+[2025-06-29T20:11:58.215Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Form validation: subscription-form - valid
+[2025-06-29T20:11:58.215Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] POST /api/subscriptions - 200 (10ms)
+[2025-06-29T20:11:58.216Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Subscription added successfully
+[2025-06-29T20:11:58.216Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loading subscriptions
+[2025-06-29T20:11:58.216Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loaded 1 subscriptions
+[2025-06-29T20:11:58.216Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: app-load took 102.70ms
+[2025-06-29T20:31:59.509Z] Twilio client initialized successfully
+[2025-06-29T20:31:59.512Z] SMS reminders disabled
+[2025-06-29T20:31:59.539Z] Server running on port 3000
+[2025-06-29T20:31:59.539Z] Environment: development
+[2025-06-29T20:31:59.540Z] MongoDB: Disconnected
+[2025-06-29T20:31:59.540Z] Twilio: Enabled
+[2025-06-29T20:32:02.860Z] Serving main application page
+[2025-06-29T20:32:33.677Z] Received 6 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T20:32:33.678Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Starting CSS validation check
+[2025-06-29T20:32:33.681Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Subscription app controller initialized
+[2025-06-29T20:32:33.681Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loading subscriptions
+[2025-06-29T20:32:33.682Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loaded 1 subscriptions
+[2025-06-29T20:32:33.683Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: app-load took 28.40ms
+[2025-06-29T20:33:33.346Z] Received 7 client logs from user: aman, session: session_1751223080171_3bsgdzsue
+[2025-06-29T20:33:33.347Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Saving subscription
+[2025-06-29T20:33:33.347Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Form validation: subscription-form - valid
+[2025-06-29T20:33:33.348Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] POST /api/subscriptions - 200 (25ms)
+[2025-06-29T20:33:33.348Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Subscription added successfully
+[2025-06-29T20:33:33.349Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loading subscriptions
+[2025-06-29T20:33:33.349Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Loaded 2 subscriptions
+[2025-06-29T20:33:33.350Z] [CLIENT] [aman] [session_1751223080171_3bsgdzsue] Performance: app-load took 28.40ms
+[2025-06-29T20:34:55.530Z] Serving login page

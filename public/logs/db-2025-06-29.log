@@ -1,0 +1,65 @@
+[2025-06-29T13:29:28.616Z] MongoDB connected successfully
+[2025-06-29T13:32:27.325Z] MongoDB connected successfully
+[2025-06-29T13:34:01.577Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:34:01.582Z] Found 0 subscriptions for user: ekalavya
+[2025-06-29T13:36:17.937Z] Creating subscription for user: ekalavya
+[2025-06-29T13:36:17.942Z] Subscription created successfully: Netflix
+[2025-06-29T13:36:17.949Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:36:17.954Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:37:15.859Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:37:15.874Z] Subscription updated successfully: Netflix
+[2025-06-29T13:37:15.884Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:37:15.891Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:38:01.652Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:38:01.656Z] Subscription updated successfully: Netflix
+[2025-06-29T13:38:01.665Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:38:01.669Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:38:40.788Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:38:40.792Z] Subscription updated successfully: Netflix
+[2025-06-29T13:38:40.801Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:38:40.806Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:39:12.126Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:39:12.129Z] Subscription updated successfully: Netflix
+[2025-06-29T13:39:12.136Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:39:12.140Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:39:33.769Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:39:33.772Z] Subscription updated successfully: Netflix
+[2025-06-29T13:39:33.780Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:39:33.785Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:40:07.162Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:40:07.167Z] Subscription updated successfully: Netflix
+[2025-06-29T13:40:07.178Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:40:07.183Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:43:17.688Z] Updating subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:43:17.692Z] Subscription updated successfully: Amazon Prime
+[2025-06-29T13:43:17.705Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:43:17.709Z] Found 1 subscriptions for user: ekalavya
+[2025-06-29T13:43:53.613Z] Deleting subscription 68614151e0d9db2b17735646 for user: ekalavya
+[2025-06-29T13:43:53.622Z] Subscription deleted successfully: Amazon Prime
+[2025-06-29T13:43:53.637Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:43:53.646Z] Found 0 subscriptions for user: ekalavya
+[2025-06-29T13:45:33.460Z] MongoDB connected successfully
+[2025-06-29T13:45:36.357Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T13:45:36.372Z] Found 0 subscriptions for user: ekalavya
+[2025-06-29T17:52:12.498Z] MongoDB connected successfully
+[2025-06-29T18:16:22.327Z] MongoDB connected successfully
+[2025-06-29T18:45:16.282Z] MongoDB connected successfully
+[2025-06-29T19:00:01.114Z] MongoDB connected successfully
+[2025-06-29T19:13:08.748Z] MongoDB connected successfully
+[2025-06-29T19:53:24.732Z] Fetching subscriptions for user: ekalavya
+[2025-06-29T19:53:24.735Z] Found 0 subscriptions for user: ekalavya
+[2025-06-29T19:59:36.052Z] Fetching subscriptions for user: aman
+[2025-06-29T19:59:36.054Z] Found 0 subscriptions for user: aman
+[2025-06-29T20:09:28.361Z] Fetching subscriptions for user: aman
+[2025-06-29T20:09:28.369Z] Found 0 subscriptions for user: aman
+[2025-06-29T20:11:50.924Z] Creating subscription for user: aman
+[2025-06-29T20:11:50.928Z] Subscription created successfully: Netflix
+[2025-06-29T20:11:50.934Z] Fetching subscriptions for user: aman
+[2025-06-29T20:11:50.938Z] Found 1 subscriptions for user: aman
+[2025-06-29T20:31:59.552Z] MongoDB connected successfully
+[2025-06-29T20:32:03.369Z] Fetching subscriptions for user: aman
+[2025-06-29T20:32:03.379Z] Found 1 subscriptions for user: aman
+[2025-06-29T20:33:24.345Z] Creating subscription for user: aman
+[2025-06-29T20:33:24.362Z] Subscription created successfully: ssad
+[2025-06-29T20:33:24.371Z] Fetching subscriptions for user: aman
+[2025-06-29T20:33:24.375Z] Found 2 subscriptions for user: aman

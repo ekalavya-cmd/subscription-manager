@@ -1,0 +1,358 @@
+[2025-06-30T03:11:45.723Z] Twilio client initialized successfully
+[2025-06-30T03:11:45.795Z] SMS reminders disabled
+[2025-06-30T03:11:45.836Z] Server running on port 3000
+[2025-06-30T03:11:45.836Z] Environment: development
+[2025-06-30T03:11:45.837Z] MongoDB: Disconnected
+[2025-06-30T03:11:45.838Z] Twilio: Enabled
+[2025-06-30T03:11:49.664Z] Serving login page
+[2025-06-30T03:11:58.968Z] Login attempt for username: eweqwe
+[2025-06-30T03:12:14.665Z] Login attempt for username: ekalavya
+[2025-06-30T03:12:14.775Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T03:12:14.894Z] Received 31 client logs from user: ekalavya, session: session_1751253134887_089oawqzg
+[2025-06-30T03:12:14.895Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:12:14.897Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Login controller initialized
+[2025-06-30T03:12:14.898Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Login page fully loaded
+[2025-06-30T03:12:14.898Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Performance metrics - Page load: -1751253109612ms, DOM ready: 671ms, First paint: 0ms
+[2025-06-30T03:12:14.899Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Performance: page-load took 395.80ms
+[2025-06-30T03:12:14.899Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.900Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: username-input-blur
+[2025-06-30T03:12:14.901Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.903Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: password-input-blur
+[2025-06-30T03:12:14.903Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.904Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: username-input-blur
+[2025-06-30T03:12:14.905Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.905Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: password-input-blur
+[2025-06-30T03:12:14.906Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.907Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: username-input-blur
+[2025-06-30T03:12:14.908Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.908Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Login attempt started
+[2025-06-30T03:12:14.909Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Form validation: login-form - valid
+[2025-06-30T03:12:14.910Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Performance: login-request took 201.60ms
+[2025-06-30T03:12:14.911Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] POST /api/index - 400 (201ms)
+[2025-06-30T03:12:14.912Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: password-input-blur
+[2025-06-30T03:12:14.913Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.914Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: username-input-blur
+[2025-06-30T03:12:14.915Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:14.915Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Login attempt started
+[2025-06-30T03:12:14.917Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Form validation: login-form - valid
+[2025-06-30T03:12:14.917Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Performance: login-request took 201.60ms
+[2025-06-30T03:12:14.918Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] POST /api/index - 200 (120ms)
+[2025-06-30T03:12:14.920Z] [CLIENT] [ekalavya] [session_1751253134887_089oawqzg] Login successful
+[2025-06-30T03:12:14.929Z] Serving main application page
+[2025-06-30T03:12:24.084Z] Serving login page
+[2025-06-30T03:12:28.490Z] Login attempt for username: aman
+[2025-06-30T03:12:28.582Z] User logged in successfully: aman (original: aman)
+[2025-06-30T03:12:28.695Z] Received 14 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:12:28.697Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:12:28.700Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Login controller initialized
+[2025-06-30T03:12:28.702Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Login page fully loaded
+[2025-06-30T03:12:28.704Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance metrics - Page load: -1751253144064ms, DOM ready: 101ms, First paint: 0ms
+[2025-06-30T03:12:28.706Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: page-load took 104.20ms
+[2025-06-30T03:12:28.708Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:28.710Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: username-input-blur
+[2025-06-30T03:12:28.712Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: enter-key-pressed
+[2025-06-30T03:12:28.715Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Login attempt started
+[2025-06-30T03:12:28.716Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: login-form - valid
+[2025-06-30T03:12:28.718Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: login-request took 97.90ms
+[2025-06-30T03:12:28.720Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] POST /api/index - 200 (98ms)
+[2025-06-30T03:12:28.722Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Login successful
+[2025-06-30T03:12:28.732Z] Serving main application page
+[2025-06-30T03:12:58.809Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:12:58.809Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:12:58.810Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:12:58.811Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:12:58.811Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 2 subscriptions
+[2025-06-30T03:12:58.812Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 25.30ms
+[2025-06-30T03:17:37.167Z] Serving main application page
+[2025-06-30T03:18:07.342Z] Received 12 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:18:07.344Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:18:07.346Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:18:07.347Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:18:07.348Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 2 subscriptions
+[2025-06-30T03:18:07.349Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:18:07.350Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: delete-subscription
+[2025-06-30T03:18:07.351Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] DELETE /api/subscriptions/6861a3149d13d7c655403cd6 - 200 (44ms)
+[2025-06-30T03:18:07.352Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription deleted successfully
+[2025-06-30T03:18:07.354Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:18:07.355Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:18:07.357Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:19:37.347Z] Received 7 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:19:37.348Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:19:37.350Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:19:37.351Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] POST /api/subscriptions - 200 (50ms)
+[2025-06-30T03:19:37.353Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription added successfully
+[2025-06-30T03:19:37.354Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:19:37.355Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 2 subscriptions
+[2025-06-30T03:19:37.357Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:21:07.359Z] Received 10 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:21:07.360Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:21:07.362Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:21:07.363Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] POST /api/subscriptions - 200 (21ms)
+[2025-06-30T03:21:07.364Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription added successfully
+[2025-06-30T03:21:07.366Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:21:07.367Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:21:07.368Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:21:07.370Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:21:37.338Z] Received 17 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:21:37.339Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:21:37.340Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:21:37.340Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (35ms)
+[2025-06-30T03:21:37.341Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:21:37.341Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:21:37.342Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:21:37.342Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:21:37.343Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:21:37.344Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:21:37.345Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:21:37.346Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (14ms)
+[2025-06-30T03:21:37.346Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:21:37.347Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:21:37.348Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:21:37.348Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:22:07.347Z] Received 23 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:22:07.349Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:22:07.353Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:22:07.355Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:22:07.356Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (12ms)
+[2025-06-30T03:22:07.357Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:22:07.359Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:22:07.360Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:22:07.362Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:22:07.363Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:22:07.367Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:22:07.369Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:22:07.370Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (15ms)
+[2025-06-30T03:22:07.372Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:22:07.373Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:22:07.375Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:22:07.376Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:22:07.378Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:22:37.350Z] Received 10 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:22:37.350Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:22:37.351Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:22:37.352Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (10ms)
+[2025-06-30T03:22:37.352Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:22:37.353Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:22:37.353Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:22:37.354Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:22:37.354Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:23:07.354Z] Received 7 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:23:07.356Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:23:07.357Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:23:07.358Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (19ms)
+[2025-06-30T03:23:07.360Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:23:07.362Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:23:07.363Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:23:07.364Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 29.90ms
+[2025-06-30T03:23:28.717Z] Twilio client initialized successfully
+[2025-06-30T03:23:28.720Z] SMS reminders enabled
+[2025-06-30T03:23:28.757Z] Server running on port 3000
+[2025-06-30T03:23:28.758Z] Environment: development
+[2025-06-30T03:23:28.759Z] MongoDB: Disconnected
+[2025-06-30T03:23:28.759Z] Twilio: Enabled
+[2025-06-30T03:23:31.486Z] Serving main application page
+[2025-06-30T03:24:01.941Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:24:01.942Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:24:01.945Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:24:01.947Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:24:01.948Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:24:01.949Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 117.90ms
+[2025-06-30T03:26:01.892Z] Received 10 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:26:01.894Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:26:01.899Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:26:01.900Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:26:01.902Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (30ms)
+[2025-06-30T03:26:01.903Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:26:01.905Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:26:01.906Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:26:01.908Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 117.90ms
+[2025-06-30T03:26:16.262Z] Twilio client initialized successfully
+[2025-06-30T03:26:16.264Z] SMS reminders enabled
+[2025-06-30T03:26:16.295Z] Server running on port 3000
+[2025-06-30T03:26:16.296Z] Environment: development
+[2025-06-30T03:26:16.297Z] MongoDB: Disconnected
+[2025-06-30T03:26:16.298Z] Twilio: Enabled
+[2025-06-30T03:26:19.573Z] Serving main application page
+[2025-06-30T03:26:49.776Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:26:49.779Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:26:49.782Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:26:49.784Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:26:49.785Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 3 subscriptions
+[2025-06-30T03:26:49.787Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 42.70ms
+[2025-06-30T03:30:00.016Z] Running scheduled subscription reminder check
+[2025-06-30T03:30:00.027Z] Found 2 expired subscriptions
+[2025-06-30T03:30:00.032Z] Found 1 upcoming renewals
+[2025-06-30T03:30:02.975Z] Expired subscription reminder sent for: Amazon Prime
+[2025-06-30T03:30:03.936Z] Expired subscription reminder sent for: Adobe Creative Cloud
+[2025-06-30T03:30:04.857Z] Upcoming renewal reminder sent for: asdasd
+[2025-06-30T03:35:19.710Z] Received 15 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:35:19.712Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: delete-subscription
+[2025-06-30T03:35:19.713Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] DELETE /api/subscriptions/6862023bf5b9c5c377c8e61c - 200 (39ms)
+[2025-06-30T03:35:19.714Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription deleted successfully
+[2025-06-30T03:35:19.715Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:35:19.716Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 2 subscriptions
+[2025-06-30T03:35:19.717Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 42.70ms
+[2025-06-30T03:35:19.719Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: delete-subscription
+[2025-06-30T03:35:19.720Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] DELETE /api/subscriptions/68620290f5b9c5c377c8e61f - 200 (20ms)
+[2025-06-30T03:35:19.721Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription deleted successfully
+[2025-06-30T03:35:19.722Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:35:19.723Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:35:19.724Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 42.70ms
+[2025-06-30T03:35:19.725Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] User action: edit-subscription
+[2025-06-30T03:35:49.710Z] Received 9 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:35:49.711Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:35:49.712Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - invalid
+[2025-06-30T03:35:49.713Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Saving subscription
+[2025-06-30T03:35:49.715Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Form validation: subscription-form - valid
+[2025-06-30T03:35:49.716Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] PUT /api/subscriptions/68619e06841b7a4e0555549a - 200 (28ms)
+[2025-06-30T03:35:49.717Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription updated successfully
+[2025-06-30T03:35:49.718Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:35:49.719Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:35:49.720Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 42.70ms
+[2025-06-30T03:38:18.235Z] Twilio client initialized successfully
+[2025-06-30T03:38:18.239Z] SMS reminders enabled
+[2025-06-30T03:38:18.272Z] Server running on port 3000
+[2025-06-30T03:38:18.273Z] Environment: development
+[2025-06-30T03:38:18.274Z] MongoDB: Disconnected
+[2025-06-30T03:38:18.274Z] Twilio: Enabled
+[2025-06-30T03:38:38.030Z] Serving main application page
+[2025-06-30T03:39:00.707Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:39:00.708Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:39:00.711Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:39:00.712Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:39:00.713Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:39:00.714Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 50.70ms
+[2025-06-30T03:39:00.720Z] Serving main application page
+[2025-06-30T03:39:30.781Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:39:30.782Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:39:30.784Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:39:30.786Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:39:30.787Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:39:30.788Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 38.60ms
+[2025-06-30T03:42:29.399Z] Twilio client initialized successfully
+[2025-06-30T03:42:29.404Z] SMS reminders enabled
+[2025-06-30T03:42:29.439Z] Server running on port 3000
+[2025-06-30T03:42:29.440Z] Environment: development
+[2025-06-30T03:42:29.441Z] MongoDB: Disconnected
+[2025-06-30T03:42:29.441Z] Twilio: Enabled
+[2025-06-30T03:42:34.562Z] Serving main application page
+[2025-06-30T03:43:05.214Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:05.216Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:05.219Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:05.220Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:05.222Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:05.223Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 51.40ms
+[2025-06-30T03:43:36.339Z] Serving main application page
+[2025-06-30T03:43:38.337Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:38.338Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:38.340Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:38.341Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:38.342Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:38.343Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 58.90ms
+[2025-06-30T03:43:38.348Z] Serving main application page
+[2025-06-30T03:43:39.319Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:39.320Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:39.322Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:39.323Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:39.324Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:39.325Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 36.80ms
+[2025-06-30T03:43:39.330Z] Serving main application page
+[2025-06-30T03:43:39.468Z] Serving main application page
+[2025-06-30T03:43:39.472Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:39.472Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:39.474Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:39.474Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:39.475Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:39.476Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 35.30ms
+[2025-06-30T03:43:39.610Z] Serving main application page
+[2025-06-30T03:43:39.622Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:39.623Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:39.625Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:39.627Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:39.627Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:39.628Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 31.50ms
+[2025-06-30T03:43:39.781Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:39.782Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:39.784Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:39.784Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:39.785Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:39.786Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 27.80ms
+[2025-06-30T03:43:39.791Z] Serving main application page
+[2025-06-30T03:43:40.022Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:43:40.023Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:43:40.026Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:43:40.027Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:43:40.029Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:43:40.031Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 33.10ms
+[2025-06-30T03:43:40.041Z] Serving main application page
+[2025-06-30T03:44:10.176Z] Received 6 client logs from user: aman, session: session_1751253134887_089oawqzg
+[2025-06-30T03:44:10.177Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Starting CSS validation check
+[2025-06-30T03:44:10.180Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Subscription app controller initialized
+[2025-06-30T03:44:10.182Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loading subscriptions
+[2025-06-30T03:44:10.183Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Loaded 1 subscriptions
+[2025-06-30T03:44:10.184Z] [CLIENT] [aman] [session_1751253134887_089oawqzg] Performance: app-load took 52.30ms
+[2025-06-30T03:57:41.242Z] Twilio client initialized successfully
+[2025-06-30T03:57:41.244Z] SMS reminders enabled
+[2025-06-30T03:57:41.245Z] SMS schedule mode: minute
+[2025-06-30T03:57:41.270Z] SMS reminders scheduled: Every minute (TESTING MODE)
+[2025-06-30T03:57:41.273Z] Server running on port 3000
+[2025-06-30T03:57:41.273Z] Environment: development
+[2025-06-30T03:57:41.274Z] MongoDB: Disconnected
+[2025-06-30T03:57:41.274Z] Twilio: Enabled
+[2025-06-30T03:58:00.437Z] Running scheduled subscription reminder check
+[2025-06-30T03:58:00.468Z] Found 2 expired subscriptions
+[2025-06-30T03:58:00.472Z] Found 1 upcoming renewals
+[2025-06-30T03:58:02.161Z] Expired subscription reminder sent for: Adobe Creative Cloud (User: a) [Schedule: minute]
+[2025-06-30T03:58:02.616Z] Expired subscription reminder sent for: Amazon Prime (User: a) [Schedule: minute]
+[2025-06-30T03:58:03.057Z] Upcoming renewal reminder sent for: Netflix (User: aman) [Schedule: minute]
+[2025-06-30T03:58:03.057Z] SMS reminder batch complete: 3 messages sent [Schedule: minute]
+[2025-06-30T03:59:00.003Z] Running scheduled subscription reminder check
+[2025-06-30T03:59:00.006Z] Found 2 expired subscriptions
+[2025-06-30T03:59:00.009Z] Found 1 upcoming renewals
+[2025-06-30T03:59:01.056Z] Expired subscription reminder sent for: Adobe Creative Cloud (User: a) [Schedule: minute]
+[2025-06-30T03:59:01.941Z] Expired subscription reminder sent for: Amazon Prime (User: a) [Schedule: minute]
+[2025-06-30T03:59:02.384Z] Upcoming renewal reminder sent for: Netflix (User: aman) [Schedule: minute]
+[2025-06-30T03:59:02.385Z] SMS reminder batch complete: 3 messages sent [Schedule: minute]
+[2025-06-30T04:03:55.318Z] Twilio client initialized successfully
+[2025-06-30T04:03:55.321Z] SMS reminders enabled
+[2025-06-30T04:03:55.321Z] SMS schedule mode: disabled
+[2025-06-30T04:03:55.322Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T04:03:55.325Z] Server running on port 3000
+[2025-06-30T04:03:55.325Z] Environment: development
+[2025-06-30T04:03:55.326Z] MongoDB: Disconnected
+[2025-06-30T04:03:55.326Z] Twilio: Enabled
+[2025-06-30T12:13:29.502Z] Twilio client initialized successfully
+[2025-06-30T12:13:29.516Z] SMS reminders enabled
+[2025-06-30T12:13:29.516Z] SMS schedule mode: disabled
+[2025-06-30T12:13:29.517Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T12:13:29.520Z] Server running on port 3000
+[2025-06-30T12:13:29.520Z] Environment: development
+[2025-06-30T12:13:29.521Z] MongoDB: Disconnected
+[2025-06-30T12:13:29.521Z] Twilio: Enabled
+[2025-06-30T12:14:26.152Z] Serving login page
+[2025-06-30T12:14:30.909Z] Serving registration page
+[2025-06-30T12:14:30.909Z] Serving login page
+[2025-06-30T12:14:32.757Z] Serving login page
+[2025-06-30T12:14:32.766Z] Serving login page
+[2025-06-30T12:14:34.029Z] Serving registration page
+[2025-06-30T12:14:34.032Z] Serving login page
+[2025-06-30T12:14:35.043Z] Serving login page
+[2025-06-30T12:14:35.047Z] Serving login page
+[2025-06-30T12:14:36.191Z] Serving registration page
+[2025-06-30T12:14:36.194Z] Serving login page
+[2025-06-30T12:14:37.418Z] Serving login page
+[2025-06-30T12:14:37.425Z] Serving login page
+[2025-06-30T12:14:39.418Z] Serving registration page
+[2025-06-30T12:14:39.429Z] Serving login page
+[2025-06-30T12:14:40.636Z] Serving login page
+[2025-06-30T12:14:40.642Z] Serving login page
+[2025-06-30T12:14:42.302Z] Serving registration page
+[2025-06-30T12:14:42.303Z] Serving login page
+[2025-06-30T12:14:43.287Z] Serving login page
+[2025-06-30T12:14:43.296Z] Serving login page
+[2025-06-30T12:14:45.738Z] Serving registration page
+[2025-06-30T12:14:45.751Z] Serving login page
+[2025-06-30T12:14:46.866Z] Serving login page
+[2025-06-30T12:14:46.876Z] Serving login page
+[2025-06-30T12:15:17.165Z] Serving login page
+[2025-06-30T12:16:47.174Z] Serving login page
