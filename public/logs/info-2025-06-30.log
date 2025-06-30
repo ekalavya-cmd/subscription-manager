@@ -765,3 +765,67 @@
 [2025-06-30T15:48:34.277Z] [CLIENT] [ekalavya] [session_1751290026545_po9qvfj6m] Login successful
 [2025-06-30T15:48:34.280Z] Serving main application page
 [2025-06-30T15:48:35.852Z] Serving login page
+[2025-06-30T16:19:48.680Z] Twilio client initialized successfully
+[2025-06-30T16:19:48.683Z] SMS reminders enabled
+[2025-06-30T16:19:48.683Z] SMS schedule mode: disabled
+[2025-06-30T16:19:48.683Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-06-30T16:19:48.687Z] Server running on port 3000
+[2025-06-30T16:19:48.688Z] Environment: development
+[2025-06-30T16:19:48.688Z] MongoDB: Disconnected
+[2025-06-30T16:19:48.688Z] Twilio: Enabled
+[2025-06-30T16:19:56.005Z] Serving login page
+[2025-06-30T16:19:59.961Z] Serving registration page
+[2025-06-30T16:20:17.001Z] Serving login page
+[2025-06-30T16:20:18.771Z] Serving registration page
+[2025-06-30T16:20:21.725Z] Serving login page
+[2025-06-30T16:20:24.049Z] Serving registration page
+[2025-06-30T16:20:26.786Z] Serving login page
+[2025-06-30T16:20:35.535Z] Serving registration page
+[2025-06-30T16:20:48.173Z] Serving login page
+[2025-06-30T16:20:59.434Z] Login attempt for username: ekalavya
+[2025-06-30T16:20:59.505Z] User logged in successfully: ekalavya (original: ekalavya)
+[2025-06-30T16:20:59.620Z] Received 17 client logs from user: ekalavya, session: session_1751300459616_3obq3iwba
+[2025-06-30T16:20:59.621Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Starting CSS validation check
+[2025-06-30T16:20:59.621Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Login controller initialized
+[2025-06-30T16:20:59.621Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Login page fully loaded
+[2025-06-30T16:20:59.622Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance metrics - Page load: -1751300448165ms, DOM ready: 47ms, First paint: 0ms
+[2025-06-30T16:20:59.622Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance: page-load took 104.00ms
+[2025-06-30T16:20:59.622Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] User action: username-input-blur
+[2025-06-30T16:20:59.623Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Login attempt started
+[2025-06-30T16:20:59.623Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Form validation: login-form - invalid
+[2025-06-30T16:20:59.623Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] User action: enter-key-pressed
+[2025-06-30T16:20:59.624Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] User action: username-input-blur
+[2025-06-30T16:20:59.624Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] User action: enter-key-pressed
+[2025-06-30T16:20:59.625Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Login attempt started
+[2025-06-30T16:20:59.625Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Form validation: login-form - valid
+[2025-06-30T16:20:59.626Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance: login-request took 91.30ms
+[2025-06-30T16:20:59.626Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] POST /api/index - 200 (92ms)
+[2025-06-30T16:20:59.626Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Login successful
+[2025-06-30T16:20:59.631Z] Serving main application page
+[2025-06-30T16:21:29.689Z] Received 7 client logs from user: ekalavya, session: session_1751300459616_3obq3iwba
+[2025-06-30T16:21:29.690Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Starting CSS validation check
+[2025-06-30T16:21:29.691Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Subscription app controller initialized
+[2025-06-30T16:21:29.691Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loading subscriptions
+[2025-06-30T16:21:29.692Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loaded 1 subscriptions
+[2025-06-30T16:21:29.693Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance: app-load took 23.30ms
+[2025-06-30T16:22:29.678Z] Received 19 client logs from user: ekalavya, session: session_1751300459616_3obq3iwba
+[2025-06-30T16:22:29.679Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Saving subscription
+[2025-06-30T16:22:29.679Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Form validation: subscription-form - valid
+[2025-06-30T16:22:29.680Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] POST /api/subscriptions - 200 (26ms)
+[2025-06-30T16:22:29.680Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Subscription added successfully
+[2025-06-30T16:22:29.680Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loading subscriptions
+[2025-06-30T16:22:29.681Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loaded 2 subscriptions
+[2025-06-30T16:22:29.681Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance: app-load took 23.30ms
+[2025-06-30T16:22:29.681Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] User action: delete-subscription
+[2025-06-30T16:22:29.682Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] DELETE /api/subscriptions/6862b028ec07dcab231cca1b - 200 (13ms)
+[2025-06-30T16:22:29.682Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Subscription deleted successfully
+[2025-06-30T16:22:29.682Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loading subscriptions
+[2025-06-30T16:22:29.683Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loaded 1 subscriptions
+[2025-06-30T16:22:29.683Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance: app-load took 23.30ms
+[2025-06-30T16:22:29.683Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] User action: delete-subscription
+[2025-06-30T16:22:29.684Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] DELETE /api/subscriptions/6862b9b0536db3cf4b970cdb - 200 (10ms)
+[2025-06-30T16:22:29.684Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Subscription deleted successfully
+[2025-06-30T16:22:29.684Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loading subscriptions
+[2025-06-30T16:22:29.685Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Loaded 0 subscriptions
+[2025-06-30T16:22:29.685Z] [CLIENT] [ekalavya] [session_1751300459616_3obq3iwba] Performance: app-load took 23.30ms
+[2025-06-30T16:22:35.479Z] Serving login page

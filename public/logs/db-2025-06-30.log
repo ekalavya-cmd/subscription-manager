@@ -128,3 +128,18 @@
 [2025-06-30T15:48:09.619Z] Found 1 subscriptions for user: ekalavya
 [2025-06-30T15:48:34.347Z] Fetching subscriptions for user: ekalavya
 [2025-06-30T15:48:34.351Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T16:19:48.701Z] MongoDB connected successfully
+[2025-06-30T16:20:59.744Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T16:20:59.749Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T16:22:08.563Z] Creating subscription for user: ekalavya
+[2025-06-30T16:22:08.579Z] Subscription created successfully: asdsad
+[2025-06-30T16:22:08.590Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T16:22:08.594Z] Found 2 subscriptions for user: ekalavya
+[2025-06-30T16:22:24.340Z] Deleting subscription 6862b028ec07dcab231cca1b for user: ekalavya
+[2025-06-30T16:22:24.345Z] Subscription deleted successfully: asasS
+[2025-06-30T16:22:24.353Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T16:22:24.358Z] Found 1 subscriptions for user: ekalavya
+[2025-06-30T16:22:27.210Z] Deleting subscription 6862b9b0536db3cf4b970cdb for user: ekalavya
+[2025-06-30T16:22:27.213Z] Subscription deleted successfully: asdsad
+[2025-06-30T16:22:27.220Z] Fetching subscriptions for user: ekalavya
+[2025-06-30T16:22:27.222Z] Found 0 subscriptions for user: ekalavya
