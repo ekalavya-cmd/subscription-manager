@@ -3259,3 +3259,203 @@
 [2025-07-01T22:58:51.176Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loaded 7 subscriptions
 [2025-07-01T22:58:51.177Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Performance: app-load took 24.80ms
 [2025-07-01T22:58:51.178Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T23:07:57.269Z] Twilio client initialized successfully
+[2025-07-01T23:07:57.271Z] SMS reminders enabled
+[2025-07-01T23:07:57.271Z] SMS schedule mode: disabled
+[2025-07-01T23:07:57.272Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T23:07:57.274Z] Server running on port 3000
+[2025-07-01T23:07:57.274Z] Environment: development
+[2025-07-01T23:07:57.275Z] MongoDB: Disconnected
+[2025-07-01T23:07:57.275Z] Twilio: Enabled
+[2025-07-01T23:07:57.286Z] MongoDB connected successfully
+[2025-07-01T23:08:05.345Z] GET / - Request received
+[2025-07-01T23:08:05.348Z] Serving login page
+[2025-07-01T23:08:05.353Z] GET / - 304 - 8ms
+[2025-07-01T23:08:05.377Z] GET /css/custom.css - Request received
+[2025-07-01T23:08:05.379Z] GET /js/logger.js - Request received
+[2025-07-01T23:08:05.381Z] GET /css/custom.css - 304 - 4ms
+[2025-07-01T23:08:05.382Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T23:08:15.347Z] POST /api/index - Request received
+[2025-07-01T23:08:15.348Z] Login attempt for username: ekalavya
+[2025-07-01T23:08:15.417Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T23:08:15.419Z] POST /api/index - 200 - 72ms
+[2025-07-01T23:08:15.930Z] POST /api/client-logs - Request received
+[2025-07-01T23:08:15.933Z] Received 14 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:08:15.934Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:08:15.934Z] [WARN] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] CSS validation issues detected
+[2025-07-01T23:08:15.935Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login controller initialized
+[2025-07-01T23:08:15.935Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: page-load took 101.40ms
+[2025-07-01T23:08:15.935Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.936Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: login-attempt
+[2025-07-01T23:08:15.936Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: login-form - invalid
+[2025-07-01T23:08:15.937Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.937Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.937Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: login-attempt
+[2025-07-01T23:08:15.938Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: login-form - valid
+[2025-07-01T23:08:15.938Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.938Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/index - 200 (86ms)
+[2025-07-01T23:08:15.939Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login successful
+[2025-07-01T23:08:15.939Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T23:08:15.940Z] GET /app - Request received
+[2025-07-01T23:08:15.942Z] Serving main application page
+[2025-07-01T23:08:15.944Z] GET /app - 304 - 4ms
+[2025-07-01T23:08:15.959Z] GET /css/custom.css - Request received
+[2025-07-01T23:08:15.960Z] GET /js/logger.js - Request received
+[2025-07-01T23:08:15.961Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T23:08:15.963Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T23:08:16.045Z] GET /api/subscriptions - Request received
+[2025-07-01T23:08:16.048Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:08:16.052Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T23:08:16.054Z] GET /api/subscriptions - 304 - 9ms
+[2025-07-01T23:08:45.982Z] POST /api/client-logs - Request received
+[2025-07-01T23:08:45.984Z] Received 6 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:08:45.984Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:08:45.985Z] [WARN] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] CSS validation issues detected
+[2025-07-01T23:08:45.985Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription app controller initialized
+[2025-07-01T23:08:45.985Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:08:45.986Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 7 subscriptions
+[2025-07-01T23:08:45.986Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 20.80ms
+[2025-07-01T23:08:45.987Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T23:08:48.266Z] POST /api/subscriptions - Request received
+[2025-07-01T23:08:48.268Z] Creating subscription for user: Ekalavya
+[2025-07-01T23:08:48.277Z] Subscription created successfully: sadasdas
+[2025-07-01T23:08:48.278Z] POST /api/subscriptions - 201 - 12ms
+[2025-07-01T23:08:48.281Z] GET /api/subscriptions - Request received
+[2025-07-01T23:08:48.283Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:08:48.286Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T23:08:48.288Z] GET /api/subscriptions - 200 - 7ms
+[2025-07-01T23:09:07.517Z] POST /api/subscriptions - Request received
+[2025-07-01T23:09:07.519Z] Creating subscription for user: Ekalavya
+[2025-07-01T23:09:07.522Z] Subscription created successfully: sadsfsd
+[2025-07-01T23:09:07.523Z] POST /api/subscriptions - 201 - 6ms
+[2025-07-01T23:09:07.528Z] GET /api/subscriptions - Request received
+[2025-07-01T23:09:07.530Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:09:07.534Z] Found 9 subscriptions for user: Ekalavya
+[2025-07-01T23:09:07.535Z] GET /api/subscriptions - 200 - 7ms
+[2025-07-01T23:09:15.989Z] POST /api/client-logs - Request received
+[2025-07-01T23:09:15.990Z] Received 14 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:09:15.990Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Saving subscription
+[2025-07-01T23:09:15.991Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: subscription-form - valid
+[2025-07-01T23:09:15.991Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/subscriptions - 200 (15ms)
+[2025-07-01T23:09:15.992Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription added successfully
+[2025-07-01T23:09:15.992Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:09:15.992Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 8 subscriptions
+[2025-07-01T23:09:15.993Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 20.80ms
+[2025-07-01T23:09:15.993Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Saving subscription
+[2025-07-01T23:09:15.993Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: subscription-form - valid
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/subscriptions - 200 (10ms)
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription added successfully
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 9 subscriptions
+[2025-07-01T23:09:15.995Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 20.80ms
+[2025-07-01T23:09:15.996Z] POST /api/client-logs - 200 - 7ms
+[2025-07-01T23:11:00.559Z] GET / - Request received
+[2025-07-01T23:11:00.560Z] Serving login page
+[2025-07-01T23:11:00.561Z] GET / - 304 - 2ms
+[2025-07-01T23:11:00.581Z] GET /css/custom.css - Request received
+[2025-07-01T23:11:00.582Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T23:11:00.586Z] GET /js/logger.js - Request received
+[2025-07-01T23:11:00.588Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T23:11:06.736Z] Twilio client initialized successfully
+[2025-07-01T23:11:06.739Z] SMS reminders enabled
+[2025-07-01T23:11:06.739Z] SMS schedule mode: disabled
+[2025-07-01T23:11:06.739Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T23:11:06.742Z] Server running on port 3000
+[2025-07-01T23:11:06.743Z] Environment: development
+[2025-07-01T23:11:06.743Z] MongoDB: Disconnected
+[2025-07-01T23:11:06.743Z] Twilio: Enabled
+[2025-07-01T23:11:06.762Z] MongoDB connected successfully
+[2025-07-01T23:11:08.533Z] GET / - Request received
+[2025-07-01T23:11:08.536Z] Serving login page
+[2025-07-01T23:11:08.540Z] GET / - 304 - 7ms
+[2025-07-01T23:11:08.554Z] GET /css/custom.css - Request received
+[2025-07-01T23:11:08.556Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T23:11:08.559Z] GET /js/logger.js - Request received
+[2025-07-01T23:11:08.561Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T23:11:14.141Z] POST /api/index - Request received
+[2025-07-01T23:11:14.142Z] Login attempt for username: ekalavya
+[2025-07-01T23:11:14.212Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T23:11:14.214Z] POST /api/index - 200 - 73ms
+[2025-07-01T23:11:14.719Z] POST /api/client-logs - Request received
+[2025-07-01T23:11:14.723Z] Received 10 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:11:14.724Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:11:14.724Z] [WARN] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] CSS validation issues detected
+[2025-07-01T23:11:14.725Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login controller initialized
+[2025-07-01T23:11:14.725Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: page-load took 100.50ms
+[2025-07-01T23:11:14.725Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:11:14.726Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: login-attempt
+[2025-07-01T23:11:14.726Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: login-form - valid
+[2025-07-01T23:11:14.727Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:11:14.727Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/index - 200 (85ms)
+[2025-07-01T23:11:14.727Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login successful
+[2025-07-01T23:11:14.728Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T23:11:14.729Z] GET /app - Request received
+[2025-07-01T23:11:14.730Z] Serving main application page
+[2025-07-01T23:11:14.732Z] GET /app - 304 - 3ms
+[2025-07-01T23:11:14.754Z] GET /css/custom.css - Request received
+[2025-07-01T23:11:14.755Z] GET /js/logger.js - Request received
+[2025-07-01T23:11:14.756Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T23:11:14.757Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T23:11:14.793Z] GET /api/subscriptions - Request received
+[2025-07-01T23:11:14.796Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:11:14.801Z] Found 9 subscriptions for user: Ekalavya
+[2025-07-01T23:11:14.805Z] GET /api/subscriptions - 200 - 12ms
+[2025-07-01T23:11:14.830Z] PUT /api/subscriptions/68646a80711fb136a8219f55 - Request received
+[2025-07-01T23:11:14.835Z] Updating subscription 68646a80711fb136a8219f55 for user: Ekalavya
+[2025-07-01T23:11:14.850Z] PUT /api/subscriptions/68646a93711fb136a8219f58 - Request received
+[2025-07-01T23:11:14.852Z] Updating subscription 68646a93711fb136a8219f58 for user: Ekalavya
+[2025-07-01T23:11:14.855Z] Subscription updated successfully: sadasdas
+[2025-07-01T23:11:14.857Z] PUT /api/subscriptions/68646a80711fb136a8219f55 - 200 - 27ms
+[2025-07-01T23:11:14.859Z] Subscription updated successfully: sadsfsd
+[2025-07-01T23:11:14.860Z] PUT /api/subscriptions/68646a93711fb136a8219f58 - 200 - 10ms
+[2025-07-01T23:11:44.774Z] POST /api/client-logs - Request received
+[2025-07-01T23:11:44.777Z] Received 10 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:11:44.777Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:11:44.777Z] [WARN] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] CSS validation issues detected
+[2025-07-01T23:11:44.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription app controller initialized
+[2025-07-01T23:11:44.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:11:44.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 9 subscriptions
+[2025-07-01T23:11:44.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Auto-updating subscription sadasdas status from expired to active
+[2025-07-01T23:11:44.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Auto-updating subscription sadsfsd status from expired to active
+[2025-07-01T23:11:44.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 30.50ms
+[2025-07-01T23:11:44.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Successfully updated subscription sadasdas status to active
+[2025-07-01T23:11:44.781Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Successfully updated subscription sadsfsd status to active
+[2025-07-01T23:11:44.782Z] POST /api/client-logs - 200 - 8ms
+[2025-07-01T23:11:47.143Z] DELETE /api/subscriptions/68646a80711fb136a8219f55 - Request received
+[2025-07-01T23:11:47.146Z] Deleting subscription 68646a80711fb136a8219f55 for user: Ekalavya
+[2025-07-01T23:11:47.152Z] Subscription deleted successfully: sadasdas
+[2025-07-01T23:11:47.153Z] DELETE /api/subscriptions/68646a80711fb136a8219f55 - 200 - 10ms
+[2025-07-01T23:11:47.158Z] GET /api/subscriptions - Request received
+[2025-07-01T23:11:47.162Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:11:47.166Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T23:11:47.168Z] GET /api/subscriptions - 200 - 10ms
+[2025-07-01T23:11:50.652Z] DELETE /api/subscriptions/68646a93711fb136a8219f58 - Request received
+[2025-07-01T23:11:50.655Z] Deleting subscription 68646a93711fb136a8219f58 for user: Ekalavya
+[2025-07-01T23:11:50.658Z] Subscription deleted successfully: sadsfsd
+[2025-07-01T23:11:50.659Z] DELETE /api/subscriptions/68646a93711fb136a8219f58 - 200 - 7ms
+[2025-07-01T23:11:50.664Z] GET /api/subscriptions - Request received
+[2025-07-01T23:11:50.667Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:11:50.674Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T23:11:50.676Z] GET /api/subscriptions - 200 - 12ms
+[2025-07-01T23:12:14.774Z] POST /api/client-logs - Request received
+[2025-07-01T23:12:14.775Z] Received 12 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:12:14.776Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: delete-subscription
+[2025-07-01T23:12:14.776Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] DELETE /api/subscriptions/68646a80711fb136a8219f55 - 200 (14ms)
+[2025-07-01T23:12:14.777Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription deleted successfully
+[2025-07-01T23:12:14.777Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:12:14.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 8 subscriptions
+[2025-07-01T23:12:14.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 30.50ms
+[2025-07-01T23:12:14.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: delete-subscription
+[2025-07-01T23:12:14.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] DELETE /api/subscriptions/68646a93711fb136a8219f58 - 200 (11ms)
+[2025-07-01T23:12:14.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription deleted successfully
+[2025-07-01T23:12:14.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:12:14.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 7 subscriptions
+[2025-07-01T23:12:14.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 30.50ms
+[2025-07-01T23:12:14.781Z] POST /api/client-logs - 200 - 7ms
+[2025-07-01T23:12:19.649Z] GET / - Request received
+[2025-07-01T23:12:19.649Z] Serving login page
+[2025-07-01T23:12:19.650Z] GET / - 304 - 1ms
+[2025-07-01T23:12:19.673Z] GET /css/custom.css - Request received
+[2025-07-01T23:12:19.674Z] GET /js/logger.js - Request received
+[2025-07-01T23:12:19.675Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T23:12:19.677Z] GET /js/logger.js - 304 - 3ms

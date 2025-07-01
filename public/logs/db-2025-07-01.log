@@ -356,3 +356,29 @@
 [2025-07-01T22:47:03.609Z] Found 7 subscriptions for user: Ekalavya
 [2025-07-01T22:58:20.406Z] Fetching subscriptions for user: Ekalavya
 [2025-07-01T22:58:20.411Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T23:07:57.286Z] MongoDB connected successfully
+[2025-07-01T23:08:16.048Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:08:16.052Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T23:08:48.268Z] Creating subscription for user: Ekalavya
+[2025-07-01T23:08:48.277Z] Subscription created successfully: sadasdas
+[2025-07-01T23:08:48.283Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:08:48.286Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T23:09:07.519Z] Creating subscription for user: Ekalavya
+[2025-07-01T23:09:07.522Z] Subscription created successfully: sadsfsd
+[2025-07-01T23:09:07.530Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:09:07.534Z] Found 9 subscriptions for user: Ekalavya
+[2025-07-01T23:11:06.762Z] MongoDB connected successfully
+[2025-07-01T23:11:14.796Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:11:14.801Z] Found 9 subscriptions for user: Ekalavya
+[2025-07-01T23:11:14.835Z] Updating subscription 68646a80711fb136a8219f55 for user: Ekalavya
+[2025-07-01T23:11:14.852Z] Updating subscription 68646a93711fb136a8219f58 for user: Ekalavya
+[2025-07-01T23:11:14.855Z] Subscription updated successfully: sadasdas
+[2025-07-01T23:11:14.859Z] Subscription updated successfully: sadsfsd
+[2025-07-01T23:11:47.146Z] Deleting subscription 68646a80711fb136a8219f55 for user: Ekalavya
+[2025-07-01T23:11:47.152Z] Subscription deleted successfully: sadasdas
+[2025-07-01T23:11:47.162Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:11:47.166Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T23:11:50.655Z] Deleting subscription 68646a93711fb136a8219f58 for user: Ekalavya
+[2025-07-01T23:11:50.658Z] Subscription deleted successfully: sadsfsd
+[2025-07-01T23:11:50.667Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T23:11:50.674Z] Found 7 subscriptions for user: Ekalavya

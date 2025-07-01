@@ -1395,3 +1395,97 @@
 [2025-07-01T22:58:51.176Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loading subscriptions
 [2025-07-01T22:58:51.176Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loaded 7 subscriptions
 [2025-07-01T22:58:51.177Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Performance: app-load took 24.80ms
+[2025-07-01T23:07:57.269Z] Twilio client initialized successfully
+[2025-07-01T23:07:57.271Z] SMS reminders enabled
+[2025-07-01T23:07:57.271Z] SMS schedule mode: disabled
+[2025-07-01T23:07:57.272Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T23:07:57.274Z] Server running on port 3000
+[2025-07-01T23:07:57.274Z] Environment: development
+[2025-07-01T23:07:57.275Z] MongoDB: Disconnected
+[2025-07-01T23:07:57.275Z] Twilio: Enabled
+[2025-07-01T23:08:05.348Z] Serving login page
+[2025-07-01T23:08:15.348Z] Login attempt for username: ekalavya
+[2025-07-01T23:08:15.417Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T23:08:15.933Z] Received 14 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:08:15.934Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:08:15.935Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login controller initialized
+[2025-07-01T23:08:15.935Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: page-load took 101.40ms
+[2025-07-01T23:08:15.935Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.936Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: login-attempt
+[2025-07-01T23:08:15.936Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: login-form - invalid
+[2025-07-01T23:08:15.937Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.937Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.937Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: login-attempt
+[2025-07-01T23:08:15.938Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: login-form - valid
+[2025-07-01T23:08:15.938Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:08:15.938Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/index - 200 (86ms)
+[2025-07-01T23:08:15.939Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login successful
+[2025-07-01T23:08:15.942Z] Serving main application page
+[2025-07-01T23:08:45.984Z] Received 6 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:08:45.984Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:08:45.985Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription app controller initialized
+[2025-07-01T23:08:45.985Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:08:45.986Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 7 subscriptions
+[2025-07-01T23:08:45.986Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 20.80ms
+[2025-07-01T23:09:15.990Z] Received 14 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:09:15.990Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Saving subscription
+[2025-07-01T23:09:15.991Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: subscription-form - valid
+[2025-07-01T23:09:15.991Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/subscriptions - 200 (15ms)
+[2025-07-01T23:09:15.992Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription added successfully
+[2025-07-01T23:09:15.992Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:09:15.992Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 8 subscriptions
+[2025-07-01T23:09:15.993Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 20.80ms
+[2025-07-01T23:09:15.993Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Saving subscription
+[2025-07-01T23:09:15.993Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: subscription-form - valid
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/subscriptions - 200 (10ms)
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription added successfully
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:09:15.994Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 9 subscriptions
+[2025-07-01T23:09:15.995Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 20.80ms
+[2025-07-01T23:11:00.560Z] Serving login page
+[2025-07-01T23:11:06.736Z] Twilio client initialized successfully
+[2025-07-01T23:11:06.739Z] SMS reminders enabled
+[2025-07-01T23:11:06.739Z] SMS schedule mode: disabled
+[2025-07-01T23:11:06.739Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T23:11:06.742Z] Server running on port 3000
+[2025-07-01T23:11:06.743Z] Environment: development
+[2025-07-01T23:11:06.743Z] MongoDB: Disconnected
+[2025-07-01T23:11:06.743Z] Twilio: Enabled
+[2025-07-01T23:11:08.536Z] Serving login page
+[2025-07-01T23:11:14.142Z] Login attempt for username: ekalavya
+[2025-07-01T23:11:14.212Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T23:11:14.723Z] Received 10 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:11:14.724Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:11:14.725Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login controller initialized
+[2025-07-01T23:11:14.725Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: page-load took 100.50ms
+[2025-07-01T23:11:14.725Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:11:14.726Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: login-attempt
+[2025-07-01T23:11:14.726Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Form validation: login-form - valid
+[2025-07-01T23:11:14.727Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: enter-key-pressed
+[2025-07-01T23:11:14.727Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] POST /api/index - 200 (85ms)
+[2025-07-01T23:11:14.727Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Login successful
+[2025-07-01T23:11:14.730Z] Serving main application page
+[2025-07-01T23:11:44.777Z] Received 10 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:11:44.777Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Starting CSS validation check
+[2025-07-01T23:11:44.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription app controller initialized
+[2025-07-01T23:11:44.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:11:44.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 9 subscriptions
+[2025-07-01T23:11:44.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Auto-updating subscription sadasdas status from expired to active
+[2025-07-01T23:11:44.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Auto-updating subscription sadsfsd status from expired to active
+[2025-07-01T23:11:44.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 30.50ms
+[2025-07-01T23:11:44.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Successfully updated subscription sadasdas status to active
+[2025-07-01T23:11:44.781Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Successfully updated subscription sadsfsd status to active
+[2025-07-01T23:12:14.775Z] Received 12 client logs from user: Ekalavya, session: session_1751411295928_s55z8kp7x
+[2025-07-01T23:12:14.776Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: delete-subscription
+[2025-07-01T23:12:14.776Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] DELETE /api/subscriptions/68646a80711fb136a8219f55 - 200 (14ms)
+[2025-07-01T23:12:14.777Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription deleted successfully
+[2025-07-01T23:12:14.777Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:12:14.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 8 subscriptions
+[2025-07-01T23:12:14.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 30.50ms
+[2025-07-01T23:12:14.778Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] User action: delete-subscription
+[2025-07-01T23:12:14.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] DELETE /api/subscriptions/68646a93711fb136a8219f58 - 200 (11ms)
+[2025-07-01T23:12:14.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Subscription deleted successfully
+[2025-07-01T23:12:14.779Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loading subscriptions
+[2025-07-01T23:12:14.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Loaded 7 subscriptions
+[2025-07-01T23:12:14.780Z] [CLIENT] [Ekalavya] [session_1751411295928_s55z8kp7x] Performance: app-load took 30.50ms
+[2025-07-01T23:12:19.649Z] Serving login page
