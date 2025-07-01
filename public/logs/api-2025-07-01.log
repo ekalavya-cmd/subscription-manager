@@ -1090,3 +1090,7 @@
 [2025-07-01T21:02:34.452Z] POST /api/test-sms-reminders - 200 - 1365ms
 [2025-07-01T21:03:02.798Z] POST /api/client-logs - Request received
 [2025-07-01T21:03:02.811Z] POST /api/client-logs - 200 - 13ms
+[2025-07-01T21:04:48.158Z] DELETE /api/subscriptions/68644ce35bb04cf2dc3db23f - Request received
+[2025-07-01T21:04:48.164Z] DELETE /api/subscriptions/68644ce35bb04cf2dc3db23f - 200 - 6ms
+[2025-07-01T21:04:48.167Z] GET /api/subscriptions - Request received
+[2025-07-01T21:04:48.174Z] GET /api/subscriptions - 200 - 7ms
