@@ -40,7 +40,7 @@ A modern web application built with AngularJS and Bootstrap to manage subscripti
 
 ```cmd
 git clone https://github.com/ekalavya-cmd/subscription-manager.git
-cd bootstrap-subscription-manager
+cd subscription-manager
 ```
 
 ### 2. Install Dependencies
@@ -139,7 +139,7 @@ Open your browser and navigate to `http://localhost:3000`
 ## 📁 Complete Project Structure
 
 ```
-bootstrap-subscription-manager/
+subscription-manager/
 ├── 📁 public/
 │   ├── 📁 css/
 │   │   └── custom.css              # Custom Bootstrap styles and animations
