@@ -521,6 +521,7 @@
                   <td>
                     <span
                       ng-class="{
+                         'text-success': isActiveSubscription(subscription),
                          'text-warning': isRenewalSoon(subscription), 
                          'text-danger': isRenewalOverdue(subscription) || isExpiredRecently(subscription)
                       }"
@@ -1638,6 +1639,34 @@
               );
               // Show red for subscriptions expired between 1-7 days ago
               return daysDiff >= 1 && daysDiff <= 7;
+            };
+
+            // NEW FUNCTION: Check if subscription is active and healthy (green color)
+            $scope.isActiveSubscription = function (subscription) {
+              const today = new Date();
+              const startDate = new Date(subscription.startDate);
+              const endDate = new Date(subscription.endDate);
+
+              // Set all dates to midnight for accurate comparison
+              today.setHours(0, 0, 0, 0);
+              startDate.setHours(0, 0, 0, 0);
+              endDate.setHours(0, 0, 0, 0);
+
+              // Active subscription criteria:
+              // 1. Status is 'active'
+              // 2. Start date <= today
+              // 3. End date > today
+              // 4. Not renewal soon (more than 7 days remaining)
+              const daysDiff = Math.ceil(
+                (endDate - today) / (1000 * 60 * 60 * 24)
+              );
+
+              return (
+                subscription.status === "active" &&
+                startDate <= today &&
+                endDate > today &&
+                daysDiff > 7
+              ); // More than 7 days remaining (not renewal soon)
             };
 
             $scope.getRenewalStatus = function (subscription) {

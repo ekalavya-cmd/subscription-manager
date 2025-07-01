@@ -1360,3 +1360,38 @@
 [2025-07-01T22:35:23.337Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/test-sms-reminders - 200 (2060ms)
 [2025-07-01T22:35:23.337Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] SMS reminders test completed
 [2025-07-01T22:35:49.115Z] Serving login page
+[2025-07-01T22:46:52.168Z] Twilio client initialized successfully
+[2025-07-01T22:46:52.171Z] SMS reminders enabled
+[2025-07-01T22:46:52.171Z] SMS schedule mode: disabled
+[2025-07-01T22:46:52.172Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T22:46:52.174Z] Server running on port 3000
+[2025-07-01T22:46:52.175Z] Environment: development
+[2025-07-01T22:46:52.175Z] MongoDB: Disconnected
+[2025-07-01T22:46:52.176Z] Twilio: Enabled
+[2025-07-01T22:46:57.397Z] Serving login page
+[2025-07-01T22:47:02.891Z] Login attempt for username: ekalavya
+[2025-07-01T22:47:02.960Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T22:47:03.481Z] Received 10 client logs from user: Ekalavya, session: session_1751410023474_6qymwwds7
+[2025-07-01T22:47:03.481Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Starting CSS validation check
+[2025-07-01T22:47:03.482Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Login controller initialized
+[2025-07-01T22:47:03.482Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Performance: page-load took 104.00ms
+[2025-07-01T22:47:03.483Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] User action: enter-key-pressed
+[2025-07-01T22:47:03.483Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] User action: login-attempt
+[2025-07-01T22:47:03.483Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Form validation: login-form - valid
+[2025-07-01T22:47:03.483Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] User action: enter-key-pressed
+[2025-07-01T22:47:03.484Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] POST /api/index - 200 (88ms)
+[2025-07-01T22:47:03.484Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Login successful
+[2025-07-01T22:47:03.488Z] Serving main application page
+[2025-07-01T22:47:34.176Z] Received 6 client logs from user: Ekalavya, session: session_1751410023474_6qymwwds7
+[2025-07-01T22:47:34.177Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Starting CSS validation check
+[2025-07-01T22:47:34.178Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Subscription app controller initialized
+[2025-07-01T22:47:34.178Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loading subscriptions
+[2025-07-01T22:47:34.178Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loaded 7 subscriptions
+[2025-07-01T22:47:34.179Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Performance: app-load took 22.90ms
+[2025-07-01T22:58:19.953Z] Serving main application page
+[2025-07-01T22:58:51.175Z] Received 6 client logs from user: Ekalavya, session: session_1751410023474_6qymwwds7
+[2025-07-01T22:58:51.175Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Starting CSS validation check
+[2025-07-01T22:58:51.176Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Subscription app controller initialized
+[2025-07-01T22:58:51.176Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loading subscriptions
+[2025-07-01T22:58:51.176Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Loaded 7 subscriptions
+[2025-07-01T22:58:51.177Z] [CLIENT] [Ekalavya] [session_1751410023474_6qymwwds7] Performance: app-load took 24.80ms

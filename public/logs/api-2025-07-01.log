@@ -1346,3 +1346,35 @@
 [2025-07-01T22:35:49.132Z] GET /css/custom.css - 304 - 1ms
 [2025-07-01T22:35:49.137Z] GET /js/logger.js - Request received
 [2025-07-01T22:35:49.139Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:46:57.395Z] GET / - Request received
+[2025-07-01T22:46:57.401Z] GET / - 304 - 7ms
+[2025-07-01T22:46:57.424Z] GET /css/custom.css - Request received
+[2025-07-01T22:46:57.426Z] GET /js/logger.js - Request received
+[2025-07-01T22:46:57.427Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T22:46:57.428Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:46:57.935Z] GET /favicon.ico - Request received
+[2025-07-01T22:46:57.938Z] GET /favicon.ico - 404 - 3ms
+[2025-07-01T22:47:02.890Z] POST /api/index - Request received
+[2025-07-01T22:47:02.962Z] POST /api/index - 200 - 72ms
+[2025-07-01T22:47:03.478Z] POST /api/client-logs - Request received
+[2025-07-01T22:47:03.486Z] POST /api/client-logs - 200 - 8ms
+[2025-07-01T22:47:03.488Z] GET /app - Request received
+[2025-07-01T22:47:03.490Z] GET /app - 304 - 2ms
+[2025-07-01T22:47:03.502Z] GET /css/custom.css - Request received
+[2025-07-01T22:47:03.503Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:47:03.507Z] GET /js/logger.js - Request received
+[2025-07-01T22:47:03.508Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T22:47:03.601Z] GET /api/subscriptions - Request received
+[2025-07-01T22:47:03.611Z] GET /api/subscriptions - 304 - 10ms
+[2025-07-01T22:47:34.175Z] POST /api/client-logs - Request received
+[2025-07-01T22:47:34.180Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T22:58:19.952Z] GET /app - Request received
+[2025-07-01T22:58:19.957Z] GET /app - 200 - 5ms
+[2025-07-01T22:58:19.971Z] GET /css/custom.css - Request received
+[2025-07-01T22:58:19.972Z] GET /js/logger.js - Request received
+[2025-07-01T22:58:19.973Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T22:58:19.974Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:58:20.404Z] GET /api/subscriptions - Request received
+[2025-07-01T22:58:20.412Z] GET /api/subscriptions - 304 - 8ms
+[2025-07-01T22:58:51.173Z] POST /api/client-logs - Request received
+[2025-07-01T22:58:51.178Z] POST /api/client-logs - 200 - 5ms

@@ -351,3 +351,8 @@
 [2025-07-01T22:34:26.973Z] Subscription deleted successfully: adada
 [2025-07-01T22:34:26.981Z] Fetching subscriptions for user: Ekalavya
 [2025-07-01T22:34:26.984Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T22:46:52.188Z] MongoDB connected successfully
+[2025-07-01T22:47:03.603Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T22:47:03.609Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T22:58:20.406Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T22:58:20.411Z] Found 7 subscriptions for user: Ekalavya
