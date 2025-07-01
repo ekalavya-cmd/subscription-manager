@@ -1055,3 +1055,308 @@
 [2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
 [2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
 [2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 18.70ms
+[2025-07-01T21:06:14.574Z] Twilio client initialized successfully
+[2025-07-01T21:06:14.577Z] SMS reminders enabled
+[2025-07-01T21:06:14.577Z] SMS schedule mode: disabled
+[2025-07-01T21:06:14.577Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T21:06:14.580Z] Server running on port 3000
+[2025-07-01T21:06:14.581Z] Environment: development
+[2025-07-01T21:06:14.581Z] MongoDB: Disconnected
+[2025-07-01T21:06:14.581Z] Twilio: Enabled
+[2025-07-01T21:06:24.942Z] Serving main application page
+[2025-07-01T21:06:55.003Z] Received 6 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:06:55.003Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T21:06:55.004Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T21:06:55.004Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:06:55.004Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
+[2025-07-01T21:06:55.005Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 49.30ms
+[2025-07-01T21:07:24.988Z] Received 31 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:07:24.989Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T21:07:24.989Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T21:07:24.990Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/subscriptions - 200 (22ms)
+[2025-07-01T21:07:24.990Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription added successfully
+[2025-07-01T21:07:24.990Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:07:24.991Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 8 subscriptions
+[2025-07-01T21:07:24.991Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 49.30ms
+[2025-07-01T21:07:24.992Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T21:07:24.992Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T21:07:24.992Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T21:07:24.993Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T21:07:24.993Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T21:07:24.993Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T21:07:24.993Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T21:07:24.994Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644df433b11a90bbfc5c75 - 200 (13ms)
+[2025-07-01T21:07:24.994Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T21:07:24.994Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:07:24.994Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 8 subscriptions
+[2025-07-01T21:07:24.995Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 49.30ms
+[2025-07-01T21:07:24.995Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T21:07:24.995Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T21:07:24.995Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T21:07:24.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T21:07:24.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T21:07:24.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T21:07:24.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T21:07:24.997Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644df433b11a90bbfc5c75 - 200 (12ms)
+[2025-07-01T21:07:24.997Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T21:07:24.997Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:07:24.998Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 8 subscriptions
+[2025-07-01T21:07:24.998Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 49.30ms
+[2025-07-01T21:07:54.995Z] Received 6 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:07:54.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: delete-subscription
+[2025-07-01T21:07:54.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] DELETE /api/subscriptions/68644df433b11a90bbfc5c75 - 200 (10ms)
+[2025-07-01T21:07:54.996Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription deleted successfully
+[2025-07-01T21:07:54.997Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:07:54.997Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
+[2025-07-01T21:07:54.997Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 49.30ms
+[2025-07-01T22:08:43.383Z] Twilio client initialized successfully
+[2025-07-01T22:08:43.386Z] SMS reminders enabled
+[2025-07-01T22:08:43.386Z] SMS schedule mode: disabled
+[2025-07-01T22:08:43.386Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T22:08:43.389Z] Server running on port 3000
+[2025-07-01T22:08:43.390Z] Environment: development
+[2025-07-01T22:08:43.390Z] MongoDB: Disconnected
+[2025-07-01T22:08:43.390Z] Twilio: Enabled
+[2025-07-01T22:08:50.146Z] Serving login page
+[2025-07-01T22:08:55.334Z] Login attempt for username: ekalavya
+[2025-07-01T22:08:58.960Z] Login attempt for username: ekalavya
+[2025-07-01T22:08:59.022Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T22:08:59.532Z] Received 15 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:08:59.533Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:08:59.533Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Login controller initialized
+[2025-07-01T22:08:59.534Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: page-load took 101.20ms
+[2025-07-01T22:08:59.534Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: enter-key-pressed
+[2025-07-01T22:08:59.535Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: login-attempt
+[2025-07-01T22:08:59.535Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: login-form - valid
+[2025-07-01T22:08:59.535Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: enter-key-pressed
+[2025-07-01T22:08:59.536Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/index - 400 (204ms)
+[2025-07-01T22:08:59.536Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: login-attempt
+[2025-07-01T22:08:59.537Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: login-form - valid
+[2025-07-01T22:08:59.537Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: enter-key-pressed
+[2025-07-01T22:08:59.538Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/index - 200 (67ms)
+[2025-07-01T22:08:59.538Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Login successful
+[2025-07-01T22:08:59.542Z] Serving main application page
+[2025-07-01T22:09:29.599Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:09:29.599Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:09:29.599Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:09:29.600Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:09:29.600Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:09:29.600Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 24.50ms
+[2025-07-01T22:10:29.594Z] Received 18 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:10:29.594Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:10:29.594Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - invalid
+[2025-07-01T22:10:29.595Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:10:29.595Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - invalid
+[2025-07-01T22:10:29.596Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:10:29.596Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - invalid
+[2025-07-01T22:10:29.596Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:10:29.597Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:10:29.597Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/subscriptions - 200 (23ms)
+[2025-07-01T22:10:29.597Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription added successfully
+[2025-07-01T22:10:29.598Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:10:29.598Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:10:29.598Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 24.50ms
+[2025-07-01T22:10:29.599Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: edit-subscription
+[2025-07-01T22:10:29.599Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Editing subscription:
+[2025-07-01T22:10:29.599Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Start date set as Date object:
+[2025-07-01T22:10:29.600Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] End date set as Date object:
+[2025-07-01T22:10:29.600Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Edit form populated with dates:
+[2025-07-01T22:10:43.714Z] Received 13 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:10:43.714Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:10:43.714Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:10:43.715Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] PUT /api/subscriptions/68645cc59f846aa6aab6e32b - 200 (17ms)
+[2025-07-01T22:10:43.715Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription updated successfully
+[2025-07-01T22:10:43.716Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:10:43.716Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:10:43.717Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 24.50ms
+[2025-07-01T22:10:43.717Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: delete-subscription
+[2025-07-01T22:10:43.717Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] DELETE /api/subscriptions/68645cc59f846aa6aab6e32b - 200 (14ms)
+[2025-07-01T22:10:43.718Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription deleted successfully
+[2025-07-01T22:10:43.718Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:10:43.719Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:10:43.719Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 24.50ms
+[2025-07-01T22:10:43.723Z] Serving main application page
+[2025-07-01T22:11:13.780Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:11:13.781Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:11:13.784Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:11:13.785Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:11:13.786Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:11:13.787Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:12:13.769Z] Received 9 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:12:13.770Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:12:13.770Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - invalid
+[2025-07-01T22:12:13.771Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:12:13.771Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:12:13.772Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/subscriptions - 200 (11ms)
+[2025-07-01T22:12:13.772Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription added successfully
+[2025-07-01T22:12:13.772Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:12:13.773Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:12:13.773Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:12:43.770Z] Received 36 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:12:43.770Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: edit-subscription
+[2025-07-01T22:12:43.771Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Editing subscription:
+[2025-07-01T22:12:43.772Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Start date set as Date object:
+[2025-07-01T22:12:43.772Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] End date set as Date object:
+[2025-07-01T22:12:43.772Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Edit form populated with dates:
+[2025-07-01T22:12:43.773Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:12:43.773Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:12:43.774Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 (7ms)
+[2025-07-01T22:12:43.776Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription updated successfully
+[2025-07-01T22:12:43.777Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:12:43.778Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:12:43.779Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:12:43.780Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: edit-subscription
+[2025-07-01T22:12:43.780Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Editing subscription:
+[2025-07-01T22:12:43.780Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Start date set as Date object:
+[2025-07-01T22:12:43.781Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] End date set as Date object:
+[2025-07-01T22:12:43.781Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Edit form populated with dates:
+[2025-07-01T22:12:43.781Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:12:43.782Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:12:43.782Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 (15ms)
+[2025-07-01T22:12:43.782Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription updated successfully
+[2025-07-01T22:12:43.782Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:12:43.783Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:12:43.783Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:12:43.783Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: edit-subscription
+[2025-07-01T22:12:43.784Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Editing subscription:
+[2025-07-01T22:12:43.784Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Start date set as Date object:
+[2025-07-01T22:12:43.784Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] End date set as Date object:
+[2025-07-01T22:12:43.785Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Edit form populated with dates:
+[2025-07-01T22:12:43.785Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:12:43.786Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:12:43.786Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 (9ms)
+[2025-07-01T22:12:43.786Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription updated successfully
+[2025-07-01T22:12:43.787Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:12:43.788Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:12:43.788Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:13:14.161Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:13:14.161Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: delete-subscription
+[2025-07-01T22:13:14.161Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] DELETE /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 (14ms)
+[2025-07-01T22:13:14.162Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription deleted successfully
+[2025-07-01T22:13:14.162Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:13:14.162Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:13:14.163Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:23:39.849Z] Serving main application page
+[2025-07-01T22:24:10.279Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:24:10.279Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:24:10.280Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:24:10.280Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:24:10.281Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:24:10.282Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 18.90ms
+[2025-07-01T22:26:17.703Z] Serving main application page
+[2025-07-01T22:26:19.128Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:19.129Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:19.130Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:19.130Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:19.130Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:19.130Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 18.30ms
+[2025-07-01T22:26:19.133Z] Serving main application page
+[2025-07-01T22:26:27.785Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:27.785Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:27.786Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:27.786Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:27.787Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:27.787Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 17.60ms
+[2025-07-01T22:26:27.790Z] Serving main application page
+[2025-07-01T22:26:30.106Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:30.106Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:30.107Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:30.108Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:30.108Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:30.109Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 18.00ms
+[2025-07-01T22:26:30.112Z] Serving main application page
+[2025-07-01T22:26:30.532Z] Serving main application page
+[2025-07-01T22:26:30.537Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:30.537Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:30.538Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:30.538Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:30.539Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:30.539Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 23.20ms
+[2025-07-01T22:26:30.754Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:30.754Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:30.755Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:30.755Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:30.755Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:30.756Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 16.20ms
+[2025-07-01T22:26:30.757Z] Serving main application page
+[2025-07-01T22:26:31.624Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:31.624Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:31.625Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:31.625Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:31.626Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:31.626Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 18.00ms
+[2025-07-01T22:26:31.628Z] Serving main application page
+[2025-07-01T22:26:32.233Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:26:32.233Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:26:32.234Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:26:32.234Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:26:32.235Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:26:32.235Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 17.30ms
+[2025-07-01T22:26:32.237Z] Serving main application page
+[2025-07-01T22:27:03.182Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:27:03.184Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:27:03.187Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:27:03.188Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:27:03.189Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:27:03.189Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 16.40ms
+[2025-07-01T22:27:22.812Z] Received 7 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:27:22.813Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:27:22.813Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:27:22.813Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/subscriptions - 200 (8ms)
+[2025-07-01T22:27:22.814Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription added successfully
+[2025-07-01T22:27:22.814Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:27:22.814Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:27:22.814Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 16.40ms
+[2025-07-01T22:27:22.818Z] Serving main application page
+[2025-07-01T22:27:53.168Z] Received 6 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:27:53.168Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:27:53.168Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:27:53.169Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:27:53.169Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:27:53.169Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 18.10ms
+[2025-07-01T22:33:53.001Z] Serving main application page
+[2025-07-01T22:34:23.338Z] Received 25 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:34:23.338Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Starting CSS validation check
+[2025-07-01T22:34:23.339Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription app controller initialized
+[2025-07-01T22:34:23.339Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:34:23.339Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:34:23.340Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:34:23.340Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:34:23.341Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:34:23.341Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/subscriptions - 200 (8ms)
+[2025-07-01T22:34:23.341Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription added successfully
+[2025-07-01T22:34:23.342Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:34:23.342Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 9 subscriptions
+[2025-07-01T22:34:23.343Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:34:23.343Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: edit-subscription
+[2025-07-01T22:34:23.344Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Editing subscription:
+[2025-07-01T22:34:23.344Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Start date set as Date object:
+[2025-07-01T22:34:23.345Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] End date set as Date object:
+[2025-07-01T22:34:23.346Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Edit form populated with dates:
+[2025-07-01T22:34:23.346Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Saving subscription
+[2025-07-01T22:34:23.347Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Form validation: subscription-form - valid
+[2025-07-01T22:34:23.348Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] PUT /api/subscriptions/6864625f9f846aa6aab6e34c - 200 (9ms)
+[2025-07-01T22:34:23.348Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription updated successfully
+[2025-07-01T22:34:23.349Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:34:23.349Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 9 subscriptions
+[2025-07-01T22:34:23.349Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:34:54.164Z] Received 12 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:34:54.164Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: delete-subscription
+[2025-07-01T22:34:54.165Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] DELETE /api/subscriptions/686460c89f846aa6aab6e347 - 200 (12ms)
+[2025-07-01T22:34:54.165Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription deleted successfully
+[2025-07-01T22:34:54.166Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:34:54.166Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 8 subscriptions
+[2025-07-01T22:34:54.166Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:34:54.167Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] User action: delete-subscription
+[2025-07-01T22:34:54.167Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] DELETE /api/subscriptions/6864625f9f846aa6aab6e34c - 200 (9ms)
+[2025-07-01T22:34:54.167Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Subscription deleted successfully
+[2025-07-01T22:34:54.167Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loading subscriptions
+[2025-07-01T22:34:54.168Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Loaded 7 subscriptions
+[2025-07-01T22:34:54.168Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Performance: app-load took 26.10ms
+[2025-07-01T22:35:20.903Z] Manual SMS reminder test triggered by user: Ekalavya
+[2025-07-01T22:35:22.957Z] Test expired reminder sent for: YouTube Premium
+[2025-07-01T22:35:23.336Z] Received 3 client logs from user: Ekalavya, session: session_1751407739527_5j608l6po
+[2025-07-01T22:35:23.336Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] Testing SMS reminders
+[2025-07-01T22:35:23.337Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] POST /api/test-sms-reminders - 200 (2060ms)
+[2025-07-01T22:35:23.337Z] [CLIENT] [Ekalavya] [session_1751407739527_5j608l6po] SMS reminders test completed
+[2025-07-01T22:35:49.115Z] Serving login page

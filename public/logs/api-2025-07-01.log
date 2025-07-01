@@ -1096,3 +1096,253 @@
 [2025-07-01T21:04:48.174Z] GET /api/subscriptions - 200 - 7ms
 [2025-07-01T21:05:02.794Z] POST /api/client-logs - Request received
 [2025-07-01T21:05:02.798Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T21:06:24.940Z] GET /app - Request received
+[2025-07-01T21:06:24.946Z] GET /app - 304 - 7ms
+[2025-07-01T21:06:24.960Z] GET /css/custom.css - Request received
+[2025-07-01T21:06:24.962Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T21:06:24.964Z] GET /js/logger.js - Request received
+[2025-07-01T21:06:24.965Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T21:06:25.007Z] GET /api/subscriptions - Request received
+[2025-07-01T21:06:25.038Z] GET /api/subscriptions - 304 - 31ms
+[2025-07-01T21:06:55.001Z] POST /api/client-logs - Request received
+[2025-07-01T21:06:55.006Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T21:07:00.532Z] POST /api/subscriptions - Request received
+[2025-07-01T21:07:00.549Z] POST /api/subscriptions - 201 - 17ms
+[2025-07-01T21:07:00.554Z] GET /api/subscriptions - Request received
+[2025-07-01T21:07:00.562Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T21:07:11.625Z] PUT /api/subscriptions/68644df433b11a90bbfc5c75 - Request received
+[2025-07-01T21:07:11.634Z] PUT /api/subscriptions/68644df433b11a90bbfc5c75 - 200 - 9ms
+[2025-07-01T21:07:11.638Z] GET /api/subscriptions - Request received
+[2025-07-01T21:07:11.644Z] GET /api/subscriptions - 200 - 6ms
+[2025-07-01T21:07:24.917Z] PUT /api/subscriptions/68644df433b11a90bbfc5c75 - Request received
+[2025-07-01T21:07:24.925Z] PUT /api/subscriptions/68644df433b11a90bbfc5c75 - 200 - 8ms
+[2025-07-01T21:07:24.927Z] GET /api/subscriptions - Request received
+[2025-07-01T21:07:24.936Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T21:07:24.986Z] POST /api/client-logs - Request received
+[2025-07-01T21:07:24.999Z] POST /api/client-logs - 200 - 13ms
+[2025-07-01T21:07:30.515Z] DELETE /api/subscriptions/68644df433b11a90bbfc5c75 - Request received
+[2025-07-01T21:07:30.522Z] DELETE /api/subscriptions/68644df433b11a90bbfc5c75 - 200 - 7ms
+[2025-07-01T21:07:30.526Z] GET /api/subscriptions - Request received
+[2025-07-01T21:07:30.535Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T21:07:54.994Z] POST /api/client-logs - Request received
+[2025-07-01T21:07:54.998Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:08:50.142Z] GET / - Request received
+[2025-07-01T22:08:50.152Z] GET / - 304 - 10ms
+[2025-07-01T22:08:50.176Z] GET /css/custom.css - Request received
+[2025-07-01T22:08:50.178Z] GET /js/logger.js - Request received
+[2025-07-01T22:08:50.179Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T22:08:50.180Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:08:50.627Z] GET /favicon.ico - Request received
+[2025-07-01T22:08:50.630Z] GET /favicon.ico - 404 - 3ms
+[2025-07-01T22:08:55.333Z] POST /api/index - Request received
+[2025-07-01T22:08:55.418Z] POST /api/index - 400 - 85ms
+[2025-07-01T22:08:58.960Z] POST /api/index - Request received
+[2025-07-01T22:08:59.024Z] POST /api/index - 200 - 64ms
+[2025-07-01T22:08:59.529Z] POST /api/client-logs - Request received
+[2025-07-01T22:08:59.539Z] POST /api/client-logs - 200 - 10ms
+[2025-07-01T22:08:59.541Z] GET /app - Request received
+[2025-07-01T22:08:59.546Z] GET /app - 200 - 5ms
+[2025-07-01T22:08:59.561Z] GET /css/custom.css - Request received
+[2025-07-01T22:08:59.563Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T22:08:59.566Z] GET /js/logger.js - Request received
+[2025-07-01T22:08:59.567Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T22:08:59.667Z] GET /api/subscriptions - Request received
+[2025-07-01T22:08:59.677Z] GET /api/subscriptions - 304 - 10ms
+[2025-07-01T22:09:29.597Z] POST /api/client-logs - Request received
+[2025-07-01T22:09:29.601Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:10:13.069Z] POST /api/subscriptions - Request received
+[2025-07-01T22:10:13.086Z] POST /api/subscriptions - 201 - 17ms
+[2025-07-01T22:10:13.092Z] GET /api/subscriptions - Request received
+[2025-07-01T22:10:13.101Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T22:10:29.592Z] POST /api/client-logs - Request received
+[2025-07-01T22:10:29.601Z] POST /api/client-logs - 200 - 9ms
+[2025-07-01T22:10:31.793Z] PUT /api/subscriptions/68645cc59f846aa6aab6e32b - Request received
+[2025-07-01T22:10:31.807Z] PUT /api/subscriptions/68645cc59f846aa6aab6e32b - 200 - 14ms
+[2025-07-01T22:10:31.812Z] GET /api/subscriptions - Request received
+[2025-07-01T22:10:31.820Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T22:10:39.822Z] DELETE /api/subscriptions/68645cc59f846aa6aab6e32b - Request received
+[2025-07-01T22:10:39.830Z] DELETE /api/subscriptions/68645cc59f846aa6aab6e32b - 200 - 8ms
+[2025-07-01T22:10:39.835Z] GET /api/subscriptions - Request received
+[2025-07-01T22:10:39.845Z] GET /api/subscriptions - 200 - 10ms
+[2025-07-01T22:10:43.712Z] POST /api/client-logs - Request received
+[2025-07-01T22:10:43.720Z] POST /api/client-logs - 200 - 8ms
+[2025-07-01T22:10:43.722Z] GET /app - Request received
+[2025-07-01T22:10:43.724Z] GET /app - 304 - 2ms
+[2025-07-01T22:10:43.734Z] GET /css/custom.css - Request received
+[2025-07-01T22:10:43.735Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:10:43.737Z] GET /js/logger.js - Request received
+[2025-07-01T22:10:43.738Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T22:10:43.790Z] GET /api/subscriptions - Request received
+[2025-07-01T22:10:43.797Z] GET /api/subscriptions - 304 - 7ms
+[2025-07-01T22:11:13.775Z] POST /api/client-logs - Request received
+[2025-07-01T22:11:13.788Z] POST /api/client-logs - 200 - 13ms
+[2025-07-01T22:12:11.274Z] POST /api/subscriptions - Request received
+[2025-07-01T22:12:11.280Z] POST /api/subscriptions - 201 - 6ms
+[2025-07-01T22:12:11.283Z] GET /api/subscriptions - Request received
+[2025-07-01T22:12:11.292Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T22:12:13.767Z] POST /api/client-logs - Request received
+[2025-07-01T22:12:13.774Z] POST /api/client-logs - 200 - 7ms
+[2025-07-01T22:12:19.277Z] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - Request received
+[2025-07-01T22:12:19.282Z] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 - 5ms
+[2025-07-01T22:12:19.284Z] GET /api/subscriptions - Request received
+[2025-07-01T22:12:19.289Z] GET /api/subscriptions - 200 - 5ms
+[2025-07-01T22:12:32.602Z] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - Request received
+[2025-07-01T22:12:32.612Z] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 - 10ms
+[2025-07-01T22:12:32.618Z] GET /api/subscriptions - Request received
+[2025-07-01T22:12:32.626Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T22:12:40.977Z] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - Request received
+[2025-07-01T22:12:40.983Z] PUT /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 - 6ms
+[2025-07-01T22:12:40.987Z] GET /api/subscriptions - Request received
+[2025-07-01T22:12:40.995Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T22:12:43.768Z] POST /api/client-logs - Request received
+[2025-07-01T22:12:43.789Z] POST /api/client-logs - 200 - 21ms
+[2025-07-01T22:13:02.207Z] DELETE /api/subscriptions/68645d3b9f846aa6aab6e333 - Request received
+[2025-07-01T22:13:02.214Z] DELETE /api/subscriptions/68645d3b9f846aa6aab6e333 - 200 - 7ms
+[2025-07-01T22:13:02.220Z] GET /api/subscriptions - Request received
+[2025-07-01T22:13:02.228Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T22:13:14.159Z] POST /api/client-logs - Request received
+[2025-07-01T22:13:14.163Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:23:39.848Z] GET /app - Request received
+[2025-07-01T22:23:39.851Z] GET /app - 200 - 3ms
+[2025-07-01T22:23:39.861Z] GET /css/custom.css - Request received
+[2025-07-01T22:23:39.861Z] GET /js/logger.js - Request received
+[2025-07-01T22:23:39.863Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:23:39.864Z] GET /css/custom.css - 200 - 3ms
+[2025-07-01T22:23:40.318Z] GET /api/subscriptions - Request received
+[2025-07-01T22:23:40.322Z] GET /api/subscriptions - 304 - 4ms
+[2025-07-01T22:24:10.277Z] POST /api/client-logs - Request received
+[2025-07-01T22:24:10.283Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T22:26:17.703Z] GET /app - Request received
+[2025-07-01T22:26:17.705Z] GET /app - 304 - 2ms
+[2025-07-01T22:26:17.719Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:17.720Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:17.721Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T22:26:17.721Z] GET /css/custom.css - 200 - 2ms
+[2025-07-01T22:26:17.752Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:17.758Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:26:19.127Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:19.132Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T22:26:19.132Z] GET /app - Request received
+[2025-07-01T22:26:19.134Z] GET /app - 304 - 2ms
+[2025-07-01T22:26:19.144Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:19.145Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:26:19.147Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:19.149Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:26:19.173Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:19.179Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:26:27.783Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:27.788Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T22:26:27.789Z] GET /app - Request received
+[2025-07-01T22:26:27.792Z] GET /app - 304 - 3ms
+[2025-07-01T22:26:27.803Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:27.803Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:27.804Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:26:27.805Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:26:27.840Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:27.846Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:26:30.104Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:30.110Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T22:26:30.111Z] GET /app - Request received
+[2025-07-01T22:26:30.113Z] GET /app - 304 - 2ms
+[2025-07-01T22:26:30.123Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:30.124Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:26:30.127Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:30.128Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T22:26:30.151Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:30.157Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:26:30.532Z] GET /app - Request received
+[2025-07-01T22:26:30.533Z] GET /app - 304 - 1ms
+[2025-07-01T22:26:30.535Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:30.540Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T22:26:30.546Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:30.547Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:30.549Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T22:26:30.550Z] GET /js/logger.js - 304 - 3ms
+[2025-07-01T22:26:30.572Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:30.576Z] GET /api/subscriptions - 304 - 4ms
+[2025-07-01T22:26:30.752Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:30.756Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:26:30.757Z] GET /app - Request received
+[2025-07-01T22:26:30.759Z] GET /app - 304 - 2ms
+[2025-07-01T22:26:30.768Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:30.769Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:26:30.771Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:30.773Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:26:30.793Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:30.799Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:26:31.623Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:31.627Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:26:31.627Z] GET /app - Request received
+[2025-07-01T22:26:31.629Z] GET /app - 304 - 2ms
+[2025-07-01T22:26:31.643Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:31.644Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:26:31.646Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:31.647Z] GET /js/logger.js - 304 - 1ms
+[2025-07-01T22:26:31.667Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:31.672Z] GET /api/subscriptions - 304 - 5ms
+[2025-07-01T22:26:32.232Z] POST /api/client-logs - Request received
+[2025-07-01T22:26:32.236Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:26:32.237Z] GET /app - Request received
+[2025-07-01T22:26:32.238Z] GET /app - 304 - 1ms
+[2025-07-01T22:26:32.248Z] GET /css/custom.css - Request received
+[2025-07-01T22:26:32.249Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:26:32.251Z] GET /js/logger.js - Request received
+[2025-07-01T22:26:32.253Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:26:32.274Z] GET /api/subscriptions - Request received
+[2025-07-01T22:26:32.278Z] GET /api/subscriptions - 304 - 4ms
+[2025-07-01T22:27:03.178Z] POST /api/client-logs - Request received
+[2025-07-01T22:27:03.190Z] POST /api/client-logs - 200 - 12ms
+[2025-07-01T22:27:20.045Z] POST /api/subscriptions - Request received
+[2025-07-01T22:27:20.050Z] POST /api/subscriptions - 201 - 5ms
+[2025-07-01T22:27:20.053Z] GET /api/subscriptions - Request received
+[2025-07-01T22:27:20.058Z] GET /api/subscriptions - 200 - 5ms
+[2025-07-01T22:27:22.811Z] POST /api/client-logs - Request received
+[2025-07-01T22:27:22.816Z] POST /api/client-logs - 200 - 5ms
+[2025-07-01T22:27:22.817Z] GET /app - Request received
+[2025-07-01T22:27:22.819Z] GET /app - 304 - 2ms
+[2025-07-01T22:27:22.829Z] GET /css/custom.css - Request received
+[2025-07-01T22:27:22.831Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T22:27:22.833Z] GET /js/logger.js - Request received
+[2025-07-01T22:27:22.835Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:27:22.858Z] GET /api/subscriptions - Request received
+[2025-07-01T22:27:22.864Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:27:53.166Z] POST /api/client-logs - Request received
+[2025-07-01T22:27:53.170Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:33:53.000Z] GET /app - Request received
+[2025-07-01T22:33:53.003Z] GET /app - 200 - 3ms
+[2025-07-01T22:33:53.018Z] GET /css/custom.css - Request received
+[2025-07-01T22:33:53.019Z] GET /js/logger.js - Request received
+[2025-07-01T22:33:53.020Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T22:33:53.021Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T22:33:53.375Z] GET /api/subscriptions - Request received
+[2025-07-01T22:33:53.381Z] GET /api/subscriptions - 304 - 6ms
+[2025-07-01T22:34:07.280Z] POST /api/subscriptions - Request received
+[2025-07-01T22:34:07.286Z] POST /api/subscriptions - 201 - 5ms
+[2025-07-01T22:34:07.289Z] GET /api/subscriptions - Request received
+[2025-07-01T22:34:07.297Z] GET /api/subscriptions - 200 - 8ms
+[2025-07-01T22:34:19.846Z] PUT /api/subscriptions/6864625f9f846aa6aab6e34c - Request received
+[2025-07-01T22:34:19.853Z] PUT /api/subscriptions/6864625f9f846aa6aab6e34c - 200 - 7ms
+[2025-07-01T22:34:19.856Z] GET /api/subscriptions - Request received
+[2025-07-01T22:34:19.862Z] GET /api/subscriptions - 200 - 6ms
+[2025-07-01T22:34:23.336Z] POST /api/client-logs - Request received
+[2025-07-01T22:34:23.350Z] POST /api/client-logs - 200 - 14ms
+[2025-07-01T22:34:24.406Z] DELETE /api/subscriptions/686460c89f846aa6aab6e347 - Request received
+[2025-07-01T22:34:24.413Z] DELETE /api/subscriptions/686460c89f846aa6aab6e347 - 200 - 7ms
+[2025-07-01T22:34:24.419Z] GET /api/subscriptions - Request received
+[2025-07-01T22:34:24.428Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T22:34:26.968Z] DELETE /api/subscriptions/6864625f9f846aa6aab6e34c - Request received
+[2025-07-01T22:34:26.974Z] DELETE /api/subscriptions/6864625f9f846aa6aab6e34c - 200 - 6ms
+[2025-07-01T22:34:26.978Z] GET /api/subscriptions - Request received
+[2025-07-01T22:34:26.987Z] GET /api/subscriptions - 200 - 9ms
+[2025-07-01T22:34:54.163Z] POST /api/client-logs - Request received
+[2025-07-01T22:34:54.169Z] POST /api/client-logs - 200 - 6ms
+[2025-07-01T22:35:20.902Z] POST /api/test-sms-reminders - Request received
+[2025-07-01T22:35:22.958Z] POST /api/test-sms-reminders - 200 - 2056ms
+[2025-07-01T22:35:23.334Z] POST /api/client-logs - Request received
+[2025-07-01T22:35:23.338Z] POST /api/client-logs - 200 - 4ms
+[2025-07-01T22:35:49.113Z] GET / - Request received
+[2025-07-01T22:35:49.116Z] GET / - 304 - 3ms
+[2025-07-01T22:35:49.131Z] GET /css/custom.css - Request received
+[2025-07-01T22:35:49.132Z] GET /css/custom.css - 304 - 1ms
+[2025-07-01T22:35:49.137Z] GET /js/logger.js - Request received
+[2025-07-01T22:35:49.139Z] GET /js/logger.js - 304 - 2ms

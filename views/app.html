@@ -27,8 +27,10 @@
   <body>
     <div ng-controller="SubscriptionController" class="container-fluid py-3">
       <!-- Header Navigation -->
+      <!-- Updated Header Navigation - Remove brand-container div -->
       <nav class="navbar navbar-expand-lg navbar-custom mb-4">
-        <div class="brand-container">
+        <!-- Direct brand elements without container wrapper -->
+        <div class="d-flex align-items-center">
           <i class="bi bi-calendar-check brand-icon"></i>
           <span class="brand-text">Subscription Manager</span>
         </div>
@@ -518,7 +520,10 @@
                   </td>
                   <td>
                     <span
-                      ng-class="{'text-warning': isRenewalSoon(subscription), 'text-danger': isRenewalOverdue(subscription)}"
+                      ng-class="{
+                         'text-warning': isRenewalSoon(subscription), 
+                         'text-danger': isRenewalOverdue(subscription) || isExpiredRecently(subscription)
+                      }"
                     >
                       {{ subscription.endDate | date:'dd/MM/yyyy' }}
                     </span>
@@ -978,6 +983,12 @@
               $scope.dateRangeError = "";
               $scope.subscriptionError = "";
               $scope.subscriptionSuccess = "";
+
+              // Log the reset for debugging
+              logger.debug(
+                "Form reset with new start date:",
+                $scope.newSubscription.startDate
+              );
             };
 
             // Load subscriptions on init
@@ -1112,7 +1123,9 @@
                     ? "Subscription updated successfully!"
                     : "Subscription added successfully!";
 
-                  $scope.newSubscription = {};
+                  $scope.newSubscription = {
+                    startDate: new Date(), // Always set today's date as default using Date object
+                  };
                   $scope.dateRangeError = "";
                   $scope.isSubmitting = false;
 
@@ -1615,6 +1628,16 @@
               const today = new Date();
               const endDate = new Date(subscription.endDate);
               return endDate < today && subscription.status === "active";
+            };
+
+            $scope.isExpiredRecently = function (subscription) {
+              const today = new Date();
+              const endDate = new Date(subscription.endDate);
+              const daysDiff = Math.ceil(
+                (today - endDate) / (1000 * 60 * 60 * 24)
+              );
+              // Show red for subscriptions expired between 1-7 days ago
+              return daysDiff >= 1 && daysDiff <= 7;
             };
 
             $scope.getRenewalStatus = function (subscription) {
