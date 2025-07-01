@@ -39,7 +39,7 @@ A modern web application built with AngularJS and Bootstrap to manage subscripti
 ### 1. Clone/Create Project
 
 ```cmd
-git clone https://github.com/yourusername/bootstrap-subscription-manager.git
+git clone https://github.com/ekalavya-cmd/subscription-manager.git
 cd bootstrap-subscription-manager
 ```
 
