@@ -2505,3 +2505,12 @@
 [2025-07-01T21:04:48.169Z] Fetching subscriptions for user: Ekalavya
 [2025-07-01T21:04:48.173Z] Found 7 subscriptions for user: Ekalavya
 [2025-07-01T21:04:48.174Z] GET /api/subscriptions - 200 - 7ms
+[2025-07-01T21:05:02.794Z] POST /api/client-logs - Request received
+[2025-07-01T21:05:02.795Z] Received 6 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:05:02.796Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: delete-subscription
+[2025-07-01T21:05:02.796Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] DELETE /api/subscriptions/68644ce35bb04cf2dc3db23f - 200 (8ms)
+[2025-07-01T21:05:02.796Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription deleted successfully
+[2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
+[2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 18.70ms
+[2025-07-01T21:05:02.798Z] POST /api/client-logs - 200 - 4ms

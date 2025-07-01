@@ -1048,3 +1048,10 @@
 [2025-07-01T21:03:02.805Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Testing SMS reminders
 [2025-07-01T21:03:02.807Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (1366ms)
 [2025-07-01T21:03:02.809Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T21:05:02.795Z] Received 6 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:05:02.796Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: delete-subscription
+[2025-07-01T21:05:02.796Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] DELETE /api/subscriptions/68644ce35bb04cf2dc3db23f - 200 (8ms)
+[2025-07-01T21:05:02.796Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription deleted successfully
+[2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
+[2025-07-01T21:05:02.797Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 18.70ms
