@@ -297,3 +297,14 @@
 [2025-07-01T19:53:35.450Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] POST /api/index - 200 (90ms)
 [2025-07-01T19:53:35.450Z] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] Login successful
 [2025-07-01T19:53:35.455Z] Serving main application page
+[2025-07-01T17:48:11.743Z] Twilio client initialized successfully
+[2025-07-01T17:48:11.745Z] SMS reminders enabled
+[2025-07-01T17:48:11.746Z] SMS schedule mode: disabled
+[2025-07-01T17:48:11.746Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T17:48:11.749Z] Server running on port 3000
+[2025-07-01T17:48:11.750Z] Environment: development
+[2025-07-01T17:48:11.750Z] MongoDB: Disconnected
+[2025-07-01T17:48:11.750Z] Twilio: Enabled
+[2025-07-01T17:48:20.874Z] Serving login page
+[2025-07-01T17:48:26.417Z] Serving registration page
+[2025-07-01T17:48:35.298Z] Serving login page

@@ -290,3 +290,23 @@
 [2025-07-01T19:53:35.545Z] GET /api/subscriptions - 304 - 10ms
 [2025-07-01T19:53:35.550Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - Request received
 [2025-07-01T19:53:35.568Z] PUT /api/subscriptions/6862e43a7f5148fd7a1ef611 - 200 - 18ms
+[2025-07-01T17:48:20.863Z] GET / - Request received
+[2025-07-01T17:48:20.882Z] GET / - 304 - 19ms
+[2025-07-01T17:48:20.913Z] GET /css/custom.css - Request received
+[2025-07-01T17:48:20.914Z] GET /js/logger.js - Request received
+[2025-07-01T17:48:20.916Z] GET /css/custom.css - 304 - 3ms
+[2025-07-01T17:48:20.918Z] GET /js/logger.js - 304 - 4ms
+[2025-07-01T17:48:22.795Z] GET /favicon.ico - Request received
+[2025-07-01T17:48:22.801Z] GET /favicon.ico - 404 - 6ms
+[2025-07-01T17:48:26.415Z] GET /register - Request received
+[2025-07-01T17:48:26.419Z] GET /register - 304 - 4ms
+[2025-07-01T17:48:26.435Z] GET /css/custom.css - Request received
+[2025-07-01T17:48:26.437Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T17:48:26.440Z] GET /js/logger.js - Request received
+[2025-07-01T17:48:26.442Z] GET /js/logger.js - 304 - 2ms
+[2025-07-01T17:48:35.297Z] GET / - Request received
+[2025-07-01T17:48:35.300Z] GET / - 304 - 3ms
+[2025-07-01T17:48:35.315Z] GET /css/custom.css - Request received
+[2025-07-01T17:48:35.317Z] GET /css/custom.css - 304 - 2ms
+[2025-07-01T17:48:35.321Z] GET /js/logger.js - Request received
+[2025-07-01T17:48:35.323Z] GET /js/logger.js - 304 - 2ms
