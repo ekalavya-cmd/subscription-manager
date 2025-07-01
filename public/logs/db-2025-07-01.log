@@ -141,3 +141,111 @@
 [2025-07-01T19:08:01.534Z] Found 7 subscriptions for user: Ekalavya
 [2025-07-01T19:08:11.664Z] Fetching subscriptions for user: Ekalavya
 [2025-07-01T19:08:11.666Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T20:37:04.798Z] MongoDB connected successfully
+[2025-07-01T20:47:18.667Z] MongoDB connected successfully
+[2025-07-01T20:47:38.990Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T20:47:38.994Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T20:48:12.645Z] Creating subscription for user: Ekalavya
+[2025-07-01T20:48:12.659Z] Subscription created successfully: expired (8 days)
+[2025-07-01T20:48:12.668Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T20:48:12.673Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T20:48:35.186Z] Updating subscription 6864498c5bb04cf2dc3db1ef for user: Ekalavya
+[2025-07-01T20:48:35.194Z] Subscription updated successfully: expired (8 days)
+[2025-07-01T20:48:35.201Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T20:48:35.205Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T20:48:46.334Z] Fetching subscriptions for user: Sushant
+[2025-07-01T20:48:46.337Z] Found 0 subscriptions for user: Sushant
+[2025-07-01T20:49:18.417Z] Creating subscription for user: Sushant
+[2025-07-01T20:49:18.421Z] Subscription created successfully: expired (9 days)
+[2025-07-01T20:49:18.428Z] Fetching subscriptions for user: Sushant
+[2025-07-01T20:49:18.431Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T20:49:29.603Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:49:29.606Z] Found 0 subscriptions for user: Aman
+[2025-07-01T20:51:03.270Z] Creating subscription for user: Aman
+[2025-07-01T20:51:03.273Z] Subscription created successfully: expired (7 days)
+[2025-07-01T20:51:03.280Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:51:03.282Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:51:06.502Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:51:06.504Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:51:12.226Z] Updating subscription 68644a375bb04cf2dc3db1fc for user: Aman
+[2025-07-01T20:51:12.230Z] Subscription updated successfully: expired (7 days)
+[2025-07-01T20:51:12.238Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:51:12.240Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:51:14.581Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:51:14.584Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:51:24.136Z] Fetching subscriptions for user: Sushant
+[2025-07-01T20:51:24.138Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T20:51:49.625Z] Updating subscription 686449ce5bb04cf2dc3db1f7 for user: Sushant
+[2025-07-01T20:51:49.629Z] Subscription updated successfully: expired (7 days)
+[2025-07-01T20:51:49.637Z] Fetching subscriptions for user: Sushant
+[2025-07-01T20:51:49.640Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T20:51:59.062Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T20:51:59.065Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T20:52:21.940Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:52:21.942Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:52:42.581Z] Updating subscription 68644a375bb04cf2dc3db1fc for user: Aman
+[2025-07-01T20:52:42.585Z] Subscription updated successfully: expired (9 days)
+[2025-07-01T20:52:42.592Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:52:42.594Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:52:56.480Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T20:52:56.481Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T20:53:08.440Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:53:08.443Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:53:25.491Z] Fetching subscriptions for user: Sushant
+[2025-07-01T20:53:25.494Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T20:53:59.951Z] Deleting subscription 686449ce5bb04cf2dc3db1f7 for user: Sushant
+[2025-07-01T20:53:59.954Z] Subscription deleted successfully: expired (7 days)
+[2025-07-01T20:53:59.962Z] Fetching subscriptions for user: Sushant
+[2025-07-01T20:53:59.965Z] Found 0 subscriptions for user: Sushant
+[2025-07-01T20:54:07.697Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:54:07.699Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:54:21.189Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:54:21.191Z] Found 1 subscriptions for user: Aman
+[2025-07-01T20:56:07.255Z] Creating subscription for user: Aman
+[2025-07-01T20:56:07.257Z] Subscription created successfully: active (9 days)
+[2025-07-01T20:56:07.265Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:56:07.268Z] Found 2 subscriptions for user: Aman
+[2025-07-01T20:56:49.606Z] Updating subscription 68644b675bb04cf2dc3db220 for user: Aman
+[2025-07-01T20:56:49.611Z] Subscription updated successfully: active (8 days)
+[2025-07-01T20:56:49.627Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:56:49.629Z] Found 2 subscriptions for user: Aman
+[2025-07-01T20:57:07.495Z] Updating subscription 68644b675bb04cf2dc3db220 for user: Aman
+[2025-07-01T20:57:07.497Z] Subscription updated successfully: active (7 days)
+[2025-07-01T20:57:07.501Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:57:07.503Z] Found 2 subscriptions for user: Aman
+[2025-07-01T20:57:21.080Z] Updating subscription 68644b675bb04cf2dc3db220 for user: Aman
+[2025-07-01T20:57:21.082Z] Subscription updated successfully: active (7 days)
+[2025-07-01T20:57:21.086Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:57:21.088Z] Found 2 subscriptions for user: Aman
+[2025-07-01T20:57:39.918Z] Updating subscription 68644a375bb04cf2dc3db1fc for user: Aman
+[2025-07-01T20:57:39.920Z] Subscription updated successfully: expired (7 days)
+[2025-07-01T20:57:39.927Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:57:39.930Z] Found 2 subscriptions for user: Aman
+[2025-07-01T20:57:53.467Z] Updating subscription 68644a375bb04cf2dc3db1fc for user: Aman
+[2025-07-01T20:57:53.471Z] Subscription updated successfully: expired (7 days)
+[2025-07-01T20:57:53.477Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:57:53.480Z] Found 2 subscriptions for user: Aman
+[2025-07-01T20:58:11.744Z] Updating subscription 68644a375bb04cf2dc3db1fc for user: Aman
+[2025-07-01T20:58:11.747Z] Subscription updated successfully: expired (7 days)
+[2025-07-01T20:58:11.754Z] Fetching subscriptions for user: Aman
+[2025-07-01T20:58:11.757Z] Found 2 subscriptions for user: Aman
+[2025-07-01T21:00:08.800Z] Deleting subscription 68644a375bb04cf2dc3db1fc for user: Aman
+[2025-07-01T21:00:08.803Z] Subscription deleted successfully: expired (7 days)
+[2025-07-01T21:00:08.809Z] Fetching subscriptions for user: Aman
+[2025-07-01T21:00:08.811Z] Found 1 subscriptions for user: Aman
+[2025-07-01T21:00:11.881Z] Deleting subscription 68644b675bb04cf2dc3db220 for user: Aman
+[2025-07-01T21:00:11.884Z] Subscription deleted successfully: active (7 days)
+[2025-07-01T21:00:11.891Z] Fetching subscriptions for user: Aman
+[2025-07-01T21:00:11.894Z] Found 0 subscriptions for user: Aman
+[2025-07-01T21:00:20.331Z] Fetching subscriptions for user: Sushant
+[2025-07-01T21:00:20.332Z] Found 0 subscriptions for user: Sushant
+[2025-07-01T21:00:32.814Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T21:00:32.816Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T21:00:58.934Z] Deleting subscription 6864498c5bb04cf2dc3db1ef for user: Ekalavya
+[2025-07-01T21:00:58.936Z] Subscription deleted successfully: expired (8 days)
+[2025-07-01T21:00:58.945Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T21:00:58.949Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T21:02:27.813Z] Creating subscription for user: Ekalavya
+[2025-07-01T21:02:27.816Z] Subscription created successfully: adasdasd
+[2025-07-01T21:02:27.823Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T21:02:27.826Z] Found 8 subscriptions for user: Ekalavya

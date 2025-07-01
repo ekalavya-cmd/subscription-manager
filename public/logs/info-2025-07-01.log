@@ -649,3 +649,402 @@
 [2025-07-01T19:08:41.666Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 15.70ms
 [2025-07-01T19:08:54.065Z] Serving login page
 [2025-07-01T19:08:56.761Z] Serving registration page
+[2025-07-01T20:37:04.763Z] Twilio client initialized successfully
+[2025-07-01T20:37:04.780Z] SMS reminders enabled
+[2025-07-01T20:37:04.780Z] SMS schedule mode: disabled
+[2025-07-01T20:37:04.780Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T20:37:04.783Z] Server running on port 3000
+[2025-07-01T20:37:04.784Z] Environment: development
+[2025-07-01T20:37:04.784Z] MongoDB: Disconnected
+[2025-07-01T20:37:04.785Z] Twilio: Enabled
+[2025-07-01T20:47:18.650Z] Twilio client initialized successfully
+[2025-07-01T20:47:18.651Z] SMS reminders enabled
+[2025-07-01T20:47:18.652Z] SMS schedule mode: disabled
+[2025-07-01T20:47:18.652Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T20:47:18.655Z] Server running on port 3000
+[2025-07-01T20:47:18.655Z] Environment: development
+[2025-07-01T20:47:18.656Z] MongoDB: Disconnected
+[2025-07-01T20:47:18.656Z] Twilio: Enabled
+[2025-07-01T20:47:25.892Z] Serving login page
+[2025-07-01T20:47:38.304Z] Login attempt for username: ekalavya
+[2025-07-01T20:47:38.394Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T20:47:38.911Z] Received 14 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:47:38.911Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:47:38.918Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:47:38.918Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: page-load took 270.30ms
+[2025-07-01T20:47:38.918Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:47:38.918Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:47:38.919Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: login-form - invalid
+[2025-07-01T20:47:38.919Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:47:38.919Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:47:38.920Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:47:38.920Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:47:38.920Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:47:38.921Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/index - 200 (214ms)
+[2025-07-01T20:47:38.921Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:47:38.925Z] Serving main application page
+[2025-07-01T20:48:08.978Z] Received 6 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:48:08.978Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:48:08.979Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:48:08.979Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:48:08.980Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
+[2025-07-01T20:48:08.980Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 54.00ms
+[2025-07-01T20:48:37.522Z] Serving login page
+[2025-07-01T20:48:43.806Z] Login attempt for username: sushant
+[2025-07-01T20:48:45.703Z] Login attempt for username: sushant
+[2025-07-01T20:48:45.764Z] User logged in successfully: sushant (original: Sushant)
+[2025-07-01T20:48:46.272Z] Received 15 client logs from user: Sushant, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:48:46.272Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:48:46.272Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:48:46.273Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Performance: page-load took 103.70ms
+[2025-07-01T20:48:46.273Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:48:46.273Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:48:46.274Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:48:46.274Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:48:46.274Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] POST /api/index - 400 (63ms)
+[2025-07-01T20:48:46.275Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:48:46.275Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:48:46.275Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:48:46.276Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] POST /api/index - 200 (66ms)
+[2025-07-01T20:48:46.276Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:48:46.278Z] Serving main application page
+[2025-07-01T20:49:16.322Z] Received 6 client logs from user: Sushant, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:49:16.322Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:49:16.324Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:49:16.324Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:49:16.325Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Loaded 0 subscriptions
+[2025-07-01T20:49:16.325Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Performance: app-load took 15.70ms
+[2025-07-01T20:49:21.119Z] Serving login page
+[2025-07-01T20:49:28.956Z] Login attempt for username: aman
+[2025-07-01T20:49:29.015Z] User logged in successfully: aman (original: Aman)
+[2025-07-01T20:49:29.527Z] Received 10 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:49:29.528Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:49:29.528Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:49:29.529Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: page-load took 104.60ms
+[2025-07-01T20:49:29.529Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:49:29.529Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:49:29.530Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:49:29.530Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:49:29.531Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/index - 200 (65ms)
+[2025-07-01T20:49:29.531Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:49:29.535Z] Serving main application page
+[2025-07-01T20:49:59.574Z] Received 6 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:49:59.574Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:49:59.575Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:49:59.576Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:49:59.576Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 0 subscriptions
+[2025-07-01T20:49:59.576Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 16.60ms
+[2025-07-01T20:51:06.455Z] Received 7 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:51:06.455Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:51:06.455Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:51:06.456Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/subscriptions - 200 (10ms)
+[2025-07-01T20:51:06.456Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription added successfully
+[2025-07-01T20:51:06.456Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:51:06.456Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 1 subscriptions
+[2025-07-01T20:51:06.457Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 16.60ms
+[2025-07-01T20:51:06.459Z] Serving main application page
+[2025-07-01T20:51:14.525Z] Received 18 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:51:14.525Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:51:14.526Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:51:14.527Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:51:14.527Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 1 subscriptions
+[2025-07-01T20:51:14.528Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 17.70ms
+[2025-07-01T20:51:14.528Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:51:14.529Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:51:14.529Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:51:14.529Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:51:14.530Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:51:14.530Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:51:14.530Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:51:14.531Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644a375bb04cf2dc3db1fc - 200 (12ms)
+[2025-07-01T20:51:14.531Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:51:14.531Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:51:14.531Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 1 subscriptions
+[2025-07-01T20:51:14.532Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 17.70ms
+[2025-07-01T20:51:14.537Z] Serving main application page
+[2025-07-01T20:51:16.214Z] Serving login page
+[2025-07-01T20:51:23.502Z] Login attempt for username: sushant
+[2025-07-01T20:51:23.561Z] User logged in successfully: sushant (original: Sushant)
+[2025-07-01T20:51:24.073Z] Received 10 client logs from user: Sushant, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:51:24.074Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:51:24.074Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:51:24.075Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Performance: page-load took 100.60ms
+[2025-07-01T20:51:24.075Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:51:24.075Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:51:24.076Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:51:24.076Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:51:24.076Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] POST /api/index - 200 (63ms)
+[2025-07-01T20:51:24.077Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:51:24.080Z] Serving main application page
+[2025-07-01T20:51:52.918Z] Serving login page
+[2025-07-01T20:51:58.413Z] Login attempt for username: ekalavya
+[2025-07-01T20:51:58.473Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T20:51:58.981Z] Received 10 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:51:58.982Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:51:58.983Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:51:58.983Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: page-load took 100.40ms
+[2025-07-01T20:51:58.983Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:51:58.984Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:51:58.984Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:51:58.985Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:51:58.985Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/index - 200 (64ms)
+[2025-07-01T20:51:58.985Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:51:58.989Z] Serving main application page
+[2025-07-01T20:52:16.005Z] Serving login page
+[2025-07-01T20:52:21.298Z] Login attempt for username: aman
+[2025-07-01T20:52:21.358Z] User logged in successfully: aman (original: Aman)
+[2025-07-01T20:52:21.870Z] Received 10 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:52:21.871Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:52:21.871Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:52:21.871Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: page-load took 100.60ms
+[2025-07-01T20:52:21.872Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:52:21.872Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:52:21.872Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:52:21.873Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:52:21.873Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/index - 200 (65ms)
+[2025-07-01T20:52:21.873Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:52:21.877Z] Serving main application page
+[2025-07-01T20:52:50.727Z] Serving login page
+[2025-07-01T20:52:55.857Z] Login attempt for username: ekalavya
+[2025-07-01T20:52:55.917Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T20:52:56.430Z] Received 10 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:52:56.430Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:52:56.432Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:52:56.432Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: page-load took 100.70ms
+[2025-07-01T20:52:56.433Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:52:56.433Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:52:56.433Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:52:56.434Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:52:56.434Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/index - 200 (65ms)
+[2025-07-01T20:52:56.434Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:52:56.437Z] Serving main application page
+[2025-07-01T20:53:02.250Z] Serving login page
+[2025-07-01T20:53:07.819Z] Login attempt for username: aman
+[2025-07-01T20:53:07.877Z] User logged in successfully: aman (original: Aman)
+[2025-07-01T20:53:08.390Z] Received 10 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:53:08.390Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:53:08.390Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:53:08.391Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: page-load took 100.90ms
+[2025-07-01T20:53:08.391Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:53:08.391Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:53:08.392Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:53:08.392Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:53:08.392Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/index - 200 (64ms)
+[2025-07-01T20:53:08.393Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:53:08.396Z] Serving main application page
+[2025-07-01T20:53:20.131Z] Serving login page
+[2025-07-01T20:53:24.844Z] Login attempt for username: sushant
+[2025-07-01T20:53:24.902Z] User logged in successfully: sushant (original: Sushant)
+[2025-07-01T20:53:25.417Z] Received 10 client logs from user: Sushant, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:53:25.418Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:53:25.420Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:53:25.421Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Performance: page-load took 100.70ms
+[2025-07-01T20:53:25.422Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:53:25.422Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:53:25.423Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:53:25.423Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:53:25.424Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] POST /api/index - 200 (62ms)
+[2025-07-01T20:53:25.424Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:53:25.429Z] Serving main application page
+[2025-07-01T20:53:31.936Z] Manual SMS reminder test triggered by user: Sushant
+[2025-07-01T20:53:33.633Z] Test expired reminder sent for: expired (7 days)
+[2025-07-01T20:53:55.482Z] Received 9 client logs from user: Sushant, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:53:55.483Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:53:55.486Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:53:55.488Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:53:55.489Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Loaded 1 subscriptions
+[2025-07-01T20:53:55.489Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Performance: app-load took 18.60ms
+[2025-07-01T20:53:55.489Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:53:55.490Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (1704ms)
+[2025-07-01T20:53:55.490Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T20:54:02.789Z] Serving login page
+[2025-07-01T20:54:07.060Z] Login attempt for username: aman
+[2025-07-01T20:54:07.121Z] User logged in successfully: aman (original: Aman)
+[2025-07-01T20:54:07.631Z] Received 10 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:54:07.632Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:54:07.632Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T20:54:07.633Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: page-load took 100.50ms
+[2025-07-01T20:54:07.633Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:54:07.633Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T20:54:07.634Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T20:54:07.634Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T20:54:07.634Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/index - 200 (65ms)
+[2025-07-01T20:54:07.635Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T20:54:07.638Z] Serving main application page
+[2025-07-01T20:54:13.484Z] Manual SMS reminder test triggered by user: Aman
+[2025-07-01T20:54:21.126Z] Received 9 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:54:21.127Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:54:21.128Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:54:21.128Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:54:21.128Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 1 subscriptions
+[2025-07-01T20:54:21.129Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 19.20ms
+[2025-07-01T20:54:21.129Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:54:21.129Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (7ms)
+[2025-07-01T20:54:21.130Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T20:54:21.132Z] Serving main application page
+[2025-07-01T20:54:23.725Z] Manual SMS reminder test triggered by user: Aman
+[2025-07-01T20:54:46.985Z] Manual SMS reminder test triggered by user: Aman
+[2025-07-01T20:54:51.175Z] Received 12 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:54:51.176Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T20:54:51.177Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T20:54:51.177Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:54:51.178Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 1 subscriptions
+[2025-07-01T20:54:51.179Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:54:51.179Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:54:51.179Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (8ms)
+[2025-07-01T20:54:51.180Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T20:54:51.180Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:54:51.180Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (9ms)
+[2025-07-01T20:54:51.181Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T20:56:13.015Z] Manual SMS reminder test triggered by user: Aman
+[2025-07-01T20:56:21.169Z] Received 10 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:56:21.169Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:56:21.169Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:56:21.170Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/subscriptions - 200 (10ms)
+[2025-07-01T20:56:21.170Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription added successfully
+[2025-07-01T20:56:21.170Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:56:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:56:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:56:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:56:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (5ms)
+[2025-07-01T20:56:21.172Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T20:56:26.912Z] Manual SMS reminder test triggered by user: Aman
+[2025-07-01T20:56:51.171Z] Received 15 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:56:51.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:56:51.172Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (7ms)
+[2025-07-01T20:56:51.172Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T20:56:51.172Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:56:51.173Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:56:51.173Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:56:51.173Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:56:51.174Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:56:51.174Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:56:51.174Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:56:51.175Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644b675bb04cf2dc3db220 - 200 (20ms)
+[2025-07-01T20:56:51.175Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:56:51.175Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:56:51.175Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:56:51.176Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:57:21.169Z] Received 24 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:57:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:57:21.172Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:57:21.174Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:57:21.175Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:57:21.176Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:57:21.177Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:57:21.178Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:57:21.179Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644b675bb04cf2dc3db220 - 200 (7ms)
+[2025-07-01T20:57:21.180Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:57:21.180Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:57:21.182Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:57:21.182Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:57:21.182Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:57:21.183Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:57:21.183Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:57:21.183Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:57:21.184Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:57:21.184Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:57:21.184Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:57:21.185Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644b675bb04cf2dc3db220 - 200 (7ms)
+[2025-07-01T20:57:21.185Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:57:21.185Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:57:21.186Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:57:21.186Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:57:51.162Z] Received 17 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:57:51.163Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:57:51.163Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:57:51.163Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:57:51.164Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:57:51.164Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:57:51.164Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:57:51.164Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:57:51.165Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644a375bb04cf2dc3db1fc - 200 (13ms)
+[2025-07-01T20:57:51.165Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:57:51.165Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:57:51.165Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:57:51.166Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:57:51.166Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:57:51.166Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:57:51.166Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:57:51.167Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:57:51.167Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:58:17.101Z] Manual SMS reminder test triggered by user: Aman
+[2025-07-01T20:58:18.828Z] Test expired reminder sent for: expired (7 days)
+[2025-07-01T20:58:19.268Z] Test upcoming reminder sent for: active (7 days)
+[2025-07-01T20:58:21.164Z] Received 22 client logs from user: Aman, session: session_1751402858903_owj5orsmn
+[2025-07-01T20:58:21.164Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:58:21.165Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:58:21.165Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644a375bb04cf2dc3db1fc - 200 (9ms)
+[2025-07-01T20:58:21.166Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:58:21.166Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:58:21.167Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:58:21.167Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:58:21.167Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] User action: edit-subscription
+[2025-07-01T20:58:21.168Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Editing subscription:
+[2025-07-01T20:58:21.168Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Start date set as Date object:
+[2025-07-01T20:58:21.168Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] End date set as Date object:
+[2025-07-01T20:58:21.169Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Edit form populated with dates:
+[2025-07-01T20:58:21.169Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T20:58:21.169Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T20:58:21.169Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] PUT /api/subscriptions/68644a375bb04cf2dc3db1fc - 200 (11ms)
+[2025-07-01T20:58:21.170Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Subscription updated successfully
+[2025-07-01T20:58:21.170Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T20:58:21.170Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Loaded 2 subscriptions
+[2025-07-01T20:58:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Performance: app-load took 14.20ms
+[2025-07-01T20:58:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T20:58:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (2172ms)
+[2025-07-01T20:58:21.171Z] [CLIENT] [Aman] [session_1751402858903_owj5orsmn] SMS reminders test completed
+[2025-07-01T21:00:13.782Z] Serving login page
+[2025-07-01T21:00:19.700Z] Login attempt for username: sushant
+[2025-07-01T21:00:19.757Z] User logged in successfully: sushant (original: Sushant)
+[2025-07-01T21:00:20.272Z] Received 10 client logs from user: Sushant, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:00:20.273Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T21:00:20.274Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T21:00:20.274Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Performance: page-load took 101.90ms
+[2025-07-01T21:00:20.275Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T21:00:20.275Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T21:00:20.275Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T21:00:20.276Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T21:00:20.276Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] POST /api/index - 200 (62ms)
+[2025-07-01T21:00:20.276Z] [CLIENT] [Sushant] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T21:00:20.280Z] Serving main application page
+[2025-07-01T21:00:25.631Z] Serving login page
+[2025-07-01T21:00:32.170Z] Login attempt for username: ekalavya
+[2025-07-01T21:00:32.231Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T21:00:32.745Z] Received 10 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:00:32.746Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T21:00:32.747Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login controller initialized
+[2025-07-01T21:00:32.747Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: page-load took 101.70ms
+[2025-07-01T21:00:32.748Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T21:00:32.748Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: login-attempt
+[2025-07-01T21:00:32.748Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: login-form - valid
+[2025-07-01T21:00:32.748Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: enter-key-pressed
+[2025-07-01T21:00:32.749Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/index - 200 (65ms)
+[2025-07-01T21:00:32.749Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Login successful
+[2025-07-01T21:00:32.752Z] Serving main application page
+[2025-07-01T21:01:02.812Z] Received 12 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:01:02.812Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Starting CSS validation check
+[2025-07-01T21:01:02.813Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription app controller initialized
+[2025-07-01T21:01:02.814Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:01:02.814Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 8 subscriptions
+[2025-07-01T21:01:02.814Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 18.70ms
+[2025-07-01T21:01:02.815Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] User action: delete-subscription
+[2025-07-01T21:01:02.815Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] DELETE /api/subscriptions/6864498c5bb04cf2dc3db1ef - 200 (9ms)
+[2025-07-01T21:01:02.816Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription deleted successfully
+[2025-07-01T21:01:02.816Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:01:02.817Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 7 subscriptions
+[2025-07-01T21:01:02.817Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 18.70ms
+[2025-07-01T21:02:32.792Z] Received 7 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:02:32.793Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Saving subscription
+[2025-07-01T21:02:32.794Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Form validation: subscription-form - valid
+[2025-07-01T21:02:32.794Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/subscriptions - 200 (9ms)
+[2025-07-01T21:02:32.794Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Subscription added successfully
+[2025-07-01T21:02:32.795Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loading subscriptions
+[2025-07-01T21:02:32.795Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Loaded 8 subscriptions
+[2025-07-01T21:02:32.795Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Performance: app-load took 18.70ms
+[2025-07-01T21:02:33.090Z] Manual SMS reminder test triggered by user: Ekalavya
+[2025-07-01T21:02:34.450Z] Test expired reminder sent for: YouTube Premium
+[2025-07-01T21:03:02.803Z] Received 3 client logs from user: Ekalavya, session: session_1751402858903_owj5orsmn
+[2025-07-01T21:03:02.805Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] Testing SMS reminders
+[2025-07-01T21:03:02.807Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] POST /api/test-sms-reminders - 200 (1366ms)
+[2025-07-01T21:03:02.809Z] [CLIENT] [Ekalavya] [session_1751402858903_owj5orsmn] SMS reminders test completed
