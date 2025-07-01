@@ -83,7 +83,7 @@
                 class="bi bi-currency-rupee text-primary"
                 style="font-size: 2rem"
               ></i>
-              <h5 class="card-title mt-2 mb-1">Total Cost</h5>
+              <h5 class="card-title mt-2 mb-1">Active Expenses</h5>
               <h3 class="text-primary mb-0">
                 ₹{{ getTotalMonthlyCost() | number:0 }}
               </h3>
@@ -837,11 +837,6 @@
 
                 if (startDate >= endDate) {
                   $scope.dateRangeError = "End date must be after start date";
-                } else if (
-                  startDate.getFullYear() !== 2025 ||
-                  endDate.getFullYear() !== 2025
-                ) {
-                  $scope.dateRangeError = "Both dates must be in year 2025";
                 }
               }
             };
@@ -1080,21 +1075,8 @@
                 return;
               }
 
-              // Validate all dates are in 2025
-              const startDate = new Date($scope.newSubscription.startDate);
-              const endDate = new Date($scope.newSubscription.endDate);
-
-              if (
-                startDate.getFullYear() !== 2025 ||
-                endDate.getFullYear() !== 2025
-              ) {
-                $scope.subscriptionError = "All dates must be in year 2025!";
-                $scope.isSubmitting = false;
-                logger.logFormValidation("subscription-form", false, [
-                  "invalid-year",
-                ]);
-                return;
-              }
+              // Validate all dates are in 2025 - REMOVED
+              // No longer restricting dates to specific year
 
               // Set renewal date to end date (since end date is the renewal date)
               $scope.newSubscription.renewalDate =
@@ -1657,10 +1639,8 @@
                 const endDate = new Date(sub.endDate);
                 const cost = sub.cost || 0;
 
-                // Add the full subscription cost to the end month only
-                if (endDate.getFullYear() === 2025) {
-                  monthlyCosts[endDate.getMonth()] += cost;
-                }
+                // Add the full subscription cost to the end month only (any year)
+                monthlyCosts[endDate.getMonth()] += cost;
               });
 
               const ctx = document.getElementById("costChart").getContext("2d");

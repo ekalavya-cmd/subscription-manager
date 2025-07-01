@@ -58,3 +58,86 @@
 [2025-07-01T19:53:35.552Z] Updating subscription 6862e43a7f5148fd7a1ef611 for user: ekalavya
 [2025-07-01T19:53:35.566Z] Subscription updated successfully: test
 [2025-07-01T17:48:11.769Z] MongoDB connected successfully
+[2025-07-01T17:51:24.256Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T17:51:24.275Z] Found 4 subscriptions for user: Ekalavya
+[2025-07-01T17:58:09.853Z] MongoDB connected successfully
+[2025-07-01T17:58:14.215Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T17:58:14.228Z] Found 4 subscriptions for user: Ekalavya
+[2025-07-01T17:58:15.587Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T17:58:15.590Z] Found 4 subscriptions for user: Ekalavya
+[2025-07-01T17:58:17.650Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T17:58:17.653Z] Found 4 subscriptions for user: Ekalavya
+[2025-07-01T18:17:23.368Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:17:23.370Z] Found 4 subscriptions for user: Ekalavya
+[2025-07-01T18:26:50.701Z] Creating subscription for user: Ekalavya
+[2025-07-01T18:26:50.724Z] Subscription created successfully: Amazon Prime Video
+[2025-07-01T18:26:50.730Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:26:50.733Z] Found 5 subscriptions for user: Ekalavya
+[2025-07-01T18:28:39.057Z] Creating subscription for user: Ekalavya
+[2025-07-01T18:28:39.059Z] Subscription created successfully: Disney+ Hotstar VIP
+[2025-07-01T18:28:39.067Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:28:39.072Z] Found 6 subscriptions for user: Ekalavya
+[2025-07-01T18:29:45.516Z] Creating subscription for user: Ekalavya
+[2025-07-01T18:29:45.519Z] Subscription created successfully: Microsoft Office 365 Personal
+[2025-07-01T18:29:45.526Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:29:45.529Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:30:34.879Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:30:34.881Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:30:35.951Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:30:35.954Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:30:37.180Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:30:37.182Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:30:38.229Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:30:38.231Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:30:39.165Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:30:39.167Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:32:34.767Z] Fetching subscriptions for user: Aman
+[2025-07-01T18:32:34.769Z] Found 0 subscriptions for user: Aman
+[2025-07-01T18:36:50.797Z] Creating subscription for user: Aman
+[2025-07-01T18:36:50.801Z] Subscription created successfully: expired (8 days)
+[2025-07-01T18:36:50.808Z] Fetching subscriptions for user: Aman
+[2025-07-01T18:36:50.810Z] Found 1 subscriptions for user: Aman
+[2025-07-01T18:37:11.780Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:37:11.783Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T18:37:40.832Z] Creating subscription for user: Ekalavya
+[2025-07-01T18:37:40.833Z] Subscription created successfully: expired (9 days)
+[2025-07-01T18:37:40.838Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T18:37:40.840Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T18:38:12.692Z] Fetching subscriptions for user: Sushant
+[2025-07-01T18:38:12.694Z] Found 0 subscriptions for user: Sushant
+[2025-07-01T18:39:16.302Z] Creating subscription for user: Sushant
+[2025-07-01T18:39:16.304Z] Subscription created successfully: expired (7 days)
+[2025-07-01T18:39:16.309Z] Fetching subscriptions for user: Sushant
+[2025-07-01T18:39:16.310Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T18:40:55.127Z] MongoDB connected successfully
+[2025-07-01T18:40:58.175Z] Fetching subscriptions for user: Sushant
+[2025-07-01T18:40:58.192Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T19:01:17.657Z] MongoDB connected successfully
+[2025-07-01T19:01:20.602Z] Fetching subscriptions for user: Sushant
+[2025-07-01T19:01:20.612Z] Found 1 subscriptions for user: Sushant
+[2025-07-01T19:01:23.856Z] Deleting subscription 68642b548babbe8c0cbc4ccc for user: Sushant
+[2025-07-01T19:01:23.865Z] Subscription deleted successfully: expired (7 days)
+[2025-07-01T19:01:23.873Z] Fetching subscriptions for user: Sushant
+[2025-07-01T19:01:23.878Z] Found 0 subscriptions for user: Sushant
+[2025-07-01T19:01:37.211Z] Fetching subscriptions for user: Aman
+[2025-07-01T19:01:37.215Z] Found 1 subscriptions for user: Aman
+[2025-07-01T19:01:44.163Z] Deleting subscription 68642ac28babbe8c0cbc4cbf for user: Aman
+[2025-07-01T19:01:44.167Z] Subscription deleted successfully: expired (8 days)
+[2025-07-01T19:01:44.173Z] Fetching subscriptions for user: Aman
+[2025-07-01T19:01:44.178Z] Found 0 subscriptions for user: Aman
+[2025-07-01T19:01:51.639Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:01:51.642Z] Found 8 subscriptions for user: Ekalavya
+[2025-07-01T19:01:56.896Z] Deleting subscription 68642af48babbe8c0cbc4cc4 for user: Ekalavya
+[2025-07-01T19:01:56.899Z] Subscription deleted successfully: expired (9 days)
+[2025-07-01T19:01:56.910Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:01:56.915Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T19:05:46.427Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:05:46.429Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T19:07:59.084Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:07:59.087Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T19:08:00.902Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:08:00.904Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T19:08:01.532Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:08:01.534Z] Found 7 subscriptions for user: Ekalavya
+[2025-07-01T19:08:11.664Z] Fetching subscriptions for user: Ekalavya
+[2025-07-01T19:08:11.666Z] Found 7 subscriptions for user: Ekalavya

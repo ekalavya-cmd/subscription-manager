@@ -48,3 +48,37 @@
 [2025-07-01T19:38:15.730Z] [WARN] [CLIENT] [ekalavya] [undefined] CSS validation issues detected
 [2025-07-01T19:38:15.731Z] [CLIENT] [ekalavya] [undefined] Error: [ngModel:datefmt] http://errors.angularjs.org/1.8.2/ngModel/datefmt?p0=2025-07-01
 [2025-07-01T19:53:35.445Z] [WARN] [CLIENT] [ekalavya] [session_1751306064646_ugo3sx442] CSS validation issues detected
+[2025-07-01T17:51:24.078Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T17:51:55.163Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T17:58:15.544Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T17:58:17.604Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:04:02.064Z] Login failed: Invalid password for user ekalavya
+[2025-07-01T18:04:09.993Z] Login failed: Invalid password for user ekalavya
+[2025-07-01T18:17:23.289Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:17:54.168Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:30:35.902Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:30:37.139Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:30:38.190Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:30:39.127Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:31:09.177Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:32:34.716Z] [WARN] [CLIENT] [Aman] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:33:04.766Z] [WARN] [CLIENT] [Aman] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:37:11.725Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:37:41.767Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:38:12.640Z] [WARN] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:38:42.690Z] [WARN] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T18:39:41.182Z] Test expired reminder failed for expired (7 days): Authenticate
+[2025-07-01T18:40:12.807Z] Test expired reminder failed for expired (7 days): Authenticate
+[2025-07-01T18:41:06.740Z] Test expired reminder failed for expired (7 days): Authenticate
+[2025-07-01T18:41:28.184Z] [WARN] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:01:20.379Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Failed to delete subscription
+[2025-07-01T19:01:33.034Z] Login failed: Invalid password for user aman
+[2025-07-01T19:01:37.150Z] [WARN] [CLIENT] [Aman] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:01:37.153Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Login failed
+[2025-07-01T19:01:51.578Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:02:21.629Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:06:16.419Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:08:00.859Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:08:01.489Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:08:11.617Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected
+[2025-07-01T19:08:41.664Z] [WARN] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] CSS validation issues detected

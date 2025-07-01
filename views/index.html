@@ -222,6 +222,11 @@
               logger.logFormValidation("login-form", false, [
                 "invalid-username",
               ]);
+
+              // Clear error after 2.5 seconds
+              $timeout(() => {
+                $scope.usernameError = "";
+              }, 2500);
               return;
             }
 
@@ -231,6 +236,11 @@
               logger.logFormValidation("login-form", false, [
                 "invalid-password",
               ]);
+
+              // Clear error after 2.5 seconds
+              $timeout(() => {
+                $scope.passwordError = "";
+              }, 2500);
               return;
             }
 
@@ -275,6 +285,11 @@
                 $scope.error =
                   error.data?.message || "Login failed. Please try again.";
                 $scope.isLoading = false;
+
+                // Clear error message after 3 seconds
+                $timeout(() => {
+                  $scope.error = "";
+                }, 3000);
               }
             );
           };
@@ -300,6 +315,13 @@
               )
                 ? ""
                 : "Username must be 3-20 characters, letters, numbers, and underscores only";
+
+              // Clear username error after 2 seconds
+              if ($scope.usernameError) {
+                $timeout(() => {
+                  $scope.usernameError = "";
+                }, 2000);
+              }
             }
           };
 
@@ -310,6 +332,13 @@
               )
                 ? ""
                 : "Password must be at least 6 characters";
+
+              // Clear password error after 2 seconds
+              if ($scope.passwordError) {
+                $timeout(() => {
+                  $scope.passwordError = "";
+                }, 2000);
+              }
             }
           };
 

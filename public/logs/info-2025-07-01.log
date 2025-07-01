@@ -308,3 +308,344 @@
 [2025-07-01T17:48:20.874Z] Serving login page
 [2025-07-01T17:48:26.417Z] Serving registration page
 [2025-07-01T17:48:35.298Z] Serving login page
+[2025-07-01T17:51:23.421Z] Login attempt for username: ekalavya
+[2025-07-01T17:51:23.565Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T17:51:24.077Z] Received 14 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T17:51:24.078Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T17:51:24.078Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T17:51:24.079Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: page-load took 100.90ms
+[2025-07-01T17:51:24.079Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T17:51:24.080Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T17:51:24.080Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: login-form - invalid
+[2025-07-01T17:51:24.080Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T17:51:24.081Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T17:51:24.081Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T17:51:24.081Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T17:51:24.082Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T17:51:24.082Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/index - 200 (187ms)
+[2025-07-01T17:51:24.083Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T17:51:24.087Z] Serving main application page
+[2025-07-01T17:51:55.162Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T17:51:55.162Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T17:51:55.163Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T17:51:55.163Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T17:51:55.164Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 4 subscriptions
+[2025-07-01T17:51:55.164Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 37.00ms
+[2025-07-01T17:58:09.835Z] Twilio client initialized successfully
+[2025-07-01T17:58:09.838Z] SMS reminders enabled
+[2025-07-01T17:58:09.838Z] SMS schedule mode: disabled
+[2025-07-01T17:58:09.838Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T17:58:09.841Z] Server running on port 3000
+[2025-07-01T17:58:09.841Z] Environment: development
+[2025-07-01T17:58:09.841Z] MongoDB: Disconnected
+[2025-07-01T17:58:09.842Z] Twilio: Enabled
+[2025-07-01T17:58:14.141Z] Serving main application page
+[2025-07-01T17:58:15.543Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T17:58:15.543Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T17:58:15.544Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T17:58:15.545Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T17:58:15.545Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 4 subscriptions
+[2025-07-01T17:58:15.545Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 29.50ms
+[2025-07-01T17:58:15.548Z] Serving main application page
+[2025-07-01T17:58:17.604Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T17:58:17.604Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T17:58:17.605Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T17:58:17.605Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T17:58:17.605Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 4 subscriptions
+[2025-07-01T17:58:17.606Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 17.60ms
+[2025-07-01T17:58:17.609Z] Serving main application page
+[2025-07-01T17:58:21.352Z] Serving login page
+[2025-07-01T18:03:08.799Z] Serving login page
+[2025-07-01T18:03:09.582Z] Serving login page
+[2025-07-01T18:03:20.100Z] Serving registration page
+[2025-07-01T18:03:55.348Z] Serving login page
+[2025-07-01T18:04:02.002Z] Login attempt for username: ekalavya
+[2025-07-01T18:04:09.934Z] Login attempt for username: ekalavya
+[2025-07-01T18:05:50.002Z] Serving login page
+[2025-07-01T18:16:40.785Z] Serving login page
+[2025-07-01T18:17:15.612Z] Serving login page
+[2025-07-01T18:17:22.716Z] Login attempt for username: ekalavya
+[2025-07-01T18:17:22.776Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T18:17:23.288Z] Received 10 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:17:23.288Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:17:23.289Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T18:17:23.289Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: page-load took 101.70ms
+[2025-07-01T18:17:23.289Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:17:23.290Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T18:17:23.290Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T18:17:23.290Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:17:23.291Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/index - 200 (66ms)
+[2025-07-01T18:17:23.291Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T18:17:23.294Z] Serving main application page
+[2025-07-01T18:17:54.167Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:17:54.168Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:17:54.168Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:17:54.169Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:17:54.169Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 4 subscriptions
+[2025-07-01T18:17:54.169Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 20.70ms
+[2025-07-01T18:26:53.341Z] Received 7 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:26:53.342Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Saving subscription
+[2025-07-01T18:26:53.342Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: subscription-form - valid
+[2025-07-01T18:26:53.343Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/subscriptions - 200 (31ms)
+[2025-07-01T18:26:53.343Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription added successfully
+[2025-07-01T18:26:53.344Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:26:53.344Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 5 subscriptions
+[2025-07-01T18:26:53.344Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 20.70ms
+[2025-07-01T18:28:54.172Z] Received 7 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:28:54.173Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Saving subscription
+[2025-07-01T18:28:54.174Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: subscription-form - valid
+[2025-07-01T18:28:54.176Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/subscriptions - 200 (10ms)
+[2025-07-01T18:28:54.178Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription added successfully
+[2025-07-01T18:28:54.179Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:28:54.179Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 6 subscriptions
+[2025-07-01T18:28:54.180Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 20.70ms
+[2025-07-01T18:29:54.164Z] Received 7 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:29:54.164Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Saving subscription
+[2025-07-01T18:29:54.165Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: subscription-form - valid
+[2025-07-01T18:29:54.165Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/subscriptions - 200 (8ms)
+[2025-07-01T18:29:54.165Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription added successfully
+[2025-07-01T18:29:54.166Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:29:54.166Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:29:54.166Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 20.70ms
+[2025-07-01T18:30:34.472Z] Serving main application page
+[2025-07-01T18:30:35.901Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:30:35.901Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:30:35.902Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:30:35.902Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:30:35.903Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:30:35.903Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 20.60ms
+[2025-07-01T18:30:35.906Z] Serving main application page
+[2025-07-01T18:30:37.138Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:30:37.138Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:30:37.139Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:30:37.139Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:30:37.140Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:30:37.140Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 15.50ms
+[2025-07-01T18:30:37.143Z] Serving main application page
+[2025-07-01T18:30:38.189Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:30:38.190Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:30:38.190Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:30:38.191Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:30:38.191Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:30:38.191Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 14.70ms
+[2025-07-01T18:30:38.193Z] Serving main application page
+[2025-07-01T18:30:39.126Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:30:39.126Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:30:39.127Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:30:39.128Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:30:39.128Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:30:39.128Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 16.00ms
+[2025-07-01T18:30:39.131Z] Serving main application page
+[2025-07-01T18:31:09.175Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:31:09.176Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:31:09.177Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:31:09.177Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:31:09.178Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:31:09.178Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 14.80ms
+[2025-07-01T18:31:39.156Z] Received 2 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:31:39.156Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Saving subscription
+[2025-07-01T18:31:39.156Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: subscription-form - invalid
+[2025-07-01T18:32:09.164Z] Received 1 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:32:09.164Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: clear-or-cancel-form
+[2025-07-01T18:32:29.883Z] Serving login page
+[2025-07-01T18:32:34.147Z] Login attempt for username: aman
+[2025-07-01T18:32:34.204Z] User logged in successfully: aman (original: Aman)
+[2025-07-01T18:32:34.714Z] Received 10 client logs from user: Aman, session: session_1751392284072_wd109lkll
+[2025-07-01T18:32:34.715Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:32:34.716Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T18:32:34.717Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Performance: page-load took 101.20ms
+[2025-07-01T18:32:34.717Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:32:34.717Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T18:32:34.718Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T18:32:34.718Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:32:34.718Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] POST /api/index - 200 (62ms)
+[2025-07-01T18:32:34.719Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T18:32:34.722Z] Serving main application page
+[2025-07-01T18:33:04.763Z] Received 6 client logs from user: Aman, session: session_1751392284072_wd109lkll
+[2025-07-01T18:33:04.764Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:33:04.767Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:33:04.769Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:33:04.770Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Loaded 0 subscriptions
+[2025-07-01T18:33:04.770Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Performance: app-load took 24.50ms
+[2025-07-01T18:37:04.474Z] Serving login page
+[2025-07-01T18:37:11.155Z] Login attempt for username: ekalavya
+[2025-07-01T18:37:11.212Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T18:37:11.724Z] Received 10 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:37:11.725Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:37:11.726Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T18:37:11.726Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: page-load took 101.10ms
+[2025-07-01T18:37:11.726Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:37:11.727Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T18:37:11.727Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T18:37:11.728Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:37:11.728Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/index - 200 (63ms)
+[2025-07-01T18:37:11.729Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T18:37:11.733Z] Serving main application page
+[2025-07-01T18:37:41.767Z] Received 13 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T18:37:41.767Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:37:41.768Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:37:41.768Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:37:41.769Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T18:37:41.769Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 19.00ms
+[2025-07-01T18:37:41.769Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Saving subscription
+[2025-07-01T18:37:41.770Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: subscription-form - valid
+[2025-07-01T18:37:41.770Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/subscriptions - 200 (6ms)
+[2025-07-01T18:37:41.770Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription added successfully
+[2025-07-01T18:37:41.770Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:37:41.771Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 8 subscriptions
+[2025-07-01T18:37:41.771Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 19.00ms
+[2025-07-01T18:37:45.184Z] Serving login page
+[2025-07-01T18:37:47.846Z] Serving registration page
+[2025-07-01T18:38:04.181Z] Registration attempt for username: Sushant
+[2025-07-01T18:38:04.332Z] User registered successfully: Sushant
+[2025-07-01T18:38:05.853Z] Serving login page
+[2025-07-01T18:38:12.074Z] Login attempt for username: sushant
+[2025-07-01T18:38:12.132Z] User logged in successfully: sushant (original: Sushant)
+[2025-07-01T18:38:12.639Z] Received 10 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T18:38:12.640Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:38:12.641Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T18:38:12.641Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Performance: page-load took 101.90ms
+[2025-07-01T18:38:12.641Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:38:12.642Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T18:38:12.642Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T18:38:12.642Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T18:38:12.643Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] POST /api/index - 200 (62ms)
+[2025-07-01T18:38:12.643Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T18:38:12.645Z] Serving main application page
+[2025-07-01T18:38:42.689Z] Received 6 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T18:38:42.690Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:38:42.691Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:38:42.691Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:38:42.692Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Loaded 0 subscriptions
+[2025-07-01T18:38:42.692Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Performance: app-load took 20.20ms
+[2025-07-01T18:39:39.427Z] Manual SMS reminder test triggered by user: Sushant
+[2025-07-01T18:39:42.683Z] Received 10 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T18:39:42.684Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Saving subscription
+[2025-07-01T18:39:42.684Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Form validation: subscription-form - valid
+[2025-07-01T18:39:42.685Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] POST /api/subscriptions - 200 (7ms)
+[2025-07-01T18:39:42.685Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Subscription added successfully
+[2025-07-01T18:39:42.686Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:39:42.686Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Loaded 1 subscriptions
+[2025-07-01T18:39:42.687Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Performance: app-load took 20.20ms
+[2025-07-01T18:39:42.687Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Testing SMS reminders
+[2025-07-01T18:39:42.687Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] POST /api/test-sms-reminders - 200 (1761ms)
+[2025-07-01T18:39:42.688Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] SMS reminders test completed
+[2025-07-01T18:40:11.994Z] Manual SMS reminder test triggered by user: Sushant
+[2025-07-01T18:40:12.684Z] Received 1 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T18:40:12.685Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Testing SMS reminders
+[2025-07-01T18:40:43.178Z] Received 2 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T18:40:43.179Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] POST /api/test-sms-reminders - 200 (821ms)
+[2025-07-01T18:40:43.180Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] SMS reminders test completed
+[2025-07-01T18:40:55.109Z] Twilio client initialized successfully
+[2025-07-01T18:40:55.111Z] SMS reminders enabled
+[2025-07-01T18:40:55.112Z] SMS schedule mode: disabled
+[2025-07-01T18:40:55.112Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T18:40:55.114Z] Server running on port 3000
+[2025-07-01T18:40:55.115Z] Environment: development
+[2025-07-01T18:40:55.115Z] MongoDB: Disconnected
+[2025-07-01T18:40:55.115Z] Twilio: Enabled
+[2025-07-01T18:40:57.594Z] Serving main application page
+[2025-07-01T18:41:05.651Z] Manual SMS reminder test triggered by user: Sushant
+[2025-07-01T18:41:28.183Z] Received 9 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T18:41:28.183Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T18:41:28.184Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T18:41:28.185Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T18:41:28.185Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Loaded 1 subscriptions
+[2025-07-01T18:41:28.185Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Performance: app-load took 37.30ms
+[2025-07-01T18:41:28.186Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] Testing SMS reminders
+[2025-07-01T18:41:28.186Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] POST /api/test-sms-reminders - 200 (1097ms)
+[2025-07-01T18:41:28.186Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] SMS reminders test completed
+[2025-07-01T19:01:17.639Z] Twilio client initialized successfully
+[2025-07-01T19:01:17.641Z] SMS reminders enabled
+[2025-07-01T19:01:17.641Z] SMS schedule mode: disabled
+[2025-07-01T19:01:17.642Z] SMS reminder scheduling disabled via SMS_SCHEDULE setting
+[2025-07-01T19:01:17.644Z] Server running on port 3000
+[2025-07-01T19:01:17.644Z] Environment: development
+[2025-07-01T19:01:17.645Z] MongoDB: Disconnected
+[2025-07-01T19:01:17.645Z] Twilio: Enabled
+[2025-07-01T19:01:20.376Z] Received 3 client logs from user: Sushant, session: session_1751392284072_wd109lkll
+[2025-07-01T19:01:20.377Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] User action: delete-subscription
+[2025-07-01T19:01:20.378Z] [CLIENT] [Sushant] [session_1751392284072_wd109lkll] DELETE /api/subscriptions/68642b548babbe8c0cbc4ccc - -1 (2371ms)
+[2025-07-01T19:01:20.390Z] Serving main application page
+[2025-07-01T19:01:28.855Z] Serving login page
+[2025-07-01T19:01:32.973Z] Login attempt for username: aman
+[2025-07-01T19:01:36.573Z] Login attempt for username: aman
+[2025-07-01T19:01:36.637Z] User logged in successfully: aman (original: Aman)
+[2025-07-01T19:01:37.149Z] Received 15 client logs from user: Aman, session: session_1751392284072_wd109lkll
+[2025-07-01T19:01:37.149Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:01:37.150Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T19:01:37.151Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Performance: page-load took 101.30ms
+[2025-07-01T19:01:37.151Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T19:01:37.152Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T19:01:37.152Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T19:01:37.153Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T19:01:37.153Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] POST /api/index - 400 (67ms)
+[2025-07-01T19:01:37.154Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T19:01:37.154Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T19:01:37.154Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T19:01:37.155Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] POST /api/index - 200 (70ms)
+[2025-07-01T19:01:37.155Z] [CLIENT] [Aman] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T19:01:37.160Z] Serving main application page
+[2025-07-01T19:01:46.023Z] Serving login page
+[2025-07-01T19:01:50.996Z] Login attempt for username: ekalavya
+[2025-07-01T19:01:51.058Z] User logged in successfully: ekalavya (original: Ekalavya)
+[2025-07-01T19:01:51.577Z] Received 10 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:01:51.578Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:01:51.579Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login controller initialized
+[2025-07-01T19:01:51.579Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: page-load took 100.90ms
+[2025-07-01T19:01:51.579Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T19:01:51.580Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: login-attempt
+[2025-07-01T19:01:51.580Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Form validation: login-form - valid
+[2025-07-01T19:01:51.580Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: enter-key-pressed
+[2025-07-01T19:01:51.580Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] POST /api/index - 200 (67ms)
+[2025-07-01T19:01:51.581Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Login successful
+[2025-07-01T19:01:51.584Z] Serving main application page
+[2025-07-01T19:02:21.628Z] Received 12 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:02:21.628Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:02:21.629Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T19:02:21.629Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:02:21.629Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 8 subscriptions
+[2025-07-01T19:02:21.630Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 23.80ms
+[2025-07-01T19:02:21.630Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] User action: delete-subscription
+[2025-07-01T19:02:21.630Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] DELETE /api/subscriptions/68642af48babbe8c0cbc4cc4 - 200 (13ms)
+[2025-07-01T19:02:21.631Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription deleted successfully
+[2025-07-01T19:02:21.631Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:02:21.631Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T19:02:21.632Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 23.80ms
+[2025-07-01T19:05:46.375Z] Serving main application page
+[2025-07-01T19:06:16.418Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:06:16.419Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:06:16.419Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T19:06:16.420Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:06:16.420Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T19:06:16.421Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 17.60ms
+[2025-07-01T19:07:59.022Z] Serving main application page
+[2025-07-01T19:08:00.859Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:08:00.859Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:08:00.860Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T19:08:00.860Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:08:00.860Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T19:08:00.861Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 17.40ms
+[2025-07-01T19:08:00.863Z] Serving main application page
+[2025-07-01T19:08:01.488Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:08:01.488Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:08:01.489Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T19:08:01.490Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:08:01.490Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T19:08:01.490Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 15.40ms
+[2025-07-01T19:08:01.493Z] Serving main application page
+[2025-07-01T19:08:11.616Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:08:11.616Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:08:11.617Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T19:08:11.617Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:08:11.618Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T19:08:11.618Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 18.60ms
+[2025-07-01T19:08:11.621Z] Serving main application page
+[2025-07-01T19:08:41.663Z] Received 6 client logs from user: Ekalavya, session: session_1751392284072_wd109lkll
+[2025-07-01T19:08:41.664Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Starting CSS validation check
+[2025-07-01T19:08:41.665Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Subscription app controller initialized
+[2025-07-01T19:08:41.665Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loading subscriptions
+[2025-07-01T19:08:41.666Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Loaded 7 subscriptions
+[2025-07-01T19:08:41.666Z] [CLIENT] [Ekalavya] [session_1751392284072_wd109lkll] Performance: app-load took 15.70ms
+[2025-07-01T19:08:54.065Z] Serving login page
+[2025-07-01T19:08:56.761Z] Serving registration page
