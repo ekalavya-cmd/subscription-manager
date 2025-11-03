@@ -194,3 +194,7 @@ migrate-subscriptions.js
 .git/
 .gitattributes
 .claude/
+
+# Image uploads
+image*.png
+screenshot*.png
