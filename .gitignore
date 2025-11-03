@@ -193,3 +193,8 @@ migrate-subscriptions.js
 # Meta files
 .git/
 .gitattributes
+.claude/
+
+# Temporary images and screenshots
+image.png
+screenshot*.png
