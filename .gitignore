@@ -194,7 +194,3 @@ migrate-subscriptions.js
 .git/
 .gitattributes
 .claude/
-
-# Temporary images and screenshots
-image.png
-screenshot*.png
