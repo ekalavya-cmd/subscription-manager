@@ -30,7 +30,7 @@ A modern web application built with AngularJS and Bootstrap to manage subscripti
 
 ## 🚀 Installation (Windows 11)
 
-### 1. Clone/Create Project
+### 1. Clone the Repository
 
 ```cmd
 git clone https://github.com/ekalavya-cmd/subscription-manager.git
@@ -43,15 +43,19 @@ cd subscription-manager
 npm install
 ```
 
+**Note**: The `node_modules` folder is excluded from version control. This command will install all required dependencies listed in `package.json`.
+
 ### 3. Create Required Directory Structure
 
 ```cmd
-mkdir public\css public\js public\logs views
+mkdir public\logs
 ```
+
+**Note**: Other directories (`public/css`, `public/js`, `views`) are already included in the repository.
 
 ### 4. Environment Configuration
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory with your credentials:
 
 ```env
 # Server Configuration
@@ -70,18 +74,27 @@ TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=+1234567890
 USER_PHONE_NUMBER=+919876543210
 
+# SMS Scheduling (optional)
+ENABLE_SMS=true
+SMS_SCHEDULE=disabled
+
 # Logging Configuration
 LOG_LEVEL=info
 LOG_TO_FILE=true
+LOG_TO_CONSOLE=true
 ```
+
+**⚠️ Security Notice**: The `.env` file is excluded from git to protect your sensitive credentials. Never commit this file to version control.
 
 ### 5. Generate JWT Secret
 
+You need to generate a secure JWT secret key. Run this command in Node.js:
+
 ```cmd
-npm run generate-key
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
-Copy the generated secret to your `.env` file.
+Copy the generated 64-character hexadecimal string to your `.env` file as the `JWT_SECRET` value.
 
 ### 6. Start MongoDB Service
 
@@ -103,32 +116,39 @@ npm start
 
 Open your browser and navigate to `http://localhost:3000`
 
-## 📁 Complete Project Structure
+## 📁 Project Structure
 
 ```
 subscription-manager/
-├── 📁 public/
+├── 📁 public/                      # Frontend assets (served statically)
 │   ├── 📁 css/
 │   │   └── custom.css              # Custom Bootstrap styles and animations
 │   ├── 📁 js/
-│   │   └── logger.js               # Client-side logging and debug utilities
-│   └── 📁 logs/                    # Generated log files (auto-created)
+│   │   ├── logger.js               # Client-side logging and debug utilities
+│   │   ├── login.js                # Login page controller
+│   │   └── register.js             # Registration page controller
+│   └── 📁 logs/                    # Generated log files (git-ignored, auto-created)
 │       ├── app-YYYY-MM-DD.log      # General application logs
 │       ├── error-YYYY-MM-DD.log    # Error-specific logs with stack traces
 │       ├── api-YYYY-MM-DD.log      # API request/response logs
 │       └── db-YYYY-MM-DD.log       # MongoDB operation logs
-├── 📁 views/
+├── 📁 views/                       # HTML templates
 │   ├── index.html                  # Login page with authentication
 │   ├── register.html               # User registration page
 │   └── app.html                    # Main subscription management interface
-├── 📄 server.js                    # Express server with comprehensive logging
+├── 📄 server.js                    # Express server with all routes and models
 ├── 📄 package.json                 # Dependencies and npm scripts
 ├── 📄 package-lock.json            # Locked dependency versions
-├── 📄 generateKey.js              # JWT secret key generator utility
-├── 📄 .env                        # Environment variables (create this file)
-├── 📄 .gitignore                  # Git ignore rules
-└── 📄 README.md                   # This documentation file
+├── 📄 .gitignore                   # Git ignore rules
+├── 📄 .gitattributes               # Git attributes configuration
+└── 📄 README.md                    # This documentation file
+
+# Files excluded from git (you need to create):
+├── 📄 .env                         # Environment variables (REQUIRED - create this)
+└── 📁 node_modules/                # Dependencies (auto-installed via npm install)
 ```
+
+**Note**: Utility scripts (`generateKey.js`, `twilio-test.js`, `migrate-subscriptions.js`) are not tracked in git but can be created if needed for development.
 
 ## 🎯 Usage Guide
 
@@ -233,6 +253,36 @@ subscription-manager/
 - **Rate Limiting**: Built-in protection against brute force attacks
 - **SQL Injection Prevention**: MongoDB ODM parameterized queries
 - **XSS Protection**: Content sanitization and validation
+- **Environment Variables**: Sensitive credentials stored in `.env` (excluded from git)
+
+## 📦 Repository Best Practices
+
+This repository follows Node.js best practices for clean version control:
+
+### What's Excluded from Git (via `.gitignore`):
+
+- ✅ **`node_modules/`** - Dependencies (install via `npm install`)
+- ✅ **`.env`** - Environment variables with sensitive credentials
+- ✅ **`public/logs/`** - Generated log files
+- ✅ **`.claude/`** - IDE-specific configuration
+- ✅ **Utility scripts** - Development tools (`generateKey.js`, `twilio-test.js`, `migrate-subscriptions.js`)
+- ✅ **Temporary files** - Screenshots, images, backup files
+
+### Why This Matters:
+
+1. **Security**: Your Twilio API keys, JWT secrets, and database credentials stay private
+2. **Size**: Repository stays lightweight (~100 KB vs ~200 MB with dependencies)
+3. **Compatibility**: Each developer installs dependencies matching their OS
+4. **Clean History**: No binary files or auto-generated content in git history
+
+### First-Time Setup Checklist:
+
+- [ ] Clone the repository
+- [ ] Run `npm install` to install dependencies
+- [ ] Create `.env` file with your credentials
+- [ ] Generate JWT secret using the crypto command
+- [ ] Start MongoDB service
+- [ ] Run `npm run dev` to start the application
 
 ## 🤝 Contributing
 
@@ -270,13 +320,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Common Issues and Solutions
 
-| Issue                     | Solution                                               |
-| ------------------------- | ------------------------------------------------------ |
-| MongoDB connection failed | Ensure MongoDB service is running: `net start MongoDB` |
-| JWT Secret not found      | Run `node generateKey.js` and update `.env` file       |
-| SMS not sending           | Verify Twilio credentials in `.env` file               |
-| Port already in use       | Change PORT in `.env` or kill process using port 3000  |
-| Logs not generating       | Check permissions on `public/logs/` directory          |
+| Issue                     | Solution                                                                                       |
+| ------------------------- | ---------------------------------------------------------------------------------------------- |
+| MongoDB connection failed | Ensure MongoDB service is running: `net start MongoDB`                                         |
+| JWT Secret not found      | Generate with: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`     |
+| SMS not sending           | Verify Twilio credentials in `.env` file                                                       |
+| Port already in use       | Change PORT in `.env` or kill process using port 3000                                          |
+| Logs not generating       | Check permissions on `public/logs/` directory (create with `mkdir public\logs` if missing)    |
+| .env file missing         | Create `.env` file manually in root directory with all required environment variables          |
+| Dependencies not found    | Run `npm install` to install all required packages                                             |
 
 ### Getting Help
 
