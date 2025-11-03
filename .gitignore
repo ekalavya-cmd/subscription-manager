@@ -184,3 +184,12 @@ deploy.bat
 
 # Package lock files (uncomment if using yarn)
 # package-lock.json
+
+# Utility and test scripts
+generateKey.js
+twilio-test.js
+migrate-subscriptions.js
+
+# Meta files
+.git/
+.gitattributes
